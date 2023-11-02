@@ -217,6 +217,57 @@
       "settings": {
         "title": "As Seen In"
       }
+    },
+    "35520c0f-8581-4a5b-bb00-59bb639ce120": {
+      "type": "section-sliders",
+      "blocks": {
+        "774c1f3b-2a83-4eae-af84-b685f65d8a8c": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Stevie_Light_Tree_2.jpg",
+            "bg": "#4F5E3C",
+            "color_text": "#FFF9EB",
+            "name": "Meet Stevie",
+            "title": "Get to Know Our Founder",
+            "text": "<p>Get a glimpse into the life of our founder, Stevie! Discover the story behind Yay for Earth - where passion for skincare and a love for our planet join forces!   <\/p><p>This is a story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected. Oh wait, thats J.R.R. Tolkien.  <\/p>",
+            "url": "",
+            "btn_name": "Learn More"
+          }
+        },
+        "55e8dbe3-26c5-4868-b219-6a4d29448cb3": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/387A9232-2_3.png",
+            "bg": "#f0a713",
+            "color_text": "#3b4e15",
+            "name": "Our World",
+            "title": "Get to Know Our <span>Farmers<\/span>",
+            "text": "<p>We welcome you to become part of our Yay for Earth journey by getting to know one of the important parts of our business; the farmers!  Learn about our initiatives, get to know the individuals behind the healthy soils and bees, and the stories behind the ingredients that breathe life into the essential, magical products we curate!<\/p>",
+            "url": "#",
+            "btn_name": "Learn More"
+          }
+        },
+        "06df0059-8e82-41f2-90c2-75ccd8868502": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/387A0191_1_3.png",
+            "bg": "#84b4ba",
+            "color_text": "#3b4e15",
+            "name": "Our World",
+            "title": "Get to Know Our <span>Warehouse<\/span>",
+            "text": "<p>Welcome to the epicenter of our operations and the heart of Yay for Earth. Our warehouse and sacred creation space is a special one. When we receive our ingredients from our farmers, their next destination is in your hands. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper. Click below to dive in!  <\/p>",
+            "url": "#",
+            "btn_name": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "774c1f3b-2a83-4eae-af84-b685f65d8a8c",
+        "55e8dbe3-26c5-4868-b219-6a4d29448cb3",
+        "06df0059-8e82-41f2-90c2-75ccd8868502"
+      ],
+      "settings": {
+      }
     }
   },
   "order": [
@@ -225,6 +276,7 @@
     "aa3c5165-1075-4df1-8b32-c6231b177c8c",
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",
     "e32f860a-b747-448a-bba0-831667bf10ed",
-    "2ac25ae4-39e5-4382-b30b-013201cf2ef2"
+    "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
+    "35520c0f-8581-4a5b-bb00-59bb639ce120"
   ]
 }

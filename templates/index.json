@@ -1,71 +1,230 @@
 {
   "sections": {
-    "slideshow": {
-      "type": "slideshow",
+    "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
+      "type": "section-banner",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/97909d4bb507f9dabc2c11117eb907d1.jpg",
+        "title": "Hello <span>Skincare <\/span>, meet <span>Nature<\/span>, I think you two will get along",
+        "btn_name": "Shop Now",
+        "url": "shopify:\/\/collections"
+      }
+    },
+    "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
+      "type": "section-text",
+      "settings": {
+        "text": "Behold! Not your typical skin care - applying our nutrient dense products will give your skin the glow it deserves while sending your senses into the natural world. You’ve never used anything as magical."
+      }
+    },
+    "aa3c5165-1075-4df1-8b32-c6231b177c8c": {
+      "type": "section-products",
       "blocks": {
-        "slide-0": {
-          "type": "slide",
+        "c2160c69-4192-49ab-99d9-1bb9dd070d6d": {
+          "type": "item",
           "settings": {
-            "heading": "Browse our latest products",
-            "heading_size": "h1",
-            "subheading": "",
-            "button_label": "Shop all",
-            "link": "shopify:\/\/collections\/all",
-            "button_style_secondary": false,
-            "box_align": "middle-left",
-            "show_text_box": true,
-            "text_alignment": "left",
-            "image_overlay_opacity": 10,
-            "color_scheme": "background-2",
-            "text_alignment_mobile": "left"
+            "product": "golden-body-oil"
+          }
+        },
+        "a033da55-35e8-493a-b8f2-8680ab810ba8": {
+          "type": "item",
+          "settings": {
+            "product": "hydrosol-spritzie"
+          }
+        },
+        "6c8c97f2-1e96-4a5e-b041-28b6447bef29": {
+          "type": "item",
+          "settings": {
+            "product": "lip-balm"
+          }
+        },
+        "c1ff8ba4-e12a-4e0a-bf63-871d624da08d": {
+          "type": "item",
+          "settings": {
+            "product": "1oz-sensitive-skin-face-lotion"
           }
         }
       },
       "block_order": [
-        "slide-0"
+        "c2160c69-4192-49ab-99d9-1bb9dd070d6d",
+        "a033da55-35e8-493a-b8f2-8680ab810ba8",
+        "6c8c97f2-1e96-4a5e-b041-28b6447bef29",
+        "c1ff8ba4-e12a-4e0a-bf63-871d624da08d"
       ],
       "settings": {
-        "layout": "full_bleed",
-        "slide_height": "adapt_image",
-        "slider_visual": "counter",
-        "auto_rotate": false,
-        "change_slides_speed": 5,
-        "image_behavior": "none",
-        "show_text_below": true,
-        "accessibility_info": "Slideshow about our brand"
+        "title": "Our",
+        "text": "<p>Created for sensitive skin but purely for everyone. Hand crafted. Small batch. Only organic and regenerative farmers we trust.  No fillers - just nutrients!<\/p>"
       }
     },
-    "featured-collection-0": {
-      "type": "featured-collection",
+    "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
+      "type": "section-nature",
       "settings": {
-        "title": "Featured products",
-        "heading_size": "h2",
-        "description": "",
-        "show_description": false,
-        "description_style": "body",
-        "collection": "all",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": false,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": false,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": true,
-        "columns_mobile": "2",
-        "swipe_on_mobile": false,
-        "padding_top": 60,
-        "padding_bottom": 60
+        "bg": "#FFF9EB",
+        "img_right": "shopify:\/\/shop_images\/Rectangle_10.png",
+        "img_mini": "shopify:\/\/shop_images\/387A0459_1.png",
+        "img_left": "shopify:\/\/shop_images\/49732_ABE_007_09_1.png",
+        "title": "IN CASE YOU CAN’T GET INTO NATURE, THIS IS FOR YOU",
+        "color_title": "#FFF9EB",
+        "btn_name": "Nature Connect",
+        "url": "#",
+        "color_btn_text": "#FFF9EB",
+        "color_bg_btn": "#3B4E15",
+        "color_border_btn": "#FFF9EB"
+      }
+    },
+    "e32f860a-b747-448a-bba0-831667bf10ed": {
+      "type": "section-product",
+      "blocks": {
+        "bd92a99e-3915-4bf1-8523-ac58e801a516": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/YFE_Icons-20.png",
+            "icon_name": "Baby Safe"
+          }
+        },
+        "220676d4-5d62-46fa-a2e7-a3f18a611482": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/YFE_Icons-19.png",
+            "icon_name": "Wont Clog Pores"
+          }
+        },
+        "5938ff06-2d44-4174-bf56-f87a05ba1740": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/YFE_Icons-18.png",
+            "icon_name": "Organic and Regenerative farming"
+          }
+        },
+        "f9e95a03-e8bc-48ea-b30c-d41d01866c11": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/YFE_Icons-17.png",
+            "icon_name": "Pollinator Friendly"
+          }
+        },
+        "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/YFE_Icons-16.png",
+            "icon_name": "Sensitive Skin Safe"
+          }
+        }
+      },
+      "block_order": [
+        "bd92a99e-3915-4bf1-8523-ac58e801a516",
+        "220676d4-5d62-46fa-a2e7-a3f18a611482",
+        "5938ff06-2d44-4174-bf56-f87a05ba1740",
+        "f9e95a03-e8bc-48ea-b30c-d41d01866c11",
+        "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee"
+      ],
+      "settings": {
+        "product": "golden-body-oil"
+      }
+    },
+    "2ac25ae4-39e5-4382-b30b-013201cf2ef2": {
+      "type": "section-marquee",
+      "blocks": {
+        "fd4cf29a-ed2a-4fd8-ac02-efdd90ff7313": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Glamour.png",
+            "max_width": 175
+          }
+        },
+        "162a3e25-d0b9-44a7-b697-e97a2ea15b67": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Cosmopolitan.png",
+            "max_width": 200
+          }
+        },
+        "79a96f1a-5ea9-4bc2-a0a6-3efe011cd75d": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vanity_Fair.png",
+            "max_width": 200
+          }
+        },
+        "40ca7e4d-43db-4f7f-bcfb-2f858a21752a": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/GQ.png",
+            "max_width": 100
+          }
+        },
+        "dce3603b-ad49-43a5-b989-8308a85310f7": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vogue.png",
+            "max_width": 150
+          }
+        },
+        "35ea5661-f034-4b4d-8505-3f9e5994aa8b": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Byrdie.png",
+            "max_width": 200
+          }
+        },
+        "4fe05bb9-a5fe-4fdb-a886-9f73934dbafd": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Good_Housekeeping.png",
+            "max_width": 175
+          }
+        },
+        "d827d8f2-998d-4ec5-8454-ec466d754490": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Glamour.png",
+            "max_width": 175
+          }
+        },
+        "b8dba0aa-3e42-4a04-8a56-83c0246ffda5": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Cosmopolitan.png",
+            "max_width": 200
+          }
+        },
+        "1a681c4e-1ea5-45a8-9cfc-ebca26b5312a": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/Vanity_Fair.png",
+            "max_width": 200
+          }
+        },
+        "ca0e220d-665e-4227-a01c-ee20e382b740": {
+          "type": "item",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/GQ.png",
+            "max_width": 100
+          }
+        }
+      },
+      "block_order": [
+        "fd4cf29a-ed2a-4fd8-ac02-efdd90ff7313",
+        "162a3e25-d0b9-44a7-b697-e97a2ea15b67",
+        "79a96f1a-5ea9-4bc2-a0a6-3efe011cd75d",
+        "40ca7e4d-43db-4f7f-bcfb-2f858a21752a",
+        "dce3603b-ad49-43a5-b989-8308a85310f7",
+        "35ea5661-f034-4b4d-8505-3f9e5994aa8b",
+        "4fe05bb9-a5fe-4fdb-a886-9f73934dbafd",
+        "d827d8f2-998d-4ec5-8454-ec466d754490",
+        "b8dba0aa-3e42-4a04-8a56-83c0246ffda5",
+        "1a681c4e-1ea5-45a8-9cfc-ebca26b5312a",
+        "ca0e220d-665e-4227-a01c-ee20e382b740"
+      ],
+      "settings": {
+        "title": "As Seen In"
       }
     }
   },
   "order": [
-    "slideshow",
-    "featured-collection-0"
+    "e8c60c1d-f2f6-446c-95a2-23af9319916c",
+    "edf1bbdb-7778-4973-a4d5-8785e3d3cca5",
+    "aa3c5165-1075-4df1-8b32-c6231b177c8c",
+    "7801fc23-f46d-4653-ab6b-33610fb49ff8",
+    "e32f860a-b747-448a-bba0-831667bf10ed",
+    "2ac25ae4-39e5-4382-b30b-013201cf2ef2"
   ]
 }

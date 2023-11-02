@@ -1,0 +1,32 @@
+<div class="my-product-card">
+    <div class="my-product-card__wrap">
+        <div class="product_img">
+            <div class="product_img__body">
+                <a href="{{product.url}}">
+                    <img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}">
+                </a>
+                
+            </div>
+        </div>
+        <div class="product-btn">
+            {% form 'product', product %}
+                <input
+                  type="hidden"
+                  class="cart-id-first"
+                  value="{{product.first_available_variant.id}}">
+                <button class="add-my-cart">
+                  Add to cart
+                </button>
+              {% endform %}
+        </div>
+        <div class="product-title">
+            <h3>
+                <a href="{{product.url}}">
+                    {{product.title}}
+                </a>
+                
+            </h3>
+        </div>
+       
+    </div>
+</div>

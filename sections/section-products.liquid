@@ -1,0 +1,59 @@
+<div class="section-products">
+    <div class="container">
+        <div class="section-products__wrap">
+            <div class="title">
+                <h2>
+                    {{section.settings.title}}
+                </h2>
+            </div>
+            <div class="text">
+                {{section.settings.text}}
+            </div>
+            <div class="products-list">
+                {% for block in section.blocks %}
+                    {%  assign product = block.settings.product  %}
+                    {% render 'my-product-card',
+                      product:product
+                    %}
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "products list",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title"
+        },
+       {
+          "type": "richtext",
+          "id": "text",
+          "label": "text"
+        }
+  
+      ],
+      "blocks": [
+        {
+          "name": "product",
+          "type": "item",
+          "settings": [
+            {
+              "type": "product",
+              "id": "product",
+              "label": "product"
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "products list"
+        }
+      ]
+    }
+  {% endschema %}

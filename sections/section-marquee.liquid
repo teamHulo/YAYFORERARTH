@@ -1,0 +1,77 @@
+<div class="section-marquee">
+    <div class="section-marquee__wrap">
+        <div class="title">
+            <h2>
+                {{section.settings.title}}
+            </h2>
+        </div>
+        <div class="marquee">
+            <div class="div">
+                <div class="image" >
+                    {%for block in section.blocks%}
+                        <img src="{{block.settings.img | img_url: 'master'}}" alt="" style="max-width:{{block.settings.max_width}}px">
+                    {% endfor %}
+                    {%for block in section.blocks%}
+                        <img src="{{block.settings.img | img_url: 'master'}}" alt="" style="max-width:{{block.settings.max_width}}px">
+                    {% endfor %}
+                    {%for block in section.blocks%}
+                        <img src="{{block.settings.img | img_url: 'master'}}" alt="" style="max-width:{{block.settings.max_width}}px">
+                    {% endfor %}
+                </div>
+                <div class="image" >
+                    {%for block in section.blocks%}
+                        <img src="{{block.settings.img | img_url: 'master'}}" alt="" style="max-width:{{block.settings.max_width}}px">
+                    {% endfor %}
+                    {%for block in section.blocks%}
+                        <img src="{{block.settings.img | img_url: 'master'}}" alt="" style="max-width:{{block.settings.max_width}}px">
+                    {% endfor %}
+                    {%for block in section.blocks%}
+                        <img src="{{block.settings.img | img_url: 'master'}}" alt="" style="max-width:{{block.settings.max_width}}px">
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "section marquee",
+      "settings": [
+        {
+            "type": "text",
+            "id": "title",
+            "label": "title"
+        }
+  
+      ],
+      "blocks": [
+        {
+          "name": "image",
+          "type": "item",
+          "settings": [
+            {
+                "type": "image_picker",
+              "id": "img",
+              "label": "image"
+            },
+            {
+                "type": "range",
+                "id": "max_width",
+                "min": 100,
+                "max": 500,
+                "step": 25,
+                "unit": "px",
+                "label": "max-width img",
+                "default": 100
+            }
+          ]
+        }
+      ],
+      "presets": [
+        {
+          "name": "section marquee"
+        }
+      ]
+    }
+  {% endschema %}

@@ -1,0 +1,48 @@
+<div class="section-baner">
+    <div class="bg-img">
+        <img src="{{section.settings.img | img_url: 'master'}}" alt="#">
+    </div>
+    <div class="container">
+        <div class="section-baner__wrap">
+            <div class="title">
+                <h1>
+                    {{section.settings.title}}
+                </h1>
+            </div>
+            <div class="banner-btn">
+                <a href="{{section.settings.url}}" class="a-btn">{{section.settings.btn_name}}</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "section banner",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img",
+          "label": "image"
+        }, {
+          "type": "text",
+          "id": "title",
+          "label": "title"
+        }, {
+          "type": "text",
+          "id": "btn_name",
+          "label": "btn name"
+        },{
+          "type": "url",
+          "id": "url",
+          "label": "url"
+        }
+  
+      ],
+      "presets": [
+        {
+          "name": "section banner"
+        }
+      ]
+    }
+  {% endschema %}

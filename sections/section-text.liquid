@@ -1,0 +1,31 @@
+<div class="section-text">
+    <div class="container">
+        <div class="section-text__wrap">
+            <div class="text">
+                <h2>
+                    {{ section.settings.text }}
+                </h2>
+               
+            </div>
+        </div>
+    </div>
+</div>
+
+{% schema %}
+    {
+      "name": "section text",
+      "settings": [
+       {
+          "type": "text",
+          "id": "text",
+          "label": "text"
+        }
+  
+      ],
+      "presets": [
+        {
+          "name": "section text"
+        }
+      ]
+    }
+  {% endschema %}

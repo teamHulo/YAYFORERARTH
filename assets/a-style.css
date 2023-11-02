@@ -69,6 +69,12 @@ Montas
     margin:0 auto;
     padding:0 clamp(20px,4.097vw,59px);
 }
+.page-width{
+    max-width: 1440px;
+    margin:0 auto;
+    padding-left:clamp(20px,4.097vw,59px);
+    padding-right:clamp(20px,4.097vw,59px);
+}
 .bg-img{
     position: absolute;
     top:0;
@@ -473,7 +479,7 @@ Montas
     align-items: center;
     justify-content: space-between;
     width:max-content;
-    animation: marquee-text 15s linear infinite;
+    animation: marquee-text 35s linear infinite;
     min-width: 200%;
     
 }
@@ -712,6 +718,8 @@ Montas
 }
 .section-nature .container{
     padding: 0;
+    max-width: 100%;
+    padding: 0;
 }
 .section-nature .title {
     margin:0 auto 18px auto;
@@ -739,4 +747,84 @@ Montas
     max-width: 63.816%;
     max-height: 77.72%;
 }
+
+@media (max-width:767px){
+    .section-nature .title {
+        padding:0 20px;
+    }
+}
 /**** end section-nature ***/
+
+
+/***** footer ****/
+.footer__content-bottom{
+    display:none;
+}
+.footer__content-top{
+    display: flex !important;
+    gap:25px;
+    justify-content: space-between;
+    flex-wrap:wrap;
+    padding-bottom: 0 !important;
+}
+.footer-block--newsletter{
+    margin-top:0 !important;
+}
+
+.footer-block__details-content li{
+    display:block !important;
+    text-align: left;
+}
+.footer-block__details-content li .link{
+    font-family: Cerebri Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.footer-block--newsletter{
+    align-items: flex-start !important;
+}
+.footer-block__heading{
+    font-family: Montas;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+    margin-bottom:12px;
+    text-align: left;
+}
+.footer-block--newsletter{
+    max-width: 750px !important;
+    width: 100%;
+}
+.newsletter-form__field-wrapper, .newsletter-form{
+    max-width: 750px !important;
+}
+.footer-block--newsletter .field:after, .field__input:focus, .footer-block--newsletter .field::before{
+    border-radius: 0px !important;
+}
+.footer-block--newsletter .field__label{
+    font-family: Cerebri Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.newsletter-text{
+    font-family: Cerebri Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin: 0 0 13px 0;
+    text-align: left;
+}
+
+@media (max-width:749px){
+    .footer-block__newsletter{
+        width: 100%;
+    }
+}
+/**** end footer ***/

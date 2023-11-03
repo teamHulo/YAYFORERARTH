@@ -57,17 +57,17 @@
     "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
       "type": "section-nature",
       "settings": {
-        "bg": "#FFF9EB",
+        "bg": "#fff9eb",
         "img_right": "shopify:\/\/shop_images\/Rectangle_10.png",
         "img_mini": "shopify:\/\/shop_images\/387A0459_1.png",
         "img_left": "shopify:\/\/shop_images\/49732_ABE_007_09_1.png",
         "title": "IN CASE YOU CAN’T GET INTO NATURE, THIS IS FOR YOU",
-        "color_title": "#FFF9EB",
+        "color_title": "#fff9eb",
         "btn_name": "Nature Connect",
         "url": "#",
-        "color_btn_text": "#FFF9EB",
-        "color_bg_btn": "#3B4E15",
-        "color_border_btn": "#FFF9EB"
+        "color_btn_text": "#fff9eb",
+        "color_bg_btn": "#3b4e15",
+        "color_border_btn": "#fff9eb"
       }
     },
     "e32f860a-b747-448a-bba0-831667bf10ed": {
@@ -117,7 +117,10 @@
         "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee"
       ],
       "settings": {
-        "product": "golden-body-oil"
+        "product": "golden-body-oil",
+        "img": "shopify:\/\/shop_images\/Mask_group_8_72d33dc6-12aa-49d0-8aa9-37f7e1a6b058.png",
+        "title": "<span>Nature <\/span> on your Face",
+        "text": "<p>Our most beloved, magical lotion! Can be used day & night on the face for sensitive skin and all skin types. Nutrient dense and gentle relief for your face and body. A little goes a long way!<\/p>"
       }
     },
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2": {
@@ -225,8 +228,8 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Stevie_Light_Tree_2.jpg",
-            "bg": "#4F5E3C",
-            "color_text": "#FFF9EB",
+            "bg": "#4f5e3c",
+            "color_text": "#fff9eb",
             "name": "Meet Stevie",
             "title": "Get to Know Our Founder",
             "text": "<p>Get a glimpse into the life of our founder, Stevie! Discover the story behind Yay for Earth - where passion for skincare and a love for our planet join forces!   <\/p><p>This is a story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected. Oh wait, thats J.R.R. Tolkien.  <\/p>",

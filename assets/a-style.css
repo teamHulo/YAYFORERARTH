@@ -115,6 +115,9 @@ Montas
 .shopify-section-header-sticky .cart-count-bubble span{
     color:#4F5E3C;
 }
+.shopify-section-header-sticky .header__active-menu-item{
+    color:#4F5E3C;
+}
 .shopify-section-header-sticky .header__heading-logo-wrapper img{
     filter: brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
 }

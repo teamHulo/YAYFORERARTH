@@ -109,7 +109,7 @@ Montas
 .shopify-section-header-sticky .header__menu-item{
     color:#4F5E3C;
 }
-.shopify-section-header-sticky .header__icon--account svg path, .shopify-section-header-sticky .header__icon--account svg circle,.shopify-section-header-sticky .header__icon--cart svg path{
+.shopify-section-header-sticky .header__icon--account svg path, .shopify-section-header-sticky .header__icon--account svg circle,.shopify-section-header-sticky .header__icon--cart svg path, .shopify-section-header-sticky .icon-hamburger{
     stroke:#4F5E3C;
 }
 .shopify-section-header-sticky .cart-count-bubble span{

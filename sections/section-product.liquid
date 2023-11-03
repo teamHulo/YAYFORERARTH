@@ -6,7 +6,8 @@
                 <div class="left__wrap">
                     <div class="product_img">
                         <div class="product_img__body">
-                            <img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}">
+                            {% comment %}<img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}"> {% endcomment %}
+                            <img  src="{{ section.settings.img }}" alt="{{ product.title }}">
                         </div>
                     </div>
                 </div>
@@ -15,14 +16,11 @@
                 <div class="right__wrap">
                     <div class="title">
                         <h2>
-                            {{product.title}}
+                            {{ section.settings.title}}
                         </h2>
                     </div>
                     <div class="text">
-                        <p>
-                            {{product.description}}
-                        </p>
-                       
+                            {{section.settings.text}}
                     </div>
                     {% if  section.blocks.size != 0 %}
                         <div class="icon-list">
@@ -67,10 +65,22 @@
       "name": "section product",
       "settings": [
         {
-              "type": "product",
-              "id": "product",
-              "label": "product"
-            }
+            "type": "product",
+            "id": "product",
+            "label": "product"
+        },{
+            "type": "image_picker",
+            "id": "img",
+            "label": "image"
+        },{
+            "type": "text",
+            "id": "title",
+            "label": "title"
+        },{
+            "type": "richtext",
+            "id": "text",
+            "label": "title"
+        }
   
       ],
       "blocks": [

@@ -8,11 +8,8 @@ $(()=>{
 
     function handleResponse() {
         let a = this.responseText;
-        console.log(a);
         let parser = new DOMParser();
-        console.log(parser);
         let objCarts = JSON.parse(this.responseText);
-        console.log(objCarts);
         $("#cart-icon-bubble").html($(objCarts["cart-icon-bubble"]).html());
         $("cart-drawer").html(
           $(objCarts["cart-drawer"]).find("cart-drawer").html()

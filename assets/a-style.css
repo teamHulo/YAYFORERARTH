@@ -781,7 +781,7 @@ sticky-header{
 }
 .section-nature .container{
     padding: 0;
-    max-width: 100%;
+    /*max-width: 100%;*/
     padding: 0;
 }
 .section-nature .title {

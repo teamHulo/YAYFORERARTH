@@ -102,10 +102,15 @@ Montas
 sticky-header{
     border-bottom: 2px solid var(--Cream, #FFF9EB);
 }
-.header__menu-item{
-    color:  #FFF9EB;
+.menu-drawer__account{
+    gap:15px;
+}
+.menu-drawer__account svg path, .menu-drawer__account svg circle{
+    stroke: rgb(var(--color-foreground));
+}
+.header__menu-item, .menu-drawer__menu-item, .menu-drawer__account {
     font-family: Cerebri Sans;
-    font-size: 18px;
+    font-size: 18px !important;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

@@ -9,7 +9,7 @@
                             <img class="shadow-img" src="{{shadow | img_url : 'master'}}" alt="" style="max-width:{{shadow_width}}% !important;">
                         {% endif %}
                     {% else %}
-                        <img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}">
+                        <img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}" style="object-fit:cover; !important">
                     {% endif %}
                 </a>
                 

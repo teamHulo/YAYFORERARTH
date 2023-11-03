@@ -3,7 +3,14 @@
         <div class="product_img">
             <div class="product_img__body">
                 <a href="{{product.url}}">
-                    <img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}">
+                    {% if img != blank %}
+                        <img src="{{img | img_url : 'master'}}" alt="" style="max-width:{{img_width}}% !important;">
+                        {% if shadow != blank %}
+                            <img class="shadow-img" src="{{shadow | img_url : 'master'}}" alt="" style="max-width:{{shadow_width}}% !important;">
+                        {% endif %}
+                    {% else %}
+                        <img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}">
+                    {% endif %}
                 </a>
                 
             </div>

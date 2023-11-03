@@ -102,6 +102,22 @@ Montas
 .header__icon--search {
     display: none;
 }
+.shopify-section-header-sticky{
+    background: #FFF9EB;
+   
+}
+.shopify-section-header-sticky .header__menu-item{
+    color:#4F5E3C;
+}
+.shopify-section-header-sticky .header__icon--account svg path, .shopify-section-header-sticky .header__icon--account svg circle,.shopify-section-header-sticky .header__icon--cart svg path{
+    stroke:#4F5E3C;
+}
+.shopify-section-header-sticky .cart-count-bubble span{
+    color:#4F5E3C;
+}
+.shopify-section-header-sticky .header__heading-logo-wrapper img{
+    filter: brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
+}
 sticky-header{
     border-bottom: 2px solid var(--Cream, #FFF9EB);
 }

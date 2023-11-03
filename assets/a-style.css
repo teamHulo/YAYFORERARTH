@@ -385,6 +385,9 @@ sticky-header{
     margin: 0;
     text-align: left;
 }
+.section-product .title  span{
+    font-style: italic;
+}
 .section-product .text{
     margin-bottom:52px;
     text-align: left;

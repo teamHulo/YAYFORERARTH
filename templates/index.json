@@ -18,36 +18,49 @@
     "aa3c5165-1075-4df1-8b32-c6231b177c8c": {
       "type": "section-products",
       "blocks": {
-        "c2160c69-4192-49ab-99d9-1bb9dd070d6d": {
+        "c1ff8ba4-e12a-4e0a-bf63-871d624da08d": {
           "type": "item",
           "settings": {
-            "product": "golden-body-oil"
+            "product": "1oz-sensitive-skin-face-lotion",
+            "img": "shopify:\/\/shop_images\/2oz_Lotion_1.png",
+            "shadow_max_width": 100,
+            "max_width_img": 73
           }
         },
         "a033da55-35e8-493a-b8f2-8680ab810ba8": {
           "type": "item",
           "settings": {
-            "product": "hydrosol-spritzie"
+            "product": "hydrosol-spritzie",
+            "img": "shopify:\/\/shop_images\/Hydrosol.png",
+            "shadow": "shopify:\/\/shop_images\/Pngtree_brown_essential_oil_bottle_skin_5749551_10.png",
+            "shadow_max_width": 87,
+            "max_width_img": 100
+          }
+        },
+        "c2160c69-4192-49ab-99d9-1bb9dd070d6d": {
+          "type": "item",
+          "settings": {
+            "product": "golden-body-oil",
+            "img": "shopify:\/\/shop_images\/Golden_Body_Oil.png",
+            "shadow_max_width": 100,
+            "max_width_img": 77
           }
         },
         "6c8c97f2-1e96-4a5e-b041-28b6447bef29": {
           "type": "item",
           "settings": {
-            "product": "lip-balm"
-          }
-        },
-        "c1ff8ba4-e12a-4e0a-bf63-871d624da08d": {
-          "type": "item",
-          "settings": {
-            "product": "1oz-sensitive-skin-face-lotion"
+            "product": "lip-balm",
+            "img": "shopify:\/\/shop_images\/Lip_Balm_Set_V1_1.png",
+            "shadow_max_width": 100,
+            "max_width_img": 100
           }
         }
       },
       "block_order": [
-        "c2160c69-4192-49ab-99d9-1bb9dd070d6d",
+        "c1ff8ba4-e12a-4e0a-bf63-871d624da08d",
         "a033da55-35e8-493a-b8f2-8680ab810ba8",
-        "6c8c97f2-1e96-4a5e-b041-28b6447bef29",
-        "c1ff8ba4-e12a-4e0a-bf63-871d624da08d"
+        "c2160c69-4192-49ab-99d9-1bb9dd070d6d",
+        "6c8c97f2-1e96-4a5e-b041-28b6447bef29"
       ],
       "settings": {
         "title": "Our",

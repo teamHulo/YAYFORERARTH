@@ -7,7 +7,7 @@
                     <div class="product_img">
                         <div class="product_img__body">
                             {% comment %}<img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}"> {% endcomment %}
-                            <img  src="{{ section.settings.img }}" alt="{{ product.title }}">
+                            <img  src="{{ section.settings.img | img_url: 'master' }}" alt="{{ product.title }}">
                         </div>
                     </div>
                 </div>

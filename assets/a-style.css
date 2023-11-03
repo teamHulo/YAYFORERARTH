@@ -99,6 +99,9 @@ Montas
     }
 }
 /***** header ****/
+.header__icon--search {
+    display: none;
+}
 sticky-header{
     border-bottom: 2px solid var(--Cream, #FFF9EB);
 }

@@ -41,8 +41,8 @@
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true,
-            "show_gift_card_recipient": true
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
           }
         },
         "description": {
@@ -56,6 +56,27 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "16fb9bf1-1c41-489d-bf96-b03d57526477": {
+          "type": "tab",
+          "settings": {
+            "title": "Use Guide",
+            "text": "<p>Use freely through the day to moisturize lips or smell freely for an instant nature connection<\/p>"
+          }
+        },
+        "eae1604e-fd60-4298-a478-0e6cb85acd78": {
+          "type": "tab",
+          "settings": {
+            "title": "Ingredients",
+            "text": "<p>HIVE: Organic Olea Europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis Oil (Jojoba), Organic Plukenetia Volubilis (Sacha Inchi) oil, Organic Butyrospermum Parkii (Shea Butter), Organic Theobroma Cocoa (Cocoa seed) Butter   WOODS:  Organic Olea europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis (Jojoba) oil, Organic Plukenetia volubilis (sacha inchi) Oil,Organic Butyrospermum Parkii (Shea Butter), Organic Theobroma Cocoa (Cocoa Seed) Butter, Organic Pseudotsuga Menziesii (Douglas Fir) Essential Oil, Organic Vanilla Planifolia (Vanilla) Essential Oil  MOON:  Organic Olea europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis (Jojoba) Oil, Organic Plukenetia Volubilis (Sacha Inchi) Oil, Organic Butyrospermum Parkii  (Shea Butter), Organic Theobroma Cocoa (Cocoa Seed) Butter, Organic Matricaria Chamomilla (Chamomile) Essential Oil, Organic Lavandula (Lavender) Essential Oil, Organic Piper Nigrum (Black Pepper) Essential Oil  <\/p>"
+          }
+        },
+        "42ce5b98-e943-4d2b-ab57-191f26170632": {
+          "type": "tab",
+          "settings": {
+            "title": "Sourcing",
+            "text": "<p>Each of our products’ ingredients is carefully sourced from either regenerative or organic farmers. Our lip balm is a mixture of the highest quality ingredients we can find, including locally sourced beeswax from our beekeeper, Beth, and regeneratively grown and produced olive oil from our farmer in California. We will never compromise when it comes to sourcing our ingredients; period. To read more about our ethos and farmers, <a href=\"\/pages\/about-us\" target=\"_blank\" title=\"About Us\">click here!<\/a><\/p>"
+          }
         }
       },
       "block_order": [
@@ -67,7 +88,10 @@
         "quantity_selector",
         "buy_buttons",
         "description",
-        "share"
+        "share",
+        "16fb9bf1-1c41-489d-bf96-b03d57526477",
+        "eae1604e-fd60-4298-a478-0e6cb85acd78",
+        "42ce5b98-e943-4d2b-ab57-191f26170632"
       ],
       "settings": {
         "enable_sticky_info": true,

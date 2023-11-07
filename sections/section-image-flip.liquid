@@ -1,0 +1,111 @@
+<style>
+    #shopify-section-{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        background-color: {{ section.settings.bg }};
+    }
+</style>
+{{ 'image-flip.css' | asset_url | stylesheet_tag }}
+<div class="image-flip">
+    <div class="image-flip__title">
+        <p>{{ section.settings.label | strip_html }}<p>&nbsp;
+        <h2>{{ section.settings.title }}</h2>
+    </div>
+    <div class="image-flip__wrapper container">
+        <div class="image-flip__content">
+            {% for block in section.blocks %}
+                <div class="flip-card">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img 
+                                src="{{ block.settings.img | image_url: width: 250 }}" 
+                                alt="{{ block.settings.img.alt }}"
+                            >
+                            {% comment %} src="{{ block.settings.img1 | image_url: width: 40 }}" {% endcomment %}
+                        </div>
+                        <div class="flip-card-back">
+                            <h3>{{ block.settings.title }}</h3>
+                            <p>{{ block.settings.text }}</p>
+                        </div>
+                    </div>
+                </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+{% schema %}
+{
+    "name": "Image flip",
+    "settings": [
+        {
+            "type": "color",
+            "id": "bg",
+            "label": "Background color"
+        },
+        {
+            "type": "color",
+            "id": "text_color",
+            "label": "Text color"
+        },
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Paddind top",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "unit": "px",
+            "default": 60
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Paddind bottom",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "unit": "px",
+            "default": 60
+        },
+        {
+            "type": "text",
+            "id": "label",
+            "label": "Label"
+        },
+        {
+            "type": "text",
+            "id": "title",
+            "label": "Title"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Image",
+            "type": "image",
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "title",
+                    "label": "Title"
+                },
+                {
+                    "type": "text",
+                    "id": "text",
+                    "label": "Text"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Image flip"
+        }
+    ]
+}
+{% endschema %}

@@ -1,0 +1,66 @@
+<style>
+    .my-product-card-hover-button .product_img {
+        overflow: hidden;
+        position: relative;
+    }
+    .my-product-card-hover-button .product-btn, .my-product-card .product_img  {
+        margin-bottom: 0;
+    }
+    .my-product-card-hover-button .product-btn {
+        transition: all 0.3s ease;
+        width: 100%;
+        z-index: 1;
+        bottom: -50px;
+        position: absolute;
+    }
+    .my-product-card-hover-button .product_img .product_img__body {
+        padding-top: 150%;
+    }
+    .my-product-card-hover-button .product_img .product_img__body img {
+        height: 100%;
+    }
+    .my-product-card-hover-button .product_img:hover > .product-btn {
+        bottom: 0;
+    }
+    .my-product-card-hover-button .product-title {
+        text-align: center;
+    }
+</style>
+<div class="my-product-card my-product-card-hover-button">
+    <div class="my-product-card__wrap">
+        <div class="product_img">
+            <div class="product_img__body">
+                <a href="{{ product.url }}">
+                    {% if img != blank %}
+                        <img src="{{img | img_url : 'master'}}" alt="">
+                    {% else %}
+                        <img  
+                            src="{{ product.images[2].src | product_img_url: 'large' }}" 
+                            alt="{{ product.title }}" 
+                            style="object-fit:cover; !important"
+                            loading="lazy"
+                        >
+                    {% endif %}
+                </a>
+            </div>
+            <div class="product-btn">
+                {% form 'product', product %}
+                    <input
+                      type="hidden"
+                      class="cart-id-first"
+                      value="{{ product.first_available_variant.id }}"
+                    >
+                    <button class="add-my-cart">Add to cart</button>
+                {% endform %}
+            </div>
+        </div>
+        <div class="product-title">
+            <h3>
+                <a href="{{ product.url }}">
+                    {{ product.title }}
+                </a>
+            </h3>
+            <p>{{ product.price | money }}</p>
+        </div>
+    </div>
+</div>

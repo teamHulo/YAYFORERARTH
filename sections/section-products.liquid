@@ -15,14 +15,19 @@
           {% assign product_img = block.settings.img %}
           {% assign product_img_shadow = block.settings.shadow %}
           {% assign shadow_width = block.settings.shadow_max_width %}
-          {%  assign img_width =  block.settings.max_width_img%} 
-          {% render 'my-product-card'
-           , product: product,
-           img: product_img,
-           shadow: product_img_shadow,
-           shadow_width: shadow_width,
-           img_width:img_width,
-           %}
+          {% assign img_width =  block.settings.max_width_img %} 
+
+          {% if section.settings.add_to_cart_hover %}
+            {% render 'my-product-cart-hover-button', product: product, img: product_img, img_width: img_width %}
+          {% else %}
+            {% render 'my-product-card', 
+              product: product,
+              img: product_img,
+              shadow: product_img_shadow,
+              shadow_width: shadow_width,
+              img_width: img_width
+            %}
+          {% endif %}
         {% endfor %}
       </div>
     </div>
@@ -37,10 +42,17 @@
         "type": "text",
         "id": "title",
         "label": "title"
-      }, {
+      }, 
+      {
         "type": "richtext",
         "id": "text",
         "label": "text"
+      },
+      {
+        "type": "checkbox",
+        "id": "add_to_cart_hover",
+        "label": "Button 'add to cart' on hovering",
+        "default": false
       }
 
     ],

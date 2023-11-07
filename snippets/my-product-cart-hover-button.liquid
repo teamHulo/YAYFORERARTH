@@ -35,7 +35,7 @@
                         <img src="{{img | img_url : 'master'}}" alt="">
                     {% else %}
                         <img  
-                            src="{{ product.images[2].src | product_img_url: 'large' }}" 
+                            src="{{ product.images[0].src | product_img_url: 'large' }}" 
                             alt="{{ product.title }}" 
                             style="object-fit:cover; !important"
                             loading="lazy"

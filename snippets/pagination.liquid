@@ -13,6 +13,13 @@
 
 {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
 
+
+{% assign count = paginate.pages %}
+{% for part in (1..count) %}
+      <li {% if paginate.current_page == part %}class="active"{% endif %}><a href="{{ collection.url }}?page={{ forloop.index }}">{{ forloop.index }}</a></li>
+{% endfor %}
+
+
 {%- if paginate.parts.size > 0 -%}
   <div class="pagination-wrapper">
     <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
@@ -37,10 +44,6 @@
         <li>
           page {{  paginate.current_page }} of {{ paginate.parts }} 
         </li>
-{% assign count = paginate.pages %}
-{% for part in (1..count) %}
-      <li {% if paginate.current_page == part %}class="active"{% endif %}><a href="{{ collection.url }}?page={{ forloop.index }}">{{ forloop.index }}</a></li>
-{% endfor %}
 
         
         

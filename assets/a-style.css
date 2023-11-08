@@ -1108,7 +1108,14 @@ sticky-header{
 .main-blog  .underline-links-hover:hover a{
   text-decoration:none;
 }
-
+@media(max-width:990px){
+  .template-blog .main-blog .blog-articles .article-card .card__inner {
+    margin-bottom: 15px;
+  }
+  .main-blog .article-card__info span{
+        font-size: 18px;
+  }
+}
 
 
 

@@ -1028,7 +1028,9 @@ sticky-header{
 .template-blog .main-blog .blog-articles .article-card{
   border: none;
 }
-
+.template-blog .main-blog .blog-articles .article-card .card__inner{
+  margin-bottom: 30px;
+}
 
 
 

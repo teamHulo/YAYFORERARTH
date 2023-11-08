@@ -1,5 +1,11 @@
 {
   "sections": {
+    "190ae2b8-2f9d-44a0-95f1-fc1833667dac": {
+      "type": "blog-hero",
+      "settings": {
+        "title": "Our Blog"
+      }
+    },
     "main": {
       "type": "main-blog",
       "settings": {
@@ -14,6 +20,7 @@
     }
   },
   "order": [
+    "190ae2b8-2f9d-44a0-95f1-fc1833667dac",
     "main"
   ]
 }

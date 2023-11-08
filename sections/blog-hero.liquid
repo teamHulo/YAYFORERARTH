@@ -1,17 +1,7 @@
 <div class="container">
   <div class="wrap">
-    {% for block in section.blocks %}
-      <div class="press-item">
-          <a class="press-item-image" href="{{ block.settings.link }}">
-            <img  src="{{ block.settings.image | img_url: "master" }}">
-          </a>
-          <img class="press-item-logo" src="{{ block.settings.logo | img_url: "master" }}">
-          {%  if  block.settings.label != blank %}
-            <a class="press-item-btn" href="{{ block.settings.link }}">{{ block.settings.label }}</a>
-          {% endif %}
-      </div>
-    {% endfor %} 
-    </div>
+    <h1>{{ section.settings.tite }}</h1>
+  </div>
 </div>
 
 
@@ -22,36 +12,13 @@
   },
   "class": "blog-hero-section section",
   "settings": [
-       
-  ],
-  "blocks": [
-    {
-      "type": "item",
-      "name": "Section items",
-      "settings": [
-         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
-        {
-          "type": "image_picker",
-          "id": "logo",
-          "label": "Logo"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
-        },
-        {
+       {
           "type": "text",
-          "id": "label",
-          "label": "Button Label"
+          "id": "title",
+          "label": "Title"
         }
-      ]
-    }
   ],
+
 
   "presets": [
     {

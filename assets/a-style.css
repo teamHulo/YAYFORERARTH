@@ -1204,7 +1204,17 @@ sticky-header{
   row-gap: 75px;
   column-gap: 71px;
 }
-
+.article-template__content p{
+  color: #3B4E15;
+  font-family: Cerebri Sans;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 100%;
+  max-width: 990px;
+  margin: 0px !important;
+}
 
 
 

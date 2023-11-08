@@ -1156,6 +1156,7 @@ sticky-header{
 .main-blog-article .top-side header{
   margin-top: 0px !important;
   padding: 93px 0 123px 0;
+  margin-bottom:0px !Important;
 }
 .main-blog-article .article-template{
   background: #FFF9EB;

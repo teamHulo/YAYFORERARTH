@@ -1039,15 +1039,15 @@ sticky-header{
   padding: 0px;
   margin: 0px;
 }
-.main-blog> div.blog-articles > div > div > div > div.card__content .card__information{
+.main-blog > div.blog-articles > div > div > div > div.card__content .card__information{
   padding: 0px;
 }
-.article-card__image--medium .ratio:before{
+.main-blog .article-card__image--medium .ratio:before{
   padding-bottom: 100% !important;
 }
 
 
-.article-card__info span{
+.main-blog .article-card__info span{
   color: var(--Dark-Green, #3B4E15);
   font-family: Montas;
   font-size: 22px;
@@ -1056,7 +1056,16 @@ sticky-header{
   line-height: normal;
   letter-spacing: 110%;
 }
-
+.main-blog .card__heading {
+  color: var(--Dark-Sage, #4F5E3C);
+  font-family: Montas;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 30px;
+}
 
 
 

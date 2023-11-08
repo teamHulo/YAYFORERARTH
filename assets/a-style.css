@@ -1032,10 +1032,16 @@ sticky-header{
   margin-bottom: 30px;
 }
 .article-card__image--medium .ratio:before{
-      padding-bottom: 100%;
+  padding-bottom: 100%;
 }
-
-
+.card .card__inner .card__media{
+  margin: 0px;
+  width: 100%;
+}
+.main-blog> div.blog-articles > div > div > div > div.card__content{
+  padding: 0px;
+  margin: 0px;
+}
 
 
 

@@ -1131,6 +1131,13 @@ sticky-header{
   .template-blog .main-blog .blog-articles{
     row-gap: 35px;
   }
+  .pagination-wrapper{
+        margin-top: 50px;
+  }
+  .main-blog .pagination-wrapper ul{
+    gap: 11px;
+    justify-content: space-between;
+  }
 }
 
 

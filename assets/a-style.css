@@ -1099,7 +1099,9 @@ sticky-header{
   font-weight: 400;
   line-height: normal;
 }
-
+.main-blog  .underline-links-hover:hover a{
+  text-decoration:none;
+}
 
 
 

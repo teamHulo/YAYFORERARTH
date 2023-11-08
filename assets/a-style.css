@@ -1014,7 +1014,9 @@ sticky-header{
   box-shadow: none;
 }
 
-
+.main-blog h1.title--primar{
+  display:none !Important;
+}
 
 
 

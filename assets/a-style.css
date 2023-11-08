@@ -1272,7 +1272,10 @@ sticky-header{
     row-gap: 25px;
     margin-bottom:50px !Important;
   }
-
+  .article-template__content blockquote{
+    flex-direction: column;
+    gap: 20px;
+  }
 
 
   

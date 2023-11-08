@@ -1032,7 +1032,7 @@ sticky-header{
   margin-bottom: 30px;
 }
 .article-card__image--medium .ratio:before{
-  padding-bottom: 100%;
+  padding-bottom: 100% !important;
 }
 .card .card__inner .card__media{
   margin: 0px;

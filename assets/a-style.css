@@ -1174,7 +1174,9 @@ sticky-header{
   font-weight: 400;
   line-height: 95px;
 }
-
+.article-template__hero-container{
+  max-width: 100%;
+}
 
 
 

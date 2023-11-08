@@ -1113,7 +1113,10 @@ sticky-header{
     margin-bottom: 15px;
   }
   .main-blog .article-card__info span{
-        font-size: 18px;
+    font-size: 18px;
+  }
+  .main-blog .card__heading{
+    font-size: 24px;
   }
 }
 

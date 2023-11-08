@@ -31,6 +31,12 @@
         {%- endif -%}
 
         {%- for part in paginate.parts -%}
+
+
+
+        <li>
+          page {{  paginate.current_page }} of {{ part.is_link }} 
+        </li>
           <li>
             {%- if part.is_link -%}
               <a

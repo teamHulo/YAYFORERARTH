@@ -1265,7 +1265,9 @@ sticky-header{
   .main-blog-article .top-side {
     margin-bottom: 40px!important;
   }
-
+  .article-template__content p{
+    font-size: 16px;
+  }
 
 }
 

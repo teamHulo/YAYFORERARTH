@@ -1185,7 +1185,9 @@ sticky-header{
   padding-left: clamp(20px,4.097vw,59px);
   padding-right: clamp(20px,4.097vw,59px);
 }
-
+.main-blog-article .top-side{
+  margin-bottom: 116px !important;
+}
 
 
 

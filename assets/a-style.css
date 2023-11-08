@@ -1025,7 +1025,9 @@ sticky-header{
   column-gap: 96px;
   row-gap: 75px;
 }
-
+.template-blog .main-blog .blog-articles .article-card{
+  border: none;
+}
 
 
 

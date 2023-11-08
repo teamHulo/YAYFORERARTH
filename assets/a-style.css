@@ -1176,7 +1176,8 @@ sticky-header{
 }
 .article-template__hero-container{
   max-width: 100% !important;
-  padding: 0 59px;
+  padding-left: clamp(20px,4.097vw,59px);
+  padding-right: clamp(20px,4.097vw,59px);
 }
 .article-template__hero-medium{
   max-width: 1440px;

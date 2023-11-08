@@ -1203,7 +1203,7 @@ sticky-header{
   justify-content: center;
   row-gap: 75px;
   column-gap: 71px;
-  margin-bottom:120px;
+  margin-bottom:120px !important;
 }
 .article-template__content p{
   color: #3B4E15;

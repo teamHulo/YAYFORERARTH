@@ -35,8 +35,10 @@
 
 
         <li>
-          page {{  paginate.current_page }} of {{ part.is_link }} 
+          page {{  paginate.current_page }} of {{ paginate.parts }} 
         </li>
+
+        
           <li>
             {%- if part.is_link -%}
               <a

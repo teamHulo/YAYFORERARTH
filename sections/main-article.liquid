@@ -1,7 +1,6 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
-{{ article.metafields.custom.background_color }}
   
   {%- for block in section.blocks -%}
     {%- case block.type -%}
@@ -320,7 +319,7 @@
 {
   "name": "t:sections.main-article.name",
   "tag": "section",
-  "class": "section",
+  "class": "section main-blog-article",
   "blocks": [
     {
       "type": "@app"

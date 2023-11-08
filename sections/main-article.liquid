@@ -15,8 +15,8 @@
 
 
       {%- when 'featured_image' -%}
-    <div class="top-side" style="background:{{ article.metafields.custom.background_color }}">
-            <header
+    <div class="top-side" >
+            <header style="background:{{ article.metafields.custom.background_color }}"
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
         >

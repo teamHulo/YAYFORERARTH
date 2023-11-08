@@ -1074,6 +1074,7 @@ sticky-header{
   font-weight: 400;
   line-height: 27px; /* 135% */
   letter-spacing: 0.4px;
+  margin: 0px;
 }
 
 .main-blog .pagination-wrapper{

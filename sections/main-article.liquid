@@ -1,5 +1,9 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
-
+<style>
+  .template-article ..section-header{
+    background:{{ article.metafields.custom.background_color }};
+  }
+</style>
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
   
   {%- for block in section.blocks -%}

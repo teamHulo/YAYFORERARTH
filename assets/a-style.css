@@ -1250,7 +1250,9 @@ sticky-header{
   line-height: normal;
 }
 
-
+.template-article main{
+  border-bottom: 1px solid #3B4E15;
+}
 
 
 

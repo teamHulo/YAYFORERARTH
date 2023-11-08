@@ -1147,7 +1147,9 @@ sticky-header{
 
 
 /*--- article ---*/
-
+.main-blog-article{
+  margin: 0px;
+}
 
 
 

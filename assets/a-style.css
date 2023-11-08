@@ -1236,7 +1236,10 @@ sticky-header{
   height: 100%;
   object-fit: cover;
 }
-
+.article-template__back {
+  margin: 0px;
+  padding-bottom: 92px;
+}
 
 
 

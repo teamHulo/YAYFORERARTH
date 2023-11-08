@@ -33,16 +33,13 @@
           </li>
         {%- endif -%}
 
-        {%- for part in paginate.parts -%}
-
-
-
         <li>
           page {{  paginate.current_page }} of {{ paginate.pages }} 
         </li>
 
         
-        
+        <!-- {%- for part in paginate.parts -%}
+
           <li>
             {%- if part.is_link -%}
               <a
@@ -68,7 +65,7 @@
               {%- endif -%}
             {%- endif -%}
           </li>
-        {%- endfor -%}
+        {%- endfor -%} -->
 
         {%- if paginate.next -%}
           <li>

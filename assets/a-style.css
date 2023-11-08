@@ -954,11 +954,17 @@ sticky-header{
     margin: 0px;
     color: var(--Dark-Sage, #4F5E3C);
     font-family: Calvino Grande Trial;
-    font-size: 90px;
+    font-size: clamp(40px,5.556vw,80px)
     font-style: italic;
     font-weight: 400;
     line-height: 100%;
     text-align: center;
+}
+
+@media(max-width:990px){
+  .blog-hero-section{
+     padding: 35px 0;
+  }
 }
 
 .template-blog .header__active-menu-item{

@@ -1253,7 +1253,11 @@ sticky-header{
 .template-article main{
   border-bottom: 1px solid #3B4E15;
 }
-
+@media(max-width:1200px){
+  .article-template__hero-container img{
+    padding:0px !important;
+  }
+}
 
 
 

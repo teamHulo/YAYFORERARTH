@@ -1276,7 +1276,9 @@ sticky-header{
     flex-direction: column;
     gap: 20px;
   }
-
+  .article-template__back{
+    padding-bottom:50px;
+  }
 
   
 }

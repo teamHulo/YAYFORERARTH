@@ -1122,6 +1122,12 @@ sticky-header{
     font-size: 24px;
     margin-bottom: 15px!important;
   }
+  .main-blog .article-card__excerpt{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+  }
 }
 
 

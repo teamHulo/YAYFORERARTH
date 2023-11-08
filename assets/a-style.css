@@ -1009,7 +1009,10 @@ sticky-header{
   top: 12px;
   pointer-events: none;
 }
-
+.blog-search .input-find:focus-visible{
+  outline: none;
+  box-shadow: none;
+}
 
 
 

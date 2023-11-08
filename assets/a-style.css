@@ -1202,6 +1202,7 @@ sticky-header{
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 75px;
+  column-gap: 71px;
 }
 
 

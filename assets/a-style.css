@@ -944,7 +944,10 @@ sticky-header{
 .template-blog  {
   background: #FFF9EB;
 }
-
+.blog-hero-section{
+  margin-top: 0px;
+  padding: 85px 0;
+}
 
 
 

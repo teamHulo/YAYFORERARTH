@@ -1215,8 +1215,18 @@ sticky-header{
   max-width: 990px;
   margin: 0px !important;
 }
-
-
+.article-template__content blockquote{
+  width: 100%;
+  max-width: 100%;
+  margin: 0px;
+  padding: 0px;
+  gap: 70px;
+  display: flex;
+}
+.article-template__content blockquote img{
+  width: 100%;
+  border-radius: 0;
+}
 
 
 

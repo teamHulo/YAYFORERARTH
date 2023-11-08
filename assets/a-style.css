@@ -1262,6 +1262,11 @@ sticky-header{
   .main-blog-article .top-side header{
     padding:40px 0;
   }
+  .main-blog-article .top-side {
+    margin-bottom: 40px!important;
+  }
+
+
 }
 
 

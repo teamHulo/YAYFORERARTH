@@ -1258,7 +1258,11 @@ sticky-header{
     padding:0px !important;
   }
 }
-
+@media(max-width:990px){
+  .main-blog-article .top-side header{
+    padding:30px 0;
+  }
+}
 
 
 

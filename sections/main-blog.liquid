@@ -16,6 +16,15 @@
   }
 {%- endstyle -%}
 
+
+
+<form method="get" action="/search">
+    <input type="hidden" name="type" value="article" />
+    <input type="text" name="q" />
+    <input  type="submit" value="Search" />
+</form>
+
+
 {%- paginate blog.articles by 6 -%}
   <div class="main-blog page-width section-{{ section.id }}-padding">
     <h1 class="title--primary{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}">

@@ -1031,7 +1031,9 @@ sticky-header{
 .template-blog .main-blog .blog-articles .article-card .card__inner{
   margin-bottom: 30px;
 }
-
+.article-card__image--medium .ratio:before{
+      padding-bottom: 100%;
+}
 
 
 

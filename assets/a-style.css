@@ -1019,10 +1019,12 @@ sticky-header{
 }
 
 .template-blog main{
-      border-bottom: 1px solid #3B4E15;
+  border-bottom: 1px solid #3B4E15;
 }
-
-
+.template-blog .main-blog .blog-articles {
+  column-gap: 96px;
+  row-gap: 75px;
+}
 
 
 

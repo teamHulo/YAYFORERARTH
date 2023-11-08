@@ -1175,7 +1175,7 @@ sticky-header{
   line-height: 95px;
 }
 .article-template__hero-container{
-  max-width: 100%;
+  max-width: 100% !important;
 }
 .article-template__hero-medium{
   max-width: 1440px;

@@ -1152,7 +1152,7 @@ sticky-header{
 }
 .main-blog-article .top-side{
   background: #e39903;
-  margin: 0px;
+  margin: 0px !important;
 }
 
 

@@ -1231,6 +1231,9 @@ sticky-header{
 .article-template__content blockquote img{
   width: 100%;
   border-radius: 0;
+  margin: 0px;
+  height: 100%;
+  object-fit: cover;
 }
 
 

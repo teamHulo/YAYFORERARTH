@@ -1178,6 +1178,8 @@ sticky-header{
   max-width: 100% !important;
   padding-left: clamp(20px,4.097vw,59px);
   padding-right: clamp(20px,4.097vw,59px);
+  position: relative;
+  background: transparent;
 }
 .article-template__hero-medium{
   max-width: 1440px;

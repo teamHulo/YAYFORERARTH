@@ -1194,7 +1194,9 @@ sticky-header{
 .main-blog-article .top-side{
   margin-bottom: 116px !important;
 }
-
+.rte:after{
+  display:none;
+}
 
 
 

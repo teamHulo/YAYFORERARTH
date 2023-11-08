@@ -982,6 +982,19 @@ sticky-header{
   line-height: 100%;
   font-size: 18px;
 }
+.blog-search .input-find{
+  width: 100%;
+  padding: 0px;
+  background: transparent;
+  border: none;
+  color: #3B4E15;
+  font-family: Calvino Grande Trial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-right: 45px;
+}
 
 
 

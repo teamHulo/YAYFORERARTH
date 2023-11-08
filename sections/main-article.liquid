@@ -1,15 +1,18 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">
-
-  {{ article.metafields.custom.background_color }}
+{{ article.metafields.custom.background_color }}
+  
   {%- for block in section.blocks -%}
     {%- case block.type -%}
       {%- when '@app' -%}
         <div class="page-width page-width--narrow">
           {% render block %}
         </div>
+
+
       {%- when 'featured_image' -%}
+    <div class="top-side" style="background:{{ article.metafields.custom.background_color }}">
         {%- if article.image -%}
           <div
             class="article-template__hero-container{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
@@ -44,7 +47,6 @@
           </div>
         {%- endif -%}
 
-      {%- when 'title' -%}
         <header
           class="page-width page-width--narrow{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--fade-in{% endif %}"
           {{ block.shopify_attributes }}
@@ -67,6 +69,10 @@
           {%- endif -%}
         </header>
 
+</div>
+
+
+  
       {%- when 'content' -%}
         <div
           class="article-template__content page-width page-width--narrow rte{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}"

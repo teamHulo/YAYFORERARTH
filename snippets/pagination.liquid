@@ -20,7 +20,7 @@
   <div class="pagination-wrapper">
     <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
       <ul class="pagination__list list-unstyled" role="list">
-        <!-- {%- if paginate.previous -%} -->
+       
           <li>
             <a
               href="{{ paginate.previous.url }}{{ anchor }}"
@@ -31,7 +31,7 @@
             <span>← Previous</span>
             </a>
           </li>
-        <!-- {%- endif -%} -->
+       
 
         <li>
           page {{  paginate.current_page }} of {{ paginate.pages }} 
@@ -67,7 +67,7 @@
           </li>
         {%- endfor -%} -->
 
-        <!-- {%- if paginate.next -%} -->
+       
           <li>
             <a
               href="{{ paginate.next.url }}{{ anchor }}"
@@ -78,7 +78,7 @@
           <span>Next →</span>
             </a>
           </li>
-        <!-- {%- endif -%} -->
+       
       </ul>
     </nav>
   </div>

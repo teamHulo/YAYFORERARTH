@@ -1197,7 +1197,12 @@ sticky-header{
 .rte:after{
   display:none;
 }
-
+.article-template__content{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 75px;
+}
 
 
 

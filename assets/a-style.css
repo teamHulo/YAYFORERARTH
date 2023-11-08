@@ -961,10 +961,12 @@ sticky-header{
     text-align: center;
 }
 
-.header__active-menu-item{
-      color: inherit;
+.template-blog .header__active-menu-item{
+    color: inherit;
 }
-
+.template-blog .list-menu__item{
+    color: var(--Dark-Sage, #4F5E3C);
+}
 
 
 

@@ -968,7 +968,10 @@ sticky-header{
     color: var(--Dark-Sage, #4F5E3C);
 }
 
-
+.blog-search{
+  margin-top: 30px;
+    margin-bottom: 50px;
+}
 
 
 

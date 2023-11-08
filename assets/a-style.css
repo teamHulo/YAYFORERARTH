@@ -1128,6 +1128,9 @@ sticky-header{
     font-weight: 400;
     line-height: 20px;
   }
+  .template-blog .main-blog .blog-articles{
+    row-gap: 35px;
+  }
 }
 
 

@@ -1042,7 +1042,9 @@ sticky-header{
   padding: 0px;
   margin: 0px;
 }
-
+.main-blog> div.blog-articles > div > div > div > div.card__content .card__information{
+  padding: 0px;
+}
 
 
 

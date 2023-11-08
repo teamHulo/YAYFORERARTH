@@ -1080,6 +1080,28 @@ sticky-header{
 .main-blog .pagination-wrapper{
   margin-top:100px;
 }
+.main-blog .pagination-wrapper ul{
+  gap: 63px;
+}
+.main-blog .pagination-wrapper ul li{
+  max-width: max-content;
+  margin: 0px;
+  width: auto;
+  display: flex;
+  align-items: center;
+}
+.main-blog .pagination-wrapper ul li span{
+  color: #3B4E15;
+  text-align: right;
+  font-family: Montas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+
+
 
 
 

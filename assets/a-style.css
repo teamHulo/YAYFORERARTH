@@ -1179,7 +1179,6 @@ sticky-header{
   padding-left: clamp(20px,4.097vw,59px);
   padding-right: clamp(20px,4.097vw,59px);
   position: relative;
-  background: transparent !important;
 }
 .article-template__hero-container img{
   padding-left: clamp(20px,4.097vw,59px);
@@ -1190,6 +1189,7 @@ sticky-header{
   margin: 0 auto;
   padding-left: clamp(20px,4.097vw,59px);
   padding-right: clamp(20px,4.097vw,59px);
+  background: transparent !important;
 }
 .main-blog-article .top-side{
   margin-bottom: 116px !important;

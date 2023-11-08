@@ -995,8 +995,20 @@ sticky-header{
   line-height: normal;
   padding-right: 45px;
 }
-
-
+.blog-search .input-button{
+  position: absolute;
+  right: 10px;
+  top: 13px;
+  bottom: 13px;
+  background: transparent;
+  opacity: 0;
+}
+.blog-search svg{
+  position: absolute;
+  right: 30px;
+  top: 12px;
+  pointer-events: none;
+}
 
 
 

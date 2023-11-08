@@ -1047,3 +1047,18 @@ sticky-header{
 }
 
 
+.article-card__info span{
+  color: var(--Dark-Green, #3B4E15);
+  font-family: Montas;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 110%;
+}
+
+
+
+
+
+

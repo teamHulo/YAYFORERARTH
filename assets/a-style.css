@@ -1064,7 +1064,7 @@ sticky-header{
   font-weight: 400;
   line-height: normal;
   text-transform: capitalize;
-  margin-bottom: 30px;
+  margin-bottom: 30px !important;
 }
 .main-blog  .article-card__excerpt {
   color: var(--Dark-Sage, #4F5E3C);

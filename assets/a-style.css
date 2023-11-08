@@ -1066,6 +1066,15 @@ sticky-header{
   text-transform: capitalize;
   margin-bottom: 30px;
 }
+.main-blog  .article-card__excerpt {
+  color: var(--Dark-Sage, #4F5E3C);
+  font-family: Cerebri Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px; /* 135% */
+  letter-spacing: 0.4px;
+}
 
 
 

@@ -1090,7 +1090,7 @@ sticky-header{
   display: flex;
   align-items: center;
 }
-.main-blog .pagination-wrapper ul li span{
+.main-blog .pagination-wrapper ul li span, li.pagination-current{
   color: #3B4E15;
   text-align: right;
   font-family: Montas;

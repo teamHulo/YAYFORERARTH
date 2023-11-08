@@ -968,11 +968,11 @@ sticky-header{
     color: var(--Dark-Sage, #4F5E3C);
 }
 
-.blog-search{
+.template-blog .blog-search{
   margin-top: 30px;
   margin-bottom: 50px;
 }
-.blog-search form{
+.template-blog .blog-search form{
   border-radius: 120px;
   border: 1px solid #3B4E15;
   padding: 11px 30px;
@@ -982,7 +982,7 @@ sticky-header{
   line-height: 100%;
   font-size: 18px;
 }
-.blog-search .input-find{
+.template-blog .blog-search .input-find{
   width: 100%;
   padding: 0px;
   background: transparent;
@@ -995,7 +995,7 @@ sticky-header{
   line-height: normal;
   padding-right: 45px;
 }
-.blog-search .input-button{
+.template-blog .blog-search .input-button{
   position: absolute;
   right: 10px;
   top: 13px;
@@ -1003,22 +1003,24 @@ sticky-header{
   background: transparent;
   opacity: 0;
 }
-.blog-search svg{
+.template-blog .blog-search svg{
   position: absolute;
   right: 30px;
   top: 12px;
   pointer-events: none;
 }
-.blog-search .input-find:focus-visible{
+.template-blog .blog-search .input-find:focus-visible{
   outline: none;
   box-shadow: none;
 }
 
-.main-blog h1.title--primary{
+.template-blog .main-blog h1.title--primary{
   display:none !Important;
 }
 
-
+.template-blog main{
+      border-bottom: 1px solid #3B4E15;
+}
 
 
 

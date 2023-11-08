@@ -1138,7 +1138,7 @@ sticky-header{
     gap: 11px;
     justify-content: space-between;
   }
-   .template-blog .header__icon svg{
+   .template-blog .header__icon svg path{
     fill:#4F5E3C;
   }
 }

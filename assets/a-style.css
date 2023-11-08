@@ -1237,10 +1237,18 @@ sticky-header{
   object-fit: cover;
 }
 .article-template__back {
-  margin: 0px;
+  margin: 0px !important;
   padding-bottom: 92px;
 }
-
+.article-template__back a{
+  color: #3B4E15;
+  text-align: right;
+  font-family: Montas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 
 

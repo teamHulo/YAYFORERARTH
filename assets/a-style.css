@@ -970,9 +970,18 @@ sticky-header{
 
 .blog-search{
   margin-top: 30px;
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
-
+.blog-search form{
+  border-radius: 120px;
+  border: 1px solid #3B4E15;
+  padding: 11px 30px;
+  width: 100%;
+  max-width: 577px;
+  position: relative;
+  line-height: 100%;
+  font-size: 18px;
+}
 
 
 

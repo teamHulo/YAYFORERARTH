@@ -68,7 +68,9 @@ $('.custom-faq-section .page-width .item h3').click(function(){
     $(this).closest('.item').toggleClass('active');
 });
 
-
+if ($(window).width() < 990){
+   $('.custom-faq-section .page-width .item').removeClass('active');
+}
 
 
 

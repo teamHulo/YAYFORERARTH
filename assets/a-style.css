@@ -1698,8 +1698,22 @@ sticky-header{
   padding-bottom: 108px;
   border-bottom: 1px solid #5D5E3C;
 }
-
-
+.text-section{
+  padding: 50px 0;
+  color: var(--Dark-Sage, #4F5E3C);
+  text-align: center;
+  font-family: Montas;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px;
+  letter-spacing: 0.7px;
+  border-top: 1px solid #4F5E3C;
+  border-bottom: 1px solid #4F5E3C;
+}
+.text-section p{
+  margin:0px;
+}
 
 
 

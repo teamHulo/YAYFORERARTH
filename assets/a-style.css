@@ -1736,10 +1736,34 @@ sticky-header{
   gap: 18px;
 }
 
-
-
-
-
+.stores-form-section  form .contact__fields .field{
+    margin:0px;
+}
+.stores-form-section form .contact__fields .field label{
+  display:none;
+}
+.stores-form-section  form .contact__fields .field input::placeholder{
+  opacity:1 !important;
+}
+.stores-form-section  form .contact__fields .field input{
+  padding: 23px 20px;
+  border-radius: 0;
+  border: 1px solid #5D5E3C;
+  background: transparent;
+  color: #5D5E3C;
+  font-family: Montas;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 21.72px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  height:auto;
+  width:100%;
+}
+.stores-form-section  form .contact__fields .field:before, .stores-form-section  form .contact__fields .field:after{
+  display:none !important;
+}
 
 
 

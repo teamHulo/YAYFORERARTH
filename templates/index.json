@@ -415,11 +415,101 @@
             "title": "How do I cancel\/modify my order?",
             "text": "<p>Our warehouse has a quick turnaround time, so we are unable to offer order modifications or cancellations. <\/p>"
           }
+        },
+        "682a9a93-91dd-4a2d-a7ee-36ebe3678a2c": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Are your products cruelty free\/fair trade?",
+            "text": "<p>YES and YES!<\/p>"
+          }
+        },
+        "feadd6d9-d126-4348-8044-a29a79d94371": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "What’s the shelf life of your products?",
+            "text": "<p>1.5 - 2 years! Be sure to store all of our products in a cool, dark place to preserve their nutrients.<\/p>"
+          }
+        },
+        "2da62802-ebdf-4a34-bab4-d670e6c2af85": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Why is my lotion a different color from my last order\/what’s at the bottom of the jar?",
+            "text": "<p>The slight variations in lotion texture, color and possible sediment at the bottom of the jar are thanks to Mother Nature herself! The beeswax color and texture can vary depending on what the bees have been pollinating. Any small bits of sediment at the bottom of the jar is leftover from the filtering process. Because our products are all natural, preservative free, and made in small batches, no single one is exactly the same, and we think that’s extremely special! <\/p>"
+          }
+        },
+        "f1517138-7656-48d2-aaba-7c6902b82dbe": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Can I use your products if I’m pregnant, breastfeeding, or on my baby?",
+            "text": "<p>Absolutely! All of our ingredients are listed on each product\/on our website - nothing else! Many people have used our Sensitive Skin Face Lotion as a belly cream, nipple cream, diaper cream, you name it. Completely safe for everyone in the family. <\/p>"
+          }
+        },
+        "d1b96202-f92e-4a1b-a907-f77bf85678ed": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Is there an adjustment period with your  face lotion?",
+            "text": "<p>Some people do go through a slight adjustment period as their skin gets used to an all natural product. We recommend cutting out all other skincare products other than a gentle cleanser, starting with just a little lotion once a day, and giving the skin time to adjust. Most people start to notice positive changes in their skin within the first two weeks.<\/p>"
+          }
+        },
+        "78117f6e-7c27-4699-a81b-04bc37c29c67": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "What should I do with my empty container?",
+            "text": "<p>We highly encourage customers to repurpose their jars once they’re empty! If you choose not to repurpose, our containers are all 100% recyclable. As of now, we don’t have the proper sanitization equipment to legally accept containers back to be sanitized and refilled. As we grow, we plan to make this an option in the future!<\/p>"
+          }
+        },
+        "9ff68f59-d8ab-4aca-9904-eb0c99788839": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Are your shipping materials plastic free?",
+            "text": "<p>Yes! We use recycled materials whenever possible and ship with 100% recyclable paper. Our boxes are 100% recyclable with paper tape, which is also completely recyclable. <\/p>"
+          }
+        },
+        "e2a97ca4-d884-48ac-9644-d71f1f5ae792": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Do you ship to my country?",
+            "text": "<p>With the rare exception, we ship everywhere! If you’d like to buy our product locally, please reach out with any store suggestions for us to reach out to!<\/p>"
+          }
+        },
+        "4c291d88-a65f-4a13-8f45-66376dd515e0": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Am I responsible for custom fees?",
+            "text": "<p>Yes. Custom\/duty fees are the customer’s responsibility.<\/p>"
+          }
+        },
+        "4020ab51-f212-47be-ad88-98a1660523fa": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "What’s your return policy?",
+            "text": "<p>We aren’t able to accept returns due to sanitation reasons, but please feel free to email us with any order\/product issues.<\/p>"
+          }
         }
       },
       "block_order": [
         "cdaf73ca-50c5-4e66-923d-0188a30224d7",
-        "f48a0e79-5488-4f1b-b852-cd115d5f0d09"
+        "f48a0e79-5488-4f1b-b852-cd115d5f0d09",
+        "682a9a93-91dd-4a2d-a7ee-36ebe3678a2c",
+        "feadd6d9-d126-4348-8044-a29a79d94371",
+        "2da62802-ebdf-4a34-bab4-d670e6c2af85",
+        "f1517138-7656-48d2-aaba-7c6902b82dbe",
+        "d1b96202-f92e-4a1b-a907-f77bf85678ed",
+        "78117f6e-7c27-4699-a81b-04bc37c29c67",
+        "9ff68f59-d8ab-4aca-9904-eb0c99788839",
+        "e2a97ca4-d884-48ac-9644-d71f1f5ae792",
+        "4c291d88-a65f-4a13-8f45-66376dd515e0",
+        "4020ab51-f212-47be-ad88-98a1660523fa"
       ],
       "settings": {
         "title-left": "Products",

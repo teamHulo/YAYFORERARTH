@@ -1599,7 +1599,9 @@ sticky-header{
   height: auto;
   width: 100%;
 }
-
+.text-aread-field label{
+  display: none;
+}
 
 
 

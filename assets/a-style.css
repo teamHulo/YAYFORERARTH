@@ -1414,8 +1414,12 @@ sticky-header{
   gap: 48px;
 }
 .contact-form-main-section .left-side{
-      width: 100%;
-    max-width: 613px;
+  width: 100%;
+  max-width: 613px;
+}
+.contact-form-main-section .left-side img{
+  width: 100%;
+  object-fit: cover;
 }
 
 

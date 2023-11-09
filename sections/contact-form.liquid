@@ -18,12 +18,10 @@
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
 
 <div class="left-side">
-  
+  <img  src="{{ section.settings.image | img_url: "master" }}">
 </div>
 
-
-
-    
+ 
 <div class="right-side">
     
     {%- if section.settings.heading != blank -%}
@@ -39,8 +37,9 @@
         assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
       endif
     -%}
-
-
+     <div class="content-text">
+       {{ section.settings.text }}
+     </div>
 
 
     

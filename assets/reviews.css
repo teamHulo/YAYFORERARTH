@@ -1,0 +1,30 @@
+.spr-reviews {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 100px;
+}
+.spr-review {
+    width: 46%;
+}
+.spr-review:first-child {
+    margin-top: 0;
+}
+.spr-pagination {
+    width: 100%;
+    color: #3B4E15;
+}
+.spr-pagination a {
+    text-decoration: none;
+    color: inherit;
+}
+.spr-review-header-byline, .spr-review-header-byline p {
+    font-family: Cerebri Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 125%;
+    letter-spacing: 0.36px;
+}
+.spr-review-header-byline p {
+    margin-bottom: 0;
+}

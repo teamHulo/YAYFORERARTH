@@ -1953,6 +1953,10 @@ sticky-header{
   .custom-faq-section .page-width .item.active .content{
     padding-top:10px;
   }
+  .custom-faq-section .page-width .item .content p{
+    font-size:14px;
+    line-height:110%;
+  }
 }
 
 

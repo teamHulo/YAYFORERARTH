@@ -1480,8 +1480,11 @@ sticky-header{
   line-height: 21.72px;
   letter-spacing: 1px;
   text-transform: uppercase;
+  height:auto;
 }
-
+.contact-form-main-section form .contact__fields .field input:before, .contact-form-main-section form .contact__fields .field input:after{
+  display:none !important;
+}
 
 
 

@@ -1,12 +1,97 @@
+<div class="container">
+  <h3>{{ section.settings.title }}</h3>
+  <div class="swiper custom-collection-sldier-swiper">
+    <div class="swiper-wrapper">
+        {%- for product in section.settings.collection.products -%}
+          <div class="swiper-slide custom-collection-slider-item">
+            <a href="{{ product.url }}">
+              <div class="wrap">
+                <img class="image-main" src="{{ product.featured_media | img_url: "master" }}">
+                <img class="image-hover" src="{{ product.images[1]| img_url: "master" }}">
+              </div>
+            </a>
+            <a href="{{ product.url }}">
+              <h3>{{ product.title }}</h3>
+            </a>
+          </div>
+         {%- endfor -%} 
+    </div> 
+      <div class="swiper-scrollbar"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+  </div>
+  <svg class="next" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="25" cy="25" r="25" transform="matrix(-1 0 0 1 50 0)" fill="#232323"/>
+    <path d="M14.6153 25H35.3845M35.3845 25L28.1604 17.6923M35.3845 25L28.1604 32.3077" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  <svg class="prev" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <circle cx="25" cy="25" r="25" fill="#232323"/>
+    <path d="M35.3845 25.0001H14.6152M14.6152 25.0001L21.8393 17.6924M14.6152 25.0001L21.8393 32.3078" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+</div>
+
+              
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": {
+    "en": "FAQ section"
+  },
+  "class": "custom-collection-slider section",
+  "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "t:sections.featured-collection.settings.collection.label"
+        },
+        {
+          "type": "checkbox",
+          "id": "show_secondary_image",
+          "default": false,
+          "label": "t:sections.main-collection-product-grid.settings.show_secondary_image.label"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Section items",
+      "settings": [
+         {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "image_picker",
+          "id": "logo",
+          "label": "Logo"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "Link"
+        },
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Button Label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": {
+        "en": "Faq section"
+      },
+      "category": {
+        "en": "Image"
+      }
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}

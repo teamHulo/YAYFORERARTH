@@ -70,6 +70,8 @@ $('.custom-faq-section .page-width .item h3').click(function(){
 
 if ($(window).width() < 990){
    $('.custom-faq-section .page-width .item').removeClass('active');
+  $('.custom-faq-section .page-width .left .item:first-child').addClass('active');
+  $('.custom-faq-section .page-width .right .item:first-child').addClass('active');
 }
 
 

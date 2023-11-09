@@ -495,6 +495,14 @@
             "title": "What’s your return policy?",
             "text": "<p>We aren’t able to accept returns due to sanitation reasons, but please feel free to email us with any order\/product issues.<\/p>"
           }
+        },
+        "1e9f1170-7c0f-44be-bd3c-a41c47d4aa5b": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "How long does shipping take\/when will  my order ship?",
+            "text": "<p>Your order will ship within 2-3 business days. Shipping times vary depending on your location. If you need your order quickly, please choose the fastest shipping option at checkout. On average, domestic orders take 3-7 business days to be delivered, and international orders can take anywhere from 5 business days to a month to be delivered.<\/p>"
+          }
         }
       },
       "block_order": [
@@ -509,7 +517,8 @@
         "9ff68f59-d8ab-4aca-9904-eb0c99788839",
         "e2a97ca4-d884-48ac-9644-d71f1f5ae792",
         "4c291d88-a65f-4a13-8f45-66376dd515e0",
-        "4020ab51-f212-47be-ad88-98a1660523fa"
+        "4020ab51-f212-47be-ad88-98a1660523fa",
+        "1e9f1170-7c0f-44be-bd3c-a41c47d4aa5b"
       ],
       "settings": {
         "title-left": "Products",

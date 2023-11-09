@@ -1927,7 +1927,9 @@ sticky-header{
   margin-bottom:0px;
 }
 @media(max-width:990px){
-  
+  .stores-form-section .right-sude{
+    max-width:100%;
+  }
 }
 
 

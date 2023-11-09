@@ -367,7 +367,7 @@
       "settings": {
         "bg": "#fff9eb",
         "padding_top": 60,
-        "padding_bottom": 60,
+        "padding_bottom": 16,
         "label": "",
         "title": "Pairs Well With..."
       }

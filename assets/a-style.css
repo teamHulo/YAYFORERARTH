@@ -1577,9 +1577,12 @@ sticky-header{
 .field-subject input::placeholder{
   opacity:1 !important;
 }
-
-
-
+.text-aread-field{
+  margin-bottom: 15px;
+}
+.text-aread-field:before, .text-aread-field:after{
+  display:none;
+}
 
 
 

@@ -1,0 +1,127 @@
+{{ 'section-master.css' | asset_url | stylesheet_tag }}
+<style>
+    #shopify-section-{{ section.id }} {
+        padding-top: {{ section.settings.padding_top }}px;
+        padding-bottom: {{ section.settings.padding_bottom }}px;
+        background-color: {{ section.settings.bg }};
+    }
+</style>
+
+<div class="master">
+    <div class="master-wrapper container">
+        {% for block in section.blocks %}
+            <div class="master__card">
+                <div class="master__card-img">
+                    <img src="{{ block.settings.img | img_url: 'master' }}" alt="">
+                </div>
+                <div class="master__card-content">
+                    <span class="master__card-job">{{ block.settings.job_title }}</span>
+                    <h3 class="master__card-name">{{ block.settings.name | upcase }}</h3>
+                    <div class="master__card-text">{{ block.settings.text }}</div>
+                    <div class="master__card-links">
+                        <div class="product-link">
+                            <span>{{ block.settings.favorite_product_title }}</span>
+                            <a class="weight-700" href="{{ block.settings.product.url }}">{{ block.settings.product_name }}</a>
+                        </div>
+                        <a class="a-btn" href="{{ block.settings.btn_url }}">{{ block.settings.text_btn }}</a>
+                    </div>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+    {% if section.settings.pagination %}
+        <div class="swiper-pagination"></div>
+    {% endif %}
+</div>
+
+{% schema %}
+{
+    "name": "Master",
+    "settings": [
+        {
+            "type": "range",
+            "id": "padding_top",
+            "label": "Paddind top",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "unit": "px",
+            "default": 60
+        },
+        {
+            "type": "range",
+            "id": "padding_bottom",
+            "label": "Paddind bottom",
+            "min": 0,
+            "max": 200,
+            "step": 2,
+            "unit": "px",
+            "default": 60
+        },
+        {
+            "type": "color",
+            "id": "bg",
+            "label": "Background color"
+        }
+    ],
+    "blocks": [
+        {
+            "name": "Card",
+            "type": "card",
+            "limit": 2,
+            "settings": [
+                {
+                    "type": "image_picker",
+                    "id": "img",
+                    "label": "Image"
+                },
+                {
+                    "type": "text",
+                    "id": "job_title",
+                    "label": "Job Title"
+                },
+                {
+                    "type": "text",
+                    "id": "name",
+                    "label": "Name"
+                },
+                {
+                    "type": "richtext",
+                    "id": "text",
+                    "label": "Text"
+                },
+                {
+                    "type": "text",
+                    "id": "favorite_product_title",
+                    "label": "Favorite product title"
+                },
+                {
+                    "type": "text",
+                    "id": "product_name",
+                    "label": "Product title"
+                },
+                {
+                    "type": "product",
+                    "id": "product",
+                    "label": "Product"
+                },
+                {
+                    "type": "text",
+                    "id": "text_btn",
+                    "label": "Button text"
+                },
+                {
+                    "type": "url",
+                    "id": "btn_url",
+                    "label": "Button url"
+                }
+            ]
+        }
+    ],
+    "presets": [
+        {
+            "name": "Master"
+        }
+    ]
+}
+{% endschema %}

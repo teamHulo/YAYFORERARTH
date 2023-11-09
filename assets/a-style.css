@@ -1926,9 +1926,9 @@ sticky-header{
 .custom-faq-section .page-width .item:last-child{
   margin-bottom:0px;
 }
-
-
-
+@media(max-width:990px){
+  
+}
 
 
 

@@ -3,9 +3,15 @@
 <div class="page-width">
   <div class="left">
     {%- for block in section.blocks -%}
-
-      
-    
+       {% if block.settings.select-column == 'left' %}
+         <div class="item">
+             <h3>
+               <span>{{ block.settings.title }}</span>
+               <span class="plus">+</span>
+               <span class="minus">-</span>
+             </h3>
+         </div>
+        {% endif %}
      {%- endfor -%} 
   </div>
   <div class="right">

@@ -134,8 +134,14 @@ Montas
 .shopify-section-header-sticky .header__menu-item{
     color:#4F5E3C;
 }
+.template-product .header__menu-item{
+    color:#4F5E3C !important;
+}
 .shopify-section-header-sticky .header__icon--account svg path, .shopify-section-header-sticky .header__icon--account svg circle,.shopify-section-header-sticky .header__icon--cart svg path, .shopify-section-header-sticky .icon-hamburger{
     stroke:#4F5E3C;
+}
+.template-product .header__icon--account svg path, .template-product .header__icon--account svg circle,.template-product .header__icon--cart svg path, .template-product .icon-hamburger{
+    stroke:#4F5E3C !important;
 }
 .shopify-section-header-sticky .cart-count-bubble span{
     color:#4F5E3C;
@@ -145,6 +151,9 @@ Montas
 }
 .shopify-section-header-sticky .header__heading-logo-wrapper img{
     filter: brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
+}
+.template-product .header__heading-logo-wrapper img{
+    filter: brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%) !important;
 }
 sticky-header{
     border-bottom: 2px solid var(--Cream, #FFF9EB);

@@ -193,11 +193,22 @@
         "label": "4",
         "title": "Simple Ingredients"
       }
+    },
+    "a7142674-6154-4b30-825f-e2f21bf4a848": {
+      "type": "section-title",
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "label": "",
+        "title": "All the Magical Uses!"
+      }
     }
   },
   "order": [
     "main",
     "related-products",
-    "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8"
+    "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8",
+    "a7142674-6154-4b30-825f-e2f21bf4a848"
   ]
 }

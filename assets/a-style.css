@@ -1726,7 +1726,10 @@ sticky-header{
   max-width: 1005px;
   margin: 0 auto;
 }
-
+.stores-form-section .right-sude{
+  width: 100%;
+  max-width: 641px;
+}
 
 
 

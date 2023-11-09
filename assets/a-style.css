@@ -1855,6 +1855,10 @@ sticky-header{
   gap: 60px;
   justify-content: center;
 }
+.custom-faq-section .page-width . div{
+  width: 100%;
+  max-width: 632px;
+}
 .custom-faq-section .page-width .left > h2, .custom-faq-section .page-width .right > h2{
   margin: 0px;
   margin-bottom: 36px;

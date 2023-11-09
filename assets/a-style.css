@@ -1322,6 +1322,7 @@ sticky-header{
 }
 .privacy-new-section .item .content{
   display:none;
+  padding-top:16px;
 }
 .privacy-new-section .item.active .content{
   display:block;
@@ -1336,8 +1337,21 @@ sticky-header{
   letter-spacing: 0.54px;
   margin:0px;
 }
-
-
+.privacy-new-section .item h3{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #5D5E3C;
+  font-family: Cerebri Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0.54px;
+}
+.privacy-new-section .item {
+  margin-bottom: 36px;
+}
 
 
 

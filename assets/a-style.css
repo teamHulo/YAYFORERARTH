@@ -1367,8 +1367,12 @@ sticky-header{
 .privacy-new-section .item.active .minus{
   display:block;
 }
-
-
+.privacy-new-section .item:last-child{
+  margin-bottom:0;
+}
+.privacy-new-section{
+  padding-bottom:170px;
+}
 
 
 

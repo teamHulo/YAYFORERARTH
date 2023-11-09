@@ -1712,6 +1712,8 @@ sticky-header{
   border-bottom: 1px solid #4F5E3C;
 }
 .stores-form-section > div:nth-child(1) p{
+  width:100%;
+  max-width:999px;
   margin:0px;
 }
 

@@ -1669,7 +1669,11 @@ sticky-header{
     max-width: 100%;
     padding: 0;  
   }
-
+  .contact-form-main-section .right-side h2{
+    font-size: 24px;
+    line-height: 110%;
+    margin-bottom: 20px;
+  }
 
   
 }

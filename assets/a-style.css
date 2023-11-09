@@ -1555,5 +1555,24 @@ sticky-header{
 .field-subject:before, .field-subject:after{
   display:none;
 }
+.field-subject label{
+  display:none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

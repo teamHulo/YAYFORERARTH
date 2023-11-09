@@ -1320,6 +1320,9 @@ sticky-header{
   max-width: 866px;
   margin: 0 auto;
 }
+.privacy-new-section .content{
+  display:none;
+}
 
 
 

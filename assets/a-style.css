@@ -1374,6 +1374,11 @@ sticky-header{
   padding-bottom:170px;
 }
 
+@media(max-width:990px){
+  .privacy-new-section h1{
+     padding: 35px 0;
+  }
+}
 
 
 

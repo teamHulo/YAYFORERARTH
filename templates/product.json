@@ -375,7 +375,7 @@
         "padding_bottom": 8,
         "text": "",
         "pagination": false,
-        "per_page": 3,
+        "per_page": 5,
         "mobile_per_page": 2,
         "slide_max_height": 0
       }

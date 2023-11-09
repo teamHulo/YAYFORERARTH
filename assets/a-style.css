@@ -1349,6 +1349,7 @@ sticky-header{
   line-height: 18px;
   letter-spacing: 0.54px;
   margin:0px;
+  cursor:pointer;
 }
 .privacy-new-section .item {
   margin-bottom: 36px;

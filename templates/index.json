@@ -388,6 +388,12 @@
         "padding_top": 0,
         "padding_bottom": 0
       }
+    },
+    "cab212c1-4f5c-4717-b7ae-3c79e9f68173": {
+      "type": "stores-form",
+      "settings": {
+        "text": "<p>Interested in carrying our products? Do you want to see our products sold in a store near you? Send us an email below and let us know where you’d like Yay for Earth<\/p>"
+      }
     }
   },
   "order": [
@@ -399,6 +405,7 @@
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
     "35520c0f-8581-4a5b-bb00-59bb639ce120",
     "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a",
-    "d245aea8-3816-4025-930d-7a1681986e70"
+    "d245aea8-3816-4025-930d-7a1681986e70",
+    "cab212c1-4f5c-4717-b7ae-3c79e9f68173"
   ]
 }

@@ -125,24 +125,6 @@
         "padding_bottom": 60
       }
     },
-    "related-products": {
-      "type": "related-products",
-      "settings": {
-        "heading": "You may also like",
-        "heading_size": "h2",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
-        "image_ratio": "portrait",
-        "image_shape": "default",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "columns_mobile": "2",
-        "padding_top": 0,
-        "padding_bottom": 60
-      }
-    },
     "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8": {
       "type": "section-image-flip",
       "blocks": {
@@ -379,17 +361,35 @@
         "mobile_per_page": 2,
         "slide_max_height": 0
       }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "You may also like",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 0,
+        "padding_bottom": 60
+      }
     }
   },
   "order": [
     "main",
-    "related-products",
     "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8",
     "a7142674-6154-4b30-825f-e2f21bf4a848",
     "acaaef8f-ac3b-4e39-891d-8b35ddce5a96",
     "78b77677-5e76-4d3f-be5f-7c3637ebc205",
     "17f41925-c45e-4d19-962f-11dc2f036744",
     "85b96d03-fc37-4cd0-bb73-ed0f6340035a",
-    "6721cdcd-efd5-4a76-98ed-4919cf5b819e"
+    "6721cdcd-efd5-4a76-98ed-4919cf5b819e",
+    "related-products"
   ]
 }

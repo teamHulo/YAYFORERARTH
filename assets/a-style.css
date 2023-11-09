@@ -1549,6 +1549,8 @@ sticky-header{
   text-transform: uppercase;
   margin-bottom: 8px;
   gap: 10px;
+   display: flex;
+  align-items: center;
 }
 .contact-form-radios fieldset input{
   margin:0px; 

@@ -4,10 +4,8 @@
     <div class="text">{{ section.settings.text }}</div>
       <div class="policy-tabs">
         {% for block in section.blocks %}
-          <div class="press-item">
-              <a class="press-item-image" href="{{ block.settings.link }}">
-                <img  src="{{ block.settings.image | img_url: "master" }}">
-              </a>
+          <div class="item">
+              <h3>{{ block.settings.title }} <span class="plus">+</span><span class="minus">-</span></h3>
               <img class="press-item-logo" src="{{ block.settings.logo | img_url: "master" }}">
               {%  if  block.settings.label != blank %}
                 <a class="press-item-btn" href="{{ block.settings.link }}">{{ block.settings.label }}</a>

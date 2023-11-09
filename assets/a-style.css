@@ -1512,7 +1512,12 @@ sticky-header{
   display:none !important;
 }
 
-
+.contact-form-radios{
+      padding: 20px;
+    border: 1px solid #5D5E3C;
+    background: transparent;
+    margin-bottom: 15px;
+}
 
 
 

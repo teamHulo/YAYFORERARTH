@@ -248,7 +248,7 @@
         "pagination": false,
         "per_page": 4,
         "mobile_per_page": 2,
-        "slide_max_height": 0
+        "slide_max_height": 400
       }
     },
     "78b77677-5e76-4d3f-be5f-7c3637ebc205": {

@@ -1957,6 +1957,9 @@ sticky-header{
     font-size:14px;
     line-height:130%;
   }
+  .custom-faq-section .page-width .item h3{
+    gap: 25px;
+  }
 }
 
 

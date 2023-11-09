@@ -1848,6 +1848,7 @@ sticky-header{
 /*---- custom-faq-section ----*/
 .custom-faq-section{
   margin-bottom: 80px;
+  margin-top: 0px !important;
 }
 .custom-faq-section .page-width{
   display: flex;

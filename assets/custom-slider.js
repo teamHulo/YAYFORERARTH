@@ -4,15 +4,9 @@ class CustomSlider extends HTMLElement {
         
       this.perPage = this.dataset.perPage;
       this.mobilePerPage = this.dataset.perPageMobile;
-
-      console.log(this.perPage)
-      console.log(this.mobilePerPage)
-
     }
 
     connectedCallback() {
-        console.log('this')
-        console.log(this)
         this.swiper = new Swiper(this, {
             slidesPerView: 1,
             spaceBetween: 10,

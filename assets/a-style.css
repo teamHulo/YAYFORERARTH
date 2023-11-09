@@ -1930,7 +1930,10 @@ sticky-header{
   .stores-form-section .right-sude{
     max-width:100%;
   }
-  
+  .custom-faq-section {
+    margin-bottom: 50px;
+    margin-top: 0!important;
+  }
 
   
 }

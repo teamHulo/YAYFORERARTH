@@ -125,6 +125,20 @@
         "padding_bottom": 60
       }
     },
+    "468df541-5874-4a42-b735-d7d8f21e9a15": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8": {
       "type": "section-image-flip",
       "blocks": {
@@ -393,6 +407,7 @@
   },
   "order": [
     "main",
+    "468df541-5874-4a42-b735-d7d8f21e9a15",
     "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8",
     "a7142674-6154-4b30-825f-e2f21bf4a848",
     "acaaef8f-ac3b-4e39-891d-8b35ddce5a96",

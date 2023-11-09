@@ -1574,7 +1574,9 @@ sticky-header{
   height: auto;
   width: 100%;
 }
-
+.field-subject input::placeholder{
+  opacity:1 !important;
+}
 
 
 

@@ -44,25 +44,21 @@
       "type": "item",
       "name": "Section items",
       "settings": [
-         {
-          "type": "image_picker",
-          "id": "image",
-          "label": "Image"
-        },
         {
-          "type": "image_picker",
-          "id": "logo",
-          "label": "Logo"
-        },
-        {
-          "type": "url",
-          "id": "link",
-          "label": "Link"
-        },
-        {
-          "type": "text",
-          "id": "label",
-          "label": "Button Label"
+          "type": "select",
+          "id": "select-column",
+          "options": [
+            {
+              "value": "left",
+              "label": "Left"
+            },
+            {
+              "value": "right",
+              "label": "Right"
+            }
+          ],
+          "default": "left",
+          "label": "Select column"
         }
       ]
     }

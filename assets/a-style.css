@@ -1623,6 +1623,40 @@ sticky-header{
 }
 
 
+input[type='text'] {
+  border: 14px solid #5D5E3C;
+}
+
+
+input[type='radio'] {
+  -webkit-appearance: none; 
+  -moz-appearance: none;   
+  appearance: none;        
+  height: 14px; 
+  width: 14px; 
+  border: 2px solid #5D5E3C; 
+  border-radius: 50%; 
+  display: inline-block;
+  position: relative;
+}
+
+input[type='radio']:checked {
+  background-color: #5D5E3C; /* Цвет фона при выбранной радиокнопке */
+}
+
+/* Стиль для визуального отображения выбранной радиокнопки */
+input[type='radio']:checked::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 8px; /* Высота внутреннего кружка */
+  width: 8px;  /* Ширина внутреннего кружка */
+  background-color: white;
+  border-radius: 50%;
+}
+
 
 
 

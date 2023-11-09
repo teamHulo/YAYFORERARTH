@@ -1453,9 +1453,11 @@ sticky-header{
 }
 
 
-
-
-
+.contact-form-main-section form .contact__fields{
+  column-gap: 11px;
+  row-gap: 15px;
+  margin-bottom: 15px;
+}
 
 
 

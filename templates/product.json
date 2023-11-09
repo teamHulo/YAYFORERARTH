@@ -278,6 +278,16 @@
         "label": "",
         "title": "Reviews"
       }
+    },
+    "17f41925-c45e-4d19-962f-11dc2f036744": {
+      "type": "section-product-rewiews",
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 12,
+        "padding_bottom": 60,
+        "text": "<p>Discover what customers are saying about our magic lotion! <br\/>Read our emotional and amazing reviews below from our community:<\/p>",
+        "product": "{{ product }}"
+      }
     }
   },
   "order": [
@@ -286,6 +296,7 @@
     "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8",
     "a7142674-6154-4b30-825f-e2f21bf4a848",
     "acaaef8f-ac3b-4e39-891d-8b35ddce5a96",
-    "78b77677-5e76-4d3f-be5f-7c3637ebc205"
+    "78b77677-5e76-4d3f-be5f-7c3637ebc205",
+    "17f41925-c45e-4d19-962f-11dc2f036744"
   ]
 }

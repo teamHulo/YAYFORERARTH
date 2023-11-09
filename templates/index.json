@@ -422,7 +422,8 @@
         "f48a0e79-5488-4f1b-b852-cd115d5f0d09"
       ],
       "settings": {
-        "title": ""
+        "title-left": "Products",
+        "title-right": "Shipping & Returns"
       }
     }
   },

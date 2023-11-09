@@ -1461,8 +1461,12 @@ sticky-header{
 .contact-form-main-section form .contact__fields .field{
     margin:0px;
 }
-
-
+.contact-form-main-section form .contact__fields .field label{
+  display:none;
+}
+.contact-form-main-section form .contact__fields .field input:placeholder{
+  opacity:1 !important;
+}
 
 
 

@@ -1634,11 +1634,36 @@ sticky-header{
     padding: 50px 0 50px;
   }
   .contact-form-main-section .contact{
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 20px;
   }
-
-  
+  .contact-form-main-section .left-side{
+    max-width: 100%;
+  }
+  .contact-form-main-section .right-side{
+    max-width: 100%;
+    padding: 0;  
+  }
+  .contact-form-main-section .right-side h2{
+    font-size: 24px;
+    line-height: 110%;
+    margin-bottom: 20px;
+  }
+  .contact-form-main-section .right-side .content-text{
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+  .contact-form-main-section form .contact__fields{
+    display: flex;
+    flex-direction: column;
+  }
+  .contact-form-main-section input[type=radio]{
+    width:100%;
+    max-width:14px;
+  }
+  .contact-form-radios fieldset{
+    padding:0px;
+  }
 }
 
 

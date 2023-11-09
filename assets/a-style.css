@@ -1583,6 +1583,9 @@ sticky-header{
 .text-aread-field:before, .text-aread-field:after{
   display:none;
 }
+.text-aread-field textarea::placeholder{
+  opacity:1 !important;
+}
 .text-aread-field textarea{
   padding: 23px 20px;
   border-radius: 0;

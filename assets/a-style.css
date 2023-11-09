@@ -1698,7 +1698,7 @@ sticky-header{
   padding-bottom: 108px;
   border-bottom: 1px solid #5D5E3C;
 }
-#shopify-section-template--16282984513695__cab212c1-4f5c-4717-b7ae-3c79e9f68173 > div > div > div:nth-child(1){
+.stores-form-section > div > div > div:nth-child(1){
   padding: 50px 0;
   color: var(--Dark-Sage, #4F5E3C);
   text-align: center;
@@ -1711,7 +1711,7 @@ sticky-header{
   border-top: 1px solid #4F5E3C;
   border-bottom: 1px solid #4F5E3C;
 }
-.stores-form-section  .text-section p{
+.stores-form-section > div > div > div:nth-child(1) p{
   margin:0px;
 }
 

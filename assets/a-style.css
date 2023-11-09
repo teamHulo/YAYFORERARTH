@@ -1853,6 +1853,7 @@ sticky-header{
 .custom-faq-section .page-width{
   display: flex;
   gap: 60px;
+  justify-content: center;
 }
 .custom-faq-section .page-width .left > h2, .custom-faq-section .page-width .right > h2{
   margin: 0px;

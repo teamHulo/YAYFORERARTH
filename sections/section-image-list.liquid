@@ -1,0 +1,104 @@
+{% style %}
+  .section-image-list-{{ section.id}} .section-image-list__wrap {
+    margin: 0 auto;
+    max-width: {{ section.settings.max_width}}%;
+  }
+  .section-image-list-{{ section.id}} .image-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+    gap:50px 0;
+  }
+  .section-image-list-{{ section.id}} .image-list .image {
+    width: calc(100% / {{section.settings.column}} - 25px);
+  }
+  .section-image-list-{{ section.id}} .image__wrap {
+    position: relative;
+    padding-top: 100%;
+  }
+  .section-image-list-{{ section.id}} .image__wrap img {
+    position:absolute;
+    top:0;
+    left:0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  @media( max-width:767px){
+    .section-image-list-{{ section.id}} .image-list .image {
+        width: calc(100% / {{section.settings.column}});
+    }
+  }
+  @media( max-width:500px){
+    .section-image-list-{{ section.id}} .image-list .image {
+        width: 50%;
+    }
+    .section-image-list-{{ section.id}} .image-list {
+        gap:0;
+    }
+  }
+{% endstyle %}
+
+
+<div class="section-image-list section-image-list-{{section.id}}">
+  <div class="container">
+    <div class="section-image-list__wrap">
+      <div class="image-list">
+        {% for block in section.blocks %}
+          <div class="image">
+            <div class="image__wrap">
+              <img src="{{block.settings.img| img_url: "master"}}" alt="">
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+  {
+    "name": "section image list ",
+    "settings": [
+      {
+        "type": "range",
+        "id": "max_width",
+        "min": 0,
+        "max": 100,
+        "step": 1,
+        "unit": "%",
+        "label": "max width container",
+        "default": 100
+      }, {
+        "type": "range",
+        "id": "column",
+        "min": 1,
+        "max": 4,
+        "step": 1,
+        "label": "column item",
+        "default": 3
+      }
+    ],
+    "blocks": [
+     
+        {
+       "name": "image",
+       "type": "image",
+       "settings": [
+        {
+            "type": "image_picker",
+            "id": "img",
+            "label": "image"
+        }
+       ]
+     }
+    ],
+    "presets": [
+      {
+        "name": "section image list"
+      }
+    ]
+  }
+{% endschema %}

@@ -1,4 +1,15 @@
-<div class="section-text">
+{%  style  %} 
+
+  .section-border{
+    border-top: 1px solid var(--Dark-Sage, #4F5E3C);
+    border-bottom: 1px solid var(--Dark-Sage, #4F5E3C);
+  }
+  .section-text-{{section.id}}{
+    margin-top:{{section.settings.mt}}px;
+  }
+{% endstyle %}
+
+<div class="section-text section-text-{{section.id}} {% if section.settings.show_border == true %} section-border {% endif %}">
     <div class="container">
         <div class="section-text__wrap">
             <div class="text">
@@ -15,6 +26,22 @@
     {
       "name": "section text",
       "settings": [
+        {
+        "type": "range",
+        "id": "mt",
+        "min": 0,
+        "max": 50,
+        "step": 1,
+        "unit": "px",
+        "label": "margin-top",
+        "default": 0
+      },
+        {
+          "type": "checkbox",
+          "id": "show_border",
+          "label": "Show border",
+          "default": false
+        },
        {
           "type": "text",
           "id": "text",

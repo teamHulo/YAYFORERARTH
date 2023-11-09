@@ -1678,6 +1678,10 @@ sticky-header{
     max-width: 100%;
     margin-bottom: 20px;
   }
+  .contact-form-main-section form .contact__fields{
+    display: flex;
+    flex-direction: column;
+  }
   
 }
 

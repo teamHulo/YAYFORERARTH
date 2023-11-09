@@ -1941,7 +1941,12 @@ sticky-header{
   .custom-faq-section .page-width>div{
     max-width:100%;  
   }
-
+  .custom-faq-section .page-width .left>h2, .custom-faq-section .page-width .right>h2{
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    font-size: 25px;
+    line-height: 110%;
+  }
 
   
 }

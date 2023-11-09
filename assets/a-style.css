@@ -1719,7 +1719,13 @@ sticky-header{
 .stores-form-section .form{
     margin-top:50px;
 }
-
+.stores-form-section form{
+  display: flex;
+  gap: 33px;
+  width: 100%;
+  max-width: 1005px;
+  margin: 0 auto;
+}
 
 
 

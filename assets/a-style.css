@@ -1823,6 +1823,10 @@ sticky-header{
     width: 100%;
     max-width: 100%;
   }
+  .stores-form-section input[type=radio]{
+    width: 100%;
+    max-width: 14px;
+  }
 }
 
 

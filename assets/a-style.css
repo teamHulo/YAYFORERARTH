@@ -1378,6 +1378,13 @@ sticky-header{
   .privacy-new-section h1{
      padding: 35px 0;
   }
+  .privacy-new-section .text{
+    margin-bottom: 35px;
+  }
+  .privacy-new-section .text p{
+    font-size: 18px;
+    line-height: 120%;
+  }
 }
 
 

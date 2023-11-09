@@ -1730,7 +1730,11 @@ sticky-header{
   width: 100%;
   max-width: 641px;
 }
-
+.stores-form-section  .contact__fields{
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
 
 
 

@@ -1559,6 +1559,7 @@ sticky-header{
   gap: 10px;
   display: flex;
   align-items: center;
+  cursor:pointer;
 }
 .contact-form-radios fieldset input{
   margin:0px; 

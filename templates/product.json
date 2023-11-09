@@ -203,12 +203,78 @@
         "label": "",
         "title": "All the Magical Uses!"
       }
+    },
+    "acaaef8f-ac3b-4e39-891d-8b35ddce5a96": {
+      "type": "section-custom-slider",
+      "blocks": {
+        "434d2bd5-09c5-43ca-8929-2b0f89d8c0e2": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/eadc9dc83ed1bc7ff78143adac1a6de9.jpg",
+            "title": "Relieving"
+          }
+        },
+        "3ba77231-9b00-46a0-a07a-f85177484979": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2d0a1ad353f51e1b01c2d8e35a286750.png",
+            "title": "Healing"
+          }
+        },
+        "b73e5c4a-a43a-4936-9450-080017f318e4": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/a4e09694d08bead7cc84c583e9e6cfa4.jpg",
+            "title": "Calming"
+          }
+        },
+        "807ee9d1-ceeb-46b4-8077-598066eafaf9": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/daed0fe5427e3ea7b7441023eeb93de9.jpg",
+            "title": "Nurturing"
+          }
+        },
+        "aa856c33-9d3b-411d-97d6-f2f65c9783ee": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/a1dd76363f0572758a58af0e858d88a4.jpg",
+            "title": "Repairing"
+          }
+        },
+        "44d075e9-28ac-4675-a5a7-84f9edea8f7b": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/af3b7f5aa56d91352382d42bd8310101.png",
+            "title": "Glowing"
+          }
+        }
+      },
+      "block_order": [
+        "434d2bd5-09c5-43ca-8929-2b0f89d8c0e2",
+        "3ba77231-9b00-46a0-a07a-f85177484979",
+        "b73e5c4a-a43a-4936-9450-080017f318e4",
+        "807ee9d1-ceeb-46b4-8077-598066eafaf9",
+        "aa856c33-9d3b-411d-97d6-f2f65c9783ee",
+        "44d075e9-28ac-4675-a5a7-84f9edea8f7b"
+      ],
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses,<\/p><p> have deemed it a multipurpose wonder, and must-have in their home: <\/p>",
+        "pagination": false,
+        "per_page": 4,
+        "mobile_per_page": 2,
+        "slide_max_height": 400
+      }
     }
   },
   "order": [
     "main",
     "related-products",
     "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8",
-    "a7142674-6154-4b30-825f-e2f21bf4a848"
+    "a7142674-6154-4b30-825f-e2f21bf4a848",
+    "acaaef8f-ac3b-4e39-891d-8b35ddce5a96"
   ]
 }

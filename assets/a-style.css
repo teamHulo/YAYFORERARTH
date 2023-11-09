@@ -134,14 +134,8 @@ Montas
 .shopify-section-header-sticky .header__menu-item{
     color:#4F5E3C;
 }
-.template-product .header__menu-item{
-    color:#4F5E3C !important;
-}
 .shopify-section-header-sticky .header__icon--account svg path, .shopify-section-header-sticky .header__icon--account svg circle,.shopify-section-header-sticky .header__icon--cart svg path, .shopify-section-header-sticky .icon-hamburger{
     stroke:#4F5E3C;
-}
-.template-product .header__icon--account svg path, .template-product .header__icon--account svg circle,.template-product .header__icon--cart svg path, .template-product .icon-hamburger{
-    stroke:#4F5E3C !important;
 }
 .shopify-section-header-sticky .cart-count-bubble span{
     color:#4F5E3C;
@@ -151,9 +145,6 @@ Montas
 }
 .shopify-section-header-sticky .header__heading-logo-wrapper img{
     filter: brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
-}
-.template-product .header__heading-logo-wrapper img{
-    filter: brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%) !important;
 }
 sticky-header{
     border-bottom: 2px solid var(--Cream, #FFF9EB);
@@ -1558,7 +1549,7 @@ sticky-header{
   text-transform: uppercase;
   margin-bottom: 8px;
   gap: 10px;
-   display: flex;
+  display: flex;
   align-items: center;
 }
 .contact-form-radios fieldset input{
@@ -1650,7 +1641,7 @@ sticky-header{
   position: relative;
 }
 
-input[type='radio']:checked::after {
+.contact-form-main-section input[type='radio']:checked::after {
   content: '';
   position: absolute;
   top: 50%;
@@ -1662,7 +1653,12 @@ input[type='radio']:checked::after {
   border-radius: 50%;
 }
 
-
+@media(max-width:990px){
+  .contact-form-main-section {
+    background: #FFF9EB;
+    padding: 50px 0 50px;
+  }
+}
 
 
 

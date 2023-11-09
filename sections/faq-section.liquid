@@ -1,5 +1,6 @@
 <div class="page-width">
   <div class="left">
+    <h2>{{ section.settings.title-left }}</h2>
     {%- for block in section.blocks -%}
        {% if block.settings.select-column == 'left' %}
          <div class="item">
@@ -14,6 +15,7 @@
      {%- endfor -%} 
   </div>
   <div class="right">
+    <h2>{{ section.settings.title-right }}</h2>
     {%- for block in section.blocks -%}
        {% if block.settings.select-column == 'right' %}
          <div class="item">
@@ -39,8 +41,13 @@
   "settings": [
         {
           "type": "text",
-          "id": "title",
-          "label": "Title"
+          "id": "title-left",
+          "label": "Title left"
+        },
+        {
+          "type": "text",
+          "id": "title-right",
+          "label": "Title right"
         }
        
   ],

@@ -6,10 +6,9 @@
         {% for block in section.blocks %}
           <div class="item">
               <h3>{{ block.settings.title }} <span class="plus">+</span><span class="minus">-</span></h3>
-              <img class="press-item-logo" src="{{ block.settings.logo | img_url: "master" }}">
-              {%  if  block.settings.label != blank %}
-                <a class="press-item-btn" href="{{ block.settings.link }}">{{ block.settings.label }}</a>
-              {% endif %}
+               <div class="content">
+                 {{ block.settings.text }}
+               </div>
           </div>
         {% endfor %} 
       </div>

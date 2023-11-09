@@ -64,7 +64,8 @@
       ],
       "settings": {
         "title": "Our",
-        "text": "<p>Created for sensitive skin but purely for everyone. Hand crafted. Small batch. Only organic and regenerative farmers we trust.  No fillers - just nutrients!<\/p>"
+        "text": "<p>Created for sensitive skin but purely for everyone. Hand crafted. Small batch. Only organic and regenerative farmers we trust.  No fillers - just nutrients!<\/p>",
+        "add_to_cart_hover": false
       }
     },
     "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
@@ -284,6 +285,13 @@
       ],
       "settings": {
       }
+    },
+    "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a": {
+      "type": "privacy-and-policy",
+      "settings": {
+        "title": "Privacy Policy",
+        "text": ""
+      }
     }
   },
   "order": [
@@ -293,6 +301,7 @@
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",
     "e32f860a-b747-448a-bba0-831667bf10ed",
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
-    "35520c0f-8581-4a5b-bb00-59bb639ce120"
+    "35520c0f-8581-4a5b-bb00-59bb639ce120",
+    "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a"
   ]
 }

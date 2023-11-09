@@ -1716,8 +1716,9 @@ sticky-header{
   max-width:1005px;
   margin:0 auto;
 }
-
-
+.stores-form-section .form{
+    margin-top:50px;
+}
 
 
 

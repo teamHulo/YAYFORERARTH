@@ -63,6 +63,10 @@ $('.policy-tabs .item h3').click(function(){
 });
 
 
+//faq tabs
+$('.custom-faq-section .page-width .item h3').click(function(){
+    $(this).closest('.item').toggleClass('active');
+});
 
 
 

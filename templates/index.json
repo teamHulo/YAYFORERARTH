@@ -12,6 +12,8 @@
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
       "type": "section-text",
       "settings": {
+        "mt": 0,
+        "show_border": false,
         "text": "Behold! Not your typical skin care - applying our nutrient dense products will give your skin the glow it deserves while sending your senses into the natural world. You’ve never used anything as magical."
       }
     },
@@ -394,6 +396,34 @@
       "settings": {
         "text": "<p>Interested in carrying our products? Do you want to see our products sold in a store near you? Send us an email below and let us know where you’d like Yay for Earth<\/p>"
       }
+    },
+    "9161f060-86f8-42ef-9136-704f28d84817": {
+      "type": "faq-section",
+      "blocks": {
+        "cdaf73ca-50c5-4e66-923d-0188a30224d7": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Are your products suitable for all skin types?",
+            "text": "<p>Yes! Of course there is no product out there that will work for everyone, but our products can help to regulate the skin’s oil production, calm inflammation, and heal the skin. The olive oil in our Sensitive Skin Face Lotion helps to balance PH for oily skin types, and hydrates dry skin. <\/p>"
+          }
+        },
+        "f48a0e79-5488-4f1b-b852-cd115d5f0d09": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "How do I cancel\/modify my order?",
+            "text": "<p>Our warehouse has a quick turnaround time, so we are unable to offer order modifications or cancellations. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "cdaf73ca-50c5-4e66-923d-0188a30224d7",
+        "f48a0e79-5488-4f1b-b852-cd115d5f0d09"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -406,6 +436,7 @@
     "35520c0f-8581-4a5b-bb00-59bb639ce120",
     "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a",
     "d245aea8-3816-4025-930d-7a1681986e70",
-    "cab212c1-4f5c-4717-b7ae-3c79e9f68173"
+    "cab212c1-4f5c-4717-b7ae-3c79e9f68173",
+    "9161f060-86f8-42ef-9136-704f28d84817"
   ]
 }

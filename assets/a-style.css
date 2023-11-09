@@ -1333,7 +1333,7 @@ sticky-header{
   font-size: 16px;
   font-style: normal;
   font-weight: 700;
-  line-height: 140%
+  line-height: 140%;
   letter-spacing: 0.54px;
   margin:0px;
 }
@@ -1393,6 +1393,9 @@ sticky-header{
   }
   .privacy-new-section{
     padding-bottom:50px;
+  }
+  .privacy-new-section .content p{{
+    font-size:14px;
   }
 }
 

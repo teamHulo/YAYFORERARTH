@@ -1549,7 +1549,9 @@ sticky-header{
   text-transform: uppercase;
   margin-bottom: 8px;
 }
-
+.field-subject{
+  margin-bottom: 15px;
+}
 
 
 

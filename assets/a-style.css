@@ -1827,6 +1827,10 @@ sticky-header{
     width: 100%;
     max-width: 14px;
   }
+  .stores-form-section{
+    margin-top:50px;
+    padding-bottom:50px;
+  }
 }
 
 

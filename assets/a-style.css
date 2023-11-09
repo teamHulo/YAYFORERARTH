@@ -1682,6 +1682,10 @@ sticky-header{
     display: flex;
     flex-direction: column;
   }
+  .contact-form-main-section input[type=radio]{
+    width:100%;
+    max-width:14px;
+  }
   
 }
 

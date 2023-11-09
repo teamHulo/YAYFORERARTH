@@ -1698,7 +1698,7 @@ sticky-header{
   padding-bottom: 108px;
   border-bottom: 1px solid #5D5E3C;
 }
-.stores-form-section > div > div > div:nth-child(1){
+.stores-form-section .text-section{
   padding: 50px 0;
   color: var(--Dark-Sage, #4F5E3C);
   text-align: center;
@@ -1711,7 +1711,7 @@ sticky-header{
   border-top: 1px solid #4F5E3C;
   border-bottom: 1px solid #4F5E3C;
 }
-.stores-form-section > div > div > div:nth-child(1) p{
+.stores-form-section .text-section p{
   margin:0px;
 }
 

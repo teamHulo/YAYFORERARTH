@@ -1552,6 +1552,8 @@ sticky-header{
 .field-subject{
   margin-bottom: 15px;
 }
-
+.field-subject:before, .field-subject:after{
+  display:none;
+}
 
 

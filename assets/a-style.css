@@ -1947,8 +1947,12 @@ sticky-header{
     font-size: 25px;
     line-height: 110%;
   }
-
-  
+  .custom-faq-section .page-width .item{
+    margin-bottom: 20px;
+  }
+  .custom-faq-section .page-width .item.active .content{
+    padding-top:10px;
+  }
 }
 
 

@@ -1482,7 +1482,7 @@ sticky-header{
   text-transform: uppercase;
   height:auto;
 }
-.contact-form-main-section form .contact__fields .field input:before, .contact-form-main-section form .contact__fields .field input:after{
+.contact-form-main-section form .contact__fields .field:before, .contact-form-main-section form .contact__fields .field:after{
   display:none !important;
 }
 

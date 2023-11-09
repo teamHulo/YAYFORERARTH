@@ -1911,8 +1911,12 @@ sticky-header{
   line-height: 22px;
   letter-spacing: 0.48px;
 }
-
-
+.custom-faq-section .page-width .item{
+  margin-bottom:50px;
+}
+.custom-faq-section .page-width .item:last-child{
+  margin-bottom:0px;
+}
 
 
 

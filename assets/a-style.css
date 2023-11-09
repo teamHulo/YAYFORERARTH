@@ -1286,16 +1286,10 @@ sticky-header{
 
 /*---- privacy page ---*/
 
-.template-blog  {
+.privacy-new-section  {
   background: #FFF9EB;
 }
-.blog-hero-section{
-  margin-top: 0px !important;
-  padding: 85px 0;
-  border-bottom: 1px solid var(--Dark-Sage, #4F5E3C);
-  border-top: 1px solid var(--Dark-Sage, #4F5E3C);
-}
-.blog-hero-section h1{
+.privacy-new-section h1{
     margin: 0px;
     color: var(--Dark-Sage, #4F5E3C);
     font-family: Calvino Grande Trial;
@@ -1304,6 +1298,8 @@ sticky-header{
     font-weight: 400;
     line-height: 100%;
     text-align: center;
+   margin-top: 0px !important;
+  padding: 85px 0;
 }
 
 

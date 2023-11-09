@@ -1436,7 +1436,21 @@ sticky-header{
   letter-spacing: 0.7px;
   margin-bottom: 38px;
 }
-
+.contact-form-main-section .right-side .content-text{
+  width: 100%;
+  max-width: 613px;
+  margin-bottom: 35px;
+}
+.contact-form-main-section .right-side .content-text p{
+  margin: 0px;
+  color: var(--Dark-Sage, #4F5E3C);
+  font-family: Cerebri Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 27px;
+  letter-spacing: 0.4px;
+}
 
 
 

@@ -1548,6 +1548,7 @@ sticky-header{
   letter-spacing: 1px;
   text-transform: uppercase;
   margin-bottom: 8px;
+   gap: 10px;
 }
 .field-subject{
   margin-bottom: 15px;
@@ -1623,8 +1624,6 @@ sticky-header{
 }
 
 
-
-
 .contact-form-main-section input[type='radio'] {
   -webkit-appearance: none; 
   -moz-appearance: none;   
@@ -1636,8 +1635,6 @@ sticky-header{
   display: inline-block;
   position: relative;
 }
-
-
 
 input[type='radio']:checked::after {
   content: '';

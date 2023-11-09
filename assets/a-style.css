@@ -1887,6 +1887,7 @@ sticky-header{
   display: flex;
   justify-content: space-between;
   text-align:left;
+  cursor:pointer;
 }
 .custom-faq-section .page-width .item .plus{
   display:block;

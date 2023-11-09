@@ -1421,7 +1421,11 @@ sticky-header{
   width: 100%;
   object-fit: cover;
 }
-
+.contact-form-main-section .right-side{
+  width: 100%;
+  max-width: 661px;
+  padding-top: 59px;
+}
 
 
 

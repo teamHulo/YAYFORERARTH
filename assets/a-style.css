@@ -1934,6 +1934,14 @@ sticky-header{
     margin-bottom: 50px;
     margin-top: 0!important;
   }
+  .custom-faq-section .page-width{
+    flex-direction: column;
+    gap: 30px;
+  }
+  .custom-faq-section .page-width>div{
+    max-width:100%;  
+  }
+
 
   
 }

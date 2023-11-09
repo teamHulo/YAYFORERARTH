@@ -354,7 +354,7 @@
       "settings": {
         "bg": "#fff9eb",
         "padding_top": 8,
-        "padding_bottom": 8,
+        "padding_bottom": 60,
         "text": "",
         "pagination": false,
         "per_page": 5,

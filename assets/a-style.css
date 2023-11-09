@@ -1855,7 +1855,7 @@ sticky-header{
   gap: 60px;
   justify-content: center;
 }
-.custom-faq-section .page-width . div{
+.custom-faq-section .page-width > div{
   width: 100%;
   max-width: 632px;
 }
@@ -1930,6 +1930,9 @@ sticky-header{
   .stores-form-section .right-sude{
     max-width:100%;
   }
+  
+
+  
 }
 
 

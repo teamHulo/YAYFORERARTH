@@ -1892,9 +1892,14 @@ sticky-header{
 .custom-faq-section .page-width .item.active .minus{
   display:block;
 }
-
-
-
+.custom-faq-section .page-width .item .content{
+  padding-top: 16px;
+  display:none;
+}
+.custom-faq-section .page-width .item.active .content{
+  padding-top: 16px;
+  display:block;
+}
 
 
 

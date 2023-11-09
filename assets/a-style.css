@@ -1353,5 +1353,25 @@ sticky-header{
   margin-bottom: 36px;
 }
 
+.privacy-new-section .item .plus{
+  display:block;
+}
+.privacy-new-section .item .minus{
+  display:none;
+}
+.privacy-new-section .item.active .plus{
+  display:none;
+}
+.privacy-new-section .item.active .minus{
+  display:block;
+}
+
+
+
+
+
+
+
+
 
 

@@ -1315,9 +1315,11 @@ sticky-header{
   font-weight: 400;
   line-height: normal;
 }
-
-
-
+.privacy-new-section .policy-tabs{
+  width: 100%;
+  max-width: 866px;
+  margin: 0 auto;
+}
 
 
 

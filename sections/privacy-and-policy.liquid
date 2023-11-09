@@ -1,19 +1,20 @@
 <div class="page-width">
   <div class="wrap">
-
-
-    
-    {% for block in section.blocks %}
-      <div class="press-item">
-          <a class="press-item-image" href="{{ block.settings.link }}">
-            <img  src="{{ block.settings.image | img_url: "master" }}">
-          </a>
-          <img class="press-item-logo" src="{{ block.settings.logo | img_url: "master" }}">
-          {%  if  block.settings.label != blank %}
-            <a class="press-item-btn" href="{{ block.settings.link }}">{{ block.settings.label }}</a>
-          {% endif %}
+    <h1>{{ section.settings.title }}</h1>
+    <div class="text">{{ section.settings.text }}</div>
+      <div class="policy-tabs">
+        {% for block in section.blocks %}
+          <div class="press-item">
+              <a class="press-item-image" href="{{ block.settings.link }}">
+                <img  src="{{ block.settings.image | img_url: "master" }}">
+              </a>
+              <img class="press-item-logo" src="{{ block.settings.logo | img_url: "master" }}">
+              {%  if  block.settings.label != blank %}
+                <a class="press-item-btn" href="{{ block.settings.link }}">{{ block.settings.label }}</a>
+              {% endif %}
+          </div>
+        {% endfor %} 
       </div>
-    {% endfor %} 
     </div>
 </div>
 

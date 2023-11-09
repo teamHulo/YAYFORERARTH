@@ -37,31 +37,6 @@ Montas
     --font-size-18:clamp(14px,1.250vw,18px);   
     --font-size-12: 12px;
 }
-.section-title {
-    border-top: 1px solid #4F5E3C;
-    border-bottom: 1px solid #4F5E3C;
-    color: #4F5E3C;
-    display: flex;
-    justify-content: center;
-}
-.section-title h2 {
-    color: #4F5E3C;
-    margin: 20px 0;
-    font-family: Calvino Grande Trial;
-    font-size: 45px;
-    font-style: italic;
-    font-weight: 400;
-    line-height: normal;
-}
-.section-title p {
-    margin: 20px 0;
-    text-align: center;
-    font-family: Sfizia;
-    font-size: 45px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
 .a-btn{
     display: flex;
     justify-content: center;
@@ -817,8 +792,8 @@ sticky-header{
 /***** end section slider ***/
 
 /***** section-nature ****/
-.section-nature{
-
+.section-nature .container{
+    max-width: 2000px;
 }
 .section-nature__wrap{
     padding: clamp(100px,21.875vw,315px) 0 clamp(100px,25.347vw,365px) 0;

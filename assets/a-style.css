@@ -1817,7 +1817,11 @@ sticky-header{
   }
   .stores-form-section form{
     flex-direction: column;
-    gap: 15px;
+    gap: 18px;
+  }
+  .stores-form-section .contact__fields{
+    width: 100%;
+    max-width: 100%;
   }
 }
 

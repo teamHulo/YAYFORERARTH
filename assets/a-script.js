@@ -55,3 +55,18 @@ $(()=>{
           });
       });
 })
+
+
+//policy tabs 
+$('.policy-tabs .item h3').click(function(){
+    $(this).closest('.item').toggleClass('active');
+});
+
+
+
+
+
+
+
+
+

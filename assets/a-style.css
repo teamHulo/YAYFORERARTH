@@ -1853,7 +1853,7 @@ sticky-header{
   display: flex;
   gap: 60px;
 }
-.custom-faq-section .page-width .left > h2{
+.custom-faq-section .page-width .left > h2, .custom-faq-section .page-width .right > h2{
   margin: 0px;
   margin-bottom: 36px;
   padding-bottom: 21px;
@@ -1867,7 +1867,9 @@ sticky-header{
   border-bottom: 1px solid #5D5E3C;
 }
 
-
+.custom-faq-section .page-width .item{
+  
+}
 
 
 

@@ -1637,9 +1637,6 @@ sticky-header{
   position: relative;
 }
 
-input[type='radio']:checked {
-  background-color: #5D5E3C; /* Цвет фона при выбранной радиокнопке */
-}
 
 
 input[type='radio']:checked::after {
@@ -1650,7 +1647,7 @@ input[type='radio']:checked::after {
   transform: translate(-50%, -50%);
   height: 8px; 
   width: 8px;  
-  background-color: red;
+  background-color: #5D5E3C;
   border-radius: 50%;
 }
 

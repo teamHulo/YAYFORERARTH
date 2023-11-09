@@ -64,7 +64,8 @@
       ],
       "settings": {
         "title": "Our",
-        "text": "<p>Created for sensitive skin but purely for everyone. Hand crafted. Small batch. Only organic and regenerative farmers we trust.  No fillers - just nutrients!<\/p>"
+        "text": "<p>Created for sensitive skin but purely for everyone. Hand crafted. Small batch. Only organic and regenerative farmers we trust.  No fillers - just nutrients!<\/p>",
+        "add_to_cart_hover": false
       }
     },
     "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
@@ -284,6 +285,109 @@
       ],
       "settings": {
       }
+    },
+    "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a": {
+      "type": "privacy-and-policy",
+      "blocks": {
+        "fab93736-9d92-4c9e-8eeb-93f5d23a1811": {
+          "type": "item",
+          "settings": {
+            "title": "CONSENT",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor dapibus aliquet. Vivamus odio libero, mattis id tortor eu, auctor convallis risus. Nam varius quam id neque molestie auctor. In sagittis metus ac eros venenatis finibus. Nulla congue feugiat lacus, sit amet finibus neque sodales et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras at est pretium, tempor ex non, posuere quam.<\/p>"
+          }
+        },
+        "0f0d421a-7674-4623-8b38-6bf98cb578df": {
+          "type": "item",
+          "settings": {
+            "title": "INFORMATION WE COLLECT",
+            "text": "<p>Fusce tempor leo nec orci dapibus, non elementum diam consequat. Nullam malesuada, mauris vel porttitor feugiat, lectus tellus viverra felis, at hendrerit neque turpis ut arcu. Vestibulum pellentesque consequat massa, volutpat pulvinar tortor suscipit a. Duis feugiat est ut quam euismod, nec egestas purus vulputate. Cras bibendum, mauris vitae dictum auctor, nunc enim iaculis erat, eget placerat urna neque at arcu. Aliquam id eros dolor. Nulla nec nibh at nibh eleifend ullamcorper nec sit amet diam. Aenean maximus turpis vestibulum interdum varius. Duis a euismod lorem, sed lobortis sapien.<\/p>"
+          }
+        },
+        "83f7e9a4-33cd-486e-b3b5-399046ac8b9e": {
+          "type": "item",
+          "settings": {
+            "title": "HOW WE USE YOUR INFORMATION",
+            "text": "<p>Mauris pulvinar tincidunt libero, nec lobortis orci lobortis et. Nulla libero eros, varius non consectetur non, suscipit vel diam. Donec dictum venenatis nunc vel blandit. Aliquam sed odio faucibus, ornare libero quis, ullamcorper enim. Nunc libero erat, eleifend eu lobortis vel, interdum et dui. Curabitur rhoncus tincidunt est, at tempor ex porttitor a. Vivamus faucibus enim nunc, sit amet aliquet justo mollis vel. Ut ut hendrerit urna. In tempor eros quis nunc tincidunt elementum. Sed magna massa, dictum vitae dolor ut, laoreet viverra eros. Etiam sit amet molestie velit. Maecenas gravida, libero in euismod interdum, quam dui placerat ante, sit amet molestie diam lorem vel orci.<\/p>"
+          }
+        },
+        "28e52d75-18f5-4bca-b71e-4d6238684c7d": {
+          "type": "item",
+          "settings": {
+            "title": "LOG FILES",
+            "text": "<p>Donec volutpat maximus erat eget aliquet. Curabitur eu ipsum at diam faucibus semper eu ut tellus. Nulla facilisi. Cras eget sodales leo, quis bibendum elit. In mattis vel ex a consectetur. Sed at mauris augue. Ut vulputate sodales risus, sed tempor libero venenatis nec. Maecenas id orci eu diam facilisis rutrum. Vivamus sapien justo, rhoncus eu sodales vel, condimentum sed erat. Nullam sollicitudin porttitor ipsum sit amet gravida. Ut consectetur fermentum feugiat. Mauris lacinia pretium tortor, eget pharetra nunc dictum ac. Fusce mollis eleifend massa vitae tincidunt. Aliquam bibendum lectus et quam ultrices, non sodales ante ultricies. Sed at varius urna. Fusce fringilla rutrum ante, vel tincidunt arcu imperdiet tempor.<\/p>"
+          }
+        },
+        "eda5fc0e-f9a0-43e6-a250-5c05d77f09fd": {
+          "type": "item",
+          "settings": {
+            "title": "ADVERTISING PARTNER PRIVACY POLICIES",
+            "text": "<p>Curabitur egestas justo enim, ac rutrum nunc ultrices ut. Duis quis congue nulla. Ut mollis eu arcu vel bibendum. Curabitur dictum mi nisi. Aliquam erat volutpat. Aenean accumsan non mi quis feugiat. Curabitur rutrum nisi in nibh egestas, ultricies iaculis libero venenatis. Curabitur malesuada, diam sed fringilla iaculis, arcu massa aliquet nisl, placerat cursus elit leo sit amet lectus. Mauris quis placerat nibh. Donec mollis purus tempor nulla sagittis, eu suscipit sem luctus. Praesent id urna at orci cursus suscipit et vel lacus. Ut id tincidunt metus. Phasellus gravida ligula eget odio commodo, eu viverra dui posuere.<\/p>"
+          }
+        },
+        "9a00015c-d44d-4e1b-bb2f-d56d98d044bc": {
+          "type": "item",
+          "settings": {
+            "title": "THIRD PARTY PRIVACY POLICIES",
+            "text": "<p>Aliquam mauris turpis, condimentum sit amet rhoncus sed, viverra eu odio. Donec eu velit vestibulum, viverra justo a, hendrerit erat. Nullam viverra leo nec odio rhoncus tincidunt. Mauris at nulla elit. Suspendisse a turpis mi. Proin purus augue, convallis nec suscipit pellentesque, ornare ut lectus. Nam sollicitudin maximus vestibulum. Proin tortor magna, suscipit a nisl sit amet, vestibulum congue urna. Integer varius felis convallis porttitor molestie. Maecenas id mi elit. Etiam malesuada justo id ante feugiat accumsan.<\/p>"
+          }
+        },
+        "d537187f-3253-4b0f-a027-2806a582932e": {
+          "type": "item",
+          "settings": {
+            "title": "CCPA PRIVACY RIGHTS",
+            "text": "<p>Aenean vulputate neque in euismod vehicula. Nullam suscipit dictum erat quis consequat. Phasellus et mauris tempor, commodo diam non, pharetra nisi. Pellentesque non lacus neque. Phasellus in semper velit. Nam lorem eros, posuere vitae ligula nec, pulvinar maximus lectus. Pellentesque velit magna, congue a erat sit amet, dictum egestas nulla. Quisque a justo quis justo sagittis vulputate vel quis ligula. Nam nulla ipsum, elementum eu tellus nec, elementum posuere dolor. Duis nisl neque, tristique eu elit faucibus, ultrices dapibus turpis.<\/p>"
+          }
+        },
+        "1bb4e238-4408-42ad-abe2-3a9050b152c7": {
+          "type": "item",
+          "settings": {
+            "title": "GDPR DATA PROTECTION RIGHTS",
+            "text": "<p>Nullam lacinia feugiat ligula ut faucibus. Aliquam ac ultricies est. Donec consequat enim id ligula lacinia suscipit. Vestibulum suscipit sapien sed purus tristique, ac tincidunt orci faucibus. Curabitur lobortis malesuada condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras nisl felis, cursus at eros in, malesuada rutrum purus. Vestibulum ipsum felis, pulvinar nec nulla in, facilisis iaculis purus. Nunc a dapibus ex. Phasellus nec erat quis ex dignissim vestibulum a hendrerit lectus. Mauris pellentesque, turpis ut tempor sollicitudin, enim mauris scelerisque nisl, eu ultrices dolor nulla vel tellus. Aenean scelerisque, velit vel vulputate posuere, est nunc lacinia sapien, convallis vulputate eros libero vitae ante. Etiam consectetur ac metus vel vulputate. Quisque bibendum nibh tellus, ut dapibus magna feugiat eu.<\/p>"
+          }
+        },
+        "712fc8ae-4fce-40c2-b664-665aa7ea8b53": {
+          "type": "item",
+          "settings": {
+            "title": "CHILDRENS INFORMATION",
+            "text": "<p>Fusce lacinia condimentum condimentum. Nam cursus venenatis orci, vitae sollicitudin eros gravida eget. Nullam non mauris turpis. Sed et augue sit amet leo ullamcorper maximus. Sed facilisis volutpat felis, eget viverra purus placerat ac. Praesent convallis rhoncus ipsum quis vehicula. Suspendisse bibendum a nulla sed lacinia. Cras vel lacinia justo. Aenean sed lectus et ipsum aliquam gravida. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus, mauris nec sollicitudin bibendum, libero mauris porttitor ipsum, vitae faucibus libero nibh euismod orci.<\/p>"
+          }
+        },
+        "bf9a7ec0-0bfd-4d65-8786-25a11a3287b4": {
+          "type": "item",
+          "settings": {
+            "title": "MEDICAL DISCLAIMER",
+            "text": "<p>Duis velit neque, tempus vel eros at, porta finibus risus. Curabitur vel erat tempor, vestibulum turpis quis, faucibus elit. Morbi ligula augue, vehicula varius felis sed, tincidunt finibus ipsum. In ac sem gravida, consequat turpis at, blandit nibh. Nulla vitae ipsum tortor. Nulla quis orci nec turpis bibendum feugiat. Aenean eros nibh, gravida ut scelerisque vitae, luctus eget lectus. Sed eget fringilla nulla, sit amet gravida lorem. In dignissim dui eget ipsum interdum accumsan. Duis pharetra fringilla mauris nec luctus. Praesent quis cursus lorem.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "fab93736-9d92-4c9e-8eeb-93f5d23a1811",
+        "0f0d421a-7674-4623-8b38-6bf98cb578df",
+        "83f7e9a4-33cd-486e-b3b5-399046ac8b9e",
+        "28e52d75-18f5-4bca-b71e-4d6238684c7d",
+        "eda5fc0e-f9a0-43e6-a250-5c05d77f09fd",
+        "9a00015c-d44d-4e1b-bb2f-d56d98d044bc",
+        "d537187f-3253-4b0f-a027-2806a582932e",
+        "1bb4e238-4408-42ad-abe2-3a9050b152c7",
+        "712fc8ae-4fce-40c2-b664-665aa7ea8b53",
+        "bf9a7ec0-0bfd-4d65-8786-25a11a3287b4"
+      ],
+      "settings": {
+        "title": "Privacy Policy",
+        "text": "<p>At YAYFOREARTH, accessible from www.yayforearth.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by YAYFOREARTH and how we use it.<br\/><br\/>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<br\/><br\/>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and\/or collect in YAYFOREARTH. This policy is not applicable to any information collected offline or via channels other than this website.<\/p>"
+      }
+    },
+    "d245aea8-3816-4025-930d-7a1681986e70": {
+      "type": "contact-form",
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Mask_group_1_d128a032-87fc-4a1b-ab40-9907648acb42.png",
+        "heading": "Say Hello!",
+        "heading_size": "h1",
+        "text": "<p>We'd love to hear from you! Please choose from the options below so we can connect you with the right team member.<\/p>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
     }
   },
   "order": [
@@ -293,6 +397,8 @@
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",
     "e32f860a-b747-448a-bba0-831667bf10ed",
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
-    "35520c0f-8581-4a5b-bb00-59bb639ce120"
+    "35520c0f-8581-4a5b-bb00-59bb639ce120",
+    "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a",
+    "d245aea8-3816-4025-930d-7a1681986e70"
   ]
 }

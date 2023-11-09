@@ -16,6 +16,14 @@
 
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="contact page-width page-width--narrow section-{{ section.id }}-padding">
+
+<div class="left-side">
+  <img  src="{{ section.settings.image | img_url: "master" }}">
+</div>
+
+ 
+<div class="right-side">
+    
     {%- if section.settings.heading != blank -%}
       <h2 class="title title-wrapper--no-top-margin inline-richtext {{ section.settings.heading_size }}{% if settings.animations_reveal_on_scroll %} scroll-trigger animate--slide-in{% endif %}">
         {{ section.settings.heading }}
@@ -29,6 +37,12 @@
         assign contact_form_class = 'isolate scroll-trigger animate--slide-in'
       endif
     -%}
+     <div class="content-text">
+       {{ section.settings.text }}
+     </div>
+
+
+    
     {%- form 'contact', id: 'ContactForm', class: contact_form_class -%}
       {%- if form.posted_successfully? -%}
         <h2 class="form-status form-status-list form__message" tabindex="-1" autofocus>
@@ -60,10 +74,16 @@
             id="ContactForm-name"
             name="contact[{{ 'templates.contact.form.name' | t }}]"
             value="{% if form.name %}{{ form.name }}{% elsif customer %}{{ customer.name }}{% endif %}"
-            placeholder="{{ 'templates.contact.form.name' | t }}"
+            placeholder="First Name"
           >
           <label class="field__label" for="ContactForm-name">{{ 'templates.contact.form.name' | t }}</label>
         </div>
+
+        <div class="field">
+          <label for="last-name-field">Last Name</label>
+          <input placeholder="Last Name" type="text" id="last-name-field" name="contact[Last Name]" required>
+        </div>
+        
         <div class="field field--with-error">
           <input
             autocomplete="email"
@@ -96,32 +116,74 @@
             </small>
           {%- endif -%}
         </div>
+        <div class="field">
+          <input
+            type="tel"
+            id="ContactForm-phone"
+            class="field__input"
+            autocomplete="tel"
+            name="contact[{{ 'templates.contact.form.phone' | t }}]"
+            pattern="[0-9\-]*"
+            value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
+            placeholder="{{ 'templates.contact.form.phone' | t }}"
+          >
+          <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+        </div>
       </div>
-      <div class="field">
-        <input
-          type="tel"
-          id="ContactForm-phone"
-          class="field__input"
-          autocomplete="tel"
-          name="contact[{{ 'templates.contact.form.phone' | t }}]"
-          pattern="[0-9\-]*"
-          value="{% if form.phone %}{{ form.phone }}{% elsif customer %}{{ customer.phone }}{% endif %}"
-          placeholder="{{ 'templates.contact.form.phone' | t }}"
-        >
-        <label class="field__label" for="ContactForm-phone">{{ 'templates.contact.form.phone' | t }}</label>
+  
+
+
+      <div class="contact-form-radios">
+          <h2>How can we help?</h2>
+          <fieldset>
+            <label>
+              <input type="radio" name="contact[How can we help?]" value="Question about order" required>
+              I have a question about my order
+            </label>
+        
+            <label>
+              <input type="radio" name="contact[How can we help?]" value="Question about product">
+              I have a question about a product
+            </label>
+        
+            <label>
+              <input type="radio" name="contact[How can we help?]" value="Collaboration">
+              I want to collaborate!
+            </label>
+        
+            <label>
+              <input type="radio" name="contact[How can we help?]" value="Wholesale">
+              Wholesale
+            </label>
+        
+            <label>
+              <input type="radio" name="contact[How can we help?]" value="General">
+              General
+            </label>
+          </fieldset>
+        </div>
+
+      
+
+          
+      <div class="field field-subject">
+        <label for="subject-field">Subject</label>
+        <input placeholder="Subject" type="text" id="subject-field" name="contact[Subject]" required>
       </div>
-      <div class="field">
+
+
+      <div class="field text-aread-field">
         <textarea
           rows="10"
           id="ContactForm-body"
           class="text-area field__input"
           name="contact[{{ 'templates.contact.form.comment' | t }}]"
-          placeholder="{{ 'templates.contact.form.comment' | t }}"
+          placeholder="Message"
         >
           {{- form.body -}}
         </textarea>
         <label class="form__label field__label" for="ContactForm-body">
-          {{- 'templates.contact.form.comment' | t -}}
+          Message
         </label>
       </div>
       <div class="contact__button">
@@ -130,6 +192,10 @@
         </button>
       </div>
     {%- endform -%}
+</div>
+
+
+        
   </div>
 </div>
 
@@ -137,11 +203,16 @@
 {
   "name": "t:sections.contact-form.name",
   "tag": "section",
-  "class": "section",
+  "class": "section contact-form-main-section",
   "disabled_on": {
     "groups": ["header", "footer"]
   },
   "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
     {
       "type": "inline_richtext",
       "id": "heading",
@@ -167,6 +238,11 @@
       ],
       "default": "h1",
       "label": "t:sections.all.heading_size.label"
+    },
+    {
+      "type": "richtext",
+      "id": "text",
+      "label": "Text"
     },
     {
       "type": "color_scheme",

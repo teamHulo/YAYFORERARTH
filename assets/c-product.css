@@ -1,0 +1,150 @@
+/* .product-form__input input[type=radio] + label {
+    width: 90px;
+} */
+@media(max-width: 990px) {
+    .product-form__input input[type=radio] + label {
+        width: 45%;
+    }
+}
+@media(max-width: 767px) {
+    .product-form__input input[type=radio] + label {
+        width: 90px;
+    }
+}
+.product-form__input input[type=radio]:checked+label {
+    background-color: #E39903;
+}
+.product-form__input input[type=radio]:checked+label.woods {
+    background-color: #6A8F67;
+}
+.product-form__input input[type=radio]:checked+label.moon {
+    background-color: #84B4BA;
+}
+.product-form__input input[type=radio]:checked+label.trio {
+    background: linear-gradient(90deg, rgb(106,143,103) 0%, rgb(106,143,103) 33%, rgb(132,180,186) 33%, rgb(132,180,186) 66%, rgb(227,153,3) 66%, rgb(227,153,3) 100%);
+}
+.product-form__input input[type=radio] + label:hover {
+    background-color: #E39903;
+}
+.product-form__input input[type=radio]+label.woods:hover {
+    background-color: #6A8F67;
+}
+.product-form__input input[type=radio]+label.moon:hover {
+    background-color: #84B4BA;
+}
+.product-form__input input[type=radio]+label.trio:hover {
+    background: linear-gradient(90deg, rgb(106,143,103) 0%, rgb(106,143,103) 33%, rgb(132,180,186) 33%, rgb(132,180,186) 66%, rgb(227,153,3) 66%, rgb(227,153,3) 100%);
+}
+
+.product__title h1 {
+    font-family: Montas;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.6px;
+}
+
+.form__label {
+    display: none;
+}
+
+.price-item {
+    font-family: Montas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+}
+
+.product__description h2 {
+    font-family: Montas;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 48px;
+    letter-spacing: 0.66px;
+}
+.product__description p {
+    font-family: Cerebri Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.54px;
+}
+
+.product_tab {
+    position: relative;
+}
+.product_tab summary {
+    font-family: Montas;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0.54px;
+}
+.product_tab p {
+    font-family: Cerebri Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 22px;
+    letter-spacing: 0.48px;
+}
+.product_tab a {
+    color: inherit;
+    font-family: Cerebri Sans;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.48px;
+    text-decoration-line: underline;
+}
+.product_tab[open]::before {
+    transform: rotate(0deg);
+}
+.product_tab::after {
+    content: '';
+    border: 1px solid #3B4E15;
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 14px;
+}
+.product_tab::before {
+    transition: all 0.3s ease;
+    content: '';
+    border: 1px solid #3B4E15;
+    transform: rotate(90deg);
+    position: absolute;
+    right: 0;
+    top: 7px;
+    width: 14px;
+}
+
+.product_icons-group {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+.icon-item {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+.icon-item span {
+    margin-top: 14px;
+    max-width: 66px;
+    text-align: center;
+    font-family: Cerebri Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 14px;
+    letter-spacing: 0.36px;
+}

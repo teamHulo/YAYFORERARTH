@@ -12,7 +12,7 @@
   {%- if product.quantity_price_breaks_configured? -%}
     {{ 'component-volume-pricing.css' | asset_url | stylesheet_tag }}
   {%- endif -%}
-
+  {{ 'c-product.css' | asset_url | stylesheet_tag }}
   {%- style -%}
     .section-{{ section.id }}-padding {
       padding-top: {{ section.settings.padding_top | times: 0.75 | round: 0 }}px;
@@ -177,6 +177,74 @@
                   {{ product.description }}
                 </div>
               {%- endif -%}
+            {%- when 'tab' -%}
+              <details class="product_tab">
+                <summary>{{ block.settings.title }}</summary>
+                {{ block.settings.text }}
+              </details>
+            {%- when 'icons' -%}
+              <div class="product_icons-group">
+                {% if block.settings.img1 != blank %}
+                  <div class="icon-item">
+                    <img 
+                      src="{{ block.settings.img1 | image_url: width: 40 }}" 
+                      loading="lazy"
+                      height="40"
+                      width="40"
+                      alt="{{ block.settings.img1.alt }}"
+                    >
+                    <span>{{ block.settings.title1 }}</span>
+                  </div>
+                {% endif %}
+                {% if block.settings.img2 != blank %}
+                  <div class="icon-item">
+                    <img 
+                      src="{{ block.settings.img2 | image_url: width: 40  }}" 
+                      loading="lazy"
+                      height="40"
+                      width="40"
+                      alt="{{ block.settings.img2.alt }}"
+                    >
+                    <span>{{ block.settings.title2 }}</span>
+                  </div>
+                {% endif %}
+                {% if block.settings.img3 != blank %}
+                  <div class="icon-item">
+                    <img 
+                      src="{{ block.settings.img3 | image_url: width: 40  }}" 
+                      loading="lazy"
+                      height="40"
+                      width="40"
+                      alt="{{ block.settings.img3.alt }}"
+                    >
+                    <span>{{ block.settings.title3 }}</span>
+                  </div>
+                {% endif %}
+                {% if block.settings.img4 != blank %}
+                  <div class="icon-item">
+                    <img 
+                      src="{{ block.settings.img4 | image_url: width: 40  }}" 
+                      loading="lazy"
+                      height="40"
+                      width="40"
+                      alt="{{ block.settings.img4.alt }}"
+                    >
+                    <span>{{ block.settings.title4 }}</span>
+                  </div>
+                {% endif %}
+                {% if block.settings.img5 != blank %}
+                  <div class="icon-item">
+                    <img 
+                      src="{{ block.settings.img5 | image_url: width: 40  }}" 
+                      loading="lazy"
+                      height="40"
+                      width="40"
+                      alt="{{ block.settings.img5.alt }}"
+                    >
+                    <span>{{ block.settings.title5 }}</span>
+                  </div>
+                {% endif %}
+              </div>
             {%- when 'sku' -%}
               <p
                 class="product__sku no-js-hidden{% if block.settings.text_style == 'uppercase' %} caption-with-letter-spacing{% elsif block.settings.text_style == 'subtitle' %} subtitle{% endif %}{% if product.selected_or_first_available_variant.sku.size == 0 %} visibility-hidden{% endif %}"
@@ -844,6 +912,85 @@
       "type": "description",
       "name": "t:sections.main-product.blocks.description.name",
       "limit": 1
+    },
+    {
+      "name": "Tab",
+      "type": "tab",
+      "settings": [
+          {
+              "type": "text",
+              "id": "title",
+              "label": "Title",
+              "default": "Use Guide"
+          },
+          {
+              "type": "richtext",
+              "id": "text",
+              "label": "Text",
+              "default": "<p>Orgainc Olea Europaea Fruit Oil (Olive Oil) , Local Cera alba (Beeswax), Organic Butyrospermum Parkii Butter (Shea), Organic Punica Granatum Seed Oil (Pomegranate)</p> "
+          }
+      ]
+    },
+    {
+      "name": "Group icons",
+      "type": "icons",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "img1",
+          "label": "First Icon"
+        },
+        {
+          "type": "text",
+          "id": "title1",
+          "label": "First Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "image_picker",
+          "id": "img2",
+          "label": "Second Icon"
+        },
+        {
+          "type": "text",
+          "id": "title2",
+          "label": "Second Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "image_picker",
+          "id": "img3",
+          "label": "Third Icon"
+        },
+        {
+          "type": "text",
+          "id": "title3",
+          "label": "Third Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "image_picker",
+          "id": "img4",
+          "label": "Fourth Icon"
+        },
+        {
+          "type": "text",
+          "id": "title4",
+          "label": "Fourth Heading",
+          "default": "Heading"
+        },
+        {
+          "type": "image_picker",
+          "id": "img5",
+          "label": "Fifth Icon"
+        },
+        {
+          "type": "text",
+          "id": "title5",
+          "label": "Fifth Heading",
+          "default": "Heading"
+        }
+      ]
     },
     {
       "type": "share",
@@ -2164,7 +2311,7 @@
       "type": "range",
       "id": "padding_top",
       "min": 0,
-      "max": 100,
+      "max": 200,
       "step": 4,
       "unit": "px",
       "label": "t:sections.all.padding.padding_top",

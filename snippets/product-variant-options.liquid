@@ -26,6 +26,18 @@
 {%- for value in option.values -%}
   {%- liquid
     assign option_disabled = true
+    assign optionValue = value | downcase
+
+    case optionValue
+      when 'woods'
+        assign optionColor = 'woods' 
+      when 'moon'
+        assign optionColor = 'moon'
+      when 'trio'
+        assign optionColor = 'trio'
+      else 
+      assign optionColor = false
+    endcase
 
     for option1_name in variants_option1_arr
       case option.position
@@ -59,7 +71,7 @@
         class="disabled"
       {% endif %}
     >
-    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
+    <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}" {% if optionColor %}class="{{ optionColor }}"{% endif %}>
       {{ value -}}
       <span class="visually-hidden">{{ 'products.product.variant_sold_out_or_unavailable' | t }}</span>
     </label>

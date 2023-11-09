@@ -1,0 +1,67 @@
+<div class="page-width">
+  <div class="wrap">
+    <h1>{{ section.settings.title }}</h1>
+    <div class="text">{{ section.settings.text }}</div>
+      <div class="policy-tabs">
+        {% for block in section.blocks %}
+          <div class="item">
+              <h3>{{ block.settings.title }} <span class="plus">+</span><span class="minus">-</span></h3>
+               <div class="content">
+                 {{ block.settings.text }}
+               </div>
+          </div>
+        {% endfor %} 
+      </div>
+    </div>
+</div>
+
+
+{% schema %}
+{
+  "name": {
+    "en": "Privacy block"
+  },
+  "class": "privacy-new-section section",
+  "settings": [
+       {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+  ],
+  "blocks": [
+    {
+      "type": "item",
+      "name": "Section items",
+      "settings": [
+         {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text"
+        }
+      ]
+    }
+  ],
+
+  "presets": [
+    {
+      "name": {
+        "en": "Privacy block"
+      },
+      "category": {
+        "en": "Image"
+      }
+    }
+  ]
+}
+{% endschema %}

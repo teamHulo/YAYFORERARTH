@@ -13,23 +13,32 @@
 
 {{ 'component-pagination.css' | asset_url | stylesheet_tag }}
 
+
+
+
 {%- if paginate.parts.size > 0 -%}
   <div class="pagination-wrapper">
     <nav class="pagination" role="navigation" aria-label="{{ 'general.pagination.label' | t }}">
       <ul class="pagination__list list-unstyled" role="list">
-        {%- if paginate.previous -%}
+       
           <li>
             <a
               href="{{ paginate.previous.url }}{{ anchor }}"
               class="pagination__item pagination__item--next pagination__item-arrow link motion-reduce"
               aria-label="{{ 'general.pagination.previous' | t }}"
             >
-              {% render 'icon-caret' %}
+            <span>← Previous</span>
             </a>
           </li>
-        {%- endif -%}
+       
 
-        {%- for part in paginate.parts -%}
+        <li class="pagination-item pagination-current">
+          Page {{  paginate.current_page }} of {{ paginate.pages }} 
+        </li>
+
+        
+       {% comment %} {%- for part in paginate.parts -%}
+
           <li>
             {%- if part.is_link -%}
               <a
@@ -55,19 +64,20 @@
               {%- endif -%}
             {%- endif -%}
           </li>
-        {%- endfor -%}
+        {%- endfor -%} 
+    {% endcomment %} 
 
-        {%- if paginate.next -%}
+       
           <li>
             <a
               href="{{ paginate.next.url }}{{ anchor }}"
               class="pagination__item pagination__item--prev pagination__item-arrow link motion-reduce"
               aria-label="{{ 'general.pagination.next' | t }}"
             >
-              {%- render 'icon-caret' -%}
+              <span>Next →</span>
             </a>
           </li>
-        {%- endif -%}
+       
       </ul>
     </nav>
   </div>

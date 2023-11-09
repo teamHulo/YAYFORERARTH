@@ -1,0 +1,34 @@
+<div class="container">
+  <div class="wrap">
+    <h1>{{ section.settings.title }}</h1>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": {
+    "en": "Blog hero"
+  },
+  "class": "blog-hero-section section",
+  "settings": [
+       {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        }
+  ],
+
+
+  "presets": [
+    {
+      "name": {
+        "en": "Blog hero"
+      },
+      "category": {
+        "en": "Image"
+      }
+    }
+  ]
+}
+{% endschema %}

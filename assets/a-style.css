@@ -1815,6 +1815,10 @@ sticky-header{
     font-size: 25px;
     line-height: 110%;
   }
+  .stores-form-section form{
+    flex-direction: column;
+    gap: 15px;
+  }
 }
 
 

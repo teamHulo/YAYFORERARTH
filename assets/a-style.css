@@ -1665,6 +1665,12 @@ sticky-header{
   .contact-form-main-section .left-side{
     max-width: 100%;
   }
+  .contact-form-main-section .right-side{
+    max-width: 100%;
+    padding: 0;  
+  }
+
+
   
 }
 

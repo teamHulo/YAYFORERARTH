@@ -1323,7 +1323,16 @@ sticky-header{
 .privacy-new-section .content{
   display:none;
 }
-
+.privacy-new-section .content p{
+  color: #5D5E3C;
+  font-family: Cerebri Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 100% */
+  letter-spacing: 0.54px;
+  margin:0px;
+}
 
 
 

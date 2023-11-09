@@ -376,6 +376,16 @@
         "title": "Privacy Policy",
         "text": "<p>At YAYFOREARTH, accessible from www.yayforearth.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by YAYFOREARTH and how we use it.<br\/><br\/>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<br\/><br\/>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and\/or collect in YAYFOREARTH. This policy is not applicable to any information collected offline or via channels other than this website.<\/p>"
       }
+    },
+    "d245aea8-3816-4025-930d-7a1681986e70": {
+      "type": "contact-form",
+      "settings": {
+        "heading": "Say Hello!",
+        "heading_size": "h1",
+        "color_scheme": "",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
@@ -386,6 +396,7 @@
     "e32f860a-b747-448a-bba0-831667bf10ed",
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
     "35520c0f-8581-4a5b-bb00-59bb639ce120",
-    "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a"
+    "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a",
+    "d245aea8-3816-4025-930d-7a1681986e70"
   ]
 }

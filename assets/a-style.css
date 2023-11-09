@@ -1659,10 +1659,12 @@ sticky-header{
     padding: 50px 0 50px;
   }
   .contact-form-main-section .contact{
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 20px;
   }
-
+  .contact-form-main-section .left-side{
+    max-width: 100%;
+  }
   
 }
 

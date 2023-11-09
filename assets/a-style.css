@@ -1426,7 +1426,16 @@ sticky-header{
   max-width: 661px;
   padding-top: 59px;
 }
-
+.contact-form-main-section .right-side h2{
+  color: var(--Dark-Sage, #4F5E3C);
+  font-family: Montas;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130%;
+  letter-spacing: 0.7px;
+  margin-bottom: 38px;
+}
 
 
 

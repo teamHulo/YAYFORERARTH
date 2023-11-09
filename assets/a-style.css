@@ -1867,12 +1867,31 @@ sticky-header{
   border-bottom: 1px solid #5D5E3C;
 }
 
-.custom-faq-section .page-width .item{
-  
+.custom-faq-section .page-width .item h3{
+  margin: 0px;
+  color: #5D5E3C;
+  font-family: Cerebri Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 26px;
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: space-between;
 }
-
-
-
+.custom-faq-section .page-width .item .plus{
+  display:block;
+}
+.custom-faq-section .page-width .item .minus{
+  display:none;
+}
+.custom-faq-section .page-width .item.active .plus{
+  display:none;
+}
+.custom-faq-section .page-width .item.active .minus{
+  display:block;
+}
 
 
 

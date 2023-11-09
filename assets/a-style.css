@@ -1812,6 +1812,8 @@ sticky-header{
 @media(max-width:990px){
   .stores-form-section>div:nth-child(1){
     padding:30px 0;
+    font-size: 25px;
+    line-height: 110%;
   }
 }
 

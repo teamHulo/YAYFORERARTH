@@ -25,7 +25,7 @@
 <div class="isolate{% unless section.settings.full_width %} page-width{% endunless %}">
   <div class="rich-text content-container color-{{ section.settings.color_scheme }} gradient{% if section.settings.full_width %} rich-text--full-width content-container--full-width{% endif %} section-{{ section.id }}-padding">
     <div class="rich-text__wrapper rich-text__wrapper--{{ section.settings.desktop_content_position }}{% if section.settings.full_width %} page-width{% endif %}">
-      <div class="rich-text__blocks section-text {{ section.settings.content_alignment }}">
+      <div class="rich-text__blocks section-text {{ section.settings.content_alignment }}" style="max-width: fit-content;">
         {%- for block in section.blocks -%}
           {%- case block.type -%}
             {%- when 'heading' -%}
@@ -56,7 +56,7 @@
                 {{ block.shopify_attributes }}
                 {% if settings.animations_reveal_on_scroll %}
                   data-cascade
-                  style="--animation-order: {{ forloop.index }};{% if block.settings.max_width != 0 %}max-width: {{ block.settings.max_width }}px;margin: 0 auto;{% endif %}"
+                  style="--animation-order: {{ forloop.index }};{% if block.settings.max_width != 0 %}max-width: {{ block.settings.max_width }}px;margin: 40px auto;{% endif %}"
                 {% endif %}
               >
                 {{ block.settings.text }}

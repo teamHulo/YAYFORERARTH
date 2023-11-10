@@ -2011,7 +2011,9 @@ sticky-header{
   line-height: 110%;
 }
 .nature-main-section .buttons{
-  
+  display: flex;
+  justify-content: center;
+  gap: 60px;
 }
 
 

@@ -2,13 +2,152 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "366b4837-7e42-4c91-86fb-a642970bf7a6": {
+      "type": "section-text",
+      "settings": {
+        "mt": 50,
+        "show_border": false,
+        "text": "FAQ"
+      }
+    },
+    "f038abb8-a2e3-4325-aeca-6db58d6813a9": {
+      "type": "faq-section",
+      "blocks": {
+        "0d290a60-943b-4376-8704-c7f9d5ed34c7": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Are your products suitable for all skin types?",
+            "text": "<p>Yes! Of course there is no product out there that will work for everyone, but our products can help to regulate the skin’s oil production, calm inflammation, and heal the skin. The olive oil in our Sensitive Skin Face Lotion helps to balance PH for oily skin types, and hydrates dry skin. <\/p>"
+          }
+        },
+        "f97449a4-46e7-4e64-859a-cb22722749fb": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Are your products cruelty free\/fair trade?",
+            "text": "<p>YES and YES!<\/p>"
+          }
+        },
+        "b6c8ef81-8989-4497-9cdd-598565918a00": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "What’s the shelf life of your products?",
+            "text": "<p>1.5 - 2 years! Be sure to store all of our products in a cool, dark place to preserve their nutrients.<\/p>"
+          }
+        },
+        "b2749618-4030-472f-a4e0-6d10e5e8c8a4": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Why is my lotion a different color from my last order\/what’s at the bottom of the jar?",
+            "text": "<p>The slight variations in lotion texture, color and possible sediment at the bottom of the jar are thanks to Mother Nature herself! The beeswax color and texture can vary depending on what the bees have been pollinating. Any small bits of sediment at the bottom of the jar is leftover from the filtering process. Because our products are all natural, preservative free, and made in small batches, no single one is exactly the same, and we think that’s extremely special! <\/p>"
+          }
+        },
+        "e071f7c1-9f1e-45df-9f7b-3eaa886b3a38": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Can I use your products if I’m pregnant, breastfeeding, or on my baby?",
+            "text": "<p>Absolutely! All of our ingredients are listed on each product\/on our website - nothing else! Many people have used our Sensitive Skin Face Lotion as a belly cream, nipple cream, diaper cream, you name it. Completely safe for everyone in the family. <\/p>"
+          }
+        },
+        "4477dca0-7597-4904-84ac-c301fee5f2b1": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Is there an adjustment period with your face lotion?",
+            "text": "<p>Some people do go through a slight adjustment period as their skin gets used to an all natural product. We recommend cutting out all other skincare products other than a gentle cleanser, starting with just a little lotion once a day, and giving the skin time to adjust. Most people start to notice positive changes in their skin within the first two weeks.<\/p>"
+          }
+        },
+        "8a6baa67-fd92-4d4c-a6d6-7b33928b2128": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "What should I do with my empty container?",
+            "text": "<p>We highly encourage customers to repurpose their jars once they’re empty! If you choose not to repurpose, our containers are all 100% recyclable. As of now, we don’t have the proper sanitization equipment to legally accept containers back to be sanitized and refilled. As we grow, we plan to make this an option in the future!<\/p>"
+          }
+        },
+        "a8996650-9346-4953-850d-7edd659b161e": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "How do I cancel\/modify my order?",
+            "text": "<p>Our warehouse has a quick turnaround time, so we are unable to offer order modifications or cancellations. <\/p>"
+          }
+        },
+        "a8e6aab7-f418-4f1e-a610-56315b9a19e0": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Are your shipping materials plastic free?",
+            "text": "<p>Yes! We use recycled materials whenever possible and ship with 100% recyclable paper. Our boxes are 100% recyclable with paper tape, which is also completely recyclable. <\/p>"
+          }
+        },
+        "a57692cb-ba8e-49fc-85ba-32ced0cf54ca": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Do you ship to my country?",
+            "text": "<p>With the rare exception, we ship everywhere! If you’d like to buy our product locally, please reach out with any store suggestions for us to reach out to!<\/p>"
+          }
+        },
+        "6255e987-5815-4fbe-9016-d91007fbec9f": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Am I responsible for custom fees?",
+            "text": "<p>Yes. Custom\/duty fees are the customer’s responsibility.<\/p>"
+          }
+        },
+        "2ffc3c0a-f777-43f2-8648-db8af2cf3ae9": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "What’s your return policy?",
+            "text": "<p>We aren’t able to accept returns due to sanitation reasons, but please feel free to email us with any order\/product issues.<\/p>"
+          }
+        },
+        "089ed47d-3f90-4134-b774-a4136b9eb196": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "How long does shipping take\/when will my order ship?",
+            "text": "<p>Your order will ship within 2-3 business days. Shipping times vary depending on your location. If you need your order quickly, please choose the fastest shipping option at checkout. On average, domestic orders take 3-7 business days to be delivered, and international orders can take anywhere from 5 business days to a month to be delivered.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "0d290a60-943b-4376-8704-c7f9d5ed34c7",
+        "f97449a4-46e7-4e64-859a-cb22722749fb",
+        "b6c8ef81-8989-4497-9cdd-598565918a00",
+        "b2749618-4030-472f-a4e0-6d10e5e8c8a4",
+        "e071f7c1-9f1e-45df-9f7b-3eaa886b3a38",
+        "4477dca0-7597-4904-84ac-c301fee5f2b1",
+        "8a6baa67-fd92-4d4c-a6d6-7b33928b2128",
+        "a8996650-9346-4953-850d-7edd659b161e",
+        "a8e6aab7-f418-4f1e-a610-56315b9a19e0",
+        "a57692cb-ba8e-49fc-85ba-32ced0cf54ca",
+        "6255e987-5815-4fbe-9016-d91007fbec9f",
+        "2ffc3c0a-f777-43f2-8648-db8af2cf3ae9",
+        "089ed47d-3f90-4134-b774-a4136b9eb196"
+      ],
+      "settings": {
+        "title-left": "Products",
+        "title-right": "Shipping & Returns"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "366b4837-7e42-4c91-86fb-a642970bf7a6",
+    "f038abb8-a2e3-4325-aeca-6db58d6813a9"
   ]
 }

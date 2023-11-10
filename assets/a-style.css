@@ -2114,7 +2114,10 @@ sticky-header{
   border-color: #4f5e3c;
 }
 
-
+.field:after{
+  box-shadow:none !important;  
+  border-color: #4f5e3c;
+}
 
 
 

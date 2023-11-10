@@ -6,7 +6,7 @@
 
 <style>
   .nature-main-section{
-    background:url({{section.settings.bg}});
+    background:url({{ section.settings.image | img_url: "master" }});
   }
 </style>
 {% schema %}

@@ -159,7 +159,7 @@
             "pt": 0,
             "bg": "#4F5E3C",
             "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e.jpg",
-            "title": "Our Warehouse",
+            "title": "Our <span>Warehouse<\/span>",
             "url": "#",
             "btn_name": "Learn More"
           }

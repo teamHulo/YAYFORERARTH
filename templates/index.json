@@ -524,6 +524,17 @@
         "title-left": "Products",
         "title-right": "Shipping & Returns"
       }
+    },
+    "a350eb7c-7c70-4310-a945-2d488f235a15": {
+      "type": "nature-main",
+      "settings": {
+        "title": "Take a Deep Breath",
+        "image": "shopify:\/\/shop_images\/Rectangle_191.png",
+        "link-left": "shopify:\/\/blogs\/nature",
+        "label-left": "Our Blog",
+        "link-right": "#",
+        "label-right": "Nature Portal"
+      }
     }
   },
   "order": [
@@ -537,6 +548,7 @@
     "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a",
     "d245aea8-3816-4025-930d-7a1681986e70",
     "cab212c1-4f5c-4717-b7ae-3c79e9f68173",
-    "9161f060-86f8-42ef-9136-704f28d84817"
+    "9161f060-86f8-42ef-9136-704f28d84817",
+    "a350eb7c-7c70-4310-a945-2d488f235a15"
   ]
 }

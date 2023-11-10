@@ -2106,7 +2106,7 @@ sticky-header{
   margin-top:0px;
 }
 
-.template-register h1, .template-register label, .template-register input, .template-register a{
+.template-register h1, .template-register label, .template-register input, .template-register a,  .template-register h2,  .template-register li{
   color: #4f5e3c !important;
 }
 .field:hover.field:after{

@@ -1,6 +1,14 @@
 <div class="container">
   <div class="wrap">
     <h1>{{ section.settings.title }}</h1>
+    <div class="buttons">
+      {%  if  section.settings.label-left != blank %}
+        <a class="press-item-btn" href="{{ section.settings.link-left }}">{{ section.settings.label-left }}</a>
+      {% endif %}
+      {%  if  section.settings.label-right != blank %}
+        <a class="press-item-btn" href="{{ section.settings.link-right }}">{{ section.settings.label-right }}</a>
+      {% endif %}
+    </div>
   </div>
 </div>
 
@@ -20,6 +28,31 @@
           "type": "text",
           "id": "title",
           "label": "Title"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "link-left",
+          "label": "Link left"
+        },
+        {
+          "type": "text",
+          "id": "label-left",
+          "label": "Button Label left"
+        },
+        {
+          "type": "url",
+          "id": "link-right",
+          "label": "Link right"
+        },
+        {
+          "type": "text",
+          "id": "label-right",
+          "label": "Button Label right"
         }
   ],
 

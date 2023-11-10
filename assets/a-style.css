@@ -2110,7 +2110,7 @@ sticky-header{
   color: #4f5e3c;
 }
 .field:hover.field:after{
-  box-shadow:none;
+  box-shadow:none !important;  
   border-color: #4f5e3c;
 }
 

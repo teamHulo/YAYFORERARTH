@@ -2152,7 +2152,7 @@ sticky-header{
   margin-top:0px;
 }
 
-.template-addresses h1, .template-addresses label, .template-addresses input, .template-addresses a, .template-addresses h2, .template-addresses li{
+.template-addresses h1, .template-addresses label, .template-addresses input, .template-addresses a, .template-addresses h2, .template-addresses li, .template-addresses select{
   color: #4f5e3c !important;
 }
 

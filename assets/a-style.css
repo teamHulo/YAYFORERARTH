@@ -1970,12 +1970,19 @@ sticky-header{
 .template-search .section-header{
   
 }
-.template-search .main section{
+.template-search main section{
   margin-top:0 !important;
 }
-
-
-
+.template-search main section h1{
+  color: #4f5e3c;
+}
+.template-search main section .field{
+  color: #4f5e3c;
+}
+.template-search main .field:after{
+  box-shadow:none;
+  border:1px solid #4f5e3c;
+}
 
 
 

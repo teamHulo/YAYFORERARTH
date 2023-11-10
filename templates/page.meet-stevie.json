@@ -15,7 +15,7 @@
           "type": "item",
           "settings": {
             "pt": 90,
-            "bg": "#4F5E3C",
+            "bg": "#4f5e3c",
             "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8.jpg",
             "title": "Meet Stevie",
             "url": "",
@@ -49,7 +49,7 @@
     "a115dfa5-37a9-4c66-ad15-0b48fb36ff56": {
       "type": "section-image-with-text",
       "settings": {
-        "pt": 0,
+        "pt": 50,
         "pb": 0,
         "img_aligment": "row",
         "img": "shopify:\/\/shop_images\/fe02688eed56a2964ad93f9b83e075fa.jpg",
@@ -62,7 +62,7 @@
     "73e2a852-45a4-4617-bf54-73a2758f5ff9": {
       "type": "section-image-with-text",
       "settings": {
-        "pt": 0,
+        "pt": 50,
         "pb": 40,
         "img_aligment": "row-reverse",
         "img": "shopify:\/\/shop_images\/ced9b0ff77b27e1a366e0a01058cc82d.jpg",
@@ -158,7 +158,7 @@
           "type": "item",
           "settings": {
             "pt": 0,
-            "bg": "#4F5E3C",
+            "bg": "#4f5e3c",
             "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e.jpg",
             "title": "Our <span>Warehouse<\/span>",
             "url": "#",

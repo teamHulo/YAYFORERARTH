@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 0
@@ -10,8 +11,10 @@
     "form": {
       "type": "contact-form",
       "settings": {
-        "heading": "",
+        "image": "shopify:\/\/shop_images\/Mask_group_1_d128a032-87fc-4a1b-ab40-9907648acb42.png",
+        "heading": "Say Hello!",
         "heading_size": "h1",
+        "text": "<p>We'd love to hear from you! Please choose from the options below so we can connect you with the right team member.<\/p>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 60

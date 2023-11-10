@@ -9,10 +9,10 @@
 </style>
 {% assign stl = '' %}
 {% if section.settings.padding_top != 0 %}
-  {{ stl | append: 'padding-top:' | append: section.settings.padding_top | append: 'px;' }}
+  {% assign stl = stl | append: 'padding-top:' | append: section.settings.padding_top | append: 'px;' %}
 {% endif %}
 {% if section.settings.padding_bottom != 0 %}
-  {{ stl | append: 'padding-bottom:' | append: section.settings.padding_bottom | append: 'px;' }}
+  {% assign stl = stl | append: 'padding-bottom:' | append: section.settings.padding_bottom | append: 'px;' %}
 {% endif %}
 
 <div class="full-image" style="{{ stl }}">

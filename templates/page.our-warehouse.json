@@ -131,7 +131,9 @@
     "095d4c79-3b64-4656-a096-11733cc3afc6": {
       "type": "section-full-image",
       "settings": {
-        "img": "shopify:\/\/shop_images\/fc6cd9d6e3b3f4068e4a7b1e5db65d15.png"
+        "img": "shopify:\/\/shop_images\/fc6cd9d6e3b3f4068e4a7b1e5db65d15.png",
+        "padding_top": 20,
+        "padding_bottom": 80
       }
     },
     "806016a0-e911-49eb-8976-367235ab2f75": {

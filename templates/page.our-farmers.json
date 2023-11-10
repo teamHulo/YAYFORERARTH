@@ -80,6 +80,33 @@
         "vertical_alignment": "flex-start"
       }
     },
+    "41978a3f-39c4-47fd-a96d-ff6fec9110b4": {
+      "type": "section-text2",
+      "blocks": {
+        "2e73d38b-1016-4e4b-ad5a-12117e236283": {
+          "type": "item",
+          "settings": {
+            "title": "Sustainable Beeswax Harvesting",
+            "text": "It begins with a careful check on the hive's well-being, ensuring the bees are healthy and thriving. When it is time to harvest, only the finest beeswax  is used for our products. This beeswax is called “capping wax” and it is the thin layer of beeswax that is placed over the honey by the bees."
+          }
+        },
+        "63274db1-d877-4d82-98c6-7f95909b26c9": {
+          "type": "item",
+          "settings": {
+            "title": "Beth’s Native Eco System",
+            "text": "Beth’s bees pollinate beautiful native flowers and plants in her surrounding area  - which also results in the beautiful range of colors of wax! These pollinators ensures that the local eco system and surrounding vegetation flourish."
+          }
+        }
+      },
+      "block_order": [
+        "2e73d38b-1016-4e4b-ad5a-12117e236283",
+        "63274db1-d877-4d82-98c6-7f95909b26c9"
+      ],
+      "settings": {
+        "mt": 50,
+        "show_border": true
+      }
+    },
     "761d5667-40fd-45da-a8cd-30d58e7e7792": {
       "type": "rich-text",
       "blocks": {
@@ -186,6 +213,7 @@
     "115b9e4e-db33-4af1-b3a1-8b28c57665bc",
     "266236c7-c201-480a-9f81-f585602cd3bf",
     "0b79a277-694e-4b7e-87b6-2c1c714b8120",
+    "41978a3f-39c4-47fd-a96d-ff6fec9110b4",
     "761d5667-40fd-45da-a8cd-30d58e7e7792",
     "4ab42047-5765-4854-8575-7a05aeb23718",
     "d06a4004-c40b-4ba3-8dcc-f1e142f038e2"

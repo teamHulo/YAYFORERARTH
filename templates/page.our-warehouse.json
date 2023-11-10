@@ -59,6 +59,33 @@
         "vertical_alignment": "center"
       }
     },
+    "4a59b459-da9c-4b79-b77b-26593c042112": {
+      "type": "section-text2",
+      "blocks": {
+        "d2877997-8b35-4676-b710-de2a9d23566f": {
+          "type": "item",
+          "settings": {
+            "title": "Production",
+            "text": "We don’t outsource! When we receive our ingredients from our farmers, its next destination is in your hands. In ode to low waste and to keep our babies as fresh as possible, we make all our products in small batches and craft them the same week as they are being ordered and\/or shipped out!"
+          }
+        },
+        "2700a90c-2448-41b6-ac08-d3809aa8e776": {
+          "type": "item",
+          "settings": {
+            "title": "Shipping",
+            "text": "Our entire shipping space is low waste. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper.  "
+          }
+        }
+      },
+      "block_order": [
+        "d2877997-8b35-4676-b710-de2a9d23566f",
+        "2700a90c-2448-41b6-ac08-d3809aa8e776"
+      ],
+      "settings": {
+        "mt": 50,
+        "show_border": true
+      }
+    },
     "ce8da34a-af6f-4e94-b06a-1a367e2c6ceb": {
       "type": "section-image-list",
       "blocks": {
@@ -178,6 +205,7 @@
     "ac6352d1-dc63-4f3d-9ad9-ffecbd8fc19f",
     "e4cade6d-ac09-4c66-b238-93b2e8c1aac0",
     "b539531e-eb99-4222-9e1b-23ea5d8b0f9e",
+    "4a59b459-da9c-4b79-b77b-26593c042112",
     "ce8da34a-af6f-4e94-b06a-1a367e2c6ceb",
     "c6fc3d08-5f80-4478-8a6e-e706e4739c93",
     "095d4c79-3b64-4656-a096-11733cc3afc6",

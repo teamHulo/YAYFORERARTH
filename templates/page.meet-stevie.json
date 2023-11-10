@@ -6,9 +6,40 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1b75ff80-324c-4259-85c3-77dd08e6069d": {
+      "type": "section-banner-page",
+      "blocks": {
+        "917a3a8c-4a0b-4adc-ad28-0bbb30737f44": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#4F5E3C",
+            "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8.jpg",
+            "title": "Meet Stevie",
+            "url": "",
+            "btn_name": "Learn More"
+          }
+        },
+        "0b577a3d-5c68-4423-8fc8-a8e618740525": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/db4e2ce9fcb2f3ab5fc9aa2dc53de8ec.png"
+          }
+        }
+      },
+      "block_order": [
+        "917a3a8c-4a0b-4adc-ad28-0bbb30737f44",
+        "0b577a3d-5c68-4423-8fc8-a8e618740525"
+      ],
+      "settings": {
+        "title": "",
+        "text": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1b75ff80-324c-4259-85c3-77dd08e6069d"
   ]
 }

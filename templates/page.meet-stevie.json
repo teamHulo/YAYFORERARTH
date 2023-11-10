@@ -36,10 +36,154 @@
         "title": "",
         "text": ""
       }
+    },
+    "853284e2-27f3-4592-8543-a68fc33ea61a": {
+      "type": "section-text",
+      "settings": {
+        "mt": 50,
+        "show_border": true,
+        "text": "Getting to know Fungi led me on the path to believing that, I too, had the ability to be a steward of the planet."
+      }
+    },
+    "a115dfa5-37a9-4c66-ad15-0b48fb36ff56": {
+      "type": "section-image-with-text",
+      "settings": {
+        "pt": 0,
+        "pb": 0,
+        "img_aligment": "row",
+        "img": "shopify:\/\/shop_images\/fe02688eed56a2964ad93f9b83e075fa.jpg",
+        "max_height": 850,
+        "title": "On my 25th birthday while working as a barista in NYC, I decided to take on the challenge of being trash free.",
+        "text": "<p>Hello - I’m Stevie! This probably has taken me a while to write but here we go. Once upon a time, on my 25th birthday while working as a barista in NYC, I decided to take on the challenge of being trash free, yeah I was that kinda girl, haha. What sparked this was my friend and hobby mycologist, Nico, always ranting and raving about how amazing mushrooms and fungi were. He let me borrow a book all about mycelium and I was hooked! What specifically blew me away were how these quiet yet powerful underground mycelia and fungi beings do SO much for our existence. A few being that they are recyclers, regenerators, and communicators of the natural world and without them, we probably wouldn’t exist in the way that we do. Anyways, getting to know Fungi led me on the path to believing that, I too, had the ability to be a steward of the planet like a little mushroom is!<br\/> SO this trash free journey meant using up everything in my house that was in plastic, and replacing it with zero waste items. Enter in skin care!  <\/p>",
+        "vertical_alignment": "center"
+      }
+    },
+    "73e2a852-45a4-4617-bf54-73a2758f5ff9": {
+      "type": "section-image-with-text",
+      "settings": {
+        "pt": 0,
+        "pb": 40,
+        "img_aligment": "row-reverse",
+        "img": "shopify:\/\/shop_images\/ced9b0ff77b27e1a366e0a01058cc82d.jpg",
+        "max_height": 850,
+        "title": "I found it so hard to find a trash freeand responsible lotion that was good for my incredibly sensitive face",
+        "text": "<p>Throughout this time, I found it so hard to find a trash free<br\/>and responsible lotion that was good for my incredibly <br\/>sensitive face; something that was nutrient dense, gentle,<br\/> and transparent about their ingredients. In my later teens <br\/>and early twenties, I had acne and rashes all over my face <br\/>that lead to scarring, early loss of elasticity, and dark hyperpigmentation - so finding something that worked <br\/>for me was an obsession.<br\/><br\/> This led me to take matters into my own hands and to create something perfect for me. I started by taking a train to visit <br\/>small organic farmers at various markets and organic co-ops. Then I started doing trial and error crafting in my kitchen. <br\/>After perfecting the recipe, I did a little dance and proclaimed <br\/>“I HAVE DONE IT - I found my ride or die - I shall never use another lotion on my face again!” What was crazy was that <br\/>my face literally started glowing, my hyperpigmentation began fading - realizing that anything I used previously was inferior - and it all had to do with happy ingredients.  After this - I would take dreamy monthly trips to restock for my next personal batch; in complete bliss. <\/p>",
+        "vertical_alignment": "center"
+      }
+    },
+    "171f9722-4b8e-48e4-9745-dd2c9f954459": {
+      "type": "section-full-image",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/23a87d7614e0a678cd4609114e5f3be5.jpg"
+      }
+    },
+    "1f49235d-7537-4c65-947d-91886475838f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16313975308447__1f49235d-7537-4c65-947d-91886475838f-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "Our hopes is to illustrate that a single product can serve as a testament to the interconnected beauty of our skin and the planet.",
+            "heading_size": "h2"
+          }
+        },
+        "template--16313975308447__1f49235d-7537-4c65-947d-91886475838f-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>As proud as we are of the positive impact Yay for Earth has on people's skin, our hopes is to illustrate that a single product can serve as a testament to the interconnected beauty of our skin and the planet we <br\/>call home. To finish off this story - I want to let you, the customer, reader and friend, know that I am so continuously amazed by the outpouring of love from you - you make this space wonderful and truly <br\/>add to this community - and we're truly grateful for the journey we're <br\/>on together. We are nothing without you and you have created this business as much as we have!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16313975308447__1f49235d-7537-4c65-947d-91886475838f-heading-1",
+        "template--16313975308447__1f49235d-7537-4c65-947d-91886475838f-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 76,
+        "padding_bottom": 52
+      }
+    },
+    "ca3b3061-3abd-42f8-900c-cfb61e628e10": {
+      "type": "section-image-list",
+      "blocks": {
+        "0bb52843-762b-463c-8a8e-7f2c540117ab": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/32645dff20e88dd2c66116352506e4cf.jpg"
+          }
+        },
+        "d2f794ea-9788-4e76-b192-75edce42d85b": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/40e8b40b2f283b7769c354379f3a20c9.jpg"
+          }
+        },
+        "07a5c5dc-3dc9-4c35-9b04-a4f1134a552a": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/7121f5a8959229e2f98780dc4017e93e.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "0bb52843-762b-463c-8a8e-7f2c540117ab",
+        "d2f794ea-9788-4e76-b192-75edce42d85b",
+        "07a5c5dc-3dc9-4c35-9b04-a4f1134a552a"
+      ],
+      "settings": {
+        "max_width": 100,
+        "column": 3
+      }
+    },
+    "843736bc-5d5c-4cef-91e2-6374f3e5be0a": {
+      "type": "section-banner-page",
+      "blocks": {
+        "e0d56615-c6f9-43a8-8e4b-0a50c964eb48": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#f0a713",
+            "img": "shopify:\/\/shop_images\/435415fd367cc9cd47048479d412d7a3.jpg",
+            "title": "Our Farmers",
+            "url": "#",
+            "btn_name": "Learn More"
+          }
+        },
+        "ef0f7069-5be5-4968-a3bc-ea3daf8a8a35": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#4F5E3C",
+            "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e.jpg",
+            "title": "Our Warehouse",
+            "url": "#",
+            "btn_name": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "e0d56615-c6f9-43a8-8e4b-0a50c964eb48",
+        "ef0f7069-5be5-4968-a3bc-ea3daf8a8a35"
+      ],
+      "settings": {
+        "title": "",
+        "text": ""
+      }
     }
   },
   "order": [
     "main",
-    "1b75ff80-324c-4259-85c3-77dd08e6069d"
+    "1b75ff80-324c-4259-85c3-77dd08e6069d",
+    "853284e2-27f3-4592-8543-a68fc33ea61a",
+    "a115dfa5-37a9-4c66-ad15-0b48fb36ff56",
+    "73e2a852-45a4-4617-bf54-73a2758f5ff9",
+    "171f9722-4b8e-48e4-9745-dd2c9f954459",
+    "1f49235d-7537-4c65-947d-91886475838f",
+    "ca3b3061-3abd-42f8-900c-cfb61e628e10",
+    "843736bc-5d5c-4cef-91e2-6374f3e5be0a"
   ]
 }

@@ -2006,11 +2006,13 @@ sticky-header{
 
 
 
+.template-blog .header__heading-logo-wrapper img{
+  filter:brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
+}
 
-
-
-
-
+.template-blog .header__icon--account svg path, .template-blog .header__icon--account svg circle, .template-blog .header__icon--cart svg path, .template-blog.icon-hamburger{
+  stroke: #4f5e3c;
+}
 
 
 

@@ -2033,7 +2033,7 @@ sticky-header{
 }
 @media(max-width:990px){
   .nature-main-section {
-    height:calc(100vh - 70px;)
+    height:calc(100vh - 70px)
   }
   .nature-main-section h1{
     margin-bottom: 30px;

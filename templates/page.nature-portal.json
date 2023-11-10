@@ -2,13 +2,26 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "e590d71d-f1dc-423c-9f8f-eab24f1ae652": {
+      "type": "nature-main",
+      "settings": {
+        "title": "Take a Deep Breath",
+        "image": "shopify:\/\/shop_images\/Rectangle_191.png",
+        "link-left": "shopify:\/\/blogs\/nature",
+        "label-left": "Our Blog",
+        "link-right": "#",
+        "label-right": "Nature Portal"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "e590d71d-f1dc-423c-9f8f-eab24f1ae652"
   ]
 }

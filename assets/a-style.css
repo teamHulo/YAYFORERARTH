@@ -2088,8 +2088,8 @@ sticky-header{
   margin-top:0px;
 }
 
-.template-login h1, .template-login label, .template-login input, .template-login a{
-  color: #4f5e3c;
+.template-login h1, .template-login label, .template-login input, .template-login a, .template-login h2, .template-login a li{
+  color: #4f5e3c !important;
 }
 
 

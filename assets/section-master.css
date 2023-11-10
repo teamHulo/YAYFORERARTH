@@ -15,7 +15,7 @@
     object-position: top;
 }
 .master__card {
-    flex-grow: 1;
+    flex: 1;
     max-width: 50%;
 }
 .master__card-content {

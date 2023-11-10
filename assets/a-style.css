@@ -1983,7 +1983,9 @@ sticky-header{
   box-shadow:none;
   border:1px solid #4f5e3c;
 }
-
+.template-search main section p{
+  text-align:center;
+}
 
 
 

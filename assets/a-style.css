@@ -1328,7 +1328,6 @@ sticky-header{
   color: var(--Dark-Sage, #4F5E3C);
   font-family: Calvino Grande Trial;
   font-size: clamp(40px,5.556vw,80px);
-  font-style: italic;
   font-weight: 400;
   line-height: 100%;
   text-align: center;

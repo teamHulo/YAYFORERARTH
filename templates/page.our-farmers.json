@@ -49,7 +49,9 @@
     "115b9e4e-db33-4af1-b3a1-8b28c57665bc": {
       "type": "section-full-image",
       "settings": {
-        "img": "shopify:\/\/shop_images\/88de0784a43ff65709fc96fa21ea9bba.jpg"
+        "img": "shopify:\/\/shop_images\/88de0784a43ff65709fc96fa21ea9bba.jpg",
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "266236c7-c201-480a-9f81-f585602cd3bf": {
@@ -91,7 +93,8 @@
         "template--16313993396383__761d5667-40fd-45da-a8cd-30d58e7e7792-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our entire line is organic, we utilize regenerative where possible, and we will never source anything but the highest quality ingredients we can.  We also cannot wait to introduce you to more of the wonderful farmers we love and that are the backbone of Yay for Earth. As a small and steadily expanding business, we're now in a position to visit our dedicated farmers, and we can't wait to share their stories with you. Stay tuned for updates on this page. Also if you know of any regenerative farmers out there that are badazz at what they do, please thank them, but then also contact us - we would love to expand our list of regenerative farmers!  <br\/>While we acknowledge that we're not flawless, our commitment is to continuously strive for improvement and seek the most sustainable solutions. We invite you to join us in embracing this imperfect beauty of sustainability and transparency - knowing that every step towards a positive change is a step worth taking!<br\/> <\/p>"
+            "text": "<p>Our entire line is organic, we utilize regenerative where possible, and we will never source anything but the highest quality ingredients we can.  We also cannot wait to introduce you to more of the wonderful farmers we love and that are the backbone of Yay for Earth. As a small and steadily expanding business, we're now in a position to visit our dedicated farmers, and we can't wait to share their stories with you. Stay tuned for updates on this page. Also if you know of any regenerative farmers out there that are badazz at what they do, please thank them, but then also contact us - we would love to expand our list of regenerative farmers!  <br\/>While we acknowledge that we're not flawless, our commitment is to continuously strive for improvement and seek the most sustainable solutions. We invite you to join us in embracing this imperfect beauty of sustainability and transparency - knowing that every step towards a positive change is a step worth taking!<br\/> <\/p>",
+            "max_width": 750
           }
         }
       },
@@ -147,7 +150,7 @@
           "type": "item",
           "settings": {
             "pt": 0,
-            "bg": "#4F5E3C",
+            "bg": "#4f5e3c",
             "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8_f0c9429f-dac8-43fe-b40a-6df6ccffcc7b.jpg",
             "title": "Meet <span>Stevie<\/span>",
             "url": "#",

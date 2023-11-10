@@ -2018,7 +2018,7 @@ sticky-header{
 .nature-main-section .buttons a{
   border: 1px solid var(--Cream, #FFF9EB);
   background: var(--Dark-Green, #3B4E15);
-  padding: 20px 78px;
+  padding: 20px 50px;
   color: #FFF9EB;
   text-align: center;
   font-family: Montas;
@@ -2028,6 +2028,8 @@ sticky-header{
   line-height: 100%;
   letter-spacing: 1px;
   text-decoration: none;
+  width:100%;
+  max-width:240px;
 }
 
 

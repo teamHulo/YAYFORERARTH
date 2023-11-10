@@ -2116,7 +2116,7 @@ sticky-header{
 
 .field:after{
   box-shadow:none !important;  
-  border-color: #4f5e3c;
+  border: 1px solid #4f5e3c !important;
 }
 
 

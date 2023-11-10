@@ -6,9 +6,177 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "ac6352d1-dc63-4f3d-9ad9-ffecbd8fc19f": {
+      "type": "section-banner-page",
+      "blocks": {
+        "30f1c517-3627-4819-84ec-00c645e2e1a8": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#84b4ba",
+            "img": "shopify:\/\/shop_images\/c04e01cdeefb3549047a2534103c4e00.png",
+            "title": "Our <span>Warehouse<\/span>",
+            "url": "",
+            "btn_name": "Learn More"
+          }
+        },
+        "1ee25c99-3ba8-42e5-b04e-e1b2ab0e1dab": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e_f30938cc-0bd6-4996-b519-fab33ce7de30.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "30f1c517-3627-4819-84ec-00c645e2e1a8",
+        "1ee25c99-3ba8-42e5-b04e-e1b2ab0e1dab"
+      ],
+      "settings": {
+        "title": "",
+        "text": ""
+      }
+    },
+    "e4cade6d-ac09-4c66-b238-93b2e8c1aac0": {
+      "type": "section-text",
+      "settings": {
+        "mt": 50,
+        "show_border": true,
+        "text": "We believe BIG change starts when brands and corporations hold themselves accountable for their waste and impact"
+      }
+    },
+    "b539531e-eb99-4222-9e1b-23ea5d8b0f9e": {
+      "type": "section-image-with-text",
+      "settings": {
+        "pt": 0,
+        "pb": 0,
+        "img_aligment": "row",
+        "img": "shopify:\/\/shop_images\/8dd5caa5d6396f95ce3d28aa12525728_4a913a15-41e1-4a33-97c2-fa9ee7bc17c3.jpg",
+        "max_height": 850,
+        "title": "Yay for Earth started with Stevie making her magical product out of her Brooklyn NYC apartment kitchen",
+        "text": "<p>Yay for Earth started with Stevie making her magical product out of her Brooklyn NYC apartment kitchen and packing out each order in her living room (with the help of Sophie and friends!). In just a few years, the business has grown to the point where we are now operating an official Yay for Earth space with the most badazz team - including Stevie’s Cousin Dillon!  <br\/> We believe change can start with an individual but BIG change starts when brands and corporations hold themselves accountable for their waste and impact - and we will never compromise on this ideal!<\/p>",
+        "vertical_alignment": "center"
+      }
+    },
+    "ce8da34a-af6f-4e94-b06a-1a367e2c6ceb": {
+      "type": "section-image-list",
+      "blocks": {
+        "b3cd6bed-bd6d-4154-bbdc-a15af4336d03": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/304221f54b9413eb39fa1646d57524fc.png"
+          }
+        },
+        "2a2fe13f-bd94-4128-bdb5-b92974212f57": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/137258d6e954d37287d21f4ca9e6f8aa.png"
+          }
+        },
+        "8dc0eb48-9d14-48df-8108-e28dea06341d": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/c056547b40695a6eada8b1b2dae49fd6.png"
+          }
+        },
+        "6fe2f180-133e-4aa2-bdf5-19c848486906": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/2603847aba47fba5e8721bab88648ecc.png"
+          }
+        }
+      },
+      "block_order": [
+        "b3cd6bed-bd6d-4154-bbdc-a15af4336d03",
+        "2a2fe13f-bd94-4128-bdb5-b92974212f57",
+        "8dc0eb48-9d14-48df-8108-e28dea06341d",
+        "6fe2f180-133e-4aa2-bdf5-19c848486906"
+      ],
+      "settings": {
+        "max_width": 100,
+        "column": 4
+      }
+    },
+    "c6fc3d08-5f80-4478-8a6e-e706e4739c93": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16314009321631__c6fc3d08-5f80-4478-8a6e-e706e4739c93-heading-1": {
+          "type": "heading",
+          "settings": {
+            "heading": "From our very inception, our ethos is to never to compromise, never to tread the shortcut",
+            "heading_size": "h2"
+          }
+        },
+        "template--16314009321631__c6fc3d08-5f80-4478-8a6e-e706e4739c93-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>At the heart of Yay for Earth beats a profound mission—a mission that takes us on a journey to reimagine the delicate dance between humanity and the natural world. In a world where the scales often tip towards taking from our natural resources, our commitment is to change the status quo. Within the realm of Yay For Earth, we breathe life into the concept of a circular economy. Here, we embrace the art of reusing and repurposing, which lightens the burdens imposed upon our natural resources. From our very inception, our ethos is to never compromise, never to tread the shortcut. We understand that achieving perfection is impossible but we are dedicated to our efforts in creating a world where people and nature can coexist!<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--16314009321631__c6fc3d08-5f80-4478-8a6e-e706e4739c93-heading-1",
+        "template--16314009321631__c6fc3d08-5f80-4478-8a6e-e706e4739c93-text-1"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "095d4c79-3b64-4656-a096-11733cc3afc6": {
+      "type": "section-full-image",
+      "settings": {
+        "img": "shopify:\/\/shop_images\/fc6cd9d6e3b3f4068e4a7b1e5db65d15.png"
+      }
+    },
+    "806016a0-e911-49eb-8976-367235ab2f75": {
+      "type": "section-banner-page",
+      "blocks": {
+        "d1a190ba-fe8a-4f84-96f6-cebe10399c3d": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#f0a713",
+            "img": "shopify:\/\/shop_images\/435415fd367cc9cd47048479d412d7a3_f74bb370-21c9-498f-a68e-ec49b4202171.jpg",
+            "title": "Our <span>Farmers<\/span>",
+            "url": "#",
+            "btn_name": "Learn More"
+          }
+        },
+        "1848088e-7e56-45c5-be39-464bb6739c4b": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#c0d1be",
+            "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e_72a67ec5-62cb-4aa8-80fb-bf8506a9c45b.jpg",
+            "title": "Meet the <span>Team<\/span>",
+            "url": "#",
+            "btn_name": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "d1a190ba-fe8a-4f84-96f6-cebe10399c3d",
+        "1848088e-7e56-45c5-be39-464bb6739c4b"
+      ],
+      "settings": {
+        "title": "",
+        "text": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "ac6352d1-dc63-4f3d-9ad9-ffecbd8fc19f",
+    "e4cade6d-ac09-4c66-b238-93b2e8c1aac0",
+    "b539531e-eb99-4222-9e1b-23ea5d8b0f9e",
+    "ce8da34a-af6f-4e94-b06a-1a367e2c6ceb",
+    "c6fc3d08-5f80-4478-8a6e-e706e4739c93",
+    "095d4c79-3b64-4656-a096-11733cc3afc6",
+    "806016a0-e911-49eb-8976-367235ab2f75"
   ]
 }

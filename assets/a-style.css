@@ -1993,7 +1993,12 @@ sticky-header{
 .nature-main-section{
   height: 100vh;
 }
-
+.nature-main-section .container{
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .template-search .header__heading-logo-wrapper img{
   filter:brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);

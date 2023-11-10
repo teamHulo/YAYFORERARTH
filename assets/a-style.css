@@ -1999,6 +1999,22 @@ sticky-header{
   justify-content: center;
   align-items: center;
 }
+.nature-main-section h1{
+  margin: 0px;
+  margin-bottom: 35px;
+  color: var(--Cream, #FFF9EB);
+  text-align: center;
+  font-family: Calvino Grande Trial;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+}
+.nature-main-section .buttons{
+  
+}
+
+
 
 .template-search .header__heading-logo-wrapper img{
   filter:brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);

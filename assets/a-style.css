@@ -2041,6 +2041,9 @@ sticky-header{
     flex-direction: column;
     align-items: center;
   }
+  .nature-main-section .buttons a{
+    padding:15px;
+  }
 }
 
 

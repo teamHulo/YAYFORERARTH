@@ -2107,7 +2107,7 @@ sticky-header{
 }
 
 .template-register h1, .template-register label, .template-register input, .template-register a{
-  color: #4f5e3c;
+  color: #4f5e3c !important;
 }
 .field:hover.field:after{
   box-shadow:none !important;  

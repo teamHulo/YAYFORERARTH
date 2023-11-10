@@ -395,6 +395,7 @@
     },
     "cab212c1-4f5c-4717-b7ae-3c79e9f68173": {
       "type": "stores-form",
+      "disabled": true,
       "settings": {
         "text": "<p>Interested in carrying our products? Do you want to see our products sold in a store near you? Send us an email below and let us know where you’d like Yay for Earth<\/p>"
       }
@@ -522,6 +523,7 @@
         "4020ab51-f212-47be-ad88-98a1660523fa",
         "1e9f1170-7c0f-44be-bd3c-a41c47d4aa5b"
       ],
+      "disabled": true,
       "settings": {
         "title-left": "Products",
         "title-right": "Shipping & Returns"
@@ -529,6 +531,7 @@
     },
     "a350eb7c-7c70-4310-a945-2d488f235a15": {
       "type": "nature-main",
+      "disabled": true,
       "settings": {
         "title": "Take a Deep Breath",
         "image": "shopify:\/\/shop_images\/Rectangle_191.png",

@@ -2087,3 +2087,21 @@ sticky-header{
 .template-login #MainContent .shopify-section:first-child{
   margin-top:0px;
 }
+
+.template-login h1, .template-login label, .template-login input, .template-login a{
+  color: #4f5e3c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

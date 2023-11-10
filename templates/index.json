@@ -374,6 +374,7 @@
         "712fc8ae-4fce-40c2-b664-665aa7ea8b53",
         "bf9a7ec0-0bfd-4d65-8786-25a11a3287b4"
       ],
+      "disabled": true,
       "settings": {
         "title": "Privacy Policy",
         "text": "<p>At YAYFOREARTH, accessible from www.yayforearth.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by YAYFOREARTH and how we use it.<br\/><br\/>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<br\/><br\/>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and\/or collect in YAYFOREARTH. This policy is not applicable to any information collected offline or via channels other than this website.<\/p>"
@@ -381,6 +382,7 @@
     },
     "d245aea8-3816-4025-930d-7a1681986e70": {
       "type": "contact-form",
+      "disabled": true,
       "settings": {
         "image": "shopify:\/\/shop_images\/Mask_group_1_d128a032-87fc-4a1b-ab40-9907648acb42.png",
         "heading": "Say Hello!",

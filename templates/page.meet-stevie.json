@@ -78,7 +78,7 @@
         "template--16313975308447__0f481c81-b8fa-48bc-b7a4-604711880e47-heading-1": {
           "type": "heading",
           "settings": {
-            "heading": "It wasn’t until someone asked me to makeit <>for them that I even considered selling it.",
+            "heading": "It wasn’t until someone asked me to makeit<\/br> for them that I even considered selling it.",
             "heading_size": "h2"
           }
         },
@@ -99,8 +99,8 @@
         "content_alignment": "center",
         "color_scheme": "",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
+        "padding_top": 0,
+        "padding_bottom": 12
       }
     },
     "171f9722-4b8e-48e4-9745-dd2c9f954459": {

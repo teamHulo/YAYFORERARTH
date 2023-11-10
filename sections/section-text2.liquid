@@ -1,0 +1,82 @@
+{% style %} 
+    .section-border {
+      border-top: 1px solid var(--Dark-Sage, #4F5E3C);
+      border-bottom: 1px solid var(--Dark-Sage, #4F5E3C);
+    }
+    .section-text-{{ section.id }} {
+        margin-top:{{ section.settings.mt }}px;
+    }
+    .section-double-text .section-text__wrap {
+        display: flex;
+        gap: 100px;
+        max-width: none;
+    }
+    .section-double-text .text {
+        flex: 1;
+    }
+    .section-double-text .text h2 {
+        text-align: left;
+        margin-bottom: 12px;
+    }
+
+{% endstyle %}
+  
+  <div class="section-text section-double-text section-text-{{ section.id }} {% if section.settings.show_border == true %} section-border {% endif %}">
+      <div class="container">
+          <div class="section-text__wrap">
+            {% for block in section.blocks %}             
+                <div class="text">
+                    <h2>{{ block.settings.title }}</h2>
+                    <div>{{ block.settings.text }}</div>
+                </div>
+            {% endfor %}
+          </div>
+      </div>
+  </div>
+  
+  {% schema %}
+      {
+        "name": "Section text 2",
+        "settings": [
+            {
+                "type": "range",
+                "id": "mt",
+                "min": 0,
+                "max": 50,
+                "step": 1,
+                "unit": "px",
+                "label": "margin-top",
+                "default": 0
+            },
+            {
+                "type": "checkbox",
+                "id": "show_border",
+                "label": "Show border",
+                "default": false
+            }
+        ],
+        "blocks": [
+            {
+                "name": "Item",
+                "type": "item",
+                "settings": [
+                    {
+                        "type": "text",
+                        "id": "title",
+                        "label": "Title"
+                    },
+                    {
+                        "type": "text",
+                        "id": "text",
+                        "label": "text"
+                    }
+                ]
+            }
+        ],
+        "presets": [
+          {
+            "name": "Section text 2"
+          }
+        ]
+      }
+    {% endschema %}

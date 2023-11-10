@@ -2031,7 +2031,12 @@ sticky-header{
   width:100%;
   max-width:240px;
 }
-
+@media(max-width:990px){
+    .nature-main-section h1{
+      margin-bottom: 30px;
+      font-size: 40px;
+    }
+}
 
 
 

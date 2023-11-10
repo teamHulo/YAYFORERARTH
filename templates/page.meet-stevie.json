@@ -2,6 +2,7 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 28
@@ -13,7 +14,7 @@
         "917a3a8c-4a0b-4adc-ad28-0bbb30737f44": {
           "type": "item",
           "settings": {
-            "pt": 0,
+            "pt": 90,
             "bg": "#4F5E3C",
             "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8.jpg",
             "title": "Meet Stevie",

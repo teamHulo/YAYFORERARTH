@@ -1,12 +1,34 @@
+<div class="container">
+  <div class="wrap">
+    <h1>{{ section.settings.title }}</h1>
+  </div>
+</div>
+
+
 {% schema %}
-  {
-    "name": "Section name",
-    "settings": []
-  }
+{
+  "name": {
+    "en": "Nature main"
+  },
+  "class": "nature-main-section section",
+  "settings": [
+       {
+          "type": "text",
+          "id": "title",
+          "label": "Title"
+        }
+  ],
+
+
+  "presets": [
+    {
+      "name": {
+        "en": "Nature main"
+      },
+      "category": {
+        "en": "Image"
+      }
+    }
+  ]
+}
 {% endschema %}
-
-{% stylesheet %}
-{% endstylesheet %}
-
-{% javascript %}
-{% endjavascript %}

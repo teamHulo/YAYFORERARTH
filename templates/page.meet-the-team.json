@@ -6,9 +6,171 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "836c9e65-8393-43f6-80e4-9f92ddf413f1": {
+      "type": "section-banner-page",
+      "blocks": {
+        "9841cb87-6229-4525-b6d4-0af5714a0a13": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#c1d1be",
+            "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e_0fef6347-d434-4035-b999-945b1ad887f7.jpg",
+            "title": "Our <span>Team<\/span>",
+            "url": "",
+            "btn_name": "Learn More"
+          }
+        },
+        "b3144281-b635-4731-9285-22638fda2073": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e_5be17b43-ca05-4d52-a986-af88beea0213.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "9841cb87-6229-4525-b6d4-0af5714a0a13",
+        "b3144281-b635-4731-9285-22638fda2073"
+      ],
+      "settings": {
+        "title": "",
+        "text": ""
+      }
+    },
+    "4f3b19a1-a6d7-4080-9448-9c02f6b44718": {
+      "type": "section-text",
+      "settings": {
+        "mt": 50,
+        "show_border": true,
+        "text": "Loving the Mother (Earth) and keeping your skin hydrated and nourished - meet the magical minds of Yay for Earth"
+      }
+    },
+    "8e97fd83-1156-49f4-9ed8-8c54817873ec": {
+      "type": "section-master",
+      "blocks": {
+        "ac90945d-a417-4522-9052-5c6fb11c88d9": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/580914ecf484c1d05aa6481beea3facb_0a058569-f55c-4c79-a2f4-df88a5c81192.jpg",
+            "job_title": "Founder",
+            "name": "Stevie Van Horn",
+            "text": "<p>Stevie is our Founder and Creator for all things YFE!  She believes with every fiber of her little Mexican being that we can be stewards of our planet and that every single one of us is so special and unique! As someone who is obsessed with Nature and her own daily skincare, it is her mission to prove that it is possible to create a business that takes care of both our bodies and the Earth.<\/p>",
+            "favorite_product_title": "Stevie’s favorite product:",
+            "product_name": "Hydrosol Spritzie & Sensitive Face Lotion",
+            "product": "hydrosol-spritzie",
+            "text_btn": "Learn More about Stevie’s Story",
+            "btn_url": ""
+          }
+        },
+        "fa663954-71c9-4042-8731-e6caddd6626c": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/9ae44e06859391c15719da26d1f4ea79.png",
+            "job_title": "Chief Operating Officer",
+            "name": "Sophie Benfield",
+            "text": "<p>Sophie has been with Yay for Earth since almost the beginning! Her biggest passion in life is the natural world and finding ways to reconnect others with Nature. After briefly working a typical 9-5 at a large company, she found herself miserable and knew it was time for a change. Working with YFE has only deepened her love for the environment, and the belief that every dollar we spend is a vote towards a better today! <\/p>",
+            "favorite_product_title": "Sophie’s favorite product:",
+            "product_name": "Golden Body Oil",
+            "product": "golden-body-oil",
+            "text_btn": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "ac90945d-a417-4522-9052-5c6fb11c88d9",
+        "fa663954-71c9-4042-8731-e6caddd6626c"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "bg": "#c0d1be"
+      }
+    },
+    "d580f4b0-7513-4e3c-a146-c4faf7df88f0": {
+      "type": "section-master",
+      "blocks": {
+        "98776791-7ee3-4828-b074-09db272712d6": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/58fa7a838c7556daf3ec95d8b2907eab.png",
+            "job_title": "Warehouse Manager",
+            "name": "Dillon Mullings",
+            "text": "<p>Dillon is Stevie’s cousin! He loves to be creative and see visual progress which is no surprise as he masters the Yay for Earth space and truly is the backbone of our warehouse. In his free time he loves working on cars, 1:10 scale drifting, and being in nature. When asked about his love of the earth : “What a magnificent situation to find yourself in. Having the opportunity to exist in this sliver of time and knowing all that came before us to even make it possible for us to be alive is amazing. This is why we must push and strive for a better tomorrow.” He believes YFE is a conduit of change for those who find our products and that we can be a true connector between nature and people.<\/p>",
+            "favorite_product_title": "Dillon’s favorite product:",
+            "product_name": "Sensitive Face Lotion",
+            "product": "1oz-sensitive-skin-face-lotion",
+            "text_btn": "",
+            "btn_url": ""
+          }
+        },
+        "83585675-f7d2-458c-b398-f98b2f36761a": {
+          "type": "card",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/635f21a7678cf4ecc9aaeb47e2213f3f.jpg",
+            "job_title": "Master General Fwoofer",
+            "name": "LUCY Van Horn",
+            "text": "<p>Lucy is Stevie’s beloved rescue dog and the best gift Stevie has ever been given. She is corgi\/aussie and full of sass and sweetness. Lucy girl is a fur-ward thinker and her role here at YFE is a big one. Lucy believes that anyone can achieve anything if we follow our bellies and our hearts.  Specialty: Paw-sitive Energy and Morale booster. Superpower: Stops time so everyone can give rubs and treats. Motto: \"When can I get some lotion, and is it time for a fwoof hike yet?” Yay for Earth believes every human needs a rescue floofer to remind us that life can be light, fun and filled with true love!<\/p>",
+            "favorite_product_title": "Lucy’s favorite product:",
+            "product_name": "Sensitive Face Lotion",
+            "product": "1oz-sensitive-skin-face-lotion",
+            "text_btn": "",
+            "btn_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "98776791-7ee3-4828-b074-09db272712d6",
+        "83585675-f7d2-458c-b398-f98b2f36761a"
+      ],
+      "settings": {
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "bg": ""
+      }
+    },
+    "5eb6c4ea-5167-4e35-a97e-d914828e4f7b": {
+      "type": "section-banner-page",
+      "blocks": {
+        "5f1d0935-9e04-4638-b419-c3ce4407895e": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#4F5E3C",
+            "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8_93f3ae3a-5ea3-4de3-aaad-5b8257311566.jpg",
+            "title": "Meet <span>Stevie<\/span>",
+            "url": "#",
+            "btn_name": "Learn More"
+          }
+        },
+        "bd295f9e-2821-4f50-b7dd-8267ce0b0bca": {
+          "type": "item",
+          "settings": {
+            "pt": 0,
+            "bg": "#f0a713",
+            "img": "shopify:\/\/shop_images\/435415fd367cc9cd47048479d412d7a3_71db45fd-ffa8-4c43-91f7-79ab9d7a4c1b.jpg",
+            "title": "Our <span>Farmers<\/span>",
+            "url": "#",
+            "btn_name": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "5f1d0935-9e04-4638-b419-c3ce4407895e",
+        "bd295f9e-2821-4f50-b7dd-8267ce0b0bca"
+      ],
+      "settings": {
+        "title": "",
+        "text": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "836c9e65-8393-43f6-80e4-9f92ddf413f1",
+    "4f3b19a1-a6d7-4080-9448-9c02f6b44718",
+    "8e97fd83-1156-49f4-9ed8-8c54817873ec",
+    "d580f4b0-7513-4e3c-a146-c4faf7df88f0",
+    "5eb6c4ea-5167-4e35-a97e-d914828e4f7b"
   ]
 }

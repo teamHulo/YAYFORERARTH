@@ -6,7 +6,7 @@
     }
 </style>
 {{ 'image-flip.css' | asset_url | stylesheet_tag }}
-<div class="image-flip">
+<div class="image-flip {% if section.settings.flip %}is-flip{% else %}no-flip{% endif %}">
     <div class="image-flip__title">
         <p>{{ section.settings.label | strip_html }}<p>&nbsp;
         <h2>{{ section.settings.title }}</h2>
@@ -77,6 +77,12 @@
             "type": "text",
             "id": "title",
             "label": "Title"
+        },
+        {
+            "type": "checkbox",
+            "id": "flip",
+            "label": "Flip",
+            "default": false
         }
     ],
     "blocks": [

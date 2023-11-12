@@ -2180,3 +2180,15 @@ sticky-header{
 .template-collection  .header__menu-item {
     color: #4f5e3c;
 }
+.template-collection #MainContent .shopify-section:first-child{
+  margin-top:0px !important;
+}
+
+
+
+
+
+
+
+
+

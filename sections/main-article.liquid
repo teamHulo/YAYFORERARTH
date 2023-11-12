@@ -14,16 +14,20 @@
     background:{{ article.metafields.custom.background_color }};
   }
 {% else %}
-  .template-article .section-header{
-    background:#4F5E3C;
-  }
 
-  .article-template__hero-container{
-    background: linear-gradient(180deg, #4F5E3C 65%, #FFF9EB 65%);
+   .template-article  .header__heading-logo-wrapper img{
+    filter:brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
   }
-  .top-side{
-    background:#4F5E3C;
+   .template-article  .header__icon--account svg path,  .template-article  .header__icon--account svg circle,  .template-article .header__icon--cart svg path,  .template-article .icon-hamburger{
+    stroke: #4f5e3c;
   }
+   .template-article .header__menu-item {
+      color: #4f5e3c;
+  }
+.main-blog-article .top-side header h1{
+   color: #4f5e3c;
+}
+  
 {% endif %}
 
   

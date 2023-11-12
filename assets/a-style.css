@@ -2246,7 +2246,9 @@ sticky-header{
   padding: 0 7px 0 14px !important;
 }
 
-
+.template-index .cart-count-bubble span{
+  color:#fff9eb;
+}
 
 
 

@@ -307,6 +307,7 @@ sticky-header{
         max-height: 100%;
         object-fit: contain;
         z-index: 1;
+      height:100%;
     }
     .shadow-img{
         display:block;

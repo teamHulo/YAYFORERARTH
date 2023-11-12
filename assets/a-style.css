@@ -2192,7 +2192,9 @@ sticky-header{
   fill:#4F5E3C !important;
 }
 
-
+.template-search  .article-card{
+  border: none;
+}
 
 
 

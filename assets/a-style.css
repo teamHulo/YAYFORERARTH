@@ -2233,8 +2233,18 @@ sticky-header{
   border-radius: 0;
   top: 35px;
 }
-
-
+.header__submenu li{
+  border-bottom: 1px solid #4F5E3C;
+}
+.header__submenu li a{
+  color: var(--Dark-Sage, #4F5E3C);
+  font-family: Cerebri Sans;
+  font-size: 18px !important;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 31px;
+  padding: 0 7px 0 14px;
+}
 
 
 

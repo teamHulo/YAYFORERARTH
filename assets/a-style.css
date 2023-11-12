@@ -2203,8 +2203,15 @@ sticky-header{
   padding: 0px;
   margin-top: 15px;
 }
-
-
+.template-search .article-card .card__content .card__information .article-card__info span{
+  color: var(--Dark-Green, #3B4E15);
+  font-family: Montas;
+  font-size: 19px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 1.1px;
+}
 
 
 

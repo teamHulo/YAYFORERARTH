@@ -2221,7 +2221,10 @@ sticky-header{
   line-height: normal;
   text-transform: capitalize;
 }
-
+.article-template__content p span{
+  display:flex;
+  justify-content:center;
+}
 
 
 

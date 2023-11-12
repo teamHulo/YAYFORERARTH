@@ -2249,7 +2249,9 @@ sticky-header{
 .template-index .cart-count-bubble span{
       color: #fff9eb !important;
 }
-
+.template-index .shopify-section-header-sticky .cart-count-bubble span{
+      color: #4F5E3C !important;
+}
 
 
 

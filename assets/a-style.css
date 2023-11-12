@@ -2229,8 +2229,8 @@ sticky-header{
 
 
 .header__submenu{
-  padding: 0px;
-  border-radius: 0;
+  padding: 0px !important;
+  border-radius: 0 !important;
   top: 35px;
 }
 .header__submenu li{
@@ -2243,7 +2243,7 @@ sticky-header{
   font-style: normal;
   font-weight: 500;
   line-height: 31px;
-  padding: 0 7px 0 14px;
+  padding: 0 7px 0 14px !important;
 }
 
 

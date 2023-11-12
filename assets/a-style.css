@@ -2212,7 +2212,15 @@ sticky-header{
   line-height: normal;
   letter-spacing: 1.1px;
 }
-
+.template-search .article-card .card__content .card__information .card__heading{
+  color: var(--Dark-Sage, #4F5E3C);
+  font-family: Montas;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: capitalize;
+}
 
 
 

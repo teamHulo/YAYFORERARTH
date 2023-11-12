@@ -2185,7 +2185,7 @@ sticky-header{
   margin-top:0px !important;
 }
 
-.spr-review-reportreview{
+.spr-review-reportreview, .cart-count-bubble span{
   color: #4F5E3C !important;
 }
 .cart-remove-button svg path{

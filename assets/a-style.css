@@ -2188,7 +2188,9 @@ sticky-header{
 .spr-review-reportreview{
   color: #4F5E3C !important;
 }
-
+.cart-remove-button svg path{
+  fill:#4F5E3C !important;
+}
 
 
 

@@ -2197,7 +2197,7 @@ sticky-header{
 }
 .template-search .article-card .card__content{
   padding: 0px;
-  margin: 0px;
+  margin: 0px !important;
 }
 .template-search .article-card .card__content .card__information{
   padding: 0px;

@@ -2167,3 +2167,16 @@ sticky-header{
 .template-product  .header__menu-item {
     color: #4f5e3c;
 }
+
+
+
+
+.template-collection  .header__heading-logo-wrapper img{
+  filter:brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
+}
+.template-collection  .header__icon--account svg path, .template-collection  .header__icon--account svg circle, .template-collection .header__icon--cart svg path, .template-collection .icon-hamburger{
+  stroke: #4f5e3c;
+}
+.template-collection  .header__menu-item {
+    color: #4f5e3c;
+}

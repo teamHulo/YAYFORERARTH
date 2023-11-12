@@ -1,5 +1,8 @@
 {{ 'section-blog-post.css' | asset_url | stylesheet_tag }}
 <style>
+
+
+{% if article.metafields.custom.background_color != blank %}
   .template-article .section-header{
     background:{{ article.metafields.custom.background_color }};
   }
@@ -10,7 +13,20 @@
   .top-side{
     background:{{ article.metafields.custom.background_color }};
   }
+{% else %}
+  .template-article .section-header{
+    background:#4F5E3C;
+  }
 
+  .article-template__hero-container{
+    background: linear-gradient(180deg, #4F5E3C 65%, #FFF9EB 65%);
+  }
+  .top-side{
+    background:#4F5E3C;
+  }
+{% endif %}
+
+  
   
 </style>
 <article class="article-template" itemscope itemtype="http://schema.org/BlogPosting">

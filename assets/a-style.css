@@ -2247,7 +2247,7 @@ sticky-header{
 }
 
 .template-index .cart-count-bubble span{
-  color:#fff9eb;
+      color: #fff9eb !important;
 }
 
 

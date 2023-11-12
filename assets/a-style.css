@@ -2201,7 +2201,7 @@ sticky-header{
 }
 .template-search .article-card .card__content .card__information{
   padding: 0px;
-  margin-top: 15px;
+  margin-top: 15px !important;
 }
 .template-search .article-card .card__content .card__information .article-card__info span{
   color: var(--Dark-Green, #3B4E15);

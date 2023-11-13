@@ -33,8 +33,7 @@
           "type": "item",
           "settings": {
             "product": "hydrosol-spritzie",
-            "img": "shopify:\/\/shop_images\/Hydrosol.png",
-            "shadow": "shopify:\/\/shop_images\/Pngtree_brown_essential_oil_bottle_skin_5749551_10.png",
+            "img": "shopify:\/\/shop_images\/Home_Page_Hydrosol_Spritzie.png",
             "shadow_max_width": 87,
             "max_width_img": 100
           }
@@ -43,16 +42,16 @@
           "type": "item",
           "settings": {
             "product": "golden-body-oil",
-            "img": "shopify:\/\/shop_images\/Golden_Body_Oil.png",
+            "img": "shopify:\/\/shop_images\/Home_Page_Golden_Body_Oil.png",
             "shadow_max_width": 100,
-            "max_width_img": 77
+            "max_width_img": 100
           }
         },
         "6c8c97f2-1e96-4a5e-b041-28b6447bef29": {
           "type": "item",
           "settings": {
             "product": "lip-balm",
-            "img": "shopify:\/\/shop_images\/Lip_Balm_Set_V1_1.png",
+            "img": "shopify:\/\/shop_images\/Home_Page_Lip_Balm.png",
             "shadow_max_width": 100,
             "max_width_img": 100
           }

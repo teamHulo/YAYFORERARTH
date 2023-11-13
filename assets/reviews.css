@@ -6,6 +6,31 @@
 .spr-review {
     width: 46%;
 }
+@media(max-width: 1432px) {
+    .spr-review {
+        width: 45%;
+    }
+}
+@media(max-width: 1160px) {
+    .spr-review {
+        width: 44%;
+    }
+}
+@media(max-width: 980px) {
+    .spr-review {
+        width: 43%;
+    }
+}
+@media(max-width: 849px) {
+    .spr-review {
+        width: 42%;
+    }
+}
+@media(max-width: 752px) {
+    .spr-review {
+        width: 100%;
+    }
+}
 .spr-review:first-child {
     margin-top: 0;
 }

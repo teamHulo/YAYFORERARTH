@@ -145,21 +145,21 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Glamour.png",
-            "max_width": 175
+            "max_width": 150
           }
         },
         "162a3e25-d0b9-44a7-b697-e97a2ea15b67": {
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Cosmopolitan.png",
-            "max_width": 200
+            "max_width": 175
           }
         },
         "79a96f1a-5ea9-4bc2-a0a6-3efe011cd75d": {
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Vanity_Fair.png",
-            "max_width": 200
+            "max_width": 150
           }
         },
         "40ca7e4d-43db-4f7f-bcfb-2f858a21752a": {
@@ -173,14 +173,14 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Vogue.png",
-            "max_width": 150
+            "max_width": 125
           }
         },
         "35ea5661-f034-4b4d-8505-3f9e5994aa8b": {
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/Byrdie.png",
-            "max_width": 200
+            "max_width": 150
           }
         },
         "4fe05bb9-a5fe-4fdb-a886-9f73934dbafd": {

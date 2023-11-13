@@ -2266,3 +2266,10 @@ sticky-header{
 }
 
 
+
+.product__media-wrapper {
+  max-width: 55%;
+}
+.product__info-wrapper {
+   max-width: 45%;
+}

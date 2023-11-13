@@ -2273,7 +2273,7 @@ sticky-header{
 .product__info-wrapper {
    max-width: 45% !important;
 }
-.product__media-wrapper > div{
+.product__media-wrapper media-gallery{
   display: flex !important;
   flex-direction: row-reverse !important;
   gap: 20px !important;

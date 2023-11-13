@@ -2303,7 +2303,7 @@ sticky-header{
   width:100%;
 }
 .product__media-wrapper slider-component:last-child ul img{
-  border-radius:0;
+  border-radius:0 !important;
 }
 
 

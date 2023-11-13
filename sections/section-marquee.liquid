@@ -41,6 +41,24 @@
     </div>
 </div>
 
+
+<style>
+  .new-inner{
+    display: flex;
+    gap: clamp(10px,1vw,43px);
+    justify-content: space-between;
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 clamp(20px,4.097vw,59px);
+  }
+  @media(max-width:1100px){
+    .new-inner{
+      gap: clamp(10px,2vw,43px);
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+</style>
 {% schema %}
     {
       "name": "section marquee",

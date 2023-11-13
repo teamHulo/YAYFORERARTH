@@ -2268,15 +2268,15 @@ sticky-header{
 
 
 .product__media-wrapper {
-  max-width: 55%;
+  max-width: 55% !important;
 }
 .product__info-wrapper {
-   max-width: 45%;
+   max-width: 45% !important;
 }
 .product__media-wrapper > div{
-  display: flex;
-  flex-direction: row-reverse;
-  gap: 20px;
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  gap: 20px !important;
 }
 
 .product__media-wrapper slider-component:first-child{

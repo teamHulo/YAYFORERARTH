@@ -189,34 +189,6 @@
             "img": "shopify:\/\/shop_images\/Good_Housekeeping.png",
             "max_width": 175
           }
-        },
-        "d827d8f2-998d-4ec5-8454-ec466d754490": {
-          "type": "item",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Glamour.png",
-            "max_width": 175
-          }
-        },
-        "b8dba0aa-3e42-4a04-8a56-83c0246ffda5": {
-          "type": "item",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Cosmopolitan.png",
-            "max_width": 200
-          }
-        },
-        "1a681c4e-1ea5-45a8-9cfc-ebca26b5312a": {
-          "type": "item",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/Vanity_Fair.png",
-            "max_width": 200
-          }
-        },
-        "ca0e220d-665e-4227-a01c-ee20e382b740": {
-          "type": "item",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/GQ.png",
-            "max_width": 100
-          }
         }
       },
       "block_order": [
@@ -226,11 +198,7 @@
         "40ca7e4d-43db-4f7f-bcfb-2f858a21752a",
         "dce3603b-ad49-43a5-b989-8308a85310f7",
         "35ea5661-f034-4b4d-8505-3f9e5994aa8b",
-        "4fe05bb9-a5fe-4fdb-a886-9f73934dbafd",
-        "d827d8f2-998d-4ec5-8454-ec466d754490",
-        "b8dba0aa-3e42-4a04-8a56-83c0246ffda5",
-        "1a681c4e-1ea5-45a8-9cfc-ebca26b5312a",
-        "ca0e220d-665e-4227-a01c-ee20e382b740"
+        "4fe05bb9-a5fe-4fdb-a886-9f73934dbafd"
       ],
       "settings": {
         "title": "As Seen In"

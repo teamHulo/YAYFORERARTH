@@ -2253,7 +2253,9 @@ sticky-header{
       color: #4F5E3C !important;
 }
 
-
+.custom-slider .slide-text ul{
+  padding: 0 38px
+}
 
 
 

@@ -2279,11 +2279,17 @@ sticky-header{
   gap: 20px;
 }
 
+.product__media-wrapper slider-component:first-child{
+  width: 100%;
+}
+.product__media-wrapper slider-component:last-child{
+  width: 100%;
+}
 
 
-
-
-
+.product__media-wrapper slider-component:first-child .product__media {
+  padding-top: 110%;
+}
 
 
 

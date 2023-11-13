@@ -2306,7 +2306,14 @@ sticky-header{
   border-radius:0 !important;
 }
 
-
+@media(max-width:749px){
+    .product__media-wrapper {
+      max-width: 100% !important;
+    }
+    .product__info-wrapper {
+       max-width: 100% !important;
+    }
+}
 
 
 

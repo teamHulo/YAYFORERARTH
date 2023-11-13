@@ -2256,6 +2256,10 @@ sticky-header{
 .custom-slider .slide-text ul{
   padding: 0 38px
 }
-
+@media(max-width:990px){
+  .custom-slider .slide-text ul{
+    padding: 0px
+  }
+}
 
 

@@ -19,7 +19,7 @@ class CustomSlider extends HTMLElement {
                   slidesPerView: +this.mobilePerPage+0.5,
                   spaceBetween: 15
                 },
-                767: {
+                990: {
                   slidesPerView: +this.perPage+0.5,
                   spaceBetween: 30
                 }

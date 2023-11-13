@@ -2290,9 +2290,18 @@ sticky-header{
 }
 .product__media-wrapper slider-component:last-child{
   width: 100%;
+  max-width: 82px;
 }
-
-
+.product__media-wrapper slider-component:last-child ul{
+  display: flex;
+  flex-direction: column;
+  padding: 0px;
+  height: 100%;
+  gap: 10px;
+}
+.product__media-wrapper slider-component:last-child ul img{
+  border-radius:0;
+}
 
 
 

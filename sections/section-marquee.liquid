@@ -32,6 +32,11 @@
                 </div>
             </div>
           {% endcomment %} 
+          <div class="new-inner">
+             {%for block in section.blocks%}
+                  <img src="{{block.settings.img | img_url: 'master'}}" alt="" style="max-width:{{block.settings.max_width}}px">
+              {% endfor %}
+          </div>
         </div>
     </div>
 </div>

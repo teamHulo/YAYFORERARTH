@@ -2302,7 +2302,7 @@ sticky-header{
 .product__media-wrapper slider-component:last-child ul li{
   width:100%;
 }
-.product__media-wrapper slider-component:last-child ul img{
+.product__media-wrapper slider-component:last-child ul li button{
   border-radius:0 !important;
 }
 

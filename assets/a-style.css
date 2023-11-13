@@ -2313,6 +2313,10 @@ sticky-header{
     .product__info-wrapper {
        max-width: 100% !important;
     }
+  .product__media-wrapper media-gallery{
+    gap: 0px !important;
+    display: block !important;
+  }
 }
 
 

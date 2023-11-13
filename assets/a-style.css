@@ -2254,11 +2254,11 @@ sticky-header{
 }
 
 .custom-slider .slide-text ul{
-  padding: 0 38px
+  padding: 0 38px !important;
 }
 @media(max-width:990px){
   .custom-slider .slide-text ul{
-    padding: 0px
+    padding: 0px !important;
   }
 }
 

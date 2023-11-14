@@ -2443,7 +2443,15 @@ font-style: normal;
 font-weight: 300;
 line-height: 26px; /* 144.444% */
 }
-
+.spr-review-header-byline, .spr-review-header-byline p{
+  color: #3B4E15;
+    font-family: Cerebri Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.54px;
+}
 
 
 

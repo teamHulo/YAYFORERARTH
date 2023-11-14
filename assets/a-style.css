@@ -2471,8 +2471,11 @@ sticky-header{
   line-height: normal;
 }
 
-
-
+@media(max-width:766px){
+  .product-form__input input[type=radio]+label {
+    width: 100px;
+  }
+}
 
 
 

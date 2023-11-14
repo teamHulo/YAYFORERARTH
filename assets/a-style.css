@@ -2443,7 +2443,7 @@ sticky-header{
   font-weight: 300;
   line-height: 26px; /* 144.444% */
 }
-.spr-review-header-byline, .spr-review-header-byline p{
+.spr-review-header-byline, .spr-review-header-byline p, .spr-review-header-byline, .spr-review-header-byline strong{
   color: #3B4E15;
   font-family: Cerebri Sans;
   font-size: 18px;
@@ -2452,6 +2452,7 @@ sticky-header{
   line-height: 22.5px; /* 125% */
   letter-spacing: 0.36px;
 }
+
 .spr-review-header-title{
   color: #3B4E15;
   font-family: Cerebri Sans;

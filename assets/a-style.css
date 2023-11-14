@@ -2470,7 +2470,9 @@ sticky-header{
   font-weight: 400;
   line-height: normal;
 }
-
+.nature-main-section{
+  margin-top:-115px;
+}
 @media(max-width:766px){
   .product-form__input input[type=radio]+label {
     width: 100px !important;

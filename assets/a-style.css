@@ -2176,6 +2176,19 @@ sticky-header{
 
 
 
+.template-page  .header__heading-logo-wrapper img{
+  filter:brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
+}
+.template-page  .header__icon--account svg path, .template-page  .header__icon--account svg circle, .template-page .header__icon--cart svg path, .template-page .icon-hamburger{
+  stroke: #4f5e3c;
+}
+.template-page  .header__menu-item {
+    color: #4f5e3c;
+}
+
+
+
+
 
 .template-collection  .header__heading-logo-wrapper img{
   filter:brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);

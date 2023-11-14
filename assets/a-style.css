@@ -2019,7 +2019,6 @@ sticky-header{
   gap: 60px;
 }
 .nature-main-section .buttons a{
-  border: 1px solid var(--Cream, #FFF9EB);
   background: var(--Dark-Green, #3B4E15);
   padding: 20px 50px;
   color: #FFF9EB;
@@ -2033,6 +2032,11 @@ sticky-header{
   text-decoration: none;
   width:100%;
   max-width:240px;
+  transition:0.5s;
+}
+.nature-main-section .buttons a:hover{
+  background: #FFF9EB;;
+  color: #3B4E15;
 }
 @media(max-width:990px){
   .nature-main-section {

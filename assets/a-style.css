@@ -2378,6 +2378,9 @@ sticky-header{
   .banner-page .banner-page__list .item-content .item__wrap{
     padding: 130px 0 100px !important; 
   }
+  .section-text h2{
+    font-size:22px;
+  }
 }
 
 

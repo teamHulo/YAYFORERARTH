@@ -16,7 +16,7 @@
           "settings": {
             "pt": 90,
             "bg": "#84b4ba",
-            "img": "shopify:\/\/shop_images\/c04e01cdeefb3549047a2534103c4e00.png",
+            "img": "shopify:\/\/shop_images\/OUR_WAREHOUSE_TITLE_PAGE_RIGHT_SIDE_PHOTO.png",
             "title": "Our Warehouse",
             "url": "",
             "btn_name": "Learn More"
@@ -66,14 +66,14 @@
           "type": "item",
           "settings": {
             "title": "Production",
-            "text": "We don’t outsource! When we receive our ingredients from our farmers, its next destination is in your hands. In ode to low waste and to keep our babies as fresh as possible, we make all our products in small batches and craft them the same week as they are being ordered and\/or shipped out!"
+            "text": "<p>We don’t outsource! When we receive our ingredients from our farmers, its next destination is in your hands. In ode to low waste and to keep our babies as fresh as possible, we make all our products in small batches and craft them the same week as they are being ordered and\/or shipped out!<\/p>"
           }
         },
         "2700a90c-2448-41b6-ac08-d3809aa8e776": {
           "type": "item",
           "settings": {
             "title": "Shipping",
-            "text": "Our entire shipping space is low waste. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper.  "
+            "text": "<p>Our entire shipping space is low waste. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper.  <\/p>"
           }
         }
       },

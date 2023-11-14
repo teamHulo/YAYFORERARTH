@@ -2431,5 +2431,7 @@ sticky-header{
   line-height: 28px !important; /* 155.556% */
   letter-spacing: 0.54px !important;
 }
-
+.product-form__input input[type=radio]+label:hover{
+  color:#fff;
+}
 

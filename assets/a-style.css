@@ -1,4 +1,6 @@
-
+.section-slider .swiper-slide .container{
+      max-width: 2000px;
+}
 /*
     18px
     55px
@@ -2340,7 +2342,9 @@ sticky-header{
   
 }
 
-
+.section-slider .swiper-slide .container{
+      max-width: 2000px;
+}
 
 
 

@@ -2369,6 +2369,9 @@ sticky-header{
   .collection-hero__title{
     display:none;
   }
+  .template-index .list-menu__item {
+     color: #3B4E15!important;
+  }
 }
 
 @media(max-width:750px){

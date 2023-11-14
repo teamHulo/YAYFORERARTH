@@ -2390,6 +2390,19 @@ sticky-header{
   .master-wrapper{
     flex-direction:column;
   }
+  .section-double-text .section-text__wrap{
+    flex-direction: column;
+    gap: 20px;
+  }
+
+
+
+
+
+
+
+
+  
 }
 
 

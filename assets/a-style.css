@@ -2346,7 +2346,9 @@ sticky-header{
       max-width: 2000px;
 }
 
-
+.footer-block .list-menu__item {
+    color: #3B4E15!important;
+}
 
 
 

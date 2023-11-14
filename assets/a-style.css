@@ -2326,6 +2326,9 @@ sticky-header{
 .header__menu-item .icon-caret svg path{
   fill: #3B4E15;
 }
+.bg-img{
+    background: #3B4E15 !important;
+  }
 @media(max-width:990px){
   .list-menu__item {
     color: #3B4E15!important;
@@ -2334,9 +2337,7 @@ sticky-header{
     padding-left: 0;
     padding-right: 0;
   }
-  .bg-img{
-    background: #3B4E15 !important;
-  }
+  
 }
 
 

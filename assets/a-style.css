@@ -2369,6 +2369,9 @@ sticky-header{
   .section-baner{
     height: 50vh;
   }
+  .section-baner__wrap{
+    align-items: flex-start;
+  }
 }
 
 

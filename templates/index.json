@@ -6,7 +6,7 @@
         "img": "shopify:\/\/shop_images\/97909d4bb507f9dabc2c11117eb907d1.jpg",
         "title": "Hello <span>skincare<\/span>, meet <span>nature<\/span>, I think you two will get along",
         "btn_name": "Shop Now",
-        "url": "shopify:\/\/collections"
+        "url": "shopify:\/\/collections\/all"
       }
     },
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
@@ -79,7 +79,7 @@
         "title": "IN CASE YOU CAN’T GET INTO NATURE, THIS IS FOR YOU",
         "color_title": "#fff9eb",
         "btn_name": "Nature Connect",
-        "url": "#",
+        "url": "shopify:\/\/blogs\/nature",
         "color_btn_text": "#fff9eb",
         "color_bg_btn": "#3b4e15",
         "color_border_btn": "#fff9eb"

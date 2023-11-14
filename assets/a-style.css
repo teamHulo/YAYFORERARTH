@@ -2437,22 +2437,30 @@ sticky-header{
 
 .spr-review-content-body{
   color: #3B4E15;
-font-family: Cerebri Sans;
-font-size: 18px;
-font-style: normal;
-font-weight: 300;
-line-height: 26px; /* 144.444% */
+  font-family: Cerebri Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 144.444% */
 }
 .spr-review-header-byline, .spr-review-header-byline p{
   color: #3B4E15;
-    font-family: Cerebri Sans;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 22px;
-    letter-spacing: 0.54px;
+  font-family: Cerebri Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 22.5px; /* 125% */
+  letter-spacing: 0.36px;
 }
-
+.spr-review-header-title{
+  color: #3B4E15;
+  font-family: Cerebri Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 22px;
+  letter-spacing: 0.54px;
+}
 
 
 

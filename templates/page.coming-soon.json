@@ -2,13 +2,26 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "bde5a0d7-bb13-4c41-86a2-fa23b9b9f573": {
+      "type": "nature-main",
+      "settings": {
+        "title": "Coming Soon",
+        "image": "shopify:\/\/shop_images\/Rectangle_191.png",
+        "link-left": "",
+        "label-left": "",
+        "link-right": "",
+        "label-right": ""
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "bde5a0d7-bb13-4c41-86a2-fa23b9b9f573"
   ]
 }

@@ -2320,7 +2320,9 @@ sticky-header{
 }
 
 
-
+.list-menu__item{
+      color: #FFF9EB !important;
+}
 
 
 

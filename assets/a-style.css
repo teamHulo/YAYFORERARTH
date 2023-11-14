@@ -2236,7 +2236,7 @@ sticky-header{
   border-bottom: 1px solid #4F5E3C;
 }
 .header__submenu li a{
-  color: var(--Dark-Sage, #4F5E3C);
+  color: var(--Dark-Sage, #4F5E3C) !important;
   font-family: Cerebri Sans;
   font-size: 18px !important;
   font-style: normal;

@@ -2322,7 +2322,7 @@ sticky-header{
 }
 
 
-.list-menu__item{
+.template-index .list-menu__item{
       color: #FFF9EB !important;
 }
 .header__menu-item .icon-caret svg path{

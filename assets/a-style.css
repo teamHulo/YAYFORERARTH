@@ -2498,7 +2498,9 @@ sticky-header{
 }
 
 
-
+.article-template__content a{
+  color: #3b4e15;
+}
 
 
 

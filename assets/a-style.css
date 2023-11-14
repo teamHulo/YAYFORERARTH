@@ -2381,6 +2381,9 @@ sticky-header{
   .section-text h2{
     font-size:22px;
   }
+  .rich-text__wrapper{
+    width:100%;
+  }
 }
 
 

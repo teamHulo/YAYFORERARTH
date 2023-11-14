@@ -2324,7 +2324,7 @@ sticky-header{
       color: #FFF9EB !important;
 }
 
-@nedia(max-width:990px){
+@media(max-width:990px){
   .list-menu__item {
     color: #3B4E15!important;
   }

@@ -2384,6 +2384,9 @@ sticky-header{
   .rich-text__wrapper{
     width:100%;
   }
+  .rich-text__wrapper .custom-text p{
+    font-size:20px;
+  }
 }
 
 

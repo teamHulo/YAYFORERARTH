@@ -2352,7 +2352,9 @@ sticky-header{
 .shopify-section-header-sticky .list-menu__item , .header__active-menu-item{
     color: #3B4E15!important;
 }
-
+.collection-hero__title{
+  opacity:0;
+}
 
 
 

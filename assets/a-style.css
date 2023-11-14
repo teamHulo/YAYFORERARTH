@@ -2474,6 +2474,7 @@ sticky-header{
 @media(max-width:766px){
   .product-form__input input[type=radio]+label {
     width: 100px;
+    padding:10px;
   }
 }
 

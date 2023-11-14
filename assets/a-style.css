@@ -2423,13 +2423,13 @@ sticky-header{
   letter-spacing: 0.36px;
 }
 .product_tab p{
-  color: #3B4E15;
-  font-family: Cerebri Sans;
-  font-size: 18px;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 28px; /* 155.556% */
-  letter-spacing: 0.54px;
+  color: #3B4E15 !important;
+  font-family: Cerebri Sans !important;
+  font-size: 18px !important;
+  font-style: normal !important;
+  font-weight: 300 !important;
+  line-height: 28px !important; /* 155.556% */
+  letter-spacing: 0.54px !important;
 }
 
 

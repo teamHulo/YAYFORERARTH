@@ -2351,7 +2351,12 @@ sticky-header{
     color: #3B4E15!important;
 }
 
-
+.template-index  .header__active-menu-item{
+  color: #FFF9EB !important;
+}
+.shopify-section-header-sticky .header__active-menu-item{
+  color: #3B4E15 !important;
+}
 
 @media(max-width:990px){
   .list-menu__item {
@@ -2364,9 +2369,6 @@ sticky-header{
   .collection-hero__title{
     display:none;
   }
-}
-.template-index  .header__active-menu-item{
-  color: #FFF9EB !important;
 }
 
 @media(max-width:750px){

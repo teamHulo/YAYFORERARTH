@@ -2448,7 +2448,7 @@ sticky-header{
   font-family: Cerebri Sans;
   font-size: 18px;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 300 !important;
   line-height: 22.5px; /* 125% */
   letter-spacing: 0.36px;
 }

@@ -2462,7 +2462,14 @@ sticky-header{
   line-height: 22px;
   letter-spacing: 0.54px;
 }
-
+.spr-pagination a{
+  color: #3B4E15;
+  font-family: Montas;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
 
 
 

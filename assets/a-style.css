@@ -247,7 +247,7 @@ sticky-header{
 }
 @media (max-width:500px){
     .section-baner .title h1{
-        text-align: center;
+        text-align: left;
     }
     .section-baner .banner-btn{
         display: flex;

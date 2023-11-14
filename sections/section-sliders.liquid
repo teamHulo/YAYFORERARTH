@@ -28,6 +28,11 @@
                           <div class="text" style="color:{{block.settings.color_text}} !important;">
                             {{ block.settings.text }}
                           </div>
+                          <style>
+                              .text p{
+                                color:{{block.settings.color_text}} !important;
+                              }
+                            </style>
                           <div class="slide-btn">
                             <a href="{{block.settings.url}}" class="btn">
                               {{ block.settings.btn_name }}
@@ -63,11 +68,7 @@
             </div>
           </div>
 </div>
-<style>
-  .text p{
-    color:{{block.settings.color_text}} !important;
-  }
-</style>
+
 
 {% schema %}
   {

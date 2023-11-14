@@ -2322,6 +2322,11 @@ sticky-header{
 }
 
 
+
+
+
+
+
 .template-index .list-menu__item{
       color: #FFF9EB !important;
 }
@@ -2359,6 +2364,9 @@ sticky-header{
   .collection-hero__title{
     display:none;
   }
+}
+.template-index  .header__active-menu-item{
+  color: #FFF9EB !important;
 }
 
 @media(max-width:750px){

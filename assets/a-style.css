@@ -2372,6 +2372,9 @@ sticky-header{
   .section-baner__wrap{
     align-items: flex-start;
   }
+  .section-baner__wrap .title{
+    text-align:left;
+  }
 }
 
 

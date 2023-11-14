@@ -2331,15 +2331,8 @@ sticky-header{
 .bg-img{
     background: #3B4E15 !important;
   }
-@media(max-width:990px){
-  .list-menu__item {
-    color: #3B4E15!important;
-  }
-  .section-text{
-    padding-left: 0;
-    padding-right: 0;
-  }
-  
+.collection-hero__title{
+  opacity:0;
 }
 
 .section-slider .swiper-slide .container{
@@ -2352,9 +2345,24 @@ sticky-header{
 .shopify-section-header-sticky .list-menu__item , .header__active-menu-item{
     color: #3B4E15!important;
 }
-.collection-hero__title{
-  opacity:0;
+
+
+
+@media(max-width:990px){
+  .list-menu__item {
+    color: #3B4E15!important;
+  }
+  .section-text{
+    padding-left: 0;
+    padding-right: 0;
+  }
+  .collection-hero__title{
+    display:none;
+  }
 }
+
+
+
 
 
 

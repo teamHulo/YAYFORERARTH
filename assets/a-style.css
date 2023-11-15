@@ -2507,3 +2507,16 @@ sticky-header{
 
 
 
+
+
+
+
+/*--- last fix before live ---*/
+.template-login  .header__menu-item span{
+       color: #4f5e3c!important; 
+}
+
+
+
+
+

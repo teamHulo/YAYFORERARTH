@@ -2622,7 +2622,7 @@ sticky-header{
   text-decoration-line: underline;
 }
 .template-login .customer .field input:focus{
-  padding:inherit !important;
+  padding: 10px 19px !important;
 }
 
 

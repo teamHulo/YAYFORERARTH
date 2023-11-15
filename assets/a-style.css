@@ -2666,10 +2666,10 @@ sticky-header{
    border-bottom:1px solid #4F5E3C;
 }
 
-.template-collection .my-product-card .product-btn{
+.my-product-card .product-btn{
   margin-bottom: 15px;
 }
-.template-collection .product-title h3{
+.my-product-card .product-title h3{
   margin-top:0px;
 }
 

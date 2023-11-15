@@ -2682,6 +2682,14 @@ sticky-header{
 .section-baner .title{
    max-width:630px; 
 }
+
+.section-baner .a-btn{
+  width: 100%;
+    max-width: 239px;
+}
+
+
+
 @media(min-width:766px){
   .template-product .product__info-container{
     margin-top:40px;

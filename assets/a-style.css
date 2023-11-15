@@ -2676,24 +2676,26 @@ sticky-header{
 
 /*---- product ----*/
 @media(min-width:766px){
-  .product__info-container{
+  .template-product .product__info-container{
     margin-top:40px;
   }
-  .product__title{
+  .template-product .product__title{
     margin-bottom: 4px;
   }
-  product-info > div.no-js-hidden{
+  .template-product product-info > div.no-js-hidden{
     margin: 0px;
     margin-top: 10px;
     border-bottom: 1px solid #3B4E15;
   }
-  .product-form__input input[type=radio]+label{
+  .template-product .product-form__input input[type=radio]+label{
     padding: 17px 20px !important;
   }
-  .product-form__buttons{
+  .template-product .product-form__buttons{
     max-width: 382px !important;
   }
+  
 
+  
   
   
 }

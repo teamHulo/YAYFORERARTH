@@ -2624,11 +2624,13 @@ sticky-header{
 .template-login .customer .field input:focus{
   padding: 10px 19px !important;
 }
-.template-login  .customer .field input:focus{
+.template-login .customer .field input:focus{
     box-shadow:none;
   border-radius:0;
 }
-
+.template-login .customer .field input:not(:placeholder-shown){
+  padding: 10px 19px !important;
+}
 
 
 

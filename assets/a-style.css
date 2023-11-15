@@ -2757,8 +2757,19 @@ sticky-header{
 }
 
 
-.subtitle{
-  
+.section-product .subtitle{
+    display: block;
+    width: 100%;
+    text-align: left;
+    color: var(--Cream, #FFF9EB);
+    font-family: Montas;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+    text-decoration: none;
 }
 
 

@@ -75,12 +75,12 @@ if ($(window).width() < 990){
 //hover section slides animation
 
 $(document).ready(function(){
-    $('.block-to-hover').mouseenter(function(){
-        $('.block-to-toggle-class').addClass('active-class');
+    $('.section-slider .swiper-slide .right').mouseenter(function(){
+        $('.section-slider .swiper-button-next').addClass('active-class');
     });
 
-    $('.block-to-hover').mouseleave(function(){
-        $('.block-to-toggle-class').removeClass('active-class');
+    $('.section-slider .swiper-slide .right').mouseleave(function(){
+        $('.section-slider .swiper-button-next').removeClass('active-class');
     });
 });
 

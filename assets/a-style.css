@@ -2691,7 +2691,7 @@ sticky-header{
     padding: 17px 20px !important;
   }
   .product-form__buttons{
-    max-width: 382px;
+    max-width: 382px !important;
   }
 
   

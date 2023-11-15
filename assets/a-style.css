@@ -2728,6 +2728,7 @@ sticky-header{
   font-weight: 400;
   line-height: 40px; /* 160% */
   letter-spacing: 0.5px;
+  text-decoration:none;
 }
 
 

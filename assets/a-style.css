@@ -2701,15 +2701,14 @@ sticky-header{
   .template-product .product-form__buttons{
     max-width: 382px !important;
   }
-  .section-baner .title h1, .section-baner .title h1 span {
-    font-size:30px;
-    line-height:100%;
-  }
-
-  
-  
+   
 }
-
+@media(max-width:766px){
+   .section-baner .title h1, .section-baner .title h1 span {
+      font-size:30px;
+      line-height:100%;
+    }
+}
 
 
 

@@ -2690,7 +2690,9 @@ sticky-header{
   .product-form__input input[type=radio]+label{
     padding: 17px 20px !important;
   }
-
+  .product-form__buttons{
+    max-width: 382px;
+  }
 
   
   

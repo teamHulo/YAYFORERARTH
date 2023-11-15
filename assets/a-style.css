@@ -2515,6 +2515,10 @@ sticky-header{
 .template-login  .header__menu-item span{
    color: #4f5e3c!important; 
 }
+.template-login .shopify-section > div{
+  max-width:100%;
+  padding:0px;
+}
 .template-login #login{
   margin: 0px;
   color: var(--Dark-Sage, #4F5E3C) !important;

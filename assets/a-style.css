@@ -2515,7 +2515,7 @@ sticky-header{
 .template-login  .header__menu-item span{
    color: #4f5e3c!important; 
 }
-.template-login .login{
+.template-login .login,  .template-register .customer.register{
   max-width:100% !important;
   padding:0px !important;
 }

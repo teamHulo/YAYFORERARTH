@@ -2569,18 +2569,7 @@ sticky-header{
   display:none !important;
 }
 
-.recover-pass{
-  margin: 0px !important;
-  color: var(--Dark-Sage, #4F5E3C) ] !important;
-  font-family: Montas !important;
-  font-size: 12px !important;
-  font-style: normal !important;
-  font-weight: 400 !important;
-  line-height: 32px !important;
-  letter-spacing: 0.6px !important;
-  text-decoration-line: underline !important;
-  margin-left: 20px !important;
-}
+
 
 
 

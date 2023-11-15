@@ -2701,7 +2701,7 @@ sticky-header{
   
 }
 
-.section-baner .title h1 {
+.section-baner .title h1, .section-baner .title h1 span {
   font-size:30px;
   line-height:100%;
 }

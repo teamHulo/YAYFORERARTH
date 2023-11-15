@@ -2547,11 +2547,12 @@ sticky-header{
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0.9px;
+  border-radius:0;
 }
 .template-login form .field label{
   display:none;
 }
-.template-login form .field input:placeholder{
+.template-login form .field input::placeholder{
   opacity:1 !important;
   color: var(--Dark-Sage, #4F5E3C);
   font-family: Montas;
@@ -2564,9 +2565,7 @@ sticky-header{
 .template-login form .field:before, .template-login form .field:after{
   display:none !important;
 }
-.template-login form .field {
-   border: 1px solid #4F5E3C;
-}
+
 
 
 

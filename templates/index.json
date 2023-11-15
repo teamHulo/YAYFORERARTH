@@ -214,7 +214,7 @@
             "bg": "#4f5e3c",
             "color_text": "#fff9eb",
             "name": "Meet Stevie",
-            "title": "Get to Know Our Founder",
+            "title": "Get to Know Our <i>Founder<\/i>",
             "text": "<p>Get a glimpse into the life of our founder, Stevie! Discover the story behind Yay for Earth - where passion for skincare and a love for our planet join forces!   <\/p><p>This is a story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected. Oh wait, thats J.R.R. Tolkien.  <\/p>",
             "url": "",
             "btn_name": "Learn More"
@@ -238,7 +238,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/387A0191_1_3.png",
             "bg": "#84b4ba",
-            "color_text": "#3b4e15",
+            "color_text": "#fff9eb",
             "name": "Our World",
             "title": "Get to Know Our <span>Warehouse<\/span>",
             "text": "<p>Welcome to the epicenter of our operations and the heart of Yay for Earth. Our warehouse and sacred creation space is a special one. When we receive our ingredients from our farmers, their next destination is in your hands. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper. Click below to dive in!  <\/p>",

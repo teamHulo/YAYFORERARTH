@@ -2675,9 +2675,12 @@ sticky-header{
 
 
 /*---- product ----*/
-.section-baner .title h1 span{
+.section-baner .title h1, .section-baner .title h1 span{
   font-size:50px;
   line-height:100%;
+}
+.section-baner .title{
+   max-width:650px; 
 }
 @media(min-width:766px){
   .template-product .product__info-container{
@@ -2698,13 +2701,16 @@ sticky-header{
   .template-product .product-form__buttons{
     max-width: 382px !important;
   }
+  .section-baner .title h1, .section-baner .title h1 span {
+    font-size:30px;
+    line-height:100%;
+  }
+
+  
   
 }
 
-.section-baner .title h1, .section-baner .title h1 span {
-  font-size:50px;
-  line-height:100%;
-}
+
 
 
 

@@ -2658,7 +2658,9 @@ sticky-header{
 .shopify-section-header-sticky{
   border-bottom:1px solid #4F5E3C;
 }
-
+.shopify-section-header-hidden{
+  border-bottom:none;
+}
 
 
 

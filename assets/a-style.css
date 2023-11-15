@@ -2720,7 +2720,15 @@ sticky-header{
 
 
 
-
+.section-product .text p a{
+  color: var(--Cream, #FFF9EB) !important;
+  font-family: Montas;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 40px; /* 160% */
+  letter-spacing: 0.5px;
+}
 
 
 

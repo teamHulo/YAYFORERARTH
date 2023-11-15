@@ -2666,7 +2666,9 @@ sticky-header{
    border-bottom:1px solid #4F5E3C;
 }
 
-
+.my-product-card .product-btn{
+  margin-bottom: 15px;
+}
 
 
 

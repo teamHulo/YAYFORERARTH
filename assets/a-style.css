@@ -167,7 +167,7 @@ sticky-header{
 }
 .header__menu-item, .menu-drawer__menu-item, .menu-drawer__account {
     font-family: Cerebri Sans;
-    font-size: 18px !important;
+    font-size: 15px !important;
     font-style: normal;
     font-weight: 500;
     line-height: normal;

@@ -72,21 +72,7 @@ if ($(window).width() < 990){
    $('.custom-faq-section .page-width .item').removeClass('active');
 }
 
-//hover section slides animation
 
-$(document).ready(function(){
-    $('.section-slider .right').mouseenter(function(){
-       $('.section-slider .swiper-button-next').addClass('active-class');
-       $('.section-slider .swiper-button-prev').addClass('active-class');
-      
-      
-    });
-
-    $('.section-slider  .left').mouseleave(function(){
-       $('.section-slider .swiper-button-next').removeClass('active-class');
-       $('.section-slider .swiper-button-prev').removeClass('active-class');
-    });
-});
 
 
 

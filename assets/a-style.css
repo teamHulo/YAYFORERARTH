@@ -2512,6 +2512,7 @@ sticky-header{
 
 
 /*--- last fix before live ---*/
+/*--- login page ---*/
 .template-login  .header__menu-item span, .template-register .header__menu-item span{
    color: #4f5e3c!important; 
 }
@@ -2642,6 +2643,11 @@ sticky-header{
 }
 
 
+
+/*--- nav ---*/
+.shopify-section-group-footer-group{
+  border-top:1px solid #4F5E3C;
+}
 
 
 

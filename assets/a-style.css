@@ -2564,7 +2564,9 @@ sticky-header{
 .template-login form .field:before, .template-login form .field:after{
   display:none !important;
 }
-
+.template-login form .field {
+   border: 1px solid #4F5E3C;
+}
 
 
 

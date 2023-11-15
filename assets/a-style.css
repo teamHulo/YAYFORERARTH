@@ -2512,7 +2512,7 @@ sticky-header{
 
 
 /*--- last fix before live ---*/
-.template-login  .header__menu-item span{
+.template-login  .header__menu-item span, .template-register .header__menu-item span{
    color: #4f5e3c!important; 
 }
 .template-login .login,  .template-register .customer.register{

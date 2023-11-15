@@ -2679,6 +2679,16 @@ sticky-header{
   .product__info-container{
     margin-top:40px;
   }
+  .product__title{
+    margin-bottom: 4px;
+  }
+  product-info > div.no-js-hidden{
+    margin: 0px;
+    margin-top: 10px;
+    border-bottom: 1px solid #3B4E15;
+  }
+
+  
 }
 
 

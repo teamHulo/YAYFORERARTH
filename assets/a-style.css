@@ -2648,7 +2648,10 @@ sticky-header{
 .shopify-section-group-footer-group{
   border-top:1px solid #4F5E3C;
 }
-
+.header__icon svg{
+  width:20px;
+  height:20px;
+}
 
 
 

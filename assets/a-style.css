@@ -2548,7 +2548,7 @@ sticky-header{
   line-height: 32px;
   letter-spacing: 0.9px;
 }
-.template-login form .field:label{
+.template-login form .field label{
   display:none;
 }
 .template-login form .field input:placeholder{
@@ -2561,8 +2561,8 @@ sticky-header{
   line-height: 32px;
   letter-spacing: 0.9px;
 }
-.template-login form .field :before, .template-login form .field:after{
-  display:none;
+.template-login form .field:before, .template-login form .field:after{
+  display:none !important;
 }
 
 

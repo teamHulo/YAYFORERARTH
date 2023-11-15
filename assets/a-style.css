@@ -2730,7 +2730,9 @@ sticky-header{
   letter-spacing: 0.5px;
   text-decoration:none;
 }
-
+.section-product .icon-text p{
+  opacity:0.7;
+}
 
 
 

@@ -2569,11 +2569,58 @@ sticky-header{
   display:none !important;
 }
 
-
-
-
-
-
+.recover-pass{
+  margin: 0px !important;
+  color: var(--Dark-Sage, #4F5E3C) ] !important;
+  font-family: Montas !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 32px !important;
+  letter-spacing: 0.6px !important;
+  text-decoration-line: underline !important;
+  margin-left: 20px !important;
+}
+.template-login .a-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:max-content;
+    background: #3B4E15;
+    padding: 0 48px;
+    height: 62px;
+    color: #FFF9EB;
+  margin-top:20px;
+    text-align: center;
+    font-family: 'Montas';
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 160% */
+    letter-spacing: 1px;
+    transition: all 0.4s ease-in-out;
+    text-decoration: none;
+  width:100%;
+}
+.template-login .a-btn:hover{
+    color: #3B4E15;
+    background: var(--Cream, #FFF9EB);
+    transition: all 0.4s ease-in-out;
+}
+.template-login .a-btn:before, .template-login .a-btn:after{
+  display:none;
+}
+.recover-register{
+  color: var(--Dark-Sage, #4F5E3C) !important;
+  text-align: center;
+  font-family: Montas;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0.6px;
+  text-decoration-line: underline;
+}
 
 
 

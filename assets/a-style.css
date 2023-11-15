@@ -2513,22 +2513,27 @@ sticky-header{
 
 /*--- last fix before live ---*/
 .template-login  .header__menu-item span{
-       color: #4f5e3c!important; 
+   color: #4f5e3c!important; 
 }
 .template-login #login{
-      margin: 0px;
-    color: var(--Dark-Sage, #4F5E3C) !important;
-    padding: 40px 0;
-    font-family: Calvino Grande Trial;
-    font-size: 60px;
-    font-style: italic;
-    font-weight: 300;
-    line-height: 60px;
-    margin-bottom: 84px;
-    border-bottom: 1px solid #4F5E3C;
-    border-top: 1px solid #4F5E3C;
+  margin: 0px;
+  color: var(--Dark-Sage, #4F5E3C) !important;
+  padding: 40px 0;
+  font-family: Calvino Grande Trial;
+  font-size: 60px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 60px;
+  margin-bottom: 84px;
+  border-bottom: 1px solid #4F5E3C;
+  border-top: 1px solid #4F5E3C;
 }
-
+.template-login form{
+  width: 100%;
+  max-width: 490px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
 
 
 

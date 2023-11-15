@@ -805,6 +805,16 @@ sticky-header{
     width:64px;
     height:64px;
 }
+.section-slider .swiper-button-next, .section-slider .swiper-button-prev{
+  display:none;
+}
+.section-slider .swiper-button-next .active-class{
+  display:block;  
+}
+.section-slider .swiper-button-prev .active-class{
+  display:block;  
+}
+
 
 
 .section-slider .swiper-button-next:after, .swiper-button-prev::after{

@@ -399,7 +399,7 @@ sticky-header{
         margin: 0 auto 43px auto;
     }
     .section-products .text p{
-        color: var(--Dark-Sage, #4F5E3C);
+        color: var(--Dark-Sage, #4F5E3C) !important;
         text-align: center;
         font-family: Cerebri Sans;
         font-size: var(--font-size-20);

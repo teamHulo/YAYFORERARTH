@@ -81,15 +81,15 @@
         "ecf4c397-1261-4ffa-ab55-0b118172a8e7": {
           "type": "icons",
           "settings": {
-            "img1": "shopify:\/\/shop_images\/Layer_1.png",
+            "img1": "shopify:\/\/shop_images\/AllOrganic.png",
             "title1": "All Organic",
-            "img2": "shopify:\/\/shop_images\/YFE_Icons-28.png",
+            "img2": "shopify:\/\/shop_images\/Hydrating.png",
             "title2": "Hydrating",
-            "img3": "shopify:\/\/shop_images\/YFE_Icons-27.png",
+            "img3": "shopify:\/\/shop_images\/Gentle.png",
             "title3": "Gentle",
-            "img4": "shopify:\/\/shop_images\/YFE_Icons-26.png",
+            "img4": "shopify:\/\/shop_images\/Long_Lasting.png",
             "title4": "Long Lasting",
-            "img5": "shopify:\/\/shop_images\/YFE_Icons-12_1.png",
+            "img5": "shopify:\/\/shop_images\/PollinatorFriendly.png",
             "title5": "PollinatorFriendly"
           }
         }
@@ -188,7 +188,8 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "label": "4",
-        "title": "Simple Ingredients"
+        "title": "Simple Ingredients",
+        "flip": false
       }
     },
     "a7142674-6154-4b30-825f-e2f21bf4a848": {
@@ -209,42 +210,48 @@
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/eadc9dc83ed1bc7ff78143adac1a6de9.jpg",
-            "title": "Relieving"
+            "title": "Relieving",
+            "text": ""
           }
         },
         "3ba77231-9b00-46a0-a07a-f85177484979": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/2d0a1ad353f51e1b01c2d8e35a286750.png",
-            "title": "Healing"
+            "title": "Healing",
+            "text": ""
           }
         },
         "b73e5c4a-a43a-4936-9450-080017f318e4": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/a4e09694d08bead7cc84c583e9e6cfa4.jpg",
-            "title": "Calming"
+            "title": "Calming",
+            "text": ""
           }
         },
         "807ee9d1-ceeb-46b4-8077-598066eafaf9": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/daed0fe5427e3ea7b7441023eeb93de9.jpg",
-            "title": "Nurturing"
+            "title": "Nurturing",
+            "text": ""
           }
         },
         "aa856c33-9d3b-411d-97d6-f2f65c9783ee": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/a1dd76363f0572758a58af0e858d88a4.jpg",
-            "title": "Repairing"
+            "title": "Repairing",
+            "text": ""
           }
         },
         "44d075e9-28ac-4675-a5a7-84f9edea8f7b": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/af3b7f5aa56d91352382d42bd8310101.png",
-            "title": "Glowing"
+            "title": "Glowing",
+            "text": ""
           }
         }
       },
@@ -306,56 +313,64 @@
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/62d8a001101158afe5a8a0e4c1be5f32.jpg",
-            "title": ""
+            "title": "",
+            "text": ""
           }
         },
         "f776d74b-d9bc-4a0c-8bbd-6121791d6038": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/c18ba66bfe4d978a9e3cb4594e59e884.jpg",
-            "title": ""
+            "title": "",
+            "text": ""
           }
         },
         "dee73ba6-3a76-439b-8988-58d31e3924d3": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/ad71e40b9b9c4e0933c188b3e57808ec.jpg",
-            "title": ""
+            "title": "",
+            "text": ""
           }
         },
         "4fa61e00-0051-48e9-b7bf-c5f6fb4d9d11": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/528ca622794e0d0673e4b0b31f43887b.jpg",
-            "title": ""
+            "title": "",
+            "text": ""
           }
         },
         "b68d054a-5477-4c10-8474-bf55d673588f": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/528ca622794e0d0673e4b0b31f43887b.jpg",
-            "title": ""
+            "title": "",
+            "text": ""
           }
         },
         "6ff92dc7-edf2-4cc4-a410-88647b894cae": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/926591e2f0535a95e7a12373ece8d206.jpg",
-            "title": ""
+            "title": "",
+            "text": ""
           }
         },
         "22ddd2ad-969b-4e9f-81b1-92818205bd10": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/711b2d9a559a0848ce57ad9c0fc97bf6.jpg",
-            "title": ""
+            "title": "",
+            "text": ""
           }
         },
         "a6081ca6-b966-4967-9112-b67b0d31eb33": {
           "type": "slide",
           "settings": {
             "img": "shopify:\/\/shop_images\/7b7c842265fd13ef3b594fb4233bdfcc.png",
-            "title": ""
+            "title": "",
+            "text": ""
           }
         }
       },

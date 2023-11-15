@@ -72,6 +72,18 @@ if ($(window).width() < 990){
    $('.custom-faq-section .page-width .item').removeClass('active');
 }
 
+//hover section slides animation
+
+$(document).ready(function(){
+    $('.block-to-hover').mouseenter(function(){
+        $('.block-to-toggle-class').addClass('active-class');
+    });
+
+    $('.block-to-hover').mouseleave(function(){
+        $('.block-to-toggle-class').removeClass('active-class');
+    });
+});
+
 
 
 

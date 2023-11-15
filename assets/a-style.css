@@ -2680,7 +2680,7 @@ sticky-header{
   line-height:100%;
 }
 .section-baner .title{
-   max-width:650px; 
+   max-width:630px; 
 }
 @media(min-width:766px){
   .template-product .product__info-container{

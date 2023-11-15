@@ -2377,6 +2377,7 @@ sticky-header{
 
 .section-slider .swiper-slide .container{
       max-width: 2000px;
+  width:100%;
 }
 
 .footer-block .list-menu__item {

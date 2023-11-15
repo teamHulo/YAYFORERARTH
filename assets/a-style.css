@@ -157,7 +157,7 @@ p{
     filter: brightness(0) saturate(100%) invert(34%) sepia(13%) saturate(937%) hue-rotate(44deg) brightness(95%) contrast(93%);
 }
 sticky-header{
-    border-bottom: 2px solid var(--Cream, #FFF9EB);
+    border-bottom: 1px solid var(--Cream, #FFF9EB);
 }
 .menu-drawer__account{
     gap:15px;

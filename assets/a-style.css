@@ -2674,5 +2674,29 @@ sticky-header{
 }
 
 
+/*---- product ----*/
+@media(min-width:766px){
+  .product__info-container{
+    margin-top:40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -2750,7 +2750,10 @@ sticky-header{
 }
 
 
-
+.spr-summary-actions a{
+  font-family: Cerebri Sans;
+  color: #3b4e15;
+}
 
 
 

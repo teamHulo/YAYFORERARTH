@@ -2687,7 +2687,12 @@ sticky-header{
     margin-top: 10px;
     border-bottom: 1px solid #3B4E15;
   }
+  .product-form__input input[type=radio]+label{
+    padding: 17px 20px;
+  }
 
+
+  
   
 }
 

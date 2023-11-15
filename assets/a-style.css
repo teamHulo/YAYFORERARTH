@@ -2675,6 +2675,10 @@ sticky-header{
 
 
 /*---- product ----*/
+.section-baner .title h1 span{
+  font-size:50px;
+  line-height:100%;
+}
 @media(min-width:766px){
   .template-product .product__info-container{
     margin-top:40px;
@@ -2689,18 +2693,18 @@ sticky-header{
   }
   .template-product .product-form__input input[type=radio]+label{
     padding: 17px 20px !important;
+    min-width: 82px;
   }
   .template-product .product-form__buttons{
     max-width: 382px !important;
   }
   
-
-  
-  
-  
 }
 
-
+.section-baner .title h1 span{
+  font-size:30px;
+  line-height:100%;
+}
 
 
 

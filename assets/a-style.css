@@ -2533,10 +2533,10 @@ sticky-header{
   border-top: 1px solid #4F5E3C;
 }
 .template-login form{
-  width: 100%;
-  max-width: 490px;
-  margin: 0 auto;
-  padding: 0 20px;
+  width: 100% !important;
+  max-width: 490px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
 }
 .template-login form .field input{
   border: 1px solid #4F5E3C;

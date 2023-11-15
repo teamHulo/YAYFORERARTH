@@ -2570,16 +2570,16 @@ sticky-header{
 }
 
 .recover-pass{
-  margin: 0px;
-  color: var(--Dark-Sage, #4F5E3C) !important;
-  font-family: Montas;
-  font-size: 12px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 32px;
-  letter-spacing: 0.6px;
-  text-decoration-line: underline;
-  margin-left: 20px;
+  margin: 0px !important;
+  color: var(--Dark-Sage, #4F5E3C) ] !important;
+  font-family: Montas !important;
+  font-size: 12px !important;
+  font-style: normal !important;
+  font-weight: 400 !important;
+  line-height: 32px !important;
+  letter-spacing: 0.6px !important;
+  text-decoration-line: underline !important;
+  margin-left: 20px !important;
 }
 
 

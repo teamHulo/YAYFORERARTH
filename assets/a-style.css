@@ -2652,7 +2652,9 @@ sticky-header{
   width:20px;
   height:20px;
 }
-
+.template-index .header__submenu li a{
+      color: var(--Dark-Sage, #4F5E3C)!important;
+}
 
 
 

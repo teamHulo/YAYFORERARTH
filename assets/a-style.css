@@ -2515,6 +2515,45 @@ sticky-header{
 .template-login  .header__menu-item span{
        color: #4f5e3c!important; 
 }
+.template-login #login{
+      margin: 0px;
+    color: var(--Dark-Sage, #4F5E3C) !important;
+    padding: 40px 0;
+    font-family: Calvino Grande Trial;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 60px;
+    margin-bottom: 84px;
+    border-bottom: 1px solid #4F5E3C;
+    border-top: 1px solid #4F5E3C;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

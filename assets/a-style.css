@@ -2634,7 +2634,10 @@ sticky-header{
 
 @media(max-width:600px){
   .template-login #login, .template-login #recover, .template-register h1{
-        margin-bottom: 35px;
+    margin-bottom: 35px;
+    padding: 20px 0;
+    font-size: 30px;
+    line-height:120%;
   }
 }
 

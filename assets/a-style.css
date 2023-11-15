@@ -478,6 +478,7 @@ sticky-header{
     line-height: 27px; /* 135% */
     letter-spacing: 0.4px;
     text-align: left;
+  margin-top:0px;
 }
 .section-product__wrap {
     display:flex;

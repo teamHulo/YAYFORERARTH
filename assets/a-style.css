@@ -2548,6 +2548,8 @@ sticky-header{
   line-height: 32px;
   letter-spacing: 0.9px;
   border-radius:0;
+  padding: 10px 19px;
+  height: auto;
 }
 .template-login form .field label{
   display:none;
@@ -2561,6 +2563,7 @@ sticky-header{
   font-weight: 400;
   line-height: 32px;
   letter-spacing: 0.9px;
+  opacity: 0.7;
 }
 .template-login form .field:before, .template-login form .field:after{
   display:none !important;

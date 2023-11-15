@@ -2632,7 +2632,11 @@ sticky-header{
   padding: 10px 19px !important;
 }
 
-
+@media(max-width:600px){
+  .template-login #login, .template-login #recover, .template-register h1{
+        margin-bottom: 35px;
+  }
+}
 
 
 

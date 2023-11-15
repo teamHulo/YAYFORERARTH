@@ -725,6 +725,7 @@ sticky-header{
 .section-slider .swiper-slide .text{
     margin-bottom: clamp(50px,8.403vw,121px);
     hyphens: auto;
+  max-width:550px;
 }
 
 .section-slider .swiper-slide .text p{

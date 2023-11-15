@@ -2711,6 +2711,11 @@ sticky-header{
   }
    
 }
+
+
+/* .section-slider .swiper-slide .title h2{
+  font-size:clamp(20px,3vw,70px);
+} */
 @media(max-width:766px){
    .section-baner .title h1, .section-baner .title h1 span {
       font-size:30px;

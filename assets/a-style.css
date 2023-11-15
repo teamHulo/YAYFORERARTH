@@ -2621,7 +2621,9 @@ sticky-header{
   letter-spacing: 0.6px;
   text-decoration-line: underline;
 }
-
+.template-login .customer .field input:focus{
+  padding:inherit !important;
+}
 
 
 

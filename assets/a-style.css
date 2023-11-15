@@ -795,7 +795,7 @@ sticky-header{
 } 
 .section-slider .swiper-button-next{
     right:11px;
-    bottom:11px;
+    top:50%;
 }
 .section-slider .swiper-button-prev{
     left:11px;

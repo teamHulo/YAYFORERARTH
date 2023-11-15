@@ -2655,7 +2655,9 @@ sticky-header{
 .template-index .header__submenu li a{
       color: var(--Dark-Sage, #4F5E3C)!important;
 }
-
+.shopify-section-header-stick{
+  border-bottom:1px solid #4F5E3C;
+}
 
 
 

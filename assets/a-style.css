@@ -2773,6 +2773,14 @@ sticky-header{
 }
 
 
+.new-inner{
+img{
+height: 48px;
+  object-fit: contain;
+}
+  
+}
+
 
 
 

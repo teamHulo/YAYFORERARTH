@@ -24,7 +24,7 @@
           "type": "item",
           "settings": {
             "product": "1oz-sensitive-skin-face-lotion",
-            "img": "shopify:\/\/shop_images\/Home_Page_Face_Lotion.png",
+            "img": "shopify:\/\/shop_images\/Sensitive_Skin_Face_Lotion.png",
             "shadow_max_width": 100,
             "max_width_img": 100
           }
@@ -33,7 +33,7 @@
           "type": "item",
           "settings": {
             "product": "hydrosol-spritzie",
-            "img": "shopify:\/\/shop_images\/Home_Page_Hydrosol_Spritzie.png",
+            "img": "shopify:\/\/shop_images\/Hydrosol_1202b843-3db4-478d-9240-0289d660e121.png",
             "shadow_max_width": 87,
             "max_width_img": 100
           }
@@ -42,7 +42,7 @@
           "type": "item",
           "settings": {
             "product": "golden-body-oil",
-            "img": "shopify:\/\/shop_images\/Home_Page_Golden_Body_Oil.png",
+            "img": "shopify:\/\/shop_images\/Golden_Body_Oil_5e88edab-9482-4bd6-9572-800ad18e45e5.png",
             "shadow_max_width": 100,
             "max_width_img": 100
           }
@@ -51,7 +51,7 @@
           "type": "item",
           "settings": {
             "product": "lip-balm",
-            "img": "shopify:\/\/shop_images\/Home_Page_Lip_Balm.png",
+            "img": "shopify:\/\/shop_images\/Lip_Balm.png",
             "shadow_max_width": 100,
             "max_width_img": 100
           }

@@ -25,7 +25,7 @@ class CustomSlider extends HTMLElement {
                 },
                 990: {
                   slidesPerView: +this.perPage+0.5,
-                  spaceBetween: 30
+                  spaceBetween: 20
                 }
             }
         })

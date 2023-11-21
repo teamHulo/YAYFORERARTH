@@ -394,7 +394,7 @@
         "text": "",
         "pagination": false,
         "arrows": true,
-        "per_page": 5,
+        "per_page": 5.5,
         "mobile_per_page": 2,
         "slide_max_height": 250
       }

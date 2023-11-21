@@ -396,7 +396,7 @@
         "arrows": true,
         "per_page": 5,
         "mobile_per_page": 2,
-        "slide_max_height": 0
+        "slide_max_height": 250
       }
     },
     "767126dc-8114-4f15-b417-f144da31137c": {

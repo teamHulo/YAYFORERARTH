@@ -273,6 +273,7 @@
         "padding_bottom": 60,
         "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses,<\/p><p> have deemed it a multipurpose wonder, and must-have in their home: <\/p>",
         "pagination": false,
+        "arrows": true,
         "per_page": 4,
         "mobile_per_page": 2,
         "slide_max_height": 500
@@ -392,6 +393,7 @@
         "padding_bottom": 60,
         "text": "",
         "pagination": false,
+        "arrows": false,
         "per_page": 5,
         "mobile_per_page": 2,
         "slide_max_height": 0

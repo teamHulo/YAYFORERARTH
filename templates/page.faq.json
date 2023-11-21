@@ -11,7 +11,7 @@
     "366b4837-7e42-4c91-86fb-a642970bf7a6": {
       "type": "section-text",
       "custom_css": [
-        "h2 {padding-top: clamp(0px, 6.25vw, 0px); padding-bottom: clamp(0px, 4.444vw, 0px); font-size: clamp(36px, 4.86vw, 70px);}",
+        "h2 {font-size: clamp(36px, 4.86vw, 70px);}",
         ".section-text {}"
       ],
       "settings": {

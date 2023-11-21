@@ -194,7 +194,7 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "label": "4",
-        "title": "Simple Ingredients",
+        "title": "<em>Simple<\/em> Ingredients",
         "flip": false
       }
     },
@@ -205,7 +205,7 @@
         "padding_top": 60,
         "padding_bottom": 30,
         "label": "",
-        "title": "All the Magical Uses!"
+        "title": "All the <em>Magical<\/em> Uses!"
       }
     },
     "acaaef8f-ac3b-4e39-891d-8b35ddce5a96": {
@@ -275,9 +275,9 @@
         "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses,<\/p><p> have deemed it a multipurpose wonder, and must-have in their home: <\/p>",
         "pagination": false,
         "arrows": false,
-        "per_page": 4,
+        "per_page": 5,
         "mobile_per_page": 2,
-        "slide_max_height": 500
+        "slide_max_height": 395
       }
     },
     "78b77677-5e76-4d3f-be5f-7c3637ebc205": {
@@ -307,7 +307,7 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "label": "",
-        "title": "Yay for Earth Glow"
+        "title": "Yay for Earth <em>Glow<\/em>"
       }
     },
     "6721cdcd-efd5-4a76-98ed-4919cf5b819e": {

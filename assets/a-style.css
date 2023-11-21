@@ -2799,7 +2799,7 @@ padding: clamp(48px,7.6vw,110px) 0;
   
 }
 
-.template-login summary .icon-caret path, .contact-page summary .icon-caret path{
+.template-login summary .icon-caret path, .contact-page summary .icon-caret path, .template-register summary .icon-caret path {
     fill: #4f5e3c;
   
 }

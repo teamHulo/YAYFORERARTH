@@ -43,6 +43,10 @@
         {% if section.settings.pagination %}
             <div class="swiper-pagination"></div>
         {% endif %}
+        {% if section.settings.arrows %}
+            <div class="arrows"></div>
+        {% endif %}
+      
     </custom-slider>
 </div>
 
@@ -85,6 +89,12 @@
             "type": "checkbox",
             "id": "pagination",
             "label": "Pagination",
+            "default": false
+        },
+              {
+            "type": "checkbox",
+            "id": "arrows",
+            "label": "Enable Arrows",
             "default": false
         },
         {

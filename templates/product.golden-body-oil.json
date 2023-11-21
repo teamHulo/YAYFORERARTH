@@ -151,33 +151,33 @@
         "35ab2389-2f62-4c68-b791-f106ae0be7c1": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3f756ebb091013b67b39cb8e119e921c.png",
-            "title": "Olive Oil",
-            "text": "Squalene to fight free radical damage. Balances sebaceous glands for both oily and dry skin."
+            "img": "shopify:\/\/shop_images\/Screen_Shot_2023-10-23_at_12.47_1.jpg",
+            "title": "Sunflower",
+            "text": "Non-comedogenic. Vitamin E to protect against free radical damage. Linoleic acid maintains skin’s barrier and locks in moisture."
           }
         },
         "2c99028b-2da0-4466-b8e9-f5f2512cccab": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/23d9b0c7c1c872772acf5396a28d9f3d.png",
-            "title": "bees Wax",
-            "text": "Anti-inflammatory, anti-bacterial, encourages cell reconstruction. Protective barrier between skin and the environment without clogging pores."
+            "img": "shopify:\/\/shop_images\/Screen_Shot_2023-10-24_at_11.39_1.jpg",
+            "title": "Rosehip",
+            "text": "Hydrating, brightening, and been shown to help with collagen production."
           }
         },
         "3b3f9698-0661-4473-861c-5b1c04a27ac9": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/6b93136718814a7c3f599f3bdf99707c.png",
-            "title": "Shea Butter",
-            "text": "High amount of fatty acids and vitamins to soften, tone and heal skin. Triple filtered to remove naturally occurring latex."
+            "img": "shopify:\/\/shop_images\/Screen_Shot_2023-10-23_at_12.55_1.jpg",
+            "title": "Sweet Almond",
+            "text": "Mollient properties shown to improve complexion and tone. Hydrating & soothing."
           }
         },
         "e1efc7f2-8b29-4049-a277-cd952fd055e2": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3c6fe3500a35b7640f45f0426a9d1aab.png",
-            "title": "Pomegranate Seed Oil",
-            "text": "Punicic acid to increases collagen production. Oleic Acids, a wrinkle fighter. Linoleic Acid,  skin soother to calm acne prone skin and reduce breakouts!"
+            "img": "shopify:\/\/shop_images\/Screen_Shot_2023-10-23_at_12.59_1.jpg",
+            "title": "Macadamia Nut",
+            "text": "Filled with essential fatty acids - highly moisturizing - prevents formation of premature wrinkles"
           }
         }
       },
@@ -275,6 +275,7 @@
         "padding_bottom": 60,
         "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses,<\/p><p> have deemed it a multipurpose wonder, and must-have in their home: <\/p>",
         "pagination": false,
+        "arrows": false,
         "per_page": 4,
         "mobile_per_page": 2,
         "slide_max_height": 500
@@ -396,6 +397,7 @@
         "padding_bottom": 60,
         "text": "",
         "pagination": false,
+        "arrows": false,
         "per_page": 5,
         "mobile_per_page": 2,
         "slide_max_height": 0

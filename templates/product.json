@@ -393,7 +393,7 @@
         "padding_bottom": 60,
         "text": "",
         "pagination": false,
-        "arrows": false,
+        "arrows": true,
         "per_page": 5,
         "mobile_per_page": 2,
         "slide_max_height": 0

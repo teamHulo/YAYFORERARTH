@@ -10,6 +10,9 @@
     },
     "366b4837-7e42-4c91-86fb-a642970bf7a6": {
       "type": "section-text",
+      "custom_css": [
+        "h2{padding-top: clamp(48px, 6.25vw,90px);padding-bottom: clamp(24px, 4.444vw, 64px); font-size: clamp(36px, 4.86vw ,70px); }"
+      ],
       "settings": {
         "mt": 50,
         "show_border": false,

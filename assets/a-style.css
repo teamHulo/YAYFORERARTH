@@ -2804,8 +2804,10 @@ padding: clamp(48px,7.6vw,110px) 0;
   
 }
 
-.template-product .arrows .swiper-button-next, .template-product .arrows .swiper-button-prev{
-    top: calc(50% + 16px);
+.template-product  .arrows .swiper-button-next, .template-product .arrows .swiper-button-prev{
+  @media screen and (min-width: 768px){
+    top: calc(50% + 16px) !important;
+  }
   
 }
 

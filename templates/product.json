@@ -193,7 +193,7 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "label": "4",
-        "title": "<em>Simple<\/em> Ingredients",
+        "title": "Simple Ingredients",
         "flip": false
       }
     },
@@ -306,7 +306,7 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "label": "",
-        "title": "Yay for Earth Glow"
+        "title": "Yay for Earth <em>Glow<\/em>"
       }
     },
     "6721cdcd-efd5-4a76-98ed-4919cf5b819e": {

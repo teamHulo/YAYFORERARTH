@@ -152,7 +152,7 @@
         "35ab2389-2f62-4c68-b791-f106ae0be7c1": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3f756ebb091013b67b39cb8e119e921c.png",
+            "img": "shopify:\/\/shop_images\/OLIVE_OIL_INGREDIENT.jpg",
             "title": "Olive Oil",
             "text": "Squalene to fight free radical damage. Balances sebaceous glands for both oily and dry skin."
           }
@@ -160,15 +160,15 @@
         "2c99028b-2da0-4466-b8e9-f5f2512cccab": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/23d9b0c7c1c872772acf5396a28d9f3d.png",
-            "title": "bees Wax",
+            "img": "shopify:\/\/shop_images\/BEESWAX_INGREDIENT.jpg",
+            "title": "Bees Wax",
             "text": "Anti-inflammatory, anti-bacterial, encourages cell reconstruction. Protective barrier between skin and the environment without clogging pores."
           }
         },
         "3b3f9698-0661-4473-861c-5b1c04a27ac9": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/6b93136718814a7c3f599f3bdf99707c.png",
+            "img": "shopify:\/\/shop_images\/SHEA_BUTTER_INGREDIENT.jpg",
             "title": "Shea Butter",
             "text": "High amount of fatty acids and vitamins to soften, tone and heal skin. Triple filtered to remove naturally occurring latex."
           }
@@ -176,7 +176,7 @@
         "e1efc7f2-8b29-4049-a277-cd952fd055e2": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/3c6fe3500a35b7640f45f0426a9d1aab.png",
+            "img": "shopify:\/\/shop_images\/POM_OIL_INGREDIENT.jpg",
             "title": "Pomegranate Seed Oil",
             "text": "Punicic acid to increases collagen production. Oleic Acids, a wrinkle fighter. Linoleic Acid,  skin soother to calm acne prone skin and reduce breakouts!"
           }
@@ -274,6 +274,7 @@
         "padding_bottom": 60,
         "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses,<\/p><p> have deemed it a multipurpose wonder, and must-have in their home: <\/p>",
         "pagination": false,
+        "arrows": false,
         "per_page": 4,
         "mobile_per_page": 2,
         "slide_max_height": 500
@@ -393,6 +394,7 @@
         "padding_bottom": 60,
         "text": "",
         "pagination": false,
+        "arrows": false,
         "per_page": 5,
         "mobile_per_page": 2,
         "slide_max_height": 0

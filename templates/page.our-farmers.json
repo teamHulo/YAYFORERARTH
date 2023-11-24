@@ -17,7 +17,7 @@
             "pt": 90,
             "bg": "#f0a713",
             "img": "shopify:\/\/shop_images\/1f87615de44ab707b018e3756cc62172.jpg",
-            "title": "Our <em>Farmers<\/em>",
+            "title": "Our Farmers",
             "url": "",
             "btn_name": "Learn More"
           }
@@ -62,7 +62,7 @@
         "pb": 0,
         "img_aligment": "row",
         "img": "shopify:\/\/shop_images\/heart.jpg",
-        "max_height": 850,
+        "max_height": 700,
         "title": "The Heart of Our Ingredients",
         "text": "<p>In the realm of skincare culture, it's astonishing how little reverence we show for the ingredients in our everyday products. There are lengthy lists of ingredients, each screaming in anonymity. This disconnect isn't limited to just skincare; it permeates our grocery aisles as well. How often do we pause to ask, 'Was this grown in healthy soil? What was the farmer's mood that day? Did we disrupt an entire ecosystem just to mass-produce a single crop for use as a mere filler in a cosmetic product? If the products we create fail to contribute to the betterment of our planet and the livelihoods of our farmers, then we must ask ourselves: Why are we using them at all?<br\/><br\/>Every component we incorporate into our products isn't just essential; it's sacred. We believe that the alchemy of our magical products is, in part, attributed to the environments from which these ingredients are born! YES WE ARE THIS CHEESY & EMOTIONAL about our ingredients and farmers all the time.<br\/><br\/><\/p>",
         "vertical_alignment": "center"
@@ -75,7 +75,7 @@
         "pb": 0,
         "img_aligment": "row-reverse",
         "img": "shopify:\/\/shop_images\/beth.jpg",
-        "max_height": 850,
+        "max_height": 700,
         "title": "Allow us to introduce you to Beth, our treasured beekeeper!",
         "text": "<p>Beth and her hives reside a brief 30-minute drive from the home of our founder, Stevie! She hand delivers her beeswax whenever we need re-up. To us, Beth is more than a beekeeper; she's a true steward for her hives. When we came to visit, we realized how much care she puts, delicately tending to them; making sure no bee is harmed. She’s the living embodiment of our commitment to earth - a testament to the symbiotic relationship between nature and human.<br\/><br\/><\/p>",
         "vertical_alignment": "flex-start"

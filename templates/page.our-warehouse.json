@@ -16,7 +16,7 @@
           "settings": {
             "pt": 90,
             "bg": "#84b4ba",
-            "img": "shopify:\/\/shop_images\/OUR_WAREHOUSE_TITLE_PAGE_RIGHT_SIDE_PHOTO.png",
+            "img": "shopify:\/\/shop_images\/Tezza-6451_2.jpg",
             "title": "Our Warehouse",
             "url": "",
             "btn_name": "Learn More"
@@ -35,7 +35,8 @@
       ],
       "settings": {
         "title": "",
-        "text": ""
+        "text": "",
+        "topBanner": false
       }
     },
     "e4cade6d-ac09-4c66-b238-93b2e8c1aac0": {
@@ -196,7 +197,8 @@
       ],
       "settings": {
         "title": "",
-        "text": ""
+        "text": "",
+        "topBanner": false
       }
     }
   },

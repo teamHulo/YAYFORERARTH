@@ -17,7 +17,7 @@
             "pt": 90,
             "bg": "#f0a713",
             "img": "shopify:\/\/shop_images\/1f87615de44ab707b018e3756cc62172.jpg",
-            "title": "Our Farmers",
+            "title": "Our <em>Farmers<\/em>",
             "url": "",
             "btn_name": "Learn More"
           }
@@ -35,7 +35,8 @@
       ],
       "settings": {
         "title": "",
-        "text": ""
+        "text": "",
+        "topBanner": false
       }
     },
     "15b68b60-cf2d-4f84-833b-c2d037c18b02": {
@@ -202,7 +203,8 @@
       ],
       "settings": {
         "title": "",
-        "text": ""
+        "text": "",
+        "topBanner": false
       }
     }
   },

@@ -35,7 +35,8 @@
       ],
       "settings": {
         "title": "",
-        "text": ""
+        "text": "",
+        "topBanner": true
       }
     },
     "4f3b19a1-a6d7-4080-9448-9c02f6b44718": {
@@ -137,7 +138,7 @@
           "type": "item",
           "settings": {
             "pt": 0,
-            "bg": "#4F5E3C",
+            "bg": "#4f5e3c",
             "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8_93f3ae3a-5ea3-4de3-aaad-5b8257311566.jpg",
             "title": "Meet <span>Stevie<\/span>",
             "url": "#",
@@ -162,7 +163,8 @@
       ],
       "settings": {
         "title": "",
-        "text": ""
+        "text": "",
+        "topBanner": false
       }
     }
   },

@@ -49,6 +49,9 @@
     },
     "115b9e4e-db33-4af1-b3a1-8b28c57665bc": {
       "type": "section-full-image",
+      "custom_css": [
+        "@media screen and (min-width: 900px) {.full-image {margin-left: 64px; margin-right: 64px; }}"
+      ],
       "settings": {
         "img": "shopify:\/\/shop_images\/88de0784a43ff65709fc96fa21ea9bba.jpg",
         "padding_top": 20,

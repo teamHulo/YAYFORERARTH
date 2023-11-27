@@ -65,6 +65,9 @@
     },
     "73e2a852-45a4-4617-bf54-73a2758f5ff9": {
       "type": "section-image-with-text",
+      "custom_css": [
+        "@media screen and (min-width: 900px) {.section-with-text__wrap {margin-left: 64px; margin-right: 64px; }}"
+      ],
       "settings": {
         "pt": 50,
         "pb": 40,

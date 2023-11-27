@@ -95,6 +95,9 @@
         "template--16313975308447__0f481c81-b8fa-48bc-b7a4-604711880e47-heading-1",
         "template--16313975308447__0f481c81-b8fa-48bc-b7a4-604711880e47-text-1"
       ],
+      "custom_css": [
+        "p{max-width: 750px !important; }"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

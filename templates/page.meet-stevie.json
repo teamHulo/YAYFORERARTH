@@ -115,6 +115,9 @@
     },
     "171f9722-4b8e-48e4-9745-dd2c9f954459": {
       "type": "section-full-image",
+      "custom_css": [
+        "@media screen and (min-width: 900px) {.full-image__wrap {margin-left: 64px; margin-right: 64px; }}"
+      ],
       "settings": {
         "img": "shopify:\/\/shop_images\/DSCF5638_copy_1.jpg",
         "padding_top": 20,

@@ -130,6 +130,9 @@
         "template--16313993396383__761d5667-40fd-45da-a8cd-30d58e7e7792-heading-1",
         "template--16313993396383__761d5667-40fd-45da-a8cd-30d58e7e7792-text-1"
       ],
+      "custom_css": [
+        "p{max-width: 750px !important; }"
+      ],
       "settings": {
         "desktop_content_position": "center",
         "content_alignment": "center",

@@ -149,7 +149,7 @@
         "template--16314009321631__c6fc3d08-5f80-4478-8a6e-e706e4739c93-text-1"
       ],
       "custom_css": [
-        "p{max-width: 750px !important; }"
+        "p,h2 {max-width: 750px !important; margin-left: auto; margin-right: auto;}"
       ],
       "settings": {
         "desktop_content_position": "center",

@@ -50,7 +50,7 @@
     "a115dfa5-37a9-4c66-ad15-0b48fb36ff56": {
       "type": "section-image-with-text",
       "custom_css": [
-        "@media screen and (min-width: 900px){.section-with-text{margin-left: 64px; margin-right: 64px; }}"
+        "@media screen and (min-width: 900px) {.section-with-text__wrap {margin-left: 64px; margin-right: 64px; }}"
       ],
       "settings": {
         "pt": 50,

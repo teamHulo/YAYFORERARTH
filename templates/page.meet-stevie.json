@@ -179,9 +179,6 @@
         "0bb52843-762b-463c-8a8e-7f2c540117ab",
         "07a5c5dc-3dc9-4c35-9b04-a4f1134a552a"
       ],
-      "custom_css": [
-        "@media screen and (min-width: 900px) {.image-list {margin-left: 64px; margin-right: 64px; }}"
-      ],
       "settings": {
         "max_width": 100,
         "column": 3

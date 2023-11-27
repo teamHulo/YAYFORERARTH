@@ -181,6 +181,9 @@
         "4c28f3a0-2b2d-4429-931a-48399c0f40de",
         "b3171c85-8860-4ee6-ae15-75e13c24bb9a"
       ],
+      "custom_css": [
+        "@media screen and (min-width: 900px) {.image-list {margin-left: 64px; margin-right: 64px; }}"
+      ],
       "settings": {
         "max_width": 100,
         "column": 3

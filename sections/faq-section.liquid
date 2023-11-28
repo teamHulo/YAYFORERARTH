@@ -3,7 +3,7 @@
     <h2>{{ section.settings.title-left }}</h2>
     {%- for block in section.blocks -%}
        {% if block.settings.select-column == 'left' %}
-         <div class="item active">
+         <div class="item ">
              <h3>
                <span>{{ block.settings.title }}</span>
                <span class="plus">+</span>
@@ -18,7 +18,7 @@
     <h2>{{ section.settings.title-right }}</h2>
     {%- for block in section.blocks -%}
        {% if block.settings.select-column == 'right' %}
-         <div class="item active">
+         <div class="item ">
              <h3>
                <span>{{ block.settings.title }}</span>
                <span class="plus">+</span>

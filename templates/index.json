@@ -72,7 +72,7 @@
     "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
       "type": "section-nature",
       "custom_css": [
-        ".title h2{font-size: 28px; max-width: 490px; margin: 0 auto; }"
+        ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
       "settings": {
         "bg": "#fff9eb",
@@ -241,7 +241,7 @@
         "06df0059-8e82-41f2-90c2-75ccd8868502": {
           "type": "item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/387A0191_1_3.png",
+            "img": "shopify:\/\/shop_images\/Screen_Shot_2023-11-06_at_12.09_3.jpg",
             "bg": "#84b4ba",
             "color_text": "#fff9eb",
             "name": "Our World",

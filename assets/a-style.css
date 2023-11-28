@@ -2857,4 +2857,9 @@ padding-bottom: 0 !important;
 }
 
 
+.section-slider .swiper-slide .text p{
+
+  hyphens: none !Important;
+}
+
 

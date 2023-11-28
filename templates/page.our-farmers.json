@@ -198,7 +198,7 @@
             "pt": 0,
             "bg": "#4f5e3c",
             "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8_f0c9429f-dac8-43fe-b40a-6df6ccffcc7b.jpg",
-            "title": "Meet Stevie",
+            "title": "Meet <em>Stevie<\/em>",
             "url": "shopify:\/\/pages\/stevie-s-story",
             "btn_name": "Learn More"
           }
@@ -209,7 +209,7 @@
             "pt": 0,
             "bg": "#84b4ba",
             "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e_9c13ef3f-05f4-4f49-8e86-e7cb4e189f39.jpg",
-            "title": "OurWarehouse",
+            "title": "Our <em>Warehouse<\/em>",
             "url": "shopify:\/\/pages\/our-warehouse",
             "btn_name": "Learn More"
           }

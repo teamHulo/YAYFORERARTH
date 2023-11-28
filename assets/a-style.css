@@ -2839,5 +2839,11 @@ width: 100% !important;
   
 }
 
+.article-template .article-template__content{
+    margin: 0 auto;
+    max-width: 750px;
+  
+}
+
 
 

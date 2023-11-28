@@ -2846,7 +2846,7 @@ width: 100% !important;
 
 .template-product .arrows .swiper-button-next, .template-product .swiper-button-prev{
 @media screen and (max-width: 767px){
-top: 54%;
+top: 54% !important;
   
 }
 }

@@ -32,6 +32,11 @@
             "picker_type": "button"
           }
         },
+        "359f76aa-207c-4dd4-a291-5f700d7e37b6": {
+          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
+          "settings": {
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -92,11 +97,6 @@
             "img5": "shopify:\/\/shop_images\/PollinatorFriendly.png",
             "title5": "PollinatorFriendly"
           }
-        },
-        "359f76aa-207c-4dd4-a291-5f700d7e37b6": {
-          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -105,6 +105,7 @@
         "rating",
         "price",
         "variant_picker",
+        "359f76aa-207c-4dd4-a291-5f700d7e37b6",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -112,8 +113,7 @@
         "16fb9bf1-1c41-489d-bf96-b03d57526477",
         "eae1604e-fd60-4298-a478-0e6cb85acd78",
         "42ce5b98-e943-4d2b-ab57-191f26170632",
-        "ecf4c397-1261-4ffa-ab55-0b118172a8e7",
-        "359f76aa-207c-4dd4-a291-5f700d7e37b6"
+        "ecf4c397-1261-4ffa-ab55-0b118172a8e7"
       ],
       "settings": {
         "enable_sticky_info": true,

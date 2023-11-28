@@ -231,7 +231,7 @@
             "name": "Our World",
             "title": "Get to Know <br>Our <span>Farmers<\/span>",
             "text": "<p>We welcome you to become part of our Yay for Earth journey by getting to know one of the important parts of our business; the farmers!  Learn about our initiatives, get to know the individuals behind the healthy soils and bees, and the stories behind the ingredients that breathe life into the essential, magical products we curate!<\/p>",
-            "url": "#",
+            "url": "shopify:\/\/pages\/meet-the-farmers",
             "btn_name": "Learn More"
           }
         },
@@ -244,7 +244,7 @@
             "name": "Our World",
             "title": "Get to Know <br>Our <span>Warehouse<\/span>",
             "text": "<p>Welcome to the epicenter of our operations and the heart of Yay for Earth. Our warehouse and sacred creation space is a special one. When we receive our ingredients from our farmers, their next destination is in your hands. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper. Click below to dive in!  <\/p>",
-            "url": "#",
+            "url": "shopify:\/\/pages\/our-warehouse",
             "btn_name": "Learn More"
           }
         }

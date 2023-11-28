@@ -270,7 +270,7 @@
         "44d075e9-28ac-4675-a5a7-84f9edea8f7b"
       ],
       "custom_css": [
-        ".custom-slider__title{max-width: 750px; margin: 0 auto;}"
+        ".custom-slider__title {max-width: 750px; margin-left: auto; margin-right: auto;}"
       ],
       "settings": {
         "bg": "#fff9eb",

@@ -269,6 +269,9 @@
         "aa856c33-9d3b-411d-97d6-f2f65c9783ee",
         "44d075e9-28ac-4675-a5a7-84f9edea8f7b"
       ],
+      "custom_css": [
+        ".custom-slider__title{max-width: 750px; margin: 0 auto;}"
+      ],
       "settings": {
         "bg": "#fff9eb",
         "padding_top": 0,

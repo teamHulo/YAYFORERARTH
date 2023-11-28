@@ -1253,8 +1253,11 @@ sticky-header{
 .article-template__content p{
   color: #3B4E15;
   width: 100%;
-  max-width: 990px;
-  margin: 0px !important;
+  max-width: 745px;
+  margin: 0 auto !important;
+}
+.article-template__content img{
+width: 100%;
 }
 .article-template__content blockquote{
   width: 100%;

@@ -292,7 +292,7 @@
         "bg": "#fff9eb",
         "padding_top": 12,
         "padding_bottom": 60,
-        "text": "<p>Discover what customers are saying about our magic Hydrosol!<\/p>",
+        "text": "<p>Discover what customers are saying about our magic hydrosol!<\/p>",
         "product": "{{ product }}"
       }
     },

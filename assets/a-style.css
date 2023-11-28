@@ -2842,7 +2842,13 @@ width: 100% !important;
 .article-template .article-template__content{
     margin: 0 auto;
     max-width: 850px;
+}
+
+.template-product .arrows .swiper-button-next, .template-product .swiper-button-prev{
+@media screen and (max-width: 767px){
+top: 54%;
   
+}
 }
 
 

@@ -87,16 +87,16 @@
         "ecf4c397-1261-4ffa-ab55-0b118172a8e7": {
           "type": "icons",
           "settings": {
-            "img1": "shopify:\/\/shop_images\/AllOrganic.png",
-            "title1": "All Organic",
-            "img2": "shopify:\/\/shop_images\/Hydrating.png",
-            "title2": "Hydrating",
-            "img3": "shopify:\/\/shop_images\/Gentle.png",
-            "title3": "Gentle",
-            "img4": "shopify:\/\/shop_images\/Long_Lasting.png",
-            "title4": "Long Lasting",
-            "img5": "shopify:\/\/shop_images\/PollinatorFriendly.png",
-            "title5": "Pollinator Friendly"
+            "img1": "shopify:\/\/shop_images\/BabySafe.png",
+            "title1": "Baby Safe",
+            "img2": "shopify:\/\/shop_images\/WontClogPores.png",
+            "title2": "Won't Clog Pores",
+            "img3": "shopify:\/\/shop_images\/organic_regenerativeFarming.png",
+            "title3": "Organic & Regeneraive Farming",
+            "img4": "shopify:\/\/shop_images\/PollinatorFriendly_5a733a1c-2a31-4d18-b3df-65a15dc8879e.png",
+            "title4": "Pollinator Friendly",
+            "img5": "shopify:\/\/shop_images\/SensitiveSkin.png",
+            "title5": "Sensitive Skin Safe"
           }
         }
       },

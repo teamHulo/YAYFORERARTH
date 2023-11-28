@@ -2870,3 +2870,11 @@ padding-bottom: 0 !important;
     padding-top: 0 !important;
   
 }
+@media screen and (max-width: 767px){
+.section-template--16314119848095__c384c5fa-424e-4a16-97ee-d55e952335d8-padding{
+padding-left: 20px;
+  padding-right: 20px;
+  
+}
+  
+}

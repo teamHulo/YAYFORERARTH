@@ -140,7 +140,7 @@
             "pt": 0,
             "bg": "#4f5e3c",
             "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8_93f3ae3a-5ea3-4de3-aaad-5b8257311566.jpg",
-            "title": "Meet Stevie",
+            "title": "Meet <em>Stevie<\/em>",
             "url": "shopify:\/\/pages\/stevie-s-story",
             "btn_name": "Learn More"
           }
@@ -151,7 +151,7 @@
             "pt": 0,
             "bg": "#f0a713",
             "img": "shopify:\/\/shop_images\/435415fd367cc9cd47048479d412d7a3_71db45fd-ffa8-4c43-91f7-79ab9d7a4c1b.jpg",
-            "title": "Our Farmers",
+            "title": "Our <em>Farmers<\/em>",
             "url": "shopify:\/\/pages\/meet-the-farmers",
             "btn_name": "Learn More"
           }

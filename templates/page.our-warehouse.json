@@ -191,7 +191,7 @@
             "pt": 0,
             "bg": "#c0d1be",
             "img": "shopify:\/\/shop_images\/unsplash_o9JapjMqjfc.jpg",
-            "title": "Meet the Team",
+            "title": "Meet the <em>Team<\/em>",
             "url": "shopify:\/\/pages\/meet-the-team",
             "btn_name": "Learn More"
           }

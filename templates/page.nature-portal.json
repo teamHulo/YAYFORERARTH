@@ -15,7 +15,7 @@
         "image": "shopify:\/\/shop_images\/Rectangle_191.png",
         "link-left": "shopify:\/\/blogs\/nature",
         "label-left": "Our Blog",
-        "link-right": "#",
+        "link-right": "shopify:\/\/pages\/coming-soon",
         "label-right": "Nature Connect"
       }
     }

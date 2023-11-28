@@ -41,6 +41,9 @@
     },
     "4f3b19a1-a6d7-4080-9448-9c02f6b44718": {
       "type": "section-text",
+      "custom_css": [
+
+      ],
       "settings": {
         "mt": 50,
         "show_border": true,

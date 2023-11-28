@@ -292,7 +292,7 @@
         "bg": "#fff9eb",
         "padding_top": 12,
         "padding_bottom": 60,
-        "text": "<p>Discover what customers are saying about our magic lotion! <br\/>Read our emotional and amazing reviews below from our community:<\/p>",
+        "text": "<p>Discover what customers are saying about our magic Hydrosol!<\/p>",
         "product": "{{ product }}"
       }
     },

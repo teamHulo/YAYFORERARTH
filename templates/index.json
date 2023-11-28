@@ -102,14 +102,14 @@
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/YFE_Icons-19.png",
-            "icon_name": "Wont Clog Pores"
+            "icon_name": "Won't Clog Pores"
           }
         },
         "5938ff06-2d44-4174-bf56-f87a05ba1740": {
           "type": "item",
           "settings": {
             "img": "shopify:\/\/shop_images\/YFE_Icons-18.png",
-            "icon_name": "Organic and Regenerative farming"
+            "icon_name": "Organic & Regenerative farming"
           }
         },
         "f9e95a03-e8bc-48ea-b30c-d41d01866c11": {
@@ -133,6 +133,9 @@
         "5938ff06-2d44-4174-bf56-f87a05ba1740",
         "f9e95a03-e8bc-48ea-b30c-d41d01866c11",
         "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee"
+      ],
+      "custom_css": [
+
       ],
       "settings": {
         "product": "golden-body-oil",

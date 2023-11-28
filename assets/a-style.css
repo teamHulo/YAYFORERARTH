@@ -1253,12 +1253,8 @@ sticky-header{
 .article-template__content p{
   color: #3B4E15;
   width: 100%;
-  max-width: 745px;
-  margin: 0 auto !important;
-}
-.article-template__content img{
-width: 100%;
-  border-radius:0px;
+  max-width: 990px;
+  margin: 0px !important;
 }
 .article-template__content blockquote{
   width: 100%;
@@ -2820,6 +2816,22 @@ width: 100% !important;
   //lroe
 }
 
+
+.section-product .a-btn{
+    border: 1px solid;
+    background: transparent;
+    min-width: 250px;
+    height: 49px;
+  -webkit-transition: all .3s ease-out !important;
+    -moz-transition: all .3s ease-out !important;
+    -o-transition: all .3s ease-out !important;
+    transition: all .3s ease-out !important;
+}
+.section-product .a-btn:hover{
+    background: #FFF9EB;
+    color: #6a8f67;
+  
+}
 
 
 

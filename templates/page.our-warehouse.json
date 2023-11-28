@@ -177,8 +177,8 @@
             "pt": 0,
             "bg": "#f0a713",
             "img": "shopify:\/\/shop_images\/435415fd367cc9cd47048479d412d7a3_f74bb370-21c9-498f-a68e-ec49b4202171.jpg",
-            "title": "Our Farmers",
-            "url": "#",
+            "title": "Our <em>Farmers<\/em>",
+            "url": "shopify:\/\/pages\/meet-the-farmers",
             "btn_name": "Learn More"
           }
         },

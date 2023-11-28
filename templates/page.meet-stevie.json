@@ -202,7 +202,7 @@
             "pt": 0,
             "bg": "#f0a713",
             "img": "shopify:\/\/shop_images\/435415fd367cc9cd47048479d412d7a3.jpg",
-            "title": "Our Farmers",
+            "title": "Our <em>Farmers<\/em>",
             "url": "shopify:\/\/pages\/meet-the-farmers",
             "btn_name": "Learn More"
           }
@@ -213,7 +213,7 @@
             "pt": 0,
             "bg": "#4f5e3c",
             "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e.jpg",
-            "title": "Our Warehouse",
+            "title": "Our <em>Warehouse<\/em>",
             "url": "shopify:\/\/pages\/our-warehouse",
             "btn_name": "Learn More"
           }

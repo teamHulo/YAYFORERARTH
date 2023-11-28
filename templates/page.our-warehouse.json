@@ -188,8 +188,8 @@
             "pt": 0,
             "bg": "#c0d1be",
             "img": "shopify:\/\/shop_images\/bdee2cfc460e960e6790ff65cf96217e_72a67ec5-62cb-4aa8-80fb-bf8506a9c45b.jpg",
-            "title": "Meet the <span>Team<\/span>",
-            "url": "#",
+            "title": "Meet the <em>Team<\/em>",
+            "url": "shopify:\/\/pages\/meet-the-team",
             "btn_name": "Learn More"
           }
         }

@@ -19,6 +19,15 @@
         "text": "Stores & Partners"
       }
     },
+    "c384c5fa-424e-4a16-97ee-d55e952335d8": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<!-- Start Stockist.co widget -->\n<div data-stockist-widget-tag=\"u18173\">Loading store locator from <a href=\"https:\/\/stockist.co\">Stockist store locator<\/a>...<\/div>\n<script>\n  (function(s,t,o,c,k){c=s.createElement(t);c.src=o;c.async=1;\n  k=s.getElementsByTagName(t)[0];k.parentNode.insertBefore(c,k);\n  })(document,'script','\/\/stockist.co\/embed\/v1\/widget.min.js');\n<\/script> <!-- End Stockist.co widget -->",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "91ccfa83-7d90-4634-81c3-88d585e4bf22": {
       "type": "stores-form",
       "settings": {
@@ -29,6 +38,7 @@
   "order": [
     "main",
     "3a2417ac-352f-492f-aab0-b338ac316bef",
+    "c384c5fa-424e-4a16-97ee-d55e952335d8",
     "91ccfa83-7d90-4634-81c3-88d585e4bf22"
   ]
 }

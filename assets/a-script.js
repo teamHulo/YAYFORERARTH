@@ -76,7 +76,7 @@ if ($(window).width() < 990){
 //$('[data-id="template--16282984251551__product-grid"] .grid__item:nth-child(1) .add-my-cart').addClass('link-shop')
 //$('[data-id="template--16282984251551__product-grid"] .grid__item:nth-child(1) .link-shop').removeClass('add-my-cart')
 $('<a class="btn-custom" href="/products/1oz-sensitive-skin-face-lotion">Shop Lotion</a>').insertAfter($('[data-id="template--16282984251551__product-grid"] .grid__item:nth-child(1) .add-my-cart'))
-
+$('[data-id="template--16282984251551__product-grid"] .grid__item:nth-child(1) .add-my-cart').remove()
 
 
 

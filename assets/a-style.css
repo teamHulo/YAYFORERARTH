@@ -2888,7 +2888,7 @@ margin: 0 auto !important;
         width: calc(33.333% - 6px)!important;
   }
 
- .meet-the-team-page .menu-drawer-container .header__icon svg path{
+ body:not(.template-index) .menu-drawer-container .header__icon svg path{
 fill: #4b5f3a !important;
     
   }

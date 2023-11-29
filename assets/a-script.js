@@ -72,7 +72,7 @@ if ($(window).width() < 990){
    $('.custom-faq-section .page-width .item').removeClass('active');
 }
 
-
+$('[data-id="template--16282984251551__product-grid"] .grid__item:nth-child(1) .add-my-cart').text('Shop Lotion')
 
 
 

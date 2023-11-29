@@ -2901,6 +2901,14 @@ fill: #4b5f3a !important;
   
 }
 
+.customer.account > div:nth-child(2){
+  flex-wrap: wrap;
+  .appstle_manageSubBtn{
+width: 100%;
+    order: 3;
+    
+  }
+}
 
 
 

@@ -43,7 +43,7 @@ $(()=>{
             request.addEventListener("load", handleResponse);
             request.open(
               "GET",
-              "?sections=cart-drawer,cart-icon-bubble",
+              "?sections=cart-drawer",
               true
             ); ///?sections=cart-drawer,
             request.send();

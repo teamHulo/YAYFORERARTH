@@ -12,6 +12,7 @@ $(()=>{
         let objCarts = JSON.parse(this.responseText);
         $("#cart-icon-bubble").html($(objCarts["cart-icon-bubble"]).html());
         console.log(objCarts);
+        console.log($(objCarts["cart-drawer"]));
         $("cart-drawer").html(
           $(objCarts["cart-drawer"]).find("cart-drawer").html()
         );

@@ -11,6 +11,7 @@ $(()=>{
         let parser = new DOMParser();
         let objCarts = JSON.parse(this.responseText);
         $("#cart-icon-bubble").html($(objCarts["cart-icon-bubble"]).html());
+        console.log(objCarts);
         $("cart-drawer").html(
           $(objCarts["cart-drawer"]).find("cart-drawer").html()
         );

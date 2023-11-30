@@ -145,10 +145,10 @@
                                 {{ item.final_price | money }}
                               </strong>
                             </div>
-                          {% comment %} {%- else -%}
+                          {%- else -%}
                             <div class="product-option">
                               {{ item.original_price | money }}
-                            </div> {% endcomment %}
+                            </div>
                           {%- endif -%}
 
                           {%- if item.product.has_only_default_variant == false

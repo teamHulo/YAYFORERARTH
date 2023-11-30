@@ -14,7 +14,7 @@ $(()=>{
         console.log(objCarts);
         console.log($(objCarts["cart-drawer"]));
         $("cart-drawer").html(
-          $(objCarts["cart-drawer"]).find("cart-drawer").html()
+          $(objCarts["cart-drawer"]).find(".drawer__inner").html()
         );
     
       }

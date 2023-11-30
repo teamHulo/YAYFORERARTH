@@ -12,13 +12,10 @@ $(()=>{
         let objCarts = JSON.parse(this.responseText);
         $("#cart-icon-bubble").html($(objCarts["cart-icon-bubble"]).html());
         console.log(objCarts);
-       /* $("cart-drawer").html(
+        $("cart-drawer").html(
           $(objCarts["cart-drawer"]).find("cart-drawer").html()
-        );*/
-      console.log($(objCarts["main-cart-items"]).find("cart-drawer-items"));
-        $("cart-drawer ").html(
-          $(objCarts["main-cart-items"]).find("cart-drawer-items").html()
         );
+    
       }
 
     $(document).on('click',".add-my-cart", function (e) {

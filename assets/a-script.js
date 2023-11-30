@@ -7,17 +7,12 @@ $(()=>{
   });
 
     function handleResponse() {
-        let a = this.responseText;
-        let parser = new DOMParser();
-        let objCarts = JSON.parse(this.responseText);
-      /*  $("#cart-icon-bubble").html($(objCarts["cart-icon-bubble"]).html());
-        console.log(objCarts);
-        console.log($(objCarts["cart-drawer"]));*/
-        $("cart-drawer").html(
-          $(objCarts["cart-drawer"]).find("cart-drawer").html()
-        );
-    
-      }
+              let a = this.responseText;
+              let parser = new DOMParser();
+              let objCarts = JSON.parse(this.responseText);
+              $('#cart-icon-bubble').html($(objCarts["cart-icon-bubble"]).html());
+              $('cart-drawer').html($(objCarts["cart-drawer"]).find('cart-drawer').html());
+            }
 
     $(document).on('click',".add-my-cart", function (e) {
         console.log('CLICK')
@@ -41,11 +36,7 @@ $(()=>{
           .then((response) => {
             const request = new XMLHttpRequest();
             request.addEventListener("load", handleResponse);
-            request.open(
-              "GET",
-              "?sections=cart-drawer",
-              true
-            ); ///?sections=cart-drawer,
+             request.open('GET', '?sections=cart-drawer,main-cart-items,cart-icon-bubble', true);///?sections=cart-drawer,
             request.send();
             $("cart-drawer")[0].open();
             return response.json();

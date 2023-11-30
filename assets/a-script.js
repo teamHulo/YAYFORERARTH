@@ -13,8 +13,8 @@ $(()=>{
         $("#cart-icon-bubble").html($(objCarts["cart-icon-bubble"]).html());
         console.log(objCarts);
         console.log($(objCarts["cart-drawer"]));
-        $("cart-drawer .drawer__inner").html(
-          $(objCarts["cart-drawer"]).find(".drawer__inner").html()
+        $("cart-drawer").html(
+          $(objCarts["cart-drawer"]).find("cart-drawer").html()
         );
     
       }

@@ -10,11 +10,11 @@ $(()=>{
         let a = this.responseText;
         let parser = new DOMParser();
         let objCarts = JSON.parse(this.responseText);
-        $("#cart-icon-bubble").html($(objCarts["cart-icon-bubble"]).html());
+      /*  $("#cart-icon-bubble").html($(objCarts["cart-icon-bubble"]).html());
         console.log(objCarts);
-        console.log($(objCarts["cart-drawer"]));
-        $("#shopify-section-cart-drawer").html(
-          $(objCarts["cart-drawer"]).find("#shopify-section-cart-drawer").html()
+        console.log($(objCarts["cart-drawer"]));*/
+        $("cart-drawer").html(
+          $(objCarts["cart-drawer"]).find("cart-drawer").html()
         );
     
       }

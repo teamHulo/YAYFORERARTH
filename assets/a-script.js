@@ -15,6 +15,7 @@ $(()=>{
        /* $("cart-drawer").html(
           $(objCarts["cart-drawer"]).find("cart-drawer").html()
         );*/
+      console.log(objCarts["main-cart-items"]);
         $("cart-drawer cart-drawer-items").html(
           $(objCarts["main-cart-items"]).find("cart-drawer-items").html()
         );

@@ -16,7 +16,7 @@ $(()=>{
           $(objCarts["cart-drawer"]).find("cart-drawer").html()
         );*/
       console.log($(objCarts["main-cart-items"]).find("cart-drawer-items"));
-        $("cart-drawer cart-drawer-items").html(
+        $("cart-drawer ").html(
           $(objCarts["main-cart-items"]).find("cart-drawer-items").html()
         );
       }

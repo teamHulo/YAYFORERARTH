@@ -13,6 +13,7 @@
       "settings": {
         "newsletter_enable": true,
         "newsletter_heading": "Want to get notified when our Nature Portal launches?",
+        "newsletter_subtitle": "Subscribe and we’ll keep you updated!",
         "title": "Coming Soon",
         "image": "shopify:\/\/shop_images\/Rectangle_191.png",
         "link-left": "",

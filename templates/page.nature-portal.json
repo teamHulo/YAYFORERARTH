@@ -11,6 +11,7 @@
     "e590d71d-f1dc-423c-9f8f-eab24f1ae652": {
       "type": "nature-main",
       "settings": {
+        "newsletter_enable": false,
         "title": "Take a Deep Breath",
         "image": "shopify:\/\/shop_images\/Rectangle_191.png",
         "link-left": "shopify:\/\/blogs\/nature",

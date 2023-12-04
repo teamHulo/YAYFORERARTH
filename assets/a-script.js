@@ -77,7 +77,21 @@ $('[data-id="template--16282984251551__product-grid"] .grid__item:nth-child(4) .
 
 if( $('.template-product .rating').length > 0){
 
-  $('.template-product .product__info-wrapper .rating').wrap('<a href="/" class="wrap"></a>')
+  $('.template-product .product__info-wrapper .rating').wrap('<a class="wrap-scroll-review"></a>');
+
+
+  $('a.wrap-scroll-review"').click(function(event){
+    var getHref = $(this).attr('href');
+    var curItem = $(this)
+    $('html, body').animate({
+      scrollTop: curItem.closest('body').find('.section-product-reviews.container').offset().top
+    }, 500);
+   // event.preventDefault();
+    //event.stopPropagation();
+  }); 
+
+
+  
 }
 
 

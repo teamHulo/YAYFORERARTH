@@ -80,7 +80,7 @@ if( $('.template-product .rating').length > 0){
   $('.template-product .product__info-wrapper .rating').wrap('<a class="wrap-scroll-review"></a>');
 
 
-  $('a.wrap-scroll-review"').click(function(event){
+  $('.wrap-scroll-review"').click(function(event){
     var getHref = $(this).attr('href');
     var curItem = $(this)
     $('html, body').animate({

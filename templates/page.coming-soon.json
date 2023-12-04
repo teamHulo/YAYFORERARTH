@@ -11,6 +11,9 @@
     "bde5a0d7-bb13-4c41-86a2-fa23b9b9f573": {
       "type": "nature-main",
       "settings": {
+        "newsletter_enable": true,
+        "newsletter_heading": "Want to get notified when the nature portal launches?",
+        "newsletter_subtitle": "Subscribe here and we will keep you updated!",
         "title": "Coming Soon",
         "image": "shopify:\/\/shop_images\/Rectangle_191.png",
         "link-left": "",

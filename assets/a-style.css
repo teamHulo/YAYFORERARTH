@@ -2944,5 +2944,8 @@ body .custom-slider .slide-title.title{
       font-size: clamp(25px, 1.5vw, 30px);
 }
 
+.wrap-scroll-review{
+  cursor: pointer !important;
+}
 
 

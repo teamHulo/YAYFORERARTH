@@ -2883,7 +2883,8 @@ padding-left: 20px;
 .section-product .a-btn{
 margin: 0 auto !important;
 }
- body .section-image-list-template--16313975308447__ca3b3061-3abd-42f8-900c-cfb61e628e10 .image-list .image{
+ body .section-image-list-template--16313975308447__ca3b3061-3abd-42f8-900c-cfb61e628e10 .image-list .image, 
+  body .shopify-section-template--16313993396383__4ab42047-5765-4854-8575-7a05aeb23718 .image-list .image{
 
         width: calc(33.333% - 6px)!important;
   }

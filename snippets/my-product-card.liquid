@@ -82,7 +82,23 @@
     
   });
 
- 
+ $('.product-item-custom-form input').click(function(){
+  let prodcutIdCustom = $(this).attr('id');  
+  $('.product-item-custom-form-input').attr('value', prodcutIdCustom);
+});
+
+$('.custom-product-slider-slider .swiper-slide').each(function(){
+  let priceCustom = $(this).find('.custom-form-btn').attr('data-price');
+  $(this).find('.product-item-custom-form').append('<span class="product-price-custom">' + priceCustom  + '</span>')
+});
+
+$('.collection-content li').each(function(){
+  let priceCustom2 = $(this).find('.custom-form-btn').attr('data-price');
+  $(this).find('.product-item-custom-form').append('<span class="product-price-custom">' + priceCustom2  + '</span>')
+});
+
+
+  
 </script>   
                       
 </form>

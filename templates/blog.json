@@ -3,10 +3,10 @@
     "190ae2b8-2f9d-44a0-95f1-fc1833667dac": {
       "type": "blog-hero",
       "custom_css": [
-        "h1{font-style: normal; }"
+        "h1 {font-style: normal;}"
       ],
       "settings": {
-        "title": "Our Blog"
+        "title": "Our Journal"
       }
     },
     "main": {

@@ -15,6 +15,83 @@
                 
             </div>
         </div>
+
+
+
+      
+
+<form class="product-item-custom-form" method="post" action="/cart/add" data-productid="{{ product.id }}">
+  
+      <div class="product-item-custom-form-variants">
+          {%- for variant in product.variants -%}
+            {% if variant.title != 'Default Title' %}
+                <div class="product-item-custom-form-variants-item">
+                      <fieldset class="js product-forminput">   
+                        <legend class="formlabel">{{ prodcut.title }}</legend>
+                           <div class="collection-product-options-item" > 
+                                  <input
+                                    type="radio"
+                                    name="productVariant-{{ product.id }}"
+                                    id="{{ variant.id }}"
+                                    value="{{ variant.id }}"
+                                    form="{{ product_form_id }}"
+                                    {% if product.variants.first.id  ==  variant.id %}
+                                      checked
+                                    {% endif %}
+                                  >
+                                  <label for="{{ prodcut.id }}">{{ prodcut.title }}</label>
+                             </div> 
+                            <p>{{ prodcut.price | money  }}</p>
+                      </fieldset> 
+                </div>
+               {% endif %}
+            {%- endfor -%}
+      </div>
+
+  
+      <input class="product-item-custom-form-input" type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.variants.first.id }}" />
+   <input type="submit" data-price="{{product.price | money  }}" value="Add to cart" class="custom-form-btn"/>  
+  
+    <!---  <a class="custom-form-btn" >Add to cart</a> --->
+  <a class="custom-form-btn-mob" >Add to cart</a> 
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>  
+
+  $('.custom-form-btn').click(function(){
+    let productid = $(this).closest('.swiper-slide').find('.product-item-custom-form-input').val();
+    console.log(productid);
+    let data = {
+      "id": productid,
+      "quantity": 1
+    }
+    
+    $.ajax({
+      type: 'POST',
+      url: '/cart/add.js',
+      data: data,
+      dataType: 'json',
+      success: function() { 
+        document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+          bubbles: true  //this code is for prestige theme, is to refresh the cart
+       }));
+      }
+    });
+
+    
+  });
+
+ 
+</script>   
+                      
+</form>
+
+
+      
+
+
+      
         <div class="product-btn">
             {% form 'product', product %}
                 <input

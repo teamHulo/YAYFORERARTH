@@ -12,10 +12,12 @@
       "type": "nature-main",
       "settings": {
         "newsletter_enable": false,
+        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_subtitle": "Subscribe for store updates.",
         "title": "Take a Deep Breath",
         "image": "shopify:\/\/shop_images\/Rectangle_191.png",
         "link-left": "shopify:\/\/blogs\/nature",
-        "label-left": "Our Blog",
+        "label-left": "Our Journal",
         "link-right": "shopify:\/\/pages\/coming-soon",
         "label-right": "Nature Portal"
       }

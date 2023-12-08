@@ -71,11 +71,8 @@
     </div>
 
 
-{% if currency.iso_code == 'USD' %}
-  {% render 'shipping-bar' %}
-{% else %}
-  aaaaaa
-{% endif %}
+
+
 
 <script>
     setTimeout(function() {
@@ -86,9 +83,9 @@
 </script>
 
 <div id="delayed-content" style="display: none;">
-    
+    {% if currency.iso_code == 'USD' %}
     <p>Цей текст відображається тільки для користувачів з цінами в доларах США.</p>
-    
+   {% endif %} 
 </div>
       
 

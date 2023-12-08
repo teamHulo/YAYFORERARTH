@@ -69,7 +69,14 @@
         {% render 'icon-close' %}
       </button>
     </div>
-     
+
+
+{% if currency == 'USD' %}
+  {% render 'shipping-bar' %}
+{% endif %}
+
+
+      
       <cart-drawer-items
         {% if cart == empty %}
           class=" is-empty"

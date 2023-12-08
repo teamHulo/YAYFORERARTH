@@ -1,0 +1,341 @@
+<div class="my-product-card">
+    <div class="my-product-card__wrap">
+        <div class="product_img">
+            <div class="product_img__body">
+                <a href="{{product.url}}">
+                    {% if img != blank %}
+                        <img src="{{img | img_url : 'master'}}" alt="" style="max-width:{{img_width}}% !important;">
+                        {% if shadow != blank %}
+                            <img class="shadow-img" src="{{shadow | img_url : 'master'}}" alt="" style="max-width:{{shadow_width}}% !important;">
+                        {% endif %}
+                    {% else %}
+                        <img  src="{{ product.images[0].src | product_img_url: 'large' }}" alt="{{ product.title }}" style="object-fit:cover; !important">
+                    {% endif %}
+                </a>
+                
+            </div>
+        </div>
+
+              
+        <form class="product-item-custom-form" method="post" action="/cart/add" data-productid="{{ product.id }}">
+          
+              <div class="product-item-custom-form-variants">
+                  {%- for variant in product.variants -%}
+                    {% if variant.title != 'Default Title' %}
+                        
+                      <div class="product-item-custom-form-variants-item">
+                              <fieldset class="js product-forminput">   
+                                <legend class="formlabel">{{ variant.title }}</legend>
+                                   <div class="collection-product-options-item" > 
+                                          <input
+                                            type="radio"
+                                            name="productVariant-{{ product.id }}"
+                                            id="{{ variant.id }}"
+                                            value="{{ variant.id }}"
+                                            form="{{ product_form_id }}"
+                                            {% if product.variants.first.id  ==  variant.id %}
+                                              checked
+                                            {% endif %}
+                                          >
+                                          <label for="{{ variant.id }}">{{ variant.title }}</label>
+                                     </div> 
+                                    <p class="price-variand" data-price="{{ variant.price | money  }}">{{ variant.price | money  }}</p>
+                              </fieldset>
+                        </div>
+        
+                       {% endif %}
+                    {%- endfor -%}
+              </div>
+        
+
+          <div class="button-variant-cart">
+              <input class="product-item-custom-form-input" type="hidden" name="id" data-productid="{{ product.id }}" value="{{ product.variants.first.id }}" />
+              <input type="submit" data-price="{{product.price | money  }}" value="Add to cart" class="custom-form-btn"/>  
+          
+              <!---  <a class="custom-form-btn" >Add to cart</a> --->
+
+            <div class="wrap">
+               <a class="custom-form-btn-mob" >Add to Cart</a> 
+                <span> - </span>
+               <span class="button-add-to-cart-dynamic-price">
+                 {% if product.variants[0] %}
+                    {{ product.variants[0].price | money_with_currency }}
+                  {% endif %}
+               </span>
+            </div>
+          </div>
+
+
+        <div class="product-btn">
+            {% form 'product', product %}
+                <input
+                  type="hidden"
+                  class="cart-id-first"
+                  value="{{product.first_available_variant.id}}">
+                <button class="add-my-cart">
+                  Add to Cart
+                   <span> - </span>
+               <span class="button-add-to-cart-dynamic-price">
+                 {% if product.variants[0] %}
+                    {{ product.variants[0].price | money_with_currency }}
+                  {% endif %}
+               </span>
+                </button>
+              {% endform %}
+        </div> 
+
+      
+        <div class="product-title">
+            <h3>
+                <a class="proudct-title-link" href="{{product.url}}">
+                    {{product.title}}
+                </a>
+                
+            </h3>
+        </div>
+
+          
+          
+        
+          <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+            <script>  
+
+              setTimeout(function(){
+
+
+
+              
+              console.log('aaa');
+            $(document).ready(function() {
+                
+                $('.my-product-card.sensitive-skin-face-lotion').each(function() {
+                    $(this).find('.product-item-custom-form-variants-item:first').addClass('active');
+                });
+                $('.my-product-card.sensitive-skin-face-lotion .product-item-custom-form-variants-item').click(function(){
+                  $('.my-product-card.sensitive-skin-face-lotion .product-item-custom-form-variants-item').removeClass('active');
+                  $(this).addClass('active');
+                });
+              
+               $('.my-product-card.lip-balm').each(function() {
+                    $(this).find('.product-item-custom-form-variants-item:first').addClass('active');
+                });
+
+                $('.my-product-card.lip-balm .product-item-custom-form-variants-item').click(function(){
+                  $('.my-product-card.lip-balm .product-item-custom-form-variants-item').removeClass('active');
+                  $(this).addClass('active');
+                });
+
+        
+
+
+             $('form .product-item-custom-form-variants-item').click(function(){
+                let price = $(this).find('.price-variand').attr('data-price');
+                console.log(price);
+                $(this).closest('.my-product-card').find('.button-add-to-cart-dynamic-price').text('');
+                $(this).closest('.my-product-card').find('.button-add-to-cart-dynamic-price').append(price);
+                let prodId = $(this).find('input').val();
+               console.log(prodId);
+              });
+
+
+            $('.product-item-custom-form-variants-item').click(function(){
+              let prodcutIdCustom = $(this).find('input').attr('id');  
+              $('.product-item-custom-form-input').attr('value', prodcutIdCustom);
+              
+               let productid = $(this).closest('.my-product-card').find('.product-item-custom-form-variants-item.active input').val();
+                console.log(productid);
+
+                $('.cart-id-first').val(productid);
+              
+            }); 
+
+              $('.button-variant-cart').click(function(){
+                let productid = $(this).closest('.my-product-card').find('.product-item-custom-form-variants-item.active input').val();
+                console.log(productid);
+
+                $('.cart-id-first').val(productid);
+                
+                let data = {
+                  "id": productid,
+                  "quantity": 1
+                }
+                
+                $.ajax({
+                  type: 'POST',
+                  url: '/cart/add.js',
+                  data: data,
+                  dataType: 'json',
+                  success: function() { 
+                    document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+                      bubbles: true  //this code is for prestige theme, is to refresh the cart
+                   }));
+                  }
+                });
+            
+              });
+            
+          
+            
+            // $('.custom-product-slider-slider .swiper-slide').each(function(){
+            //   let priceCustom = $(this).find('.custom-form-btn').attr('data-price');
+            //   $(this).find('.product-item-custom-form').append('<span class="product-price-custom">' + priceCustom  + '</span>')
+            // });
+            
+            // $('.collection-content li').each(function(){
+            //   let priceCustom2 = $(this).find('.custom-form-btn').attr('data-price');
+            //   $(this).find('.product-item-custom-form').append('<span class="product-price-custom">' + priceCustom2  + '</span>')
+            // });
+
+      
+                $('.my-product-card').each(function() {
+                    var productTitle = $(this).find('.product-title h3 a').text().trim();
+                    var productClass = productTitle.replace(/\s+/g, '-').toLowerCase();
+                    $(this).addClass(productClass);
+                });
+            });
+
+     }, 2000);
+            </script>   
+                              
+        </form>
+        <style>
+          .button-variant-cart{
+              position: relative;
+              min-height: 48px;
+            margin-bottom:11px;
+          }
+          .button-variant-cart .custom-form-btn{
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              z-index: 2;
+          }
+          .button-variant-cart .wrap{
+              position: absolute;
+              z-index: 3;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background: var(--Dark-Green, #3B4E15);
+              pointer-events: none;
+              color: #FFF9EB;
+              text-align: center;
+              font-family: Montas;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 32px;
+              letter-spacing: 0.9px;
+              gap:5px;
+          } 
+          form.product-item-custom-form{
+              position: relative;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants{
+              position: absolute;
+              width: 100%;
+              top: -40px;
+              height: 40px;
+              display: none;
+              z-index:222;
+             
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item fieldset{
+              padding: 11px 1px;
+              position: relative;
+              height: 39px;
+              margin: 0px;
+                border: none;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item{
+                width: 25%;
+                border-top: 1px solid #3B4E15;
+             background: #FFF9EB;
+            cursor:pointer;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:first-child{
+                width: 25%;
+                border-left: 1px solid #3B4E15;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:last-child{
+                width: 25%;
+                border-right: 1px solid #3B4E15;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item fieldset legend{
+              color: #3B4E15;
+              text-align: center;
+              font-family: Cerebri Sans;
+              font-size: 13px !important;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 100%;
+              text-transform: capitalize;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item  .collection-product-options-item{
+            display:none;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item  .price-variand{
+            display:none;
+          }
+          .product-item-custom-form-variants:empty{
+            display:none;
+          }
+          .sensitive-skin-face-lotion form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item.active{
+            background: var(--Orange, #E39903);
+          }
+          .sensitive-skin-face-lotion form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item.active legend{
+            color: #FFF9EB;
+          }
+
+        .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item.active legend{
+            color: #FFF9EB;
+          }
+
+         .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(1).active{
+            background: #6A8F67;
+         }
+           .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(2).active{
+            background: #84B4BA;
+         }
+           .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(3).active{
+            background: #E39903;
+         }
+           .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(4).active{
+            background: url('https://cdn.shopify.com/s/files/1/0363/1123/6740/files/Group_519_1.png?v=1701774731');
+                 background-size: cover !important;
+         }
+
+          .add-my-cart{
+            gap:5px;
+          }
+          .button-variant-cart{
+            display:none;
+          }
+
+@media(max-width:1020px){
+     form.product-item-custom-form .product-item-custom-form-variants{
+       display:flex;
+     }
+}
+
+@media(max-width:776px){
+  .section-products .products-list .my-product-card,  .grid--2-col-tablet-down .grid__item{
+     width: 100% !important;
+     max-width:100% !important;
+  }
+}
+          
+        </style>
+
+
+      
+       
+    </div>
+</div>

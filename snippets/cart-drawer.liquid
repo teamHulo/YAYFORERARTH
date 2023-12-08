@@ -71,6 +71,12 @@
     </div>
 
 
+
+{% if currency.symbol == 'USD' %} 
+  USD
+{% endif %} 
+
+      
 {% if currency == 'USD' %} 
   {% render 'shipping-bar' %}
 {% endif %}  

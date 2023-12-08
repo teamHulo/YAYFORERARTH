@@ -85,25 +85,12 @@
     {% endif %}
 </div>
       
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
-    fetch('http://ip-api.com/json/')
-        .then(response => response.json())
-        .then(data => {
-            if (data.countryCode === 'US') {
-                // Якщо користувач з США, показуємо певний блок
-                document.getElementById('us-specific-content').style.display = 'block';
-            }
-        })
-        .catch(error => console.error('Error:', error));
+$.get("https://ipinfo.io", function(response) { // we changed to https
+console.log(response.city, response.country);
+}, "jsonp");
 </script>
-
-<div id="us-specific-content" style="display:none;">
-    <!-- Ваш контент для користувачів з США -->
-    <p>Цей блок відображається тільки для відвідувачів з США.</p>
-</div>
-
-      
 
       
       <cart-drawer-items

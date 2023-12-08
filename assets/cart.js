@@ -209,7 +209,7 @@ class CartItems extends HTMLElement {
     [...cartItemElements, ...cartDrawerItemElements].forEach((overlay) => overlay.classList.remove('hidden'));
 
     document.activeElement.blur();
-    this.lineItemStatusElement.setAttribute('aria-hidden', false);
+    //this.lineItemStatusElement.setAttribute('aria-hidden', false);
   }
 
   disableLoading(line) {

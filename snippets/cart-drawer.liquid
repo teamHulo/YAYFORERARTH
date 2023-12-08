@@ -86,7 +86,24 @@
 </div>
       
 
+<script>
+    fetch('http://ip-api.com/json/')
+        .then(response => response.json())
+        .then(data => {
+            if (data.countryCode === 'US') {
+                // Якщо користувач з США, показуємо певний блок
+                document.getElementById('us-specific-content').style.display = 'block';
+            }
+        })
+        .catch(error => console.error('Error:', error));
+</script>
 
+<div id="us-specific-content" style="display:none;">
+    <!-- Ваш контент для користувачів з США -->
+    <p>Цей блок відображається тільки для відвідувачів з США.</p>
+</div>
+
+      
 
       
       <cart-drawer-items

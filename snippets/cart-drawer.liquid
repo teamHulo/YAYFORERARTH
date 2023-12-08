@@ -71,14 +71,11 @@
     </div>
 
 
-{{ currency.symbol }}
-
+{% if currency.iso_code == 'USD' %}
+   {% render 'shipping-bar' %}
+{% endif %}
 
       
-      
-{% if currency == 'USD' %} 
-  {% render 'shipping-bar' %}
-{% endif %}  
 
       
       <cart-drawer-items

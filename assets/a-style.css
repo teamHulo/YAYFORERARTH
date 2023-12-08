@@ -2949,3 +2949,177 @@ body .custom-slider .slide-title.title{
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ .button-variant-cart{
+              position: relative;
+              min-height: 48px;
+            margin-bottom:11px;
+          }
+          .button-variant-cart .custom-form-btn{
+              position: absolute;
+              width: 100%;
+              height: 100%;
+              z-index: 2;
+          }
+          .button-variant-cart .wrap{
+              position: absolute;
+              z-index: 3;
+              width: 100%;
+              height: 100%;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+              background: var(--Dark-Green, #3B4E15);
+              pointer-events: none;
+              color: #FFF9EB;
+              text-align: center;
+              font-family: Montas;
+              font-size: 18px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 32px;
+              letter-spacing: 0.9px;
+              gap:5px;
+          } 
+          form.product-item-custom-form{
+              position: relative;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants{
+              position: absolute;
+              width: 100%;
+              top: -40px;
+              height: 40px;
+              display: flex;
+              z-index:222;
+             
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item fieldset{
+              padding: 11px 1px;
+              position: relative;
+              height: 39px;
+              margin: 0px;
+                border: none;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item{
+                width: 25%;
+                border-top: 1px solid #3B4E15;
+             background: #FFF9EB;
+            cursor:pointer;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:first-child{
+                width: 25%;
+                border-left: 1px solid #3B4E15;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:last-child{
+                width: 25%;
+                border-right: 1px solid #3B4E15;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item fieldset legend{
+              color: #3B4E15;
+              text-align: center;
+              font-family: Cerebri Sans;
+              font-size: 11px !important;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              width: 100%;
+              text-transform: capitalize;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item  .collection-product-options-item{
+            display:none;
+          }
+          form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item  .price-variand{
+            display:none;
+          }
+          .product-item-custom-form-variants:empty{
+            display:none;
+          }
+          .sensitive-skin-face-lotion form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item.active{
+            background: var(--Orange, #E39903);
+          }
+          .sensitive-skin-face-lotion form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item.active legend{
+            color: #FFF9EB;
+          }
+
+        .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item.active legend{
+            color: #FFF9EB;
+          }
+
+         .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(1).active{
+            background: #6A8F67;
+         }
+           .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(2).active{
+            background: #84B4BA;
+         }
+           .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(3).active{
+            background: #E39903;
+         }
+           .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(4).active{
+            background: url('https://cdn.shopify.com/s/files/1/0363/1123/6740/files/Group_519_1.png?v=1701774731');
+                 background-size: cover !important;
+         }
+
+          .add-my-cart{
+            gap:5px;
+          }
+          .button-variant-cart{
+            display:none;
+          }
+
+.custom-slider-btn-active{
+  display:flex;
+}
+form.product-item-custom-form .product-item-custom-form-variants{
+   display:none;
+}
+
+.my-product-card.sensitive-skin-face-lotion legend{
+  text-transform:lowercase !important;
+  font-size: 13px !important;
+}
+.my-product-card.sensitive-skin-face-lotion form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:first-child legend{
+  text-transform: capitalize !important;
+}
+.add-my-cart{
+  font-size:16px;
+}
+
+
+
+
+
+
+@media(max-width:1020px){
+     form.product-item-custom-form .product-item-custom-form-variants{
+       display:flex;
+     }
+}
+
+@media(max-width:776px){
+  .section-products .products-list .my-product-card,  .grid--2-col-tablet-down .grid__item{
+     width: 100% !important;
+    max-width:100% !important;
+  }
+}
+
+#CartDrawer-CartErrors{
+  display:none !important;
+}

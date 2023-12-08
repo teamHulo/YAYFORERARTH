@@ -105,4 +105,144 @@ if( $('.template-product .rating').length > 0){
 
 
 
+  setTimeout(function(){
+
+              
+              console.log('aaa');
+            $(document).ready(function() {
+               $('product-recommendations ul li').each(function() {
+                    var productTitle = $(this).find('.my-product-card .product-title h3 a').text().trim();
+                    var productClass = productTitle.replace(/\s+/g, '-').toLowerCase();
+                    $(this).find('.my-product-card').addClass(productClass);
+                });
+              
+                
+                $('product-recommendations .my-product-card.sensitive-skin-face-lotion').each(function() {
+                    $(this).find('.product-item-custom-form-variants-item:first').addClass('active');
+                });
+                $('product-recommendations .my-product-card.sensitive-skin-face-lotion .product-item-custom-form-variants-item').click(function(){
+                  $('product-recommendations  .my-product-card.sensitive-skin-face-lotion .product-item-custom-form-variants-item').removeClass('active');
+                  $(this).addClass('active');
+                });
+
+
+
+              
+               $('product-recommendations .my-product-card.lip-balm ').each(function() {
+                    $(this).find('.product-item-custom-form-variants-item:first').addClass('active');
+                });
+
+                $('product-recommendations .my-product-card.lip-balm .product-item-custom-form-variants-item ').click(function(){
+                  $('product-recommendations .my-product-card.lip-balm .product-item-custom-form-variants-item').removeClass('active');
+                  $(this).addClass('active');
+                });
+
+        
+
+
+             $('product-recommendations form .product-item-custom-form-variants-item').click(function(){
+                let price = $(this).find('.price-variand').attr('data-price');
+                console.log(price);
+                $(this).closest('.my-product-card').find('.button-add-to-cart-dynamic-price').text('');
+                $(this).closest('.my-product-card').find('.button-add-to-cart-dynamic-price').append(price);
+                let prodId = $(this).find('input').val();
+               console.log(prodId);
+              });
+
+
+            $('product-recommendations .product-item-custom-form-variants-item').click(function(){
+              let prodcutIdCustom = $(this).find('input').attr('id');  
+              $('product-recommendations .product-item-custom-form-input').attr('value', prodcutIdCustom);
+              
+               let productid = $(this).closest('.my-product-card').find('.product-item-custom-form-variants-item.active input').val();
+                console.log(productid);
+
+                $(this).closest('.my-product-card').find('.cart-id-first').val(productid);
+              
+            }); 
+
+              $('product-recommendations .button-variant-cart').click(function(){
+                let productid = $(this).closest('.my-product-card').find('.product-item-custom-form-variants-item.active input').val();
+                console.log(productid);
+
+                $('product-recommendations .cart-id-first').val(productid);
+                
+                let data = {
+                  "id": productid,
+                  "quantity": 1
+                }
+                
+                $.ajax({
+                  type: 'POST',
+                  url: '/cart/add.js',
+                  data: data,
+                  dataType: 'json',
+                  success: function() { 
+                    document.documentElement.dispatchEvent(new CustomEvent('cart:refresh', {
+                      bubbles: true  //this code is for prestige theme, is to refresh the cart
+                   }));
+                  }
+                });
+            
+              });
+            
+      
+               
+            });
+
+          if (screen.width > 1020) {
+              $(".product-btn").on({
+                  mouseenter: function () {
+                    $(this).closest('.my-product-card__wrap').find('.product-item-custom-form-variants').css('display','flex');
+            
+                  },
+                  mouseleave: function () {
+                     $(this).closest('.my-product-card ').find('.product-item-custom-form-variants').css('display','none');
+                  
+                  }
+              });
+              $(".product-item-custom-form-variants").on({
+                  mouseenter: function () {
+                     $(this).css('display','flex');
+             
+                  },
+                  mouseleave: function () {
+                     $(this).css('display','none');
+                     
+                  }
+              });
+          }
+
+
+      if (screen.width > 1020) {
+              $("product-recommendations .my-product-card .product-btn").on({
+                  mouseenter: function () {
+                    $(this).closest('.my-product-card__wrap').find('.product-item-custom-form-variants').css('display','flex');
+            
+                  },
+                  mouseleave: function () {
+                     $(this).closest('.my-product-card ').find('.product-item-custom-form-variants').css('display','none');
+                  
+                  }
+              });
+              $("product-recommendations .my-product-card .product-item-custom-form-variants").on({
+                  mouseenter: function () {
+                     $(this).css('display','flex');
+             
+                  },
+                  mouseleave: function () {
+                     $(this).css('display','none');
+                     
+                  }
+              });
+          }
+
+
+    
+    
+     }, 2000);
+
+
+
+
 

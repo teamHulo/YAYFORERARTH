@@ -1,0 +1,113 @@
+
+<style>
+  .progress-bar-container {
+  width: 100%;
+  height: 23px;
+  overflow:hidden;
+  border-radius: 100px;
+  border: 1px solid var(--Dark-Sage, #4F5E3C);
+  background: transparent;
+}
+.progress-bar {
+  height: 100%;
+  background-color: #E7AC91;
+  border-radius: 10px;
+  transition: width 0.5s;
+  display:block !important;
+}
+.progress-bar-container-wrap p{
+  color: var(--Dark-Sage, #4F5E3C);
+  text-align: center;
+  font-family: Cerebri Sans;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 18px; /* 100% */
+  letter-spacing: 0.72px;
+  margin:0px !important;
+  margin-bottom:10px !important;
+}
+.shipping-info-left.active{
+  display:block;
+}
+.shipping-info-done.active{
+  display:block;
+}
+.progress-bar-container-wrap{
+  margin-bottom:20px;
+}
+cart-drawer.is-empty .progress-bar-container-wrap{
+    display:none;
+}
+@media(max-width:990px){
+  .progress-bar-container-wrap p{
+    font-size: 14px;
+  }
+}  
+
+</style>
+
+<script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<div class="progress-bar-container-wrap">
+ 
+  <p id="shipping-info"  class="shipping-info-left">$<span class="left-money"></span> Dollars Away From Free Shipping</p>
+  
+  <p class="shipping-info-done">Free Shipping</p>
+  
+    <div class="progress-bar-container">
+    <div class="progress-bar" style="width: {{ progress_width }}%;"></div>
+  </div>
+  
+</div>
+
+<script>
+  console.log('aa1111');
+$(document).ready(function() {
+    
+    function updateCart() {
+        
+        $.ajax({
+            url: '/cart.js',
+            dataType: 'json',
+            success: function(cart) {
+              
+                let shipping = {{settings.shipping}};
+                  
+                 let leftForFreeShipping = shipping - (cart.total_price / 100);
+                 leftForFreeShipping = leftForFreeShipping.toFixed(2); 
+    
+                 let  progressWidth =  ((cart.total_price / 100) * 100) / shipping;
+
+                 $('.left-money').text(leftForFreeShipping);              
+                 $('.progress-bar').css('width', progressWidth + '%');
+
+               if (progressWidth >= 100) {
+                    $('.shipping-info-done').addClass('active').removeClass('hidden');
+                    $('.shipping-info-left').addClass('hidden').removeClass('active');
+                } else {
+                    $('.shipping-info-left').addClass('active').removeClass('hidden');
+                    $('.shipping-info-done').addClass('hidden').removeClass('active');
+                }
+             
+            
+            }
+        });
+    }
+
+
+    $(document).on('click', '.quantity__button', function() {
+       setTimeout(updateCart, 1500);  
+    });
+
+    $(document).on('click', '.cart-remove-button', function() {
+        setTimeout(updateCart, 1500);   
+    });
+
+    setTimeout(updateCart, 2500);  
+ });
+</script>
+ 
+
+
+    

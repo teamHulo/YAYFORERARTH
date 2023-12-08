@@ -72,20 +72,17 @@
 
 
 
-
-
 <script>
     setTimeout(function() {
-        // Код, який виконується після затримки
         document.getElementById('delayed-content').style.display = 'block';
-      console.log('111111111111111');
-    }, 3000); // Затримка у 3000 мілісекунд (3 секунди)
+        console.log('111111111111111');
+    }, 3000); 
 </script>
 
 <div id="delayed-content" style="display: none;">
     {% if currency.iso_code == 'USD' %}
-    <p>Цей текст відображається тільки для користувачів з цінами в доларах США.</p>
-   {% endif %} 
+      {% render 'shipping-bar' %}
+    {% endif %}
 </div>
       
 

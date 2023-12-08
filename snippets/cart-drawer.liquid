@@ -77,11 +77,22 @@
   aaaaaa
 {% endif %}
 
-  {% if currency.iso_code == 'USD' %}
+<script>
+    setTimeout(function() {
+        // Код, який виконується після затримки
+        document.getElementById('delayed-content').style.display = 'block';
+    }, 3000); // Затримка у 3000 мілісекунд (3 секунди)
+</script>
+
+<div id="delayed-content" style="display: none;">
+    {% if currency.iso_code == 'USD' %}
     <!-- Ваш код для відображення, коли валюта є доларом США -->
     <p>Цей текст відображається тільки для користувачів з цінами в доларах США.</p>
     <!-- Можете додавати інші HTML елементи або Liquid код тут -->
 {% endif %}
+</div>
+      
+
 
 
       

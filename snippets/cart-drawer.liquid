@@ -88,6 +88,9 @@
 <script>
   $.get("https://ipinfo.io", function(response) { // we changed to https
   console.log(response.country);
+    if(response.country == "UA"){
+      $('.valuerSymbol').addClass('active');
+    }
   }, "jsonp");
 </script>
 

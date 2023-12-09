@@ -95,7 +95,7 @@
 <script>
   $.get("https://ipinfo.io", function(response) { // we changed to https
   console.log(response.country);
-     if(response.country == "USA"){
+     if(response.country === "USA"){
       $('.valuerSymbol').addClass('active');
     }
   }, "jsonp");

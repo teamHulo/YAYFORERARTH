@@ -73,12 +73,19 @@
 
 
 
-{% if currency.iso_code == 'USD' %}
+
+
+<p class="valuerSymbol">
   {% render 'shipping-bar' %}
-{% endif %}
-
-<p class="valuerSymbol">test</p>
-
+</p>
+<style>
+  .valuerSymbol{
+    display:none;
+  }
+  .valuerSymbol.active{
+    display:block;
+  }
+</style>
 
 
 
@@ -88,11 +95,8 @@
 <script>
   $.get("https://ipinfo.io", function(response) { // we changed to https
   console.log(response.country);
-    if(response.country == "UA"){
-      $('.valuerSymbol').addClass('active');
-    }
      if(response.country == "USA"){
-      $('.valuerSymbol').addClass('red');
+      $('.valuerSymbol').addClass('active');
     }
   }, "jsonp");
 </script>

@@ -87,18 +87,17 @@
   }
 </style>
 
-{{ cart.currency.symbol }}
+
     
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   $.get("https://ipinfo.io", function(response) { // we changed to https
   console.log(response.country);
-     if(response.country === "USA"){
+     if({{ cart.currency.symbol }} === "$"){
       $('.valuerSymbol').addClass('active');
     }
   }, "jsonp");
 
-  console.log({{ cart.currency.symbol }});
 </script>
 
 

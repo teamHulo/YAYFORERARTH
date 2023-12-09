@@ -71,9 +71,6 @@
     </div>
 
 
-{% if  cart.currency.symbol  == $ %}
-  $$$$
-{% endif %}
 
 
 <div class="valuerSymbol">
@@ -94,12 +91,15 @@
 <script>
   $.get("https://ipinfo.io", function(response) { // we changed to https
   console.log(response.country);
-     if({{ cart.currency.symbol }} === "$"){
+     if({{ cart.currency.symbol }} === $ ){
       $('.valuerSymbol').addClass('active');
     }
   }, "jsonp");
 
 </script>
+{% if  cart.currency.symbol  == $ %}
+  $$$$
+{% endif %}
 
 
 

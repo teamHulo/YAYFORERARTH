@@ -93,6 +93,8 @@
   console.log(response.country);
      if({{ cart.currency.symbol }} === $ ){
       $('.valuerSymbol').addClass('active');
+    }else{
+       console.log('other country');
     }
   }, "jsonp");
 

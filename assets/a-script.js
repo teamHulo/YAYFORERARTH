@@ -236,9 +236,7 @@ if( $('.template-product .rating').length > 0){
                   }
               });
           }
-
-
-    
+  
     
      }, 2000);
 

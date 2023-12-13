@@ -3137,20 +3137,5 @@ form.product-item-custom-form .product-item-custom-form-variants{
 .add-my-cart span.active{
   display:block;
 }
-.button-mobile{
-  display:none;
-}
-@media(max-width:775px){
-  .button-mobile{
-    display:block;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 222;
-    bottom: 0;
-  }
-  form.product-item-custom-form .product-item-custom-form-variants{
-    display:none;
-  }
-}
+
 

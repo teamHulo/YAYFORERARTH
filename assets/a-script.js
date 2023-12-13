@@ -256,3 +256,12 @@ if( $('.template-product .rating').length > 0){
               });
 
 
+             $(".add-my-cart").on({
+                  mouseenter: function () {
+                     $(this).find('span').addClass('active');
+             
+                  },
+                  mouseleave: function () {
+                     $(this).find('span').removeClass('active');
+                  }
+              });

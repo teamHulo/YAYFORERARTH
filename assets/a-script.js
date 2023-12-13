@@ -267,10 +267,12 @@ if( $('.template-product .rating').length > 0){
               });
 
 
-if (screen.width < 1020) {
+if (screen.width < 775) {
   $('.button-mobile').click(function(){
     $(this).closest('.my-product-card__wrap').find('.product-item-custom-form-variants').css('display','flex');
     $(this).css('display','none');
+    $(this).closest('.my-product-card__wrap').find('.add-my-cart span').addClass('active');
+    $(this).closest('.my-product-card__wrap').find('.add-my-cart').addClass('hover');
   });
 
   

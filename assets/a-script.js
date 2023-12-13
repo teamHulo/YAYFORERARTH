@@ -243,6 +243,15 @@ if( $('.template-product .rating').length > 0){
      }, 2000);
 
 
-
+ $(".product-item-custom-form-variants").on({
+                  mouseenter: function () {
+                     $(this).closest('.my-product-card__wrap').find('.add-my-cart').addClass('hover');
+             
+                  },
+                  mouseleave: function () {
+                     $(this).closest('.my-product-card__wrap').find('.add-my-cart').removeClass('hover');
+                     
+                  }
+              });
 
 

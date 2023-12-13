@@ -3131,3 +3131,9 @@ form.product-item-custom-form .product-item-custom-form-variants{
   background: #FFF9EB;
   transition: all .4s ease-in-out;
 }
+.add-my-cart span{
+  display:none;
+}
+.add-my-cart span.active{
+  display:block;
+}

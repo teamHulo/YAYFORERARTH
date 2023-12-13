@@ -89,7 +89,6 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
   console.log('{{ cart.currency.symbol }}');
-  let symbo = {{ cart.currency.symbol }};
   $.get("https://ipinfo.io", function(response) { // we changed to https
   console.log(response.country);
      if('{{ cart.currency.symbol }}' === '$' ){

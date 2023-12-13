@@ -92,7 +92,7 @@
   let symbo = {{ cart.currency.symbol }};
   $.get("https://ipinfo.io", function(response) { // we changed to https
   console.log(response.country);
-     if(symbo === $ ){
+     if('{{ cart.currency.symbol }}' === '$' ){
       $('.valuerSymbol').addClass('active');
     }else{
        console.log('other country');

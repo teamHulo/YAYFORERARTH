@@ -3149,5 +3149,8 @@ form.product-item-custom-form .product-item-custom-form-variants{
     z-index: 222;
     bottom: 0;
   }
+  form.product-item-custom-form .product-item-custom-form-variants{
+    display:none;
+  }
 }
 

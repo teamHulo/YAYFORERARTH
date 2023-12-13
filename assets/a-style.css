@@ -3123,3 +3123,11 @@ form.product-item-custom-form .product-item-custom-form-variants{
 #CartDrawer-CartErrors{
   display:none !important;
 }
+
+
+.hover{
+  border-color: #3b4e15;
+  color: #3b4e15;
+  background: #FFF9EB;
+  transition: all .4s ease-in-out;
+}

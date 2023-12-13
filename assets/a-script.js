@@ -265,3 +265,15 @@ if( $('.template-product .rating').length > 0){
                      $(this).find('span').removeClass('active');
                   }
               });
+
+
+if (screen.width < 1020) {
+  $('.button-mobile').click(function(){
+    $(this).closest('.my-product-card__wrap').find('.product-item-custom-form-variants').css('display','flex');
+    $(this).css('display','none');
+  });
+
+  
+}
+
+

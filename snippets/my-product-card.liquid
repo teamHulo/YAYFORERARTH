@@ -77,7 +77,7 @@
                    <span> - </span>
                <span class="button-add-to-cart-dynamic-price">
                  {% if product.variants[0] %}
-                    {{ product.variants[0].price | money_with_currency }}
+                    {{ product.variants[0].price | money }}
                   {% endif %}
                </span>
                 </button>

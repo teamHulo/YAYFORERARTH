@@ -243,14 +243,15 @@ if( $('.template-product .rating').length > 0){
      }, 2000);
 
 
- $(".product-item-custom-form-variants").on({
+             $(".product-item-custom-form-variants").on({
                   mouseenter: function () {
                      $(this).closest('.my-product-card__wrap').find('.add-my-cart').addClass('hover');
+                    $(this).closest('.my-product-card__wrap').find('.add-my-cart span').addClass('active');
              
                   },
                   mouseleave: function () {
                      $(this).closest('.my-product-card__wrap').find('.add-my-cart').removeClass('hover');
-                     
+                     $(this).closest('.my-product-card__wrap').find('.add-my-cart span').removeClass('active');
                   }
               });
 

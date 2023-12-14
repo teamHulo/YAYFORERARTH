@@ -146,8 +146,8 @@
         "settings": {
         }
       },
-      "5043070786800498925": {
-        "type": "shopify:\/\/apps\/cw-back-in-stock-restock-alert\/blocks\/bis-switch\/b190bced-3b7b-47da-a05f-6ea4821c3a77",
+      "back-in-stock-restock-alerts-4bb73be2-b7c2-4870-949f-c528145452a3": {
+        "type": "shopify:\/\/apps\/back-in-stock-restock-alerts\/blocks\/main\/4bb73be2-b7c2-4870-949f-c528145452a3",
         "disabled": false,
         "settings": {
         }

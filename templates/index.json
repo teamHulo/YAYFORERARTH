@@ -4,7 +4,7 @@
       "type": "section-banner",
       "settings": {
         "img": "shopify:\/\/shop_images\/97909d4bb507f9dabc2c11117eb907d1.jpg",
-        "title": "Hello <span>skincare<\/span>, meet <span>nature<\/span>.  I think you two will get along.",
+        "title": "Hello <span>skincare<\/span>, meet <span>nature<\/span>. \u2028I think you two will get along.",
         "btn_name": "Shop Now",
         "url": "\/collections\/yayforearth-sensitive-skin-face-lotion"
       }
@@ -223,7 +223,7 @@
             "color_text": "#fff9eb",
             "name": "Meet Stevie",
             "title": "Get to Know <br> Our <i>Founder<\/i>",
-            "text": "<p>Get a glimpse into the life of our founder, Stevie! Discover the story behind Yay for Earth - where passion for skincare and a love for our planet join forces!   <\/p><p>This is a story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected. Oh wait, thats J.R.R. Tolkien.  <\/p>",
+            "text": "<p>Get a glimpse into the life of our founder, Stevie! Discover the story behind Yay for Earth - where passion for skincare and a love for our planet join forces!  \u2028<\/p><p>This is a story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected. Oh wait, thats J.R.R. Tolkien. \u2028<\/p>",
             "url": "shopify:\/\/pages\/stevie-s-story",
             "btn_name": "Learn More"
           }
@@ -249,7 +249,7 @@
             "color_text": "#fff9eb",
             "name": "Our World",
             "title": "Get to Know <br>Our <span>Warehouse<\/span>",
-            "text": "<p>Welcome to the epicenter of our operations and the heart of Yay for Earth. Our warehouse and sacred creation space is a special one. When we receive our ingredients from our farmers, their next destination is in your hands. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper. Click below to dive in!  <\/p>",
+            "text": "<p>Welcome to the epicenter of our operations and the heart of Yay for Earth. Our warehouse and sacred creation space is a special one. When we receive our ingredients from our farmers, their next destination is in your hands. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper. Click below to dive in! \u2028<\/p>",
             "url": "shopify:\/\/pages\/our-warehouse",
             "btn_name": "Learn More"
           }
@@ -461,7 +461,7 @@
           "settings": {
             "select-column": "right",
             "title": "Are your shipping materials plastic free?",
-            "text": "<p>Yes! We use recycled materials whenever possible and ship with 100% recyclable paper. Our boxes are 100% recyclable with paper tape, which is also completely recyclable. <\/p>"
+            "text": "<p>Yes! We use post-consumer cardboard boxes, recycled materials whenever possible, and ship with 100% recyclable paper. <\/p>"
           }
         },
         "e2a97ca4-d884-48ac-9644-d71f1f5ae792": {
@@ -469,7 +469,7 @@
           "settings": {
             "select-column": "right",
             "title": "Do you ship to my country?",
-            "text": "<p>With the rare exception, we ship everywhere! If you’d like to buy our product locally, please reach out with any store suggestions for us to reach out to!<\/p>"
+            "text": "<p>With the rare exception, we ship everywhere! If you’d like to buy our product locally, please reach out with any store suggestions for us to contact!<\/p>"
           }
         },
         "4c291d88-a65f-4a13-8f45-66376dd515e0": {
@@ -522,6 +522,9 @@
       "type": "nature-main",
       "disabled": true,
       "settings": {
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_subtitle": "Subscribe for store updates.",
         "title": "Take a Deep Breath",
         "image": "shopify:\/\/shop_images\/Rectangle_191.png",
         "link-left": "shopify:\/\/blogs\/nature",

@@ -59,7 +59,7 @@
         "img": "shopify:\/\/shop_images\/8dd5caa5d6396f95ce3d28aa12525728_4a913a15-41e1-4a33-97c2-fa9ee7bc17c3.jpg",
         "max_height": 850,
         "title": "Yay for Earth started with Stevie making her magical product out of her Brooklyn, NY apartment kitchen",
-        "text": "<p>Yay for Earth started with Stevie making her magical product out of her Brooklyn, NY apartment kitchen and packing out each order in her living room, with the help of Sophie and friends. In just a few years, the business has grown to the point where we are now operating an official Yay for Earth space with the most badazz team - including Stevie’s Cousin Dillon!  <br\/><\/p><p>We believe change can start with an individual but BIG change starts when brands and corporations hold themselves accountable for their waste and impact, and we will never compromise on this ideal!<\/p>",
+        "text": "<p>Yay for Earth started with Stevie making her magical product out of her Brooklyn, NY apartment kitchen and packing out each order in her living room with the help of Sophie and friends. In just a few years, the business has grown to the point where we are now operating an official Yay for Earth space with the most badazz team - including Stevie’s cousin Dillon!  <br\/><\/p><p>We believe change can start with an individual, but BIG change starts when brands and corporations hold themselves accountable for their waste and impact. We will never compromise on this ideal!<\/p>",
         "vertical_alignment": "center"
       }
     },
@@ -77,7 +77,7 @@
           "type": "item",
           "settings": {
             "title": "Shipping",
-            "text": "<p>Our entire shipping space is low waste. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper.  <\/p>"
+            "text": "<p>Our entire shipping space is low waste. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper.\u2028\u2028<\/p>"
           }
         }
       },

@@ -49,7 +49,7 @@
         {% endfor %}
       {% endcomment %}
 
-        {%- for product in collection.products -%}
+        {%- for product in collection.frontpage.products -%}
           <li class="grid__item product-recomend">
             {% render 'my-product-card', product: product %}
           </li>

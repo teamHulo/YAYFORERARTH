@@ -56,10 +56,9 @@
         {% endfor %}
 
         
-<!-- На сторінці продукту -->
-{% render 'recomendations', current_product_handle: product.handle %}
+{%- assign current_product = product -%} <!-- Збереження поточного продукту -->
 {%- for product in collections.all.products -%}
-  {%- if product.handle != current_product_handle -%}
+  {%- if product.handle != current_product.handle -%} <!-- Перевірка, чи не є продукт поточним -->
     <li class="grid__item product-recomend">
       {% render 'my-product-card', product: product %}
     </li>

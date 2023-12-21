@@ -80,7 +80,7 @@ if ($(window).width() < 990){
 
 
 
-
+//PLS CHECK ALL PRODUCT ADD TO CART HOVER BEFORE UNCOMMENT THIS 
 // $('<a class="btn-custom" href="/products/1oz-sensitive-skin-face-lotion">Shop Lotion</a>').insertAfter($('[data-id="template--16282984251551__product-grid"] .grid__item:nth-child(1) .add-my-cart'))
 
 // $('[data-id="template--16282984251551__product-grid"] .grid__item:nth-child(1) .add-my-cart').remove()

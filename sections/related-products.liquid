@@ -49,11 +49,7 @@
         {% endfor %}
       {% endcomment %}
 
-        <!-- {%- for product in collections.all.products -%}
-          <li class="grid__item product-recomend">
-            {% render 'my-product-card', product: product %}
-          </li>
-        {% endfor %} -->
+   
 
         
         {%- assign current_product = product -%} <!-- Збереження поточного продукту -->
@@ -66,7 +62,11 @@
         {% endfor %}
 
 
-        
+              {%- for product in collections.all.products -%}
+          <li class="grid__item product-recomend">
+            {% render 'my-product-card', product: product %}
+          </li>
+        {% endfor %} 
         
       </ul>
     {% endif %}

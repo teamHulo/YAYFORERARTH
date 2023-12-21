@@ -56,8 +56,18 @@
         {% endfor %}
 
         
+<!-- На сторінці продукту -->
+{% render 'recomendations', current_product_handle: product.handle %}
+{%- for product in collections.all.products -%}
+  {%- if product.handle != current_product_handle -%}
+    <li class="grid__item product-recomend">
+      {% render 'my-product-card', product: product %}
+    </li>
+  {%- endif -%}
+{% endfor %}
 
-фівфвфві
+
+        
         
         
       </ul>

@@ -76,13 +76,13 @@
                   mouseenter: function () {
                      $(this).closest('.my-product-card__wrap').find('.add-my-cart').addClass('hover');
                     $(this).closest('.my-product-card__wrap').find('.add-my-cart span').addClass('active');
-                    console.log(this);
+                    
              
                   },
                   mouseleave: function () {
                      $(this).closest('.my-product-card__wrap').find('.add-my-cart').removeClass('hover');
                      $(this).closest('.my-product-card__wrap').find('.add-my-cart span').removeClass('active');
-                    console.log(this);
+                    
                   }
               });
 
@@ -90,12 +90,12 @@
              $(".add-my-cart").on({
                   mouseenter: function () {
                      $(this).find('span').addClass('active');
-                    console.log(this);
+                    
              
                   },
                   mouseleave: function () {
                      $(this).find('span').removeClass('active');
-                    console.log(this);
+                    
                   }
               });
 

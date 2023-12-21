@@ -69,32 +69,13 @@
   .product-recomend .product-btn:hover .add-my-cart span{
       display:block !important;
   }
+  .product-recomend .product-btn:hover & .product-item-custom-form-variants{
+      display:block !important;
+  }
+
+  
 </style>
-<script>
-      $(".product-item-custom-form-variants").on({
-                  mouseenter: function () {
-                     $(this).closest('.my-product-card__wrap').find('.add-my-cart').addClass('hover');
-                    $(this).closest('.my-product-card__wrap').find('.add-my-cart span').addClass('active');
-             
-                  },
-                  mouseleave: function () {
-                     $(this).closest('.my-product-card__wrap').find('.add-my-cart').removeClass('hover');
-                     $(this).closest('.my-product-card__wrap').find('.add-my-cart span').removeClass('active');
-                  }
-              });
 
-
-             $(".add-my-cart").on({
-                  mouseenter: function () {
-                     $(this).find('span').addClass('active');
-             
-                  },
-                  mouseleave: function () {
-                     $(this).find('span').removeClass('active');
-                  }
-              });
-
-</script>
 {% schema %}
 {
   "name": "t:sections.related-products.name",

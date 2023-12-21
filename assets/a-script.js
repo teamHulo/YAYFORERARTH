@@ -282,6 +282,33 @@ if( $('.template-product .rating').length > 0){
               });
 
 
+   $(".product-recomend .product-item-custom-form-variants").on({
+                      mouseenter: function () {
+                         $(this).closest('.my-product-card__wrap').find('.add-my-cart').addClass('hover');
+                        $(this).closest('.my-product-card__wrap').find('.add-my-cart span').addClass('active');
+                        
+                 
+                      },
+                      mouseleave: function () {
+                         $(this).closest('.my-product-card__wrap').find('.add-my-cart').removeClass('hover');
+                         $(this).closest('.my-product-card__wrap').find('.add-my-cart span').removeClass('active');
+                        
+                      }
+                  });
+            
+                 $(".product-recomend .add-my-cart").on({
+                      mouseenter: function () {
+                         $(this).find('span').addClass('active');
+            
+                      },
+                      mouseleave: function () {
+                         $(this).find('span').removeClass('active');
+                        
+                      }
+                  });
+
+
+
 if (screen.width < 775) {
   $('.button-mobile').click(function(){
     $(this).closest('.my-product-card__wrap').find('.product-item-custom-form-variants').css('display','flex');

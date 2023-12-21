@@ -33,6 +33,7 @@
         class="grid product-grid grid--{{ section.settings.columns_desktop }}-col-desktop grid--{{ section.settings.columns_mobile }}-col-tablet-down"
         role="list"
       >
+        {% comment %}
         {% for recommendation in recommendations.products %}
           <li class="grid__item">
             {% comment %} {% render 'card-product',
@@ -46,8 +47,13 @@
             {% render 'recomend-product-card', product: recommendation %}
           </li>
         {% endfor %}
+      {% endcomment %}
 
-
+        {%- for product in collection.products -%}
+          <li class="grid__item product-recomend">
+            {% render 'my-product-card', product: product %}
+          </li>
+        {% endfor %}
 
         
       </ul>

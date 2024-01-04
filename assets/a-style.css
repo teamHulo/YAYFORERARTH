@@ -3137,5 +3137,8 @@ form.product-item-custom-form .product-item-custom-form-variants{
 .add-my-cart span.active{
   display:block;
 }
+/******/
 
-
+.product-item-custom-form:hover .product-item-custom-form-variants{
+  display:flex;
+}

@@ -3140,5 +3140,5 @@ form.product-item-custom-form .product-item-custom-form-variants{
 /******/
 
 .product-item-custom-form:hover .product-item-custom-form-variants{
-  display:flex;
+  display:flex !important;
 }

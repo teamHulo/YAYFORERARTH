@@ -208,7 +208,7 @@ if( $('.template-product .rating').length > 0){
             });
 
           if (screen.width > 1020) {
-              $(".product-btn").on({
+            /*  $(".product-btn").on({
                   mouseenter: function () {
                     $(this).closest('.my-product-card__wrap').find('.product-item-custom-form-variants').css('display','flex');
             
@@ -227,7 +227,7 @@ if( $('.template-product .rating').length > 0){
                      $(this).css('display','none');
                      
                   }
-              });
+              });*/
           }
 
 

@@ -74,7 +74,7 @@
           "type": "tab",
           "settings": {
             "title": "Ingredients",
-            "text": "<p>HIVE: Organic Olea Europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis Oil (Jojoba), Organic Plukenetia Volubilis (Sacha Inchi) oil, Organic Butyrospermum Parkii (Shea Butter), Organic Theobroma Cocoa (Cocoa seed) Butter   WOODS:  Organic Olea europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis (Jojoba) oil, Organic Plukenetia volubilis (sacha inchi) Oil,Organic Butyrospermum Parkii (Shea Butter), Organic Theobroma Cocoa (Cocoa Seed) Butter, Organic Pseudotsuga Menziesii (Douglas Fir) Essential Oil, Organic Vanilla Planifolia (Vanilla) Essential Oil  MOON:  Organic Olea europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis (Jojoba) Oil, Organic Plukenetia Volubilis (Sacha Inchi) Oil, Organic Butyrospermum Parkii  (Shea Butter), Organic Theobroma Cocoa (Cocoa Seed) Butter, Organic Matricaria Chamomilla (Chamomile) Essential Oil, Organic Lavandula (Lavender) Essential Oil, Organic Piper Nigrum (Black Pepper) Essential Oil  <\/p>"
+            "text": "<p>HIVE: Organic Olea Europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis Oil (Jojoba), Organic Plukenetia Volubilis (Sacha Inchi) oil, Organic Butyrospermum Parkii (Shea Butter), Organic Theobroma Cocoa (Cocoa seed) Butter \u2028\u2028WOODS:  Organic Olea europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis (Jojoba) oil, Organic Plukenetia volubilis (sacha inchi) Oil,Organic Butyrospermum Parkii (Shea Butter), Organic Theobroma Cocoa (Cocoa Seed) Butter, Organic Pseudotsuga Menziesii (Douglas Fir) Essential Oil, Organic Vanilla Planifolia (Vanilla) Essential Oil\u2028\u2028MOON:  Organic Olea europaea L (Olive Oil), Local Cera Alba (Beeswax), Organic Simmondsia Chinensis (Jojoba) Oil, Organic Plukenetia Volubilis (Sacha Inchi) Oil, Organic Butyrospermum Parkii  (Shea Butter), Organic Theobroma Cocoa (Cocoa Seed) Butter, Organic Matricaria Chamomilla (Chamomile) Essential Oil, Organic Lavandula (Lavender) Essential Oil, Organic Piper Nigrum (Black Pepper) Essential Oil\u2028\u2028<\/p>"
           }
         },
         "42ce5b98-e943-4d2b-ab57-191f26170632": {
@@ -162,7 +162,7 @@
           "type": "image",
           "settings": {
             "img": "shopify:\/\/shop_images\/23d9b0c7c1c872772acf5396a28d9f3d.png",
-            "title": "bees Wax",
+            "title": "beeswax",
             "text": "Anti-inflammatory, anti-bacterial, encourages cell reconstruction. Protective barrier between skin and the environment without clogging pores."
           }
         },
@@ -233,7 +233,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/a4e09694d08bead7cc84c583e9e6cfa4.jpg",
             "title": "Calming",
-            "text": "<h3>Calming for<\/h3><ul><li>Beard hydration & protection<\/li><li>Aftershave<\/li><li>Hair growth <\/li><li> Razor Burn<\/li><\/ul>"
+            "text": "<h3>Calming for<\/h3><ul><li>Beard hydration & protection<\/li><li>Aftershave<\/li><li>Hair growth\u2028<\/li><li>\u2028Razor Burn<\/li><\/ul>"
           }
         },
         "807ee9d1-ceeb-46b4-8077-598066eafaf9": {
@@ -257,7 +257,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/af3b7f5aa56d91352382d42bd8310101.png",
             "title": "Glowing",
-            "text": "<h3>Glowing for<\/h3><ul><li>Cuticles<\/li><li>Hand & Foot Care<\/li><li>Make Up Remover  <\/li><li>Natural Highlighter  <\/li><li>Frizz, Flyaways, Split Ends<\/li><\/ul>"
+            "text": "<h3>Glowing for<\/h3><ul><li>Cuticles<\/li><li>Hand & Foot Care<\/li><li>Make Up Remover\u2028\u2028<\/li><li>Natural Highlighter\u2028\u2028<\/li><li>Frizz, Flyaways, Split Ends<\/li><\/ul>"
           }
         }
       },

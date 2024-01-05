@@ -33,7 +33,7 @@
       >
         
         {%- assign current_product = product -%}
-        {%- for product in collections.all.products -%}
+        {%- for product in collections.all.products limit: section.settings.products_to_show -%}
           {%- if product.handle != current_product.handle -%} 
             <li class="grid__item product-recomend">
               {% render 'my-product-card', product: product %}

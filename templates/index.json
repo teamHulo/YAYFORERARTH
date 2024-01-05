@@ -95,15 +95,15 @@
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
       "settings": {
-        "bg": "#FFF9EB",
+        "bg": "#fff9eb",
         "img_single": "shopify:\/\/shop_images\/custom_resized_10bbe7bd-89ca-4420-bbfb-746a9f4469db.jpg",
         "title": "IN CASE YOU CAN'T GET INTO NATURE, THIS IS FOR YOU",
-        "color_title": "#FFF9EB",
+        "color_title": "#fff9eb",
         "btn_name": "Nature Connect",
-        "url": "",
-        "color_btn_text": "#FFF9EB",
-        "color_bg_btn": "#3B4E15",
-        "color_border_btn": "#FFF9EB"
+        "url": "https:\/\/yayforearth.com\/pages\/nature-portal",
+        "color_btn_text": "#fff9eb",
+        "color_bg_btn": "#3b4e15",
+        "color_border_btn": "#fff9eb"
       }
     },
     "e32f860a-b747-448a-bba0-831667bf10ed": {

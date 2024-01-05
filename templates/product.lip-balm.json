@@ -148,7 +148,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/SACHA_INCHI_INGREDIENT.jpg",
             "title": "Sacha Inchi Oil",
-            "text": "High amounts of Omega fatty acids for healing & moisturizing.ainst free radical damage. Linoleic acid maintains skin’s barrier and locks in moisture."
+            "text": "High amounts of Omega fatty acids for healing & moisturizing against free radical damage. Linoleic acid maintains skins’ barrier and locks in moisture."
           }
         },
         "2c99028b-2da0-4466-b8e9-f5f2512cccab": {
@@ -188,7 +188,7 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "label": "4",
-        "title": "<em>Key<\/em> Ingredients",
+        "title": "Key Ingredients",
         "flip": false
       }
     },

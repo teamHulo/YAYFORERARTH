@@ -30,19 +30,16 @@
       recurpay.product.available = "{{product.available}}";
       recurpay.product.availableVariant = "{{product.selected_or_first_available_variant.id}}";
       recurpay.product.onlySubscription = "{{product.requires_selling_plan}}";
-      recurpay.checkout = 'shopify';
       recurpay.pageTemplate = "{{ template }}";
-      recurpay.prepaidMixedCart = true;
-      recurpay.subscriptionFirst = true;
-      recurpay.subscriptionInfluence = false;
-      recurpay.subscriptionInfluenceCount = -1;
+      recurpay.checkout = 'shopify';
+      recurpay.prepaidMixedCart = false;
       recurpay.checkout_btn_override_class = ".icart-checkout-btn, .hs-checkout-purchase, .recurpay-custom-checkout-btn";
       recurpay.pdpAPI = recurpay.domainURL + '/api/storefront/v2/plans';
       recurpay.accountAPI = recurpay.domainURL + '/api/storefront/v2/customers/{{customer.id}}/subscriptions/count';
       recurpay.manageAccountAPI = recurpay.domainURL + "/storefront/account/authenticate/{{customer.id}}";
       recurpay.checkoutAPI = recurpay.domainURL + '/checkout/initiate.rp';
-      recurpay.offersAPI =  recurpay.domainURL + '/api/storefront/products/offers';
       recurpay.logURL = recurpay.domainURL + '/api/storefront/v2/logger';
+
       {% if customer %}
       recurpay.customer = '{{customer.id}}';
       {% else %}
@@ -52,6 +49,7 @@
         recurpay.pdpAPI = recurpay.domainURL + '/api/storefront/v2/plans?fetch=force';
       }
       var accountTemplate = '',
+          pdpTemplate = '',
           accountSelector = "#recurpay-account-widget",
           pdpSelector = ".recurpay-pdp-widget",
           subscriptionSelector = "#recurpay-manage-subscriptions",
@@ -60,15 +58,36 @@
           atcSelector = '[name="add"], [type=\"submit\"], button#AddToCart, button.gf_add-to-cart',
           buynowSelector = '.shopify-payment-button,.shopify-payment-button__button';
 
+
       // ACCOUNT PAGE
+      function logEvent(module_name,addon,type){
+         $.ajax({
+          url: recurpay.logURL,
+          type: 'POST',
+          async:true,
+          dataType: 'json',
+          data: {
+            module:module_name,
+            level: type,
+            payload:{
+              store : recurpay.domainURL,
+              remark: addon
+            }
+          },
+          success: function(response) {
+           console.log("event logged");
+          }
+        });
+      }
+
       if(recurpay.pageTemplate == "customers/account" && $(accountSelector).length <= 0){
-        if($('.card__linklist').length >0){
+       if($('.card__linklist').length >0){
             $('.card__linklist').before('<div id="recurpay-account-widget"></div>');
         }
         else if($('.flits-account-page-title').length >0){
             $('.flits-account-page-title').append('<div id="recurpay-account-widget"></div>');
         }
-       else if($('a[href*="/account/addresses"]').length >0){
+        else if($('a[href*="/account/addresses"]').length >0){
           $('a[href*="/account/addresses"]').before('<div id="recurpay-account-widget"></div>');
         }
         else if ($('.order-history').length >0){
@@ -82,8 +101,8 @@
         }
       }
 
-      //LOGIN PAGE
-      function loginPageSubscriptionLink(){
+        //LOGIN PAGE
+        function loginPageSubscriptionLink(){
             var accountLoginHTML = "";
                 managesubscriptionSelector = ".recurpay-manage-subscription-link",
                 signUpFormSelector = 'form[action*="/account"]';
@@ -115,7 +134,7 @@
             }
         }   
         loginPageSubscriptionLink();
-
+      
       if($(accountSelector).length && recurpay.customer !== "guest"){
         function recurAccount(count){
           accountTemplate += '<div class="subscription__account" data-subscription-block>'
@@ -141,7 +160,7 @@
             if(response != "ERROR") {
              if(response.settings !== null && !$.isEmptyObject(response.settings)){
                 recurpay.accountSettings = response.settings;
-                document.documentElement.style.setProperty('--recurpay_primary_color', recurpay.accountSettings.snippet_color_codes.account_brand_color);
+                document.documentElement.style.setProperty('--recurpay_brand_color', recurpay.accountSettings.snippet_color_codes.account_brand_color);
                 document.documentElement.style.setProperty('--recurpay_button_text_color', recurpay.accountSettings.snippet_color_codes.account_button_text_color);
                 document.documentElement.style.setProperty('--recurpay_button_bg_color', recurpay.accountSettings.snippet_color_codes.account_button_color);
               }
@@ -238,468 +257,84 @@
         }
       }
 
-    // VARIANT SELECTOR
-
-      function getProductHandle(href) {
-        if (typeof href === "undefined") {
-            var href = window.location.href;
-            href = href.replace("/products/products", "/products");
-        }
-        if (/\/products\/([^\?\/\n]+)/.test(href)) {
-            var found = href.match(/\/products\/([^\?\/\n]+)/);
-            if (typeof found[1] !== "undefined") {
-                try {
-                    return decodeURIComponent(found[1]).replace("#", "");
-                } catch (e) {
-                    return found[1].replace("#", "");
-                }
-            }
-        }
-        return false;
-      }
-
-      recurpay.recurMoney = {
-        formatPrice: function (price, convertCurrency) {
-            if (typeof Shopify !== "undefined" && Shopify.hasOwnProperty("currency") && Shopify.currency.hasOwnProperty("rate")) {
-                var currency = Shopify.currency.active;
-                var exchangeRate = Shopify.currency.rate;
-                var moneyFormat = "{{amount}}" + currency;
-                var currencyFormat = "";
-                if (typeof convertCurrency === "undefined") {
-                    convertCurrency = false;
-                }
-                if (convertCurrency && exchangeRate !== "1.0") {
-                    price = this.convertMoney(price, exchangeRate, currency);
-                }
-                var bodyAttrMoneyFormat = $("body").attr("data-money-format");
-                if (currencyFormat !== "") {
-                    moneyFormat = currencyFormat;
-                }
-                else {
-                    if (typeof Shopify !== "undefined" && typeof Shopify.currency_settings !== "undefined" && typeof Shopify.currency_settings.money_format !== "undefined") {
-                        moneyFormat = Shopify.currency_settings.money_format;
-                    } else if (typeof window.money_format !== "undefined") {
-                        moneyFormat = window.money_format;
-                    } else if (typeof window.Theme !== "undefined" && typeof window.Theme.moneyFormat !== "undefined") {
-                        moneyFormat = window.Theme.moneyFormat;
-                    } else if (typeof window.theme !== "undefined" && typeof window.theme.moneyFormat !== "undefined") {
-                        moneyFormat = window.theme.moneyFormat;
-                    } else if (typeof window.theme !== "undefined" && typeof window.theme.money_format === "string") {
-                        moneyFormat = window.theme.money_format;
-                    } else if (typeof window.theme !== "undefined" && typeof window.theme.settings !== "undefined" && typeof window.theme.settings.moneyFormat !== "undefined") {
-                        moneyFormat = theme.settings.moneyFormat;
-                    } else if (typeof window.theme !== "undefined" && typeof window.theme.strings !== "undefined" && typeof window.theme.strings.moneyFormat === "string") {
-                        moneyFormat = window.theme.strings.moneyFormat;
-                    } else if (typeof window.Currency !== "undefined" && typeof window.Currency.money_format !== "undefined" && typeof window.Currency.money_format[currency] === "string") {
-                        moneyFormat = window.Currency.money_format[currency];
-                    } else if (typeof window.Currency !== "undefined" && typeof window.Currency.money_format === "string") {
-                        moneyFormat = window.Currency.money_format;
-                    } else if (typeof bodyAttrMoneyFormat !== "undefined" && typeof bodyAttrMoneyFormat === "string" && bodyAttrMoneyFormat !== "") {
-                        moneyFormat = bodyAttrMoneyFormat;
-                    } else if (typeof wsgMoneyFormat === "string") {
-                        moneyFormat = wsgMoneyFormat;
-                    } else if (typeof price_format === "string") {
-                        moneyFormat = price_format;
-                    } else {
-                        price = price / 100;
-                        return price.toLocaleString(undefined, { style: "currency", currency: currency || this.getDefaultCurrency() });
-                    }
-              }
-              return this.formatMoney(price, moneyFormat, currency || this.getDefaultCurrency());
-            }
-            return "";
-        },
-        formatMoney: function (cents, format, fallbackCurrency, directionFor50) {
-            if (typeof directionFor50 === "undefined") {
-                var directionFor50 = "up";
-            }
-            try {
-                if (typeof cents == "string") {
-                    cents = cents.replace(".", "");
-                }
-                var value = "";
-                var placeholderRegex = /\{\{\s*(\w+)\s*\}\}/;
-                var formatString = format;
-                function defaultOption(opt, def) {
-                    return typeof opt == "undefined" ? def : opt;
-                }
-                function formatWithDelimiters(number, precision, thousands, decimal, directionFor50) {
-                    precision = defaultOption(precision, 2);
-                    thousands = defaultOption(thousands, ",");
-                    decimal = defaultOption(decimal, ".");
-                    directionFor50 = defaultOption(directionFor50, "up");
-                    if (isNaN(number) || number == null) {
-                        return 0;
-                    }
-                    var originalNumber = number;
-                    number = (number / 100.0).toFixed(precision);
-                    if (directionFor50 === "down") {
-                        if (originalNumber / 100 - number === -0.5) {
-                            number -= 1;
-                            number = number.toString();
-                        }
-                    }
-                    var parts = number.split("."),
-                        dollars = parts[0].replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1" + thousands),
-                        cents = parts[1] ? decimal + parts[1] : "";
-                    return dollars + cents;
-                }
-                switch (formatString.match(placeholderRegex)[1]) {
-                    case "amount":
-                        value = formatWithDelimiters(cents, 2);
-                        break;
-                    case "amount_no_decimals":
-                        value = formatWithDelimiters(cents, 0, ",", ".", directionFor50);
-                        break;
-                    case "amount_with_comma_separator":
-                        value = formatWithDelimiters(cents, 2, ".", ",");
-                        break;
-                    case "amount_with_decimal_separator":
-                        value = formatWithDelimiters(cents, 2, ",", ".");
-                        break;
-                    case "amount_no_decimals_with_comma_separator":
-                        value = formatWithDelimiters(cents, 0, ".", ",", directionFor50);
-                        break;
-                    case "amount_no_decimals_with_space_separator":
-                        value = formatWithDelimiters(cents, 0, " ", ",", directionFor50);
-                        break;
-                    case "amount_with_apostrophe_separator":
-                        value = formatWithDelimiters(cents, 2, "'", ".");
-                        break;
-                }
-                return formatString.replace(placeholderRegex, value);
-            } catch (e) {
-                console.log(e.message);
-                price = cents / 100;
-                return price.toLocaleString(undefined, { style: "currency", currency: fallbackCurrency });
-            }
-        },
-        convertMoney: function (value, rate, currency, round) {
-            if (value <= 0) {
-                return 0;
-            }
-            value *= rate;
-            var roundUp = ["USD", "CAD", "AUD", "NZD", "SGD", "HKD", "GBP"];
-            var roundTo100 = ["JPY"];
-            var roundTo95 = ["EUR"];
-            if (round) {
-                if (roundUp.indexOf(currency) !== -1) {
-                    value = Math.ceil(value);
-                } else if (roundTo100.indexOf(currency) !== -1) {
-                    value = Math.ceil(value / 100) * 100;
-                } else if (roundTo95.indexOf(currency) !== -1) {
-                    value = Math.ceil(value) - 0.05;
-                }
-            }
-            return value;
-        }
-      };
-
-      function logEvent(module_name,addon,type){
-         $.ajax({
-          url: recurpay.logURL,
-          type: 'POST',
-          async:true,
-          dataType: 'json',
-          data: {
-            module:module_name,
-            level: type,
-            payload:{
-              store : recurpay.domainURL,
-              remark: addon
-            }
-          },
-          success: function(response) {
-           console.log("event logged");
-          }
-        });
-      }
-
-      function calculatePrice(variant_id){
-        var variant_json = {};
-        var variant_price = 0;
-        var productObj = {};
-        if(variant_id !== undefined && variant_id !== null){
-          variant_id = parseInt(variant_id);
-          let variant_data = [];
-          for(i=0 ; i< recurpay.productDatas.length; i++){
-            variant_data.push(...recurpay.productDatas[i].product.variants.filter(function(searchId) {
-              return parseInt(searchId.id) == variant_id;
-            }));
-          }
-
-          if(variant_data.length >=1){
-            productObj.variant_price = variant_data[0].price;
-            productObj.product_id = variant_data[0].product_id;
-          }
-        }
-        else{
-          productObj.variant_price = recurpay.productDatas[0].product.variants[0].price;
-          productObj.product_id = variant_data[0].product_id;
-        }
-        return productObj;
-      }
-
-      function formatPriceMoney(price){
-           var multiple_price = price*100;
-           var formatted_price = recurpay.recurMoney.formatPrice(multiple_price);
-          return formatted_price;
-        }
-
-     $(atcFormSelector).closest(".product__meta").find("button.product__chip").on("click", function () {
-        var $this = $(this);
-        setTimeout(function() {
-          recurpay.product.selectedVariant = $this.parents(atcFormSelector).find('select[name="id"]').val();
-          recurDiscountedPrice(recurpay.product.selectedVariant);
-        },100);
-      });
-
-      $(atcFormSelector).find(".combobox, .wetheme-dropdown__wrapper ul[id^='SingleOptionSelector-'] li, .option-values-radio .popover-list-item .form-element-radio, .single-option-selector .bcpo-image-parent, .regular-select-item, .bcpo-dd.single-option-selector ul.inner li, #clickyboxes-SingleOptionSelector-0 a, button.product__chip, .form-swatch-item, .product-variant__container .product-variant__label, .options-selection__option-value, .popout-list__option--product, .option-swatch .custom-swatch, ul.select-dropdown li, .swatch-element, .swatch_pr_item, .basel-swatch, .swatchBox label, .swatchBox span").on("click", function () {
-        var $this = $(this);
-        setTimeout(function() {
-          recurpay.product.selectedVariant = $this.parents(atcFormSelector).find('select[name="id"], input[name="id"][type="radio"]:checked').val();
-          recurDiscountedPrice(recurpay.product.selectedVariant);
-        },100);
-      });
-
-      $(atcFormSelector).closest(".product-selection").find("select.single-option-selector").on("change", function () {
-        var $this = $(this);
-        setTimeout(function() {
-          recurpay.product.selectedVariant = $this.parents(atcFormSelector).find('select[name="id"]').val();
-          recurDiscountedPrice(recurpay.product.selectedVariant);
-        },100);
-      });
-
-       $(atcFormSelector).find(".product-single__swatch__input").on("change", function () {
-        var $this = $(this);
-        setTimeout(function() {
-          recurpay.product.selectedVariant = $this.parents(atcFormSelector).find('select[name="id"]').val();
-          recurDiscountedPrice(recurpay.product.selectedVariant);
-        },100);
-      });
-
-      $(atcFormSelector).find('input#SelectedId, select.js-variant-select, input[name="id"], select[name="id"], select.single-option-selector, .zpa-single-option-selector, .select.options-selection__input-select, .form-options input.option-value-input, .variant-input input[type="radio"], .product-form__option-select, .option-selectors .selector-wrapper select, select.single-option-list-type, .product-options .option-input, select.input-reset, select.js-product-variant, select[data-single-option-selector], input[data-single-option-selector], select.single-option-selector-product-template, .single-option-selector[type="radio"], .single-option-selector-product-template[type="radio"]').on("change", function () {
-        var $this = $(this)
-        setTimeout(function() {
-          console.log($(this).parents(atcFormSelector));
-          recurpay.product.selectedVariant = $this.parents(atcFormSelector).find('input[name="id"], select[name="id"], input#SelectedId').val();
-          recurDiscountedPrice(recurpay.product.selectedVariant);
-        },100);
-      });
-
-       function recurDiscountedPrice(variant){
-        var getVariantObj = calculatePrice(variant);
-        var getVariantPrice = getVariantObj.variant_price;
-        var getProductId = parseInt(getVariantObj.product_id);
-        var showSavings = true;
-        $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]').find(".recurpay__frequency_select option").each(function(){
-          var $this = $(this);
-          console.log($this);
-          var getDiscount = $(this).attr("data-plan-discount");
-          var getPlanName = $(this).attr("data-plan-name");
-          var getPlanShipment = $(this).attr("data-plan-shipment");
-          if(getPlanShipment == null || getPlanShipment == undefined || getPlanShipment == "null"){
-            getPlanShipment = 1;
-          }
-          if(getDiscount == null || getDiscount == undefined || getDiscount == "null"){
-            getDiscount = 0;
-          }
-          var discountedPrice = getVariantPrice - (getVariantPrice * getDiscount / 100);
-          var getSavings = getVariantPrice*getPlanShipment - discountedPrice*getPlanShipment;
-
-          if(parseFloat(getVariantPrice) !== parseFloat(discountedPrice)){
-            $this.html(getPlanName+" ("+formatPriceMoney(discountedPrice*getPlanShipment)+")");
-            console.log( $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]'));
-            if($this.is(':selected')){
-               $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]').find(".recurpay__widget_container[data-type='subscription-purchase']").find(".recurpay__group_compare_price").html("<span class='money'>"+formatPriceMoney(getVariantPrice*getPlanShipment)+"</span>");
-            }
-          }
-          else{
-            $this.html(getPlanName+"("+formatPriceMoney(discountedPrice*getPlanShipment)+")");
-            if($this.is(':selected')){
-               $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]').find(".recurpay__widget_container[data-type='subscription-purchase']").find(".recurpay__group_compare_price").html("");
-            }
-          }
-          if($this.is(':selected')){
-           if(getDiscount <=0){
-             showSavings = false;
-           }
-            $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]').find(".recurpay__widget_container[data-type='subscription-purchase']").find(".recurpay__saving_amount").html("<span class='money'>"+formatPriceMoney(getSavings)+"</span>");
-            $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]').find(".recurpay__widget_container[data-type='subscription-purchase']").find(".recurpay__group_selling_price").html("<span class='money'>"+formatPriceMoney(discountedPrice*getPlanShipment)+"</span>");
-            $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]').find(".recurpay__widget_container[data-type='subscription-purchase']").find(".recurpay__offer_saving_message_amount_text").html(parseFloat(getDiscount).toFixed(2).replace(/\.0+$/,''));
-          }
-          $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]').find(".recurpay__widget_container[data-type='onetime-purchase']").find(".recurpay__group_selling_price").html("<span class='money'>"+formatPriceMoney(getVariantPrice)+"</span>");
-          $('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]').find(".recurpay__widget_container[data-type='onetime-purchase']").find(".recurpay__offer_saving_message_amount_text").html(parseFloat(getDiscount).toFixed(2).replace(/\.0+$/,''));
-        });
-         promotionalOffer($('.recurpay-pdp-widget[data-product-id="'+getProductId+'"]'));
-      }
-
-      function offerSavings(selector){
-        var selectedOption = $(selector).find('[name="recurpay__group_main"]').val();
-        var getDiscountVal =  $(selector).find(".recurpay__frequency_select option:selected").attr("data-plan-discount");
-
-        if(getDiscountVal == null || getDiscountVal == undefined || getDiscountVal == "null"){
-          getDiscountVal = 0;
-        }
-        if(parseFloat(getDiscountVal) > 0){
-         if($(selector).find('[name="recurpay__group_main"]:checked').val() == "subscription"){
-            $('.recurpay__offer_onetime').hide();
-            $('.recurpay__offer_subscription').css("display","flex");
-         }
-         else{
-           $('.recurpay__offer_onetime').css("display","flex");
-           $('.recurpay__offer_subscription').hide();
-         }
-          if(recurpay.settings.translations.premium_one_time_saving_icon == "" && recurpay.settings.translations.premium_one_time_saving_msg == "" && recurpay.settings.translations.premium_one_time_saving_label == "" && recurpay.settings.translations.premium_one_time_discount_label == ""){
-              $('.recurpay__offer_onetime').hide();
-          }
-          if(recurpay.settings.translations.premium_subscription_saving_icon == "" && recurpay.settings.translations.premium_subscription_saving_msg == "" && recurpay.settings.translations.premium_subscription_saving_label == "" && recurpay.settings.translations.premium_subscription_discount_label == ""){
-              $('.recurpay__offer_subscription').hide();
-          }
-        }
-        else{
-          $('.recurpay__offer_wrapper').hide();
-        }
-      }
-
       // PRODUCT PAGE
 
-      function hexToRgbA(hex){
-          var c;
-          if(/^#([A-Fa-f0-9]{3}){1,2}$/.test(hex)){
-              c= hex.substring(1).split('');
-              if(c.length== 3){
-                  c= [c[0], c[0], c[1], c[1], c[2], c[2]];
-              }
-              c= '0x'+c.join('');
-              return 'rgba('+[(c>>16)&255, (c>>8)&255, c&255].join(',')+',0.1)';
-          }
-          return 'rgba(255, 255, 255, 0.1)';
-      }
-
       function recurPDP(data){
-          var prepaidCount = 0,
-              regularCount = 0,
-              prepaidDiscount = [],
-              maxPrepaidDiscount = '',
-              getPlanDesc = '',
-              pdpTemplate = '',
-              GetPlans = "";
-          $.each(data.plans, function(key, plan) {
-              var DiscountPercentageHtml = '',
-                  DescriptionHtml = '',
-                  PlanHtml = '',
-                  PlanDiscount = 0,
-                  PlanType = 'regular';
-              if(plan.type){
-                  PlanType = plan.type;
-                  if(PlanType == 'prepaid'){
-                      prepaidCount += prepaidCount+1;
-                      prepaidDiscount.push(plan.pricing_policy[0].discount.value);
-                  }
-                  else{
-                      regularCount += regularCount+1;
-                  }
-              }
-              if(plan.pricing_policy[0].discount.type == "percentage" && plan.pricing_policy[0].discount.value != 0){
-                  PlanDiscount = plan.pricing_policy[0].discount.value;
-                  DiscountPercentageHtml = '<span class="recurpay__discount">(' + PlanDiscount + '% Off)</span>';
-              }
-              if(plan.description) {
-                  DescriptionHtml = '<div class="recurpay__description" style="display:none" data-description-id="'+plan.id+'">' + plan.description + '</div>';
-              }
-              if(recurpay.checkout == "shopify"){
-                  if(key == 0){
-                      PlanHtml += '<option value=""  selected="selected" data-plan="' + plan.id + '" data-selling-plan="' + plan.selling_plan_id + '" data-plan-name="' + plan.name + '" data-plan-shipment= "'+plan.delivery_policy.shipment_count+'" data-plan-discount="'+PlanDiscount+'"  data-delivery-frequency= "'+plan.delivery_policy.frequency+'" data-delivery-interval= "'+plan.delivery_policy.interval+'" data-plan-type="'+PlanType+'">'+plan.name+'</option>'
-                  }
-                  else{
-                      PlanHtml += '<option value="" data-plan="' + plan.id + '" data-selling-plan="' + plan.selling_plan_id + '" data-plan-name="' + plan.name + '" data-plan-shipment= "'+plan.delivery_policy.shipment_count+'" data-plan-discount="'+PlanDiscount+'" data-delivery-frequency= "'+plan.delivery_policy.frequency+'" data-delivery-interval= "'+plan.delivery_policy.interval+'" data-plan-type="'+PlanType+'">'+plan.name+'</option>'
-                  }
-              }
-              else{
-                  if(key == 0){
-                      PlanHtml += '<option value="" selected="selected" data-plan="' + plan.id + '" data-plan-name="' + plan.name + '" data-plan-shipment= "'+plan.delivery_policy.shipment_count+'" data-plan-discount="'+PlanDiscount+'" data-delivery-frequency= "'+plan.delivery_policy.frequency+'" data-delivery-interval= "'+plan.delivery_policy.interval+'" data-plan-type="'+PlanType+'">'+plan.name+'</option>'
-                  }
-                  else{
-                      PlanHtml += '<option value="" data-plan="' + plan.id + '" data-plan-name="' + plan.name + '" data-plan-shipment= "'+plan.delivery_policy.shipment_count+'" data-plan-discount="'+PlanDiscount+'" data-delivery-frequency= "'+plan.delivery_policy.frequency+'" data-delivery-interval= "'+plan.delivery_policy.interval+'" data-plan-type="'+PlanType+'">'+plan.name+'</option>'
-                  }
-              }
-              GetPlans += PlanHtml;
-              getPlanDesc += DescriptionHtml;
-          })
-          if(regularCount > 0 && prepaidCount >0){
-              maxPrepaidDiscount = Math.max.apply(Math,prepaidDiscount);
+        var prepaidCount = 0,
+            regularCount = 0,
+            prepaidDiscount = [],
+            maxPrepaidDiscount = '',
+            showTabs = false,
+            GetPlans = "",
+            tabHTML = "";
+        $.each(data.plans, function(key, plan) {
+          var DiscountPercentageHtml = '',
+              DescriptionHtml = '',
+              PlanHtml = '',
+              PlanDiscount = 0,
+              PlanType = 'regular';
+          if(plan.type){
+            PlanType = plan.type;
+            if(PlanType == 'prepaid'){
+              prepaidCount += prepaidCount+1;
+              prepaidDiscount.push(plan.pricing_policy[0].discount.value);
+            }
+            else{
+              regularCount += regularCount+1;
+            }
           }
-
-          if(recurpay.subscriptionFirst == true){
-            pdpTemplate += '<div class="recurpay__widget recurpay__subscription_first" data-recurpay-widget>'
+          if(plan.pricing_policy[0].discount.type == "percentage" && plan.pricing_policy[0].discount.value != 0){
+              PlanDiscount = plan.pricing_policy[0].discount.value;
+              DiscountPercentageHtml = '<span class="recurpay__discount">(' + PlanDiscount + '% Off)</span>';
+          }
+          if(plan.description) {
+            DescriptionHtml = '<div class="recurpay__description">' + plan.description + '</div>';
+          }
+          PlanHtml += '<div class="recurpay__plan" plan-type="'+PlanType+'" plan-id="'+plan.id+'"><label class="recurpay__plan--label">';
+          if(recurpay.checkout == "shopify"){
+            if(key == 0){
+              PlanHtml += '<input type="radio" name="recurpay-input" class="recurpay__plan--input" checked="checked" data-plan="' + plan.id + '" data-selling-plan="' + plan.selling_plan_id + '" data-plan-name="' + plan.name + '" data-plan-discount="'+PlanDiscount+'" data-plan-type="'+PlanType+'">';
+            }
+            else{
+              PlanHtml += '<input type="radio" name="recurpay-input" class="recurpay__plan--input" data-plan="' + plan.id + '" data-selling-plan="' + plan.selling_plan_id + '" data-plan-name="' + plan.name + '" data-plan-discount="'+PlanDiscount+'" data-plan-type="'+PlanType+'">';
+            }
           }
           else{
-            pdpTemplate += '<div class="recurpay__widget" data-recurpay-widget>'
+            if(key == 0){
+              PlanHtml += '<input type="radio" name="recurpay-input" class="recurpay__plan--input" checked="checked" data-plan="' + plan.id + '" data-plan-name="' + plan.name + '" data-plan-discount="'+PlanDiscount+'" data-plan-type="'+PlanType+'">';
+            }
+            else{
+              PlanHtml += '<input type="radio" name="recurpay-input" class="recurpay__plan--input" data-plan="' + plan.id + '" data-plan-name="' + plan.name + '" data-plan-discount="'+PlanDiscount+'" data-plan-type="'+PlanType+'">';
+            }
           }
-          pdpTemplate += '<div class="recurpay__widget_container" data-type="subscription-purchase">'
-          pdpTemplate += '<input class="recurpay__subscribe_radio recurpay__group_input" name="recurpay__group_main" type="radio" autocomplete="off" value="subscription">'
-          pdpTemplate += '<div for="recurpay__subscribe_radio" class="recurpay__group_label">'
-          pdpTemplate += '<div class="recurpay__group_header"><div class="recurpay__radio_group">'
-          pdpTemplate += '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1"></circle><circle cx="12" cy="12" r="6" fill="currentColor" class="recurpay__radio_svg"></circle></svg>'
-          pdpTemplate += '</div><div class="recurpay__group_title"> <div>'+recurpay.settings.translations.premium_subscription_label+'</div>'
-          pdpTemplate += '<div class="recurpay__group_subtitle">'+recurpay.settings.translations.premium_subscription_label_description+'</div>'
-          pdpTemplate += '</div><div class="recurpay__group_price_wrapper"><div class="recurpay__group_compare_price" ></div>'
-          pdpTemplate += '<div class="recurpay__group_selling_price recurpay__group_discounted_price"></div></div></div>'
-          pdpTemplate += '<div class="recurpay__group_content_wrapper">'
-          pdpTemplate += '<div class="recurpay__group_content"><div class="recurpay__group_frequency">'
-          pdpTemplate += '<div class="recurpay__frequency_label_title">'+recurpay.settings.translations.premium_frequency_dropdown_label+'</div>'
-          pdpTemplate += '<select class="recurpay__frequency_select recurpay__frequency" name="recurpay-input">'+GetPlans+'</select>'
-          pdpTemplate += '</div><div class="recurpay__description_wrapper">'+getPlanDesc+'</div></div><div class="recurpay__action"><button type="button" data-recurpay-action="">'+recurpay.settings.translations.premium_subscription_button_text+'</button></div>'
-
-          if(recurpay.settings.translations.promotion_offer_applied_label != "" || recurpay.settings.translations.promotion_view_offer_applied_label != ""){
-             pdpTemplate += '<div class="offer-applied-div">'
-             if(recurpay.settings.translations.promotion_offer_applied_label != ""){
-                pdpTemplate += '<span class="offer-applied-left-wrapper">'+recurpay.settings.translations.promotion_offer_applied_label+'</span>'
-             }
-             if(recurpay.settings.translations.promotion_view_offer_applied_label != ""){
-                pdpTemplate += '<span class="offer-applied-right-wrapper-span" data-applicable-offers="true">'+recurpay.settings.translations.promotion_view_offer_applied_label+'</span>'
-             }
-             pdpTemplate += '</div>'
+          PlanHtml += '<span class="recurpay__plan--checkmark"></span><span class="recurpay__plan--title">' + plan.name + DiscountPercentageHtml+'</span></label>';
+          PlanHtml += '<div class="recurpay__plan--description">' + DescriptionHtml + '</div></div>';
+          GetPlans += PlanHtml;
+        })
+        if(regularCount > 0 && prepaidCount >0){
+          showTabs = true;
+          maxPrepaidDiscount = Math.max.apply(Math,prepaidDiscount);
+        }
+        if(showTabs){
+          tabHTML += '<div class="recurpay-tabs"><div class="recur-tab regular-tab active" plan-type="regular">Regular</div><div class="recur-tab prepaid-tab" plan-type="prepaid"><span>Prepaid</span>'
+          if(maxPrepaidDiscount >0 ){
+            tabHTML += '<span class="recur-disc-tag">('+maxPrepaidDiscount+'% Off)</span>'
           }
-         
-          pdpTemplate += '</div>'
-          pdpTemplate += '<div class="recurpay__offer_wrapper recurpay__offer_onetime">'+recurpay.settings.translations.premium_one_time_saving_icon+''
-          pdpTemplate += '<div class="recurpay__offer_message recurpay__offer_message_onetime">'
-          pdpTemplate += '<span>'+recurpay.settings.translations.premium_one_time_saving_msg+'</span>'
-          pdpTemplate += '<span class="recurpay__offer_saving_message">'
-          pdpTemplate += '<span class="recurpay__offer_saving_message_amount">'+recurpay.settings.translations.premium_one_time_discount_label+''
-          pdpTemplate += '</span><span class="recurpay__offer_saving_message_text">'+recurpay.settings.translations.premium_one_time_saving_label+'</span></span>'
-          pdpTemplate += '</div></div>'
-
-          pdpTemplate += '<div class="recurpay__offer_wrapper recurpay__offer_subscription">'+recurpay.settings.translations.premium_subscription_saving_icon+''
-          pdpTemplate += '<div class="recurpay__offer_message recurpay__offer_message_subscription">'
-          pdpTemplate += '<span>'+recurpay.settings.translations.premium_subscription_saving_msg+'</span>'
-          pdpTemplate += '<span class="recurpay__offer_saving_message">'+recurpay.settings.translations.premium_subscription_discount_label+''
-          pdpTemplate += '<span class="recurpay__offer_saving_message_text">'+recurpay.settings.translations.premium_subscription_saving_label+'</span>'
-          pdpTemplate += '</span></div></div>'
-          pdpTemplate += '</div></div>'
-
-          pdpTemplate += '<div class="recurpay__widget_container recurpay__widget_container--selected" data-type="onetime-purchase">'
-          pdpTemplate += '<input class="recurpay__onetime_radio recurpay__group_input" name="recurpay__group_main" type="radio" autocomplete="off" value="one-time" checked>'
-          pdpTemplate += '<div for="recurpay__onetime_radio" class="recurpay__group_label">'
-          pdpTemplate += '<div class="recurpay__group_header">'
-          pdpTemplate += '<div class="recurpay__radio_group">'
-          pdpTemplate += '<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="10" stroke="currentColor" stroke-width="1"></circle><circle cx="12" cy="12" r="6" fill="currentColor" class="recurpay__radio_svg"></circle></svg>'
-          pdpTemplate += '</div><div class="recurpay__group_title">'+recurpay.settings.translations.premium_onetime_label+'</div>'
-          pdpTemplate += '<div class="recurpay__group_price_wrapper"><div class="recurpay__group_selling_price"></div>'
-          pdpTemplate += '</div></div></div></div></div>'
-
-          pdpTemplate += '<input type="hidden" class="recurpay_plan_name" name="" value="">';
-          pdpTemplate += '<input type="hidden" class="recurpay_plan_id" name="" value="">';
-          pdpTemplate += '<input type="hidden" class="recurpay_purchase_data" name="" value="">';
-          if(recurpay.checkout == "shopify"){
-              pdpTemplate += '<input type="hidden" class="recurpay_selling_plan_id" name="" value="">';
-          }
-          pdpTemplate = pdpTemplate.replaceAll('[[SAVING_AMOUNT]]', '<span class="recurpay__offer_saving_message_amount recurpay__saving_amount"></span>');
-          pdpTemplate = pdpTemplate.replaceAll('[[DISCOUNT_PERCENTAGE]]', '<span class="recurpay__offer_saving_message_amount_text"></span>');
-
-          return pdpTemplate;
+          tabHTML += '</div></div>';
+        }
+        pdpTemplate += '<div class="recurpay__widget" data-recurpay-widget>'
+        pdpTemplate += '<div class="recurpay__content">'
+        pdpTemplate += '<label class="recurpay__label"><div class="recurpay__label--text"><input type="checkbox" class="recurpay__checkbox" autocomplete="off" data-subscribe-input /><span class="recurpay__checkmark"></span>'
+        pdpTemplate += ''+recurpay.settings.translations.standard_subscription_label+'</div><svg version="1.2" xmlns="http://www.w3.org/2000/svg" class="recurpay__label--img" viewBox="0 0 30 30" width="30" height="30"><style>.a{stroke:inherit;stroke-width:.5}</style><path fill-rule="evenodd" class="a" d="m21.8 11.9v7.4l-6.8 3.7-6.9-3.7v-7.4l6.9-3.3zm-8.8-1.7l5.7 2.9 2.1-1-5.9-2.8zm1.7 12c0 0 0-6.8 0-6.8l-6-2.8v6.3zm0.3-7.3l2.7-1.3-5.7-2.9-2.9 1.4zm6.3-2.4l-2.2 1.1v1.8l-1 0.5v-1.8l-2.8 1.3v6.8l6-3.3c0 0 0-6.4 0-6.4z"/><path d="m28.9 9.3c2.3 5.6 1 12-3.3 16.3-4.3 4.3-10.7 5.6-16.3 3.3-5.6-2.4-9.3-7.8-9.3-13.9h2.7c0 5.8 4 10.8 9.7 12 5.6 1.3 11.4-1.6 13.8-6.8 2.4-5.3 0.9-11.6-3.8-15-4.6-3.5-11-3.3-15.4 0.4l2.4 2.3-8.1 1.1 1.4-7.8 2.4 2.5q1-0.9 2.2-1.6 1.1-0.7 2.4-1.1 1.3-0.5 2.6-0.8 1.3-0.2 2.7-0.2c6.1 0 11.5 3.7 13.9 9.3z"/></svg>'
+        pdpTemplate += '</label><div class="recurpay__plans">'
+        pdpTemplate += '<div data-recurpay-plans>'+tabHTML+GetPlans+'</div><div class="recurpay__action"><button type="button" data-recurpay-action>'+recurpay.settings.translations.standard_subscription_button_text+'</button></div>'
+        pdpTemplate += '</div></div></div>';
+        pdpTemplate += '<input type="hidden" class="recurpay_plan_name" name="" value="">';
+        pdpTemplate += '<input type="hidden" class="recurpay_plan_id" name="" value="">';
+        if(recurpay.checkout == "shopify"){
+          pdpTemplate += '<input type="hidden" class="recurpay_selling_plan_id" name="" value="">';
+        }
+        return pdpTemplate;
       }
       if($(pdpSelector).length <= 0){
         if (window.location.href.indexOf("/products/") > -1) {
@@ -707,9 +342,6 @@
             if($(atcFormSelector).find(atcSelector).filter(':visible').first().parent().css('display') == 'flex' && $(atcFormSelector).find(atcSelector).filter(':visible').first().parent().css('flex-direction') == 'row'){
               $(atcFormSelector).find(atcSelector).filter(':visible').first().parent().before('<div class="recurpay-pdp-widget" data-product-id="'+recurpay.product.id+'" data-product-available="'+recurpay.product.available+'" data-default-variant="'+recurpay.product.availableVariant+'" data-only-subscription="'+recurpay.product.onlySubscription+'"></div>');
             }
-            else if($(atcFormSelector).find(atcSelector).filter(':visible').first().parent().css('display') == 'grid' || $(atcFormSelector).find(atcSelector).filter(':visible').first().parent().css('display') == 'inline-grid'){
-              $(atcFormSelector).find(atcSelector).filter(':visible').first().parent().before('<div class="recurpay-pdp-widget" data-product-id="'+recurpay.product.id+'" data-product-available="'+recurpay.product.available+'" data-default-variant="'+recurpay.product.availableVariant+'" data-only-subscription="'+recurpay.product.onlySubscription+'"></div>');
-            }  
             else{
               $(atcFormSelector).find(atcSelector).filter(':visible').first().before('<div class="recurpay-pdp-widget" data-product-id="'+recurpay.product.id+'" data-product-available="'+recurpay.product.available+'" data-default-variant="'+recurpay.product.availableVariant+'" data-only-subscription="'+recurpay.product.onlySubscription+'"></div>');
             }
@@ -733,6 +365,7 @@
           }
         }
       }
+
       if($(pdpSelector).length){
         recurpay.allProducts = [];
         for(i=0; i<$(pdpSelector).length; i++){
@@ -742,20 +375,18 @@
         }
         $.ajax({
           url: recurpay.pdpAPI,
-          type: 'POST',
           async:true,
+          type: 'POST',
           data: {"products": recurpay.allProducts,"settings": true},
           success: function(response) {
             if(response != "ERROR") {
               if(response.plans.length > 0){
                 recurpay.productDatas = response.plans;
-                if(response.settings.translations !== null && !$.isEmptyObject(response.settings.translations)){
+                if(response.settings !== null && !$.isEmptyObject(response.settings)){
                   recurpay.settings = response.settings;
-                  document.documentElement.style.setProperty('--recurpay_primary_color', recurpay.settings.snippet_color_codes.subscription_brand_color);
-                  document.documentElement.style.setProperty('--recurpay_secondary_color', recurpay.settings.snippet_color_codes.subscription_secondary_color);
+                  document.documentElement.style.setProperty('--recurpay_brand_color', recurpay.settings.snippet_color_codes.subscription_brand_color);
                   document.documentElement.style.setProperty('--recurpay_button_text_color', recurpay.settings.snippet_color_codes.subscription_button_text_color);
                   document.documentElement.style.setProperty('--recurpay_button_bg_color', recurpay.settings.snippet_color_codes.subscription_button_color);
-                  document.documentElement.style.setProperty('--recurpay_savings_bg_color', hexToRgbA(recurpay.settings.snippet_color_codes.subscription_brand_color));
                 }
                 $(response.plans).each(function(){
                   var pdpHTML = '';
@@ -775,35 +406,6 @@
                         logEvent("product_widget","Product snippet added but needs a reverification", "warning");
                       }
                     }
-                    var params = new Proxy(new URLSearchParams(window.location.search), {
-                      get: (searchParams, prop) => searchParams.get(prop),
-                    });
-
-                    if(params.variant !== undefined && params.variant !== null){
-                      var variant_id = parseInt(params.variant);
-                      let variant_data = [];
-                      variant_data.push(...$this[0].product.variants.filter(function(searchId) {
-                        return parseInt(searchId.id) == variant_id;
-                      }));
-                       if(variant_data.length >=1){
-                        recurpay.product.selectedVariant = params.variant
-                        recurDiscountedPrice(recurpay.product.selectedVariant);
-                      }
-                      else{
-                        recurpay.product.selectedVariant = $this[0].product.variants[0].id;
-                        recurDiscountedPrice($this[0].product.variants[0].id);
-                      }
-                    }
-                    else{
-                      if(recurpay.product.availableVariant !== "" && recurpay.product.availableVariant !== undefined){
-                        recurpay.product.selectedVariant = recurpay.product.availableVariant;
-                        recurDiscountedPrice(recurpay.product.availableVariant);
-                      }
-                      else{
-                        recurpay.product.selectedVariant = $this[0].product.variants[0].id;
-                        recurDiscountedPrice($this[0].product.variants[0].id);
-                      }
-                    }
                   }
                 });
                 if(response.settings.sell_only_as_subscription !== undefined && response.settings.sell_only_as_subscription !== null){
@@ -818,25 +420,6 @@
             }
           }
         });
-        if(window.location.href.indexOf("/products/") > -1){
-          var offersModalHTML = "";
-          offersModalHTML += '<div class="recurpay-preview-modal-container"><div class="recurpay-preview-modal-content">'
-          offersModalHTML += '<div class="recurpay-preview-modal-close"> <svg class="recurpay-preview-modal-close-icon" width="15" height="15" version="1.1" viewBox="0 0 512 512" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><g><path d="m284.29 256 221.86-221.86c7.811-7.811 7.811-20.475 0-28.285s-20.475-7.811-28.285 0l-221.86 221.86-221.86-221.86c-7.811-7.811-20.475-7.811-28.285 0s-7.811 20.475 0 28.285l221.86 221.86-221.86 221.86c-7.811 7.811-7.811 20.475 0 28.285 3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857l221.86-221.86 221.86 221.86c3.905 3.905 9.024 5.857 14.143 5.857s10.237-1.952 14.143-5.857c7.811-7.811 7.811-20.475 0-28.285l-221.86-221.86z"/></g></svg></div>'
-          offersModalHTML += '<div class="recurpay-preview-modal-header">'
-          offersModalHTML += '<div class="recurpay-preview-modal-header-info"><span class="recurpay-preview-modal-header-info-title"></span></div></div>'
-          offersModalHTML += '<div class="recurpay-preview-modal-body"><div class="recurpay-preview-card">'
-          offersModalHTML += '<span class="recurpay-preview-preview-title"></span>'
-          offersModalHTML += '<div class="recurpay-preview-modal-body-content"><div class="recurpay-preview-modal-alert-box">'
-          offersModalHTML += '<div class="bot-offer-wrapper"></div>'
-          offersModalHTML += '</div></div></div></div></div></div>'
-
-          if($('body').length){
-              $('body').append(offersModalHTML);
-            }
-            else if($('html').length){
-              $('html').append(offersModalHTML);
-            }
-        }
       }
       else{
         if((window.location.href.indexOf("/products/") > -1) && (window.location.href.indexOf("recurpay_preview=true") > -1)){
@@ -873,148 +456,32 @@
           logEvent("product_widget","Failed to show product snippet", "critical");
         }
       }
-
-      function ordinalSuffix(n){return["st","nd","rd"][((n+90)%100-10)%10-1]||"th"}
-
-      function promotionalOffer(promoSelector){
-        var getQty = 1,
-            getVariant = "",
-            offerParams = [],
-            getProductId = parseInt($(promoSelector).attr("data-product-id")),
-            getVariantSelector = $(promoSelector).parents(atcFormSelector).find('[name="id"]'),
-            getQtySelector = $(promoSelector).parents(atcFormSelector).find('[name="quantity"]'),
-            getPlanId =  parseInt($(promoSelector).find('[name="recurpay-input"] option:selected').attr('data-plan'));
-            getDeliveryInterval = $(promoSelector).find('[name="recurpay-input"] option:selected').attr('data-delivery-interval'),
-            getDeliveryFrequency = parseInt($(promoSelector).find('[name="recurpay-input"] option:selected').attr('data-delivery-frequency'));
-            if(recurpay.settings.translations.promotion_popup_heading_label != ""){
-               $('.recurpay-preview-preview-title').html(recurpay.settings.translations.promotion_popup_heading_label);
-            }
-        if(getQtySelector.length){
-          getQty = parseInt(getQtySelector.val());
-        }
-        if(getVariantSelector.length){
-          getVariant = parseInt(getVariantSelector.val())
-        }
-        else{
-          getVariant = $(promoSelector).attr("data-default-variant");
-        }
-        
-        offerParams.push({
-          'variant_id': getVariant,
-          'product_id': getProductId,
-          'quantity': getQty,
-          'plan':{
-            'id': getPlanId,
-            'delivery_policy': {
-              'interval': getDeliveryInterval,
-              'frequency': getDeliveryFrequency
-            }
-          }
-        })
-        
-         $.ajax({
-          url: recurpay.offersAPI,
-          type: 'POST',
-          data: {
-            "product_set": offerParams
-          },
-          async: true, 
-          success: function(response) {
-            if(response.success == true) {
-              $(document).find('.offer-applied-div').show();
-              if(response.data.applicable_offers.length > 0){
-                var multipleOffer = false;
-                var listCount = 1;
-                var botOfferListHtml = "";
-                var botOfferArray = [];
-                for(index = 0; index < response.data.applicable_offers.length; index++){
-                  var orders = response.data.applicable_offers[index].orders;
-                  $.each(orders, function(i, order){
-                    var order_cycle = order.cycle;
-                    if(i == 0 && index == 0){
-                      botOfferArray[0] = order;
-                    }
-                    else if(i != 0){
-                      botOfferArray[order_cycle] != undefined &&  botOfferArray[order_cycle] != null ?  botOfferArray[order_cycle+1] = order : botOfferArray[order_cycle] = order
-                    }
-                  });
-                }
-                 botOfferArray = botOfferArray.filter(function (el){
-                  return el != undefined && el != null && el != "";
-                });
-                
-               $.each(botOfferArray, function(i, order){
-                 var order_cycle_suffix = ordinalSuffix(order.cycle);
-                 if(i == 0 && recurpay.settings.translations.promotion_first_order_label != "" && order.message != ""){
-                    botOfferListHtml += '<div class="bot-offer-list-extra-wrapper"><div class="bot-offer-list-count-wrapper">';
-                    botOfferListHtml += '<span class="bot-offer-list-count">'+order.cycle+'<sup>'+ order_cycle_suffix+'</sup></span><div class="bot-offer-order">order</div>'
-                    botOfferListHtml += '<div class="bot-offer-list-line"></div>'
-                    botOfferListHtml += '</div>';
-                    botOfferListHtml += '<span class="list-addon-text">'+order.message+'</span>'
-                    botOfferListHtml += '</div>';
-                 }
-                 else if(i != 0 && order.message != ""){
-                    botOfferListHtml += '<div class="bot-offer-list-extra-wrapper"><div class="bot-offer-list-count-wrapper">';
-                    botOfferListHtml += '<span class="bot-offer-list-count">'+order.cycle+'<sup>'+ order_cycle_suffix+'</sup></span><div class="bot-offer-order">order</div>'
-                    botOfferListHtml += '<div class="bot-offer-list-line"></div>'
-                    botOfferListHtml += '</div>';
-                    botOfferListHtml += '<span class="list-addon-text">'+order.message+'</span>'
-                    botOfferListHtml += '</div>';
-                 }
-                
-               });
-                $(document).find('.bot-offer-wrapper').html(botOfferListHtml);
-              }
-              else{
-                 $(document).find('.offer-applied-div').hide();
-                 $(document).find('.recurpay-preview-modal-container').fadeOut();
-              }
-            }
-            else{
-              $(document).find('.offer-applied-div').hide();
-              $(document).find('.recurpay-preview-modal-container').fadeOut();
-            }
-          },
-          error: function(error){
-            $(document).find('.offer-applied-div').hide();
-            $(document).find('.recurpay-preview-modal-container').fadeOut();
-          } 
-        });
-      }
       function recurProperties(elem){
         var getParent = $(elem).parents(pdpSelector);
-        if( $(getParent).find("[name='recurpay__group_main'][value='subscription']").is(":checked")){
-          var planName = $(getParent).find('[name="recurpay-input"] option:selected').attr('data-plan-name'),
-              planId = $(getParent).find('[name="recurpay-input"] option:selected').attr('data-plan');
+        if($(getParent).find('.recurpay__checkbox').is(":checked")){
+          var planName = $(getParent).find('[name="recurpay-input"]:checked').attr('data-plan-name'),
+              planId = $(getParent).find('[name="recurpay-input"]:checked').attr('data-plan');
           $(getParent).find('.recurpay_plan_name').attr("name","properties[Plan]").val(planName);
           $(getParent).find('.recurpay_plan_id').attr("name","properties[_PlanId]").val(planId);
-          if(parseInt(recurpay.subscriptionInfluence && recurpay.subscriptionInfluenceCount) >=1){
-              $(getParent).find('.recurpay_purchase_data').attr("name","properties[_PurchaseData]").val(recurpay.subscriptionInfluenceCount);
-          }
-          $(getParent).find('.recurpay__description[data-description-id]').hide();
-          $(getParent).find('.recurpay__description[data-description-id="'+planId+'"]').show();
           if(recurpay.checkout == "shopify"){
-            var sellingPlanId = $(getParent).find('[name="recurpay-input"] option:selected').attr('data-selling-plan');
+            var sellingPlanId = $(getParent).find('[name="recurpay-input"]:checked').attr('data-selling-plan');
             $(getParent).find('.recurpay_selling_plan_id').attr("name","selling_plan").val(sellingPlanId);
           }
         }
         else{
-          $(getParent).find('.recurpay_plan_name').attr("name","");
+           $(getParent).find('.recurpay_plan_name').attr("name","");
           $(getParent).find('.recurpay_plan_id').attr("name","");
-          $(getParent).find('.recurpay_purchase_data').attr("name","");
           if(recurpay.checkout == "shopify"){
             $(getParent).find('.recurpay_selling_plan_id').attr("name","");
           }
         }
-        offerSavings(getParent);
-        
       }
       function addSubscription(btn){
-        var variantSelector = $(btn).parents(atcFormSelector).find('[name="id"]'),
+       var variantSelector = $(btn).parents(atcFormSelector).find('[name="id"]'),
             quantitySelector = $(btn).parents(atcFormSelector).find('[name="quantity"]'),
-            subscriptionPlanId = $(btn).parents(pdpSelector).find('[name="recurpay-input"] option:selected').attr('data-plan'),
-            subscriptionPlanName = $(btn).parents(pdpSelector).find('[name="recurpay-input"] option:selected').attr('data-plan-name'),
-            subscriptionPlanType = $(btn).parents(pdpSelector).find('[name="recurpay-input"] option:selected').attr('data-plan-type'),
+            subscriptionPlanId = $(btn).parents(pdpSelector).find('[name="recurpay-input"]:checked').attr('data-plan'),
+            subscriptionPlanName = $(btn).parents(pdpSelector).find('[name="recurpay-input"]:checked').attr('data-plan-name'),
+            subscriptionPlanType = $(btn).parents(pdpSelector).find('[name="recurpay-input"]:checked').attr('data-plan-type'),
             planVariant = parseInt(variantSelector.val()),
             planQuantity = 1,
             planParams = {};
@@ -1023,7 +490,7 @@
         }
 
         if(recurpay.checkout == "shopify"){
-          var sellingPlanId =  $(btn).parents(pdpSelector).find('[name="recurpay-input"] option:selected').attr('data-selling-plan');
+          var sellingPlanId = $(btn).parents(pdpSelector).find('[name="recurpay-input"]:checked').attr('data-selling-plan');
           planParams = {
             id: planVariant,
             quantity: planQuantity,
@@ -1061,6 +528,7 @@
               type: 'POST',
               url: '/cart/add.js',
               dataType: 'json',
+              async:true,
               data: planParams,
               success: function() {
                 if (recurpay.checkout == "recurpay" && recurpay.action == "checkout"){
@@ -1086,81 +554,66 @@
         }
       }
 
-      $(document).on('change',"[name='recurpay__group_main']", function(e) {
+      $(document).on('click',".recur-tab", function(e) {
+        e.preventDefault();
         var $this = $(this);
-        $this.parents(pdpSelector).find('.recurpay__widget_container').removeClass("recurpay__widget_container--selected");
-        var checkVal = $this.val();
-        if($this.is(":checked")){
-            $this.parents('.recurpay__widget_container').addClass("recurpay__widget_container--selected");
+        var getParent= $this.parents(pdpSelector);
+        var subType = $this.attr("plan-type");
+        var recurInput = $(getParent).find('.recurpay__plan[plan-type="'+subType+'"]').find("[name='recurpay-input']");
+        if($this.hasClass("active")){
+          $(getParent).find('.recurpay__plan').hide();
+          $(getParent).find('.recurpay__plan[plan-type="'+subType+'"]').show();
+          if(($(getParent).find('.recurpay__plan[plan-type="'+subType+'"]').find("[name='recurpay-input']:checked").length) <=0){
+            $(recurInput).first().prop("checked",true).change();
+          }
         }
-        if(checkVal == "subscription"){
-          recurpay.subscriptionInfluence = true;
-          recurpay.subscriptionInfluenceCount = recurpay.subscriptionInfluenceCount + 1;
+        else{
+          $(getParent).find('.recur-tab').removeClass("active");
+          $this.addClass("active");
+          $(getParent).find('.recurpay__plan').hide();
+          $(getParent).find('.recurpay__plan[plan-type="'+subType+'"]').show();
+          $(recurInput).first().prop("checked",true).change();
+        }
+      });
+      $(document).on('change',"[name='recurpay-input']", function(e) {
+        recurProperties($(this));
+      });
+      $(document).on('click',".recurpay-modal-cancel-btn", function(e) {
+        $('[data-recurpay-visibility-modal]').hide();
+      });
+
+      $(document).on('change',".recurpay__checkbox", function(e) {
+        var $this = $(this);
+        if($this.is(':checked')){
           $this.parents(atcFormSelector).find(atcSelector).addClass("recurpay-hide");
           $this.parents(atcFormSelector).find(buynowSelector).addClass("recurpay-hide");
           $this.parents(pdpSelector).find('.recurpay__plans').show();
-          $this.parents(pdpSelector).find('.recurpay__group_content_wrapper').slideDown();
         }
         else{
           $this.parents(atcFormSelector).find(atcSelector).removeClass("recurpay-hide");
           $this.parents(atcFormSelector).find(buynowSelector).removeClass("recurpay-hide");
           $this.parents(pdpSelector).find('.recurpay__plans').hide();
-          $this.parents(pdpSelector).find('.recurpay__group_content_wrapper').slideUp();
         }
         recurProperties($this);
       });
 
-      $(document).on('change',"[name='recurpay-input']", function(e) {
-        var getId = $(this).parents(atcFormSelector).find('input[name="id"], select[name="id"], input#SelectedId').val();
-        recurDiscountedPrice(getId);
-        recurProperties($(this));
-      });
-
-      $(document).on('click',".recurpay__group_label", function(e) {
-        $(this).parents('.recurpay__widget_container').find('[name="recurpay__group_main"]').prop("checked",true).change();
-      });
-
-      $(document).on('click',".recurpay-modal-cancel-btn", function(e) {
-        $('[data-recurpay-visibility-modal]').hide();
-      });
-
       function updateSelectors(only_subscription){
         for(r=0; r<$(pdpSelector).length; r++){
+          if($(pdpSelector).eq(r).find('.recur-tab').length){
+            $(pdpSelector).eq(r).find('.recur-tab')[0].click();
+          }
           if($(pdpSelector).eq(r).attr("data-only-subscription") == "true" || only_subscription == true){
             $(pdpSelector).eq(r).attr("data-only-subscription",true);
             $(pdpSelector).eq(r).find(".recurpay__widget[data-recurpay-widget]").addClass("recurpay_only_subscription_widget");
-            $(pdpSelector).eq(r).find("[name='recurpay__group_main'][value='subscription']").prop("checked",true).change();
-          }
-          else{
-            if(recurpay.subscriptionFirst == true){
-              $(pdpSelector).eq(r).find("[name='recurpay__group_main'][value='subscription']").prop("checked",true).change();
-            }
+            $(pdpSelector).eq(r).find('.recurpay__checkbox').prop("checked",true).change();
           }
         }
       }
 
       $(document).on('click',"[data-recurpay-action]", function(e) {
-        e.preventDefault();
-        e.stopPropagation();
         addSubscription($(this));
       });
-      
-      $(document).on('click',"[data-applicable-offers]", function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        $('.recurpay-preview-modal-container').fadeIn();
-      });
-      
-      $(document).on('click',".recurpay-preview-modal-close", function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        $('.recurpay-preview-modal-container').fadeOut();
-      });
-      $(document).on('change', '[name="quantity"]', function(){
-        var variantId = $(this).parents(atcFormSelector).find('[name="id"]').val();
-        recurDiscountedPrice(variantId);
-      })
-      
+
       if(recurpay.checkout == "recurpay"){
         $(document).on('click', checkoutSelector, function(e) {
           e.preventDefault();

@@ -178,7 +178,7 @@
           "settings": {
             "img": "shopify:\/\/shop_images\/MACADAMIA_NUT_INGREDIENT.jpg",
             "title": "Macadamia Nut",
-            "text": "Filled with essential fatty acids - highly moisturizing - prevents formation of premature wrinkles"
+            "text": "Filled with essential fatty acids, highly moisturizing, prevents formation of premature wrinkles"
           }
         }
       },
@@ -194,7 +194,7 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "label": "4",
-        "title": "<em>Key<\/em> Ingredients",
+        "title": "Key Ingredients",
         "flip": false
       }
     },

@@ -3,7 +3,7 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify:\/\/shop_images\/97909d4bb507f9dabc2c11117eb907d1.jpg",
+        "img": "shopify:\/\/shop_images\/387A0388-3.jpg",
         "title": "Hello <span>skincare<\/span>, meet <span>nature<\/span>. \u2028I think you two will get along.",
         "btn_name": "Shop Now",
         "url": "\/collections\/yayforearth-sensitive-skin-face-lotion"
@@ -71,6 +71,7 @@
     },
     "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
       "type": "section-nature",
+      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
@@ -86,6 +87,23 @@
         "color_btn_text": "#fff9eb",
         "color_bg_btn": "#3b4e15",
         "color_border_btn": "#fff9eb"
+      }
+    },
+    "c631d7fa-d67e-4b23-a54a-06911afc6222": {
+      "type": "section-single-image",
+      "custom_css": [
+        ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "bg": "#FFF9EB",
+        "img_single": "shopify:\/\/shop_images\/custom_resized_10bbe7bd-89ca-4420-bbfb-746a9f4469db.jpg",
+        "title": "IN CASE YOU CAN'T GET INTO NATURE, THIS IS FOR YOU",
+        "color_title": "#FFF9EB",
+        "btn_name": "Nature Connect",
+        "url": "",
+        "color_btn_text": "#FFF9EB",
+        "color_bg_btn": "#3B4E15",
+        "color_border_btn": "#FFF9EB"
       }
     },
     "e32f860a-b747-448a-bba0-831667bf10ed": {
@@ -139,7 +157,7 @@
       ],
       "settings": {
         "product": "1oz-sensitive-skin-face-lotion",
-        "img": "shopify:\/\/shop_images\/Ourfarmers.jpg",
+        "img": "shopify:\/\/shop_images\/HELLO3.jpg",
         "title": "Nature On Your Face",
         "subtitle": "Sensitive Skin Face Lotion",
         "subtitle-link": "shopify:\/\/products\/1oz-sensitive-skin-face-lotion",
@@ -218,7 +236,7 @@
         "774c1f3b-2a83-4eae-af84-b685f65d8a8c": {
           "type": "item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/387A9597_3.png",
+            "img": "shopify:\/\/shop_images\/THISONE4.jpg",
             "bg": "#4f5e3c",
             "color_text": "#fff9eb",
             "name": "Meet Stevie",
@@ -539,6 +557,7 @@
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5",
     "aa3c5165-1075-4df1-8b32-c6231b177c8c",
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",
+    "c631d7fa-d67e-4b23-a54a-06911afc6222",
     "e32f860a-b747-448a-bba0-831667bf10ed",
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
     "35520c0f-8581-4a5b-bb00-59bb639ce120",

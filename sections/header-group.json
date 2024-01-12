@@ -4,6 +4,18 @@
   "sections": {
     "announcement-bar": {
       "type": "announcement-bar",
+      "blocks": {
+        "announcement_XFf9Kj": {
+          "type": "announcement",
+          "settings": {
+            "text": "FREE SHIPPING ON DOMESTIC ORDERS OVER $150",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_XFf9Kj"
+      ],
       "settings": {
         "color_scheme": "accent-1",
         "show_line_separator": true,

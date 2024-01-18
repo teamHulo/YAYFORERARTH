@@ -977,7 +977,7 @@
     text-align: center;
 }
 .offer-applied-div{
-  display: flex;
+  display: none !important;
   align-items: center;
   justify-content: space-between;
   padding: 0px;

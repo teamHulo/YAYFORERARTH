@@ -208,7 +208,7 @@
     padding: 0px 5px;
     text-transform: uppercase;
     position: absolute;
-    top: -1rem;
+    top: -0.9rem;
     background: var(--recurpay_transparent_color, #fff);
     color: var(--recurpay_secondary_color, #000);
     padding-left:10px;

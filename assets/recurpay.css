@@ -565,7 +565,15 @@
   text-transform: none;
   letter-spacing: normal;
 }
-
+.recurpay__widget .recurpay__description ul{
+  padding-left: 15px;
+}
+.recurpay__widget .recurpay__description ul li{
+  display: list-item;
+  padding: 5px 0px;
+  font-size: 14px;
+  font-weight: 700;
+}
 .recurpay__widget .recurpay__offer_wrapper{
   display:none;
   background: var(--recurpay_savings_bg_color, #ffffff00);

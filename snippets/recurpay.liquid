@@ -486,6 +486,23 @@
           recurDiscountedPrice(recurpay.product.selectedVariant);
         },100);
       });
+      
+      function fetchVariants(){
+        if(getProductHandle() !== false){
+          var productURL = "/products/"+getProductHandle()+".json";
+          $.ajax({
+            url: productURL,
+            type: 'GET',
+            success: function(response){
+              recurpay.productDatas[0].product.variants = response.product.variants;
+              recurDiscountedPrice(recurpay.product.selectedVariant);
+            },
+            error: function(jqXhr, textStatus, errorThrown){
+              console.log( errorThrown );
+            }
+          });
+        }
+      }
 
        function recurDiscountedPrice(variant){
         var getVariantObj = calculatePrice(variant);
@@ -765,6 +782,7 @@
                     var getElem = $('.recurpay-pdp-widget[data-product-id="'+$this[0].product.id+'"]');
                     if($(getElem).length && $(getElem).attr("data-product-available") == "true"){
                       $(getElem).html(pdpHTML);
+                      fetchVariants();
                       if($(getElem).attr("data-only-subscription") == "true"){
                         $(getElem).find(".recurpay__widget[data-recurpay-widget]").addClass("recurpay_only_subscription_widget");
                       }

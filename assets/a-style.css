@@ -3142,3 +3142,10 @@ form.product-item-custom-form .product-item-custom-form-variants{
 .product-item-custom-form:hover .product-item-custom-form-variants{
   display:flex !important;
 }
+
+.truncate-2-row {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    -webkit-box-orient: vertical;
+}

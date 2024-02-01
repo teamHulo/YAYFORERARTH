@@ -3,7 +3,7 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify:\/\/shop_images\/387A0388-3.jpg",
+        "img": "shopify:\/\/shop_images\/MainSydney.png",
         "title": "Hello <span>skincare<\/span>, meet <span>nature<\/span>. \u2028I think you two will get along.",
         "btn_name": "Shop Now",
         "url": "\/collections\/yayforearth-sensitive-skin-face-lotion"
@@ -71,15 +71,14 @@
     },
     "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
       "type": "section-nature",
-      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
       "settings": {
         "bg": "#fff9eb",
         "img_right": "shopify:\/\/shop_images\/Rectangle_10.png",
-        "img_mini": "shopify:\/\/shop_images\/387A0459_1.png",
-        "img_left": "shopify:\/\/shop_images\/49732_ABE_007_09_1.png",
+        "img_mini": "shopify:\/\/shop_images\/Main3sydney.png",
+        "img_left": "shopify:\/\/shop_images\/Main2sydney.png",
         "title": "IN CASE YOU CAN’T GET INTO NATURE, THIS IS FOR YOU",
         "color_title": "#fff9eb",
         "btn_name": "Nature Connect",
@@ -91,6 +90,7 @@
     },
     "c631d7fa-d67e-4b23-a54a-06911afc6222": {
       "type": "section-single-image",
+      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],

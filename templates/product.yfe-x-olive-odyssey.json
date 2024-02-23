@@ -1,0 +1,453 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "vendor": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ product.vendor }}",
+            "text_style": "body"
+          }
+        },
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "disabled": true,
+          "settings": {
+          }
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": false,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "16fb9bf1-1c41-489d-bf96-b03d57526477": {
+          "type": "tab",
+          "settings": {
+            "title": "Use Guide",
+            "text": "<p>Apply a pea sized amount in the a.m. on face before sunscreen and\/or apply in the p.m. after washing face. For best absorption and to boost effectiveness of our lotion, pair with <a href=\"\/products\/hydrosol-spritzie\" title=\"Hydrosol Spritzie\"><strong>Forest Hydrosol Spritzie.<\/strong><\/a><\/p><p>Due to its anti-inflammatory and other nutrient properties, customers have RAVED about our lotion being a household MUST. From alleviating rashes, healing tattoos, and bug bites - to babies bottoms and cracked paws for pets! Check out more in <strong>All the Magical Uses<\/strong> section below. <\/p>"
+          }
+        },
+        "eae1604e-fd60-4298-a478-0e6cb85acd78": {
+          "type": "tab",
+          "settings": {
+            "title": "Ingredients",
+            "text": "<p>Orgainc Olea Europaea Fruit Oil (<strong>Olive Oil<\/strong>) , Local Cera alba (<strong>Beeswax<\/strong>), Organic Butyrospermum Parkii Butter (<strong>Shea<\/strong>), Organic Punica Granatum Seed Oil (<strong>Pomegranate<\/strong>)<strong> <\/strong><\/p>"
+          }
+        },
+        "42ce5b98-e943-4d2b-ab57-191f26170632": {
+          "type": "tab",
+          "settings": {
+            "title": "Sourcing",
+            "text": "<p>Our lotion contains locally sourced beeswax from our beekeeper, Beth, organic and regeneratively grown and produced olive oil from our farmer in California, and sustainably sourced shea butter and pomegranate seed oil from small farms that prioritize the health of their land. We will never compromise when it comes to sourcing our ingredients; period. To read more about our ethos and farmers, <a href=\"\/pages\/meet-the-farmers\" target=\"_blank\" title=\"Meet the farmers\">click here!<\/a><\/p>"
+          }
+        },
+        "ecf4c397-1261-4ffa-ab55-0b118172a8e7": {
+          "type": "icons",
+          "settings": {
+            "img1": "shopify:\/\/shop_images\/BabySafe.png",
+            "title1": "Baby Safe",
+            "img2": "shopify:\/\/shop_images\/WontClogPores.png",
+            "title2": "Won't Clog Pores",
+            "img3": "shopify:\/\/shop_images\/organic_regenerativeFarming.png",
+            "title3": "Organic & Regenerative Farming",
+            "img4": "shopify:\/\/shop_images\/PollinatorFriendly_5a733a1c-2a31-4d18-b3df-65a15dc8879e.png",
+            "title4": "Pollinator Friendly",
+            "img5": "shopify:\/\/shop_images\/SensitiveSkin.png",
+            "title5": "Sensitive Skin Safe"
+          }
+        }
+      },
+      "block_order": [
+        "vendor",
+        "title",
+        "rating",
+        "price",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "description",
+        "share",
+        "16fb9bf1-1c41-489d-bf96-b03d57526477",
+        "eae1604e-fd60-4298-a478-0e6cb85acd78",
+        "42ce5b98-e943-4d2b-ab57-191f26170632",
+        "ecf4c397-1261-4ffa-ab55-0b118172a8e7"
+      ],
+      "settings": {
+        "enable_sticky_info": true,
+        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
+        "media_size": "small",
+        "constrain_to_viewport": true,
+        "media_fit": "contain",
+        "gallery_layout": "thumbnail",
+        "media_position": "left",
+        "image_zoom": "hover",
+        "mobile_thumbnails": "hide",
+        "hide_variants": true,
+        "enable_video_looping": false,
+        "padding_top": 152,
+        "padding_bottom": 60
+      }
+    },
+    "468df541-5874-4a42-b735-d7d8f21e9a15": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "enable_video_looping": false,
+        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "description": "",
+        "full_width": false,
+        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8": {
+      "type": "section-image-flip",
+      "blocks": {
+        "35ab2389-2f62-4c68-b791-f106ae0be7c1": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/OLIVE_OIL_INGREDIENT.jpg",
+            "title": "Olive Oil",
+            "text": "Squalene to fight free radical damage. Balances sebaceous glands for both oily and dry skin."
+          }
+        },
+        "2c99028b-2da0-4466-b8e9-f5f2512cccab": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/BEESWAX_INGREDIENT.jpg",
+            "title": "Beeswax",
+            "text": "Anti-inflammatory, anti-bacterial, encourages cell reconstruction. Protective barrier between skin and the environment without clogging pores."
+          }
+        },
+        "3b3f9698-0661-4473-861c-5b1c04a27ac9": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/SHEA_BUTTER_INGREDIENT.jpg",
+            "title": "Shea Butter",
+            "text": "High amount of fatty acids and vitamins to soften, tone and heal skin. Triple filtered to remove naturally occurring latex."
+          }
+        },
+        "e1efc7f2-8b29-4049-a277-cd952fd055e2": {
+          "type": "image",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/POM_OIL_INGREDIENT.jpg",
+            "title": "Pomegranate Seed Oil",
+            "text": "Punicic acid to increases collagen production. Oleic Acids, a wrinkle fighter. Linoleic Acid,  skin soother to calm acne prone skin and reduce breakouts!"
+          }
+        }
+      },
+      "block_order": [
+        "35ab2389-2f62-4c68-b791-f106ae0be7c1",
+        "2c99028b-2da0-4466-b8e9-f5f2512cccab",
+        "3b3f9698-0661-4473-861c-5b1c04a27ac9",
+        "e1efc7f2-8b29-4049-a277-cd952fd055e2"
+      ],
+      "settings": {
+        "bg": "#fff9eb",
+        "text_color": "",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "label": "4",
+        "title": "Simple Ingredients",
+        "flip": false
+      }
+    },
+    "a7142674-6154-4b30-825f-e2f21bf4a848": {
+      "type": "section-title",
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 60,
+        "padding_bottom": 30,
+        "label": "",
+        "title": "All the Magical Uses!"
+      }
+    },
+    "acaaef8f-ac3b-4e39-891d-8b35ddce5a96": {
+      "type": "section-custom-slider",
+      "blocks": {
+        "434d2bd5-09c5-43ca-8929-2b0f89d8c0e2": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/RELIEVING.png",
+            "title": "Relieving",
+            "text": "<h3>Relieving for<\/h3><ul><li>Eczema<\/li><li>Bug Bites<\/li><li>Dermatitis<\/li><li>Acne<\/li><li>Itching<\/li><li>Skin Dryness<\/li><li>Rosacea<\/li><\/ul>"
+          }
+        },
+        "3ba77231-9b00-46a0-a07a-f85177484979": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/HEALING.png",
+            "title": "Healing",
+            "text": "<h3>Healing for<\/h3><ul><li>Tattoos<\/li><li>Reduces fine lines<\/li><li>Sunburns<\/li><li>Chafing<\/li><li>Radiation burns from chemo <\/li><\/ul>"
+          }
+        },
+        "b73e5c4a-a43a-4936-9450-080017f318e4": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/a4e09694d08bead7cc84c583e9e6cfa4.jpg",
+            "title": "Calming",
+            "text": "<h3>Calming for<\/h3><ul><li>Beard hydration & protection<\/li><li>Aftershave<\/li><li>Hair growth\u2028<\/li><li>\u2028Razor Burn<\/li><\/ul>"
+          }
+        },
+        "807ee9d1-ceeb-46b4-8077-598066eafaf9": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/NURTURING.jpg",
+            "title": "Nurturing",
+            "text": "<h3>Nurturing for<\/h3><ul><li>Diaper rash<\/li><li>Cradle Cap<\/li><li>Breastfeeding nipple rawness<\/li><li>Common baby rashes <\/li><\/ul>"
+          }
+        },
+        "aa856c33-9d3b-411d-97d6-f2f65c9783ee": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/a1dd76363f0572758a58af0e858d88a4.jpg",
+            "title": "Repairing",
+            "text": "<h3>Repairing for<\/h3><ul><li>Paw pads<\/li><li>Pet hotspots<\/li><li>Dry nose & ears<\/li><li>Pet Scratches & Rashes<\/li><\/ul>"
+          }
+        },
+        "44d075e9-28ac-4675-a5a7-84f9edea8f7b": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/GLOWING.png",
+            "title": "Glowing",
+            "text": "<h3>Glowing for<\/h3><ul><li>Cuticles<\/li><li>Hand & Foot Care<\/li><li>Make Up Remover\u2028\u2028<\/li><li>Natural Highlighter\u2028\u2028<\/li><li>Frizz, Flyaways, Split Ends<\/li><\/ul>"
+          }
+        }
+      },
+      "block_order": [
+        "434d2bd5-09c5-43ca-8929-2b0f89d8c0e2",
+        "3ba77231-9b00-46a0-a07a-f85177484979",
+        "b73e5c4a-a43a-4936-9450-080017f318e4",
+        "807ee9d1-ceeb-46b4-8077-598066eafaf9",
+        "aa856c33-9d3b-411d-97d6-f2f65c9783ee",
+        "44d075e9-28ac-4675-a5a7-84f9edea8f7b"
+      ],
+      "custom_css": [
+        ".custom-slider__title {max-width: 750px; margin-left: auto; margin-right: auto;}"
+      ],
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 0,
+        "padding_bottom": 60,
+        "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses, have deemed it a multipurpose wonder, and a must-have in their home: <\/p>",
+        "pagination": false,
+        "arrows": true,
+        "per_page": 5,
+        "mobile_per_page": 2,
+        "slide_max_height": 395
+      }
+    },
+    "78b77677-5e76-4d3f-be5f-7c3637ebc205": {
+      "type": "section-title",
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "label": "",
+        "title": "Reviews"
+      }
+    },
+    "17f41925-c45e-4d19-962f-11dc2f036744": {
+      "type": "section-product-rewiews",
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 12,
+        "padding_bottom": 60,
+        "text": "<p>Discover what customers are saying about our magic lotion!<\/p>",
+        "product": "{{ product }}"
+      }
+    },
+    "85b96d03-fc37-4cd0-bb73-ed0f6340035a": {
+      "type": "section-title",
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 60,
+        "padding_bottom": 60,
+        "label": "",
+        "title": "Yay for Earth <em>Glow<\/em>"
+      }
+    },
+    "6721cdcd-efd5-4a76-98ed-4919cf5b819e": {
+      "type": "section-custom-slider",
+      "blocks": {
+        "ec353819-4f3c-4cca-bba7-68c605abe839": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/62d8a001101158afe5a8a0e4c1be5f32.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "f776d74b-d9bc-4a0c-8bbd-6121791d6038": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/c18ba66bfe4d978a9e3cb4594e59e884.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "dee73ba6-3a76-439b-8988-58d31e3924d3": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/ad71e40b9b9c4e0933c188b3e57808ec.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "4fa61e00-0051-48e9-b7bf-c5f6fb4d9d11": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/528ca622794e0d0673e4b0b31f43887b.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "6ff92dc7-edf2-4cc4-a410-88647b894cae": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/926591e2f0535a95e7a12373ece8d206.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "22ddd2ad-969b-4e9f-81b1-92818205bd10": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/711b2d9a559a0848ce57ad9c0fc97bf6.jpg",
+            "title": "",
+            "text": ""
+          }
+        },
+        "a6081ca6-b966-4967-9112-b67b0d31eb33": {
+          "type": "slide",
+          "settings": {
+            "img": "shopify:\/\/shop_images\/7b7c842265fd13ef3b594fb4233bdfcc.png",
+            "title": "",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "ec353819-4f3c-4cca-bba7-68c605abe839",
+        "f776d74b-d9bc-4a0c-8bbd-6121791d6038",
+        "dee73ba6-3a76-439b-8988-58d31e3924d3",
+        "4fa61e00-0051-48e9-b7bf-c5f6fb4d9d11",
+        "6ff92dc7-edf2-4cc4-a410-88647b894cae",
+        "22ddd2ad-969b-4e9f-81b1-92818205bd10",
+        "a6081ca6-b966-4967-9112-b67b0d31eb33"
+      ],
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 8,
+        "padding_bottom": 60,
+        "text": "",
+        "pagination": false,
+        "arrows": true,
+        "per_page": 5,
+        "mobile_per_page": 2,
+        "slide_max_height": 0
+      }
+    },
+    "767126dc-8114-4f15-b417-f144da31137c": {
+      "type": "section-title",
+      "settings": {
+        "bg": "#fff9eb",
+        "padding_top": 60,
+        "padding_bottom": 16,
+        "label": "",
+        "title": "Pairs Well With..."
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "heading": "",
+        "heading_size": "h2",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
+        "image_ratio": "portrait",
+        "image_shape": "default",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    },
+    "2f77038f-4cf6-4773-a392-62ec4cd81954": {
+      "type": "false-related",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "color_scheme": "",
+        "image_ratio": "adapt",
+        "image_shape": "default",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "columns_mobile": "2",
+        "padding_top": 20,
+        "padding_bottom": 60
+      }
+    }
+  },
+  "order": [
+    "main",
+    "468df541-5874-4a42-b735-d7d8f21e9a15",
+    "9d57b6d1-6358-4ef7-9c64-ca5ad51556b8",
+    "a7142674-6154-4b30-825f-e2f21bf4a848",
+    "acaaef8f-ac3b-4e39-891d-8b35ddce5a96",
+    "78b77677-5e76-4d3f-be5f-7c3637ebc205",
+    "17f41925-c45e-4d19-962f-11dc2f036744",
+    "85b96d03-fc37-4cd0-bb73-ed0f6340035a",
+    "6721cdcd-efd5-4a76-98ed-4919cf5b819e",
+    "767126dc-8114-4f15-b417-f144da31137c",
+    "related-products",
+    "2f77038f-4cf6-4773-a392-62ec4cd81954"
+  ]
+}

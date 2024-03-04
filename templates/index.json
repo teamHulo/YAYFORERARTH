@@ -108,20 +108,19 @@
     },
     "section_double_image_UxeWxe": {
       "type": "section-double-image",
-      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
       "settings": {
-        "bg": "#FFF9EB",
-        "img_right": "shopify:\/\/shop_images\/FaceLotionforSensitiveSkin-YayforEarth02-238202.jpg",
-        "img_left": "shopify:\/\/shop_images\/LibBalm-YayforEarth02.jpg",
-        "title": "Here is some test copy for the block title. It will naturally break to a new line",
-        "color_title": "#FFF9EB",
-        "btn_name": "Here is button text",
+        "bg": "#fff9eb",
+        "img_right": "shopify:\/\/shop_images\/387A9392_6.jpg",
+        "img_left": "shopify:\/\/shop_images\/L1110378_3.jpg",
+        "title": "IN CASE YOU CAN'T GET INTO NATURE, THIS IS FOR YOU",
+        "color_title": "#fff9eb",
+        "btn_name": "Nature Connect",
         "url": "",
-        "color_btn_text": "#FFF9EB",
-        "color_bg_btn": "#3B4E15",
+        "color_btn_text": "#fff9eb",
+        "color_bg_btn": "#3b4e15",
         "color_border_btn": "rgba(0,0,0,0)"
       }
     },

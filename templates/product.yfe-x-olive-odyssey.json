@@ -81,16 +81,16 @@
         "ecf4c397-1261-4ffa-ab55-0b118172a8e7": {
           "type": "icons",
           "settings": {
-            "img1": "shopify:\/\/shop_images\/BabySafe.png",
-            "title1": "Baby Safe",
-            "img2": "shopify:\/\/shop_images\/WontClogPores.png",
-            "title2": "Won't Clog Pores",
-            "img3": "shopify:\/\/shop_images\/organic_regenerativeFarming.png",
-            "title3": "Organic & Regenerative Farming",
-            "img4": "shopify:\/\/shop_images\/PollinatorFriendly_5a733a1c-2a31-4d18-b3df-65a15dc8879e.png",
-            "title4": "Pollinator Friendly",
-            "img5": "shopify:\/\/shop_images\/SensitiveSkin.png",
-            "title5": "Sensitive Skin Safe"
+            "img1": "shopify:\/\/shop_images\/icons8-water-200_1.png",
+            "title1": "Rain-fed",
+            "img2": "shopify:\/\/shop_images\/icons8-palm-up-hand-500_1.png",
+            "title2": "Hand Nurtured",
+            "img3": "shopify:\/\/shop_images\/icons8-tree-400_1.png",
+            "title3": "Ancient Olive Trees",
+            "img4": "shopify:\/\/shop_images\/icons8-family-480_1.png",
+            "title4": "Generation Owned",
+            "img5": "shopify:\/\/shop_images\/icons8-plant-500_1.png",
+            "title5": "Chemical-Free"
           }
         }
       },

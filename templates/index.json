@@ -103,7 +103,26 @@
         "url": "https:\/\/yayforearth.com\/pages\/nature-portal",
         "color_btn_text": "#fff9eb",
         "color_bg_btn": "#3b4e15",
-        "color_border_btn": "#fff9eb"
+        "color_border_btn": "rgba(0,0,0,0)"
+      }
+    },
+    "section_double_image_UxeWxe": {
+      "type": "section-double-image",
+      "disabled": true,
+      "custom_css": [
+        ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "bg": "#FFF9EB",
+        "img_right": "shopify:\/\/shop_images\/FaceLotionforSensitiveSkin-YayforEarth02-238202.jpg",
+        "img_left": "shopify:\/\/shop_images\/LibBalm-YayforEarth02.jpg",
+        "title": "Here is some test copy for the block title. It will naturally break to a new line",
+        "color_title": "#FFF9EB",
+        "btn_name": "Here is button text",
+        "url": "",
+        "color_btn_text": "#FFF9EB",
+        "color_bg_btn": "#3B4E15",
+        "color_border_btn": "rgba(0,0,0,0)"
       }
     },
     "e32f860a-b747-448a-bba0-831667bf10ed": {
@@ -558,6 +577,7 @@
     "aa3c5165-1075-4df1-8b32-c6231b177c8c",
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",
     "c631d7fa-d67e-4b23-a54a-06911afc6222",
+    "section_double_image_UxeWxe",
     "e32f860a-b747-448a-bba0-831667bf10ed",
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
     "35520c0f-8581-4a5b-bb00-59bb639ce120",

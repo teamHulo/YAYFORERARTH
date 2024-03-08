@@ -32,12 +32,6 @@
             "picker_type": "button"
           }
         },
-        "82c0550d-a181-4b01-a111-e008bca7169f": {
-          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -67,7 +61,7 @@
           "type": "tab",
           "settings": {
             "title": "Use Guide",
-            "text": "<p>Apply a pea sized amount in the a.m. on face before sunscreen and\/or apply in the p.m. after washing face. For best absorption and to boost effectiveness of our lotion, pair with <a href=\"\/products\/hydrosol-spritzie\" title=\"Hydrosol Spritzie\"><strong>Forest Hydrosol Spritzie.<\/strong><\/a><\/p><p>Due to its anti-inflammatory and other nutrient properties, customers have RAVED about our lotion being a household MUST. From alleviating rashes, healing tattoos, and bug bites - to babies bottoms and cracked paws for pets! Check out more in <strong>All the Magical Uses<\/strong> section below. <\/p>"
+            "text": "<p>Apply a pea sized amount in the a.m. on face before sunscreen and apply in the p.m. after washing face. For best absorption and to boost effectiveness of our lotion, pair with <a href=\"\/products\/hydrosol-spritzie\" title=\"Hydrosol Spritzie\"><strong>Forest Hydrosol Spritzie.<\/strong><\/a><\/p><p>Due to its anti-inflammatory and other nutrient properties, customers have RAVED about our lotion being a household MUST. From alleviating rashes, healing tattoos, and bug bites - to babies bottoms and cracked paws for pets! Check out more in <strong>All the Magical Uses<\/strong> section below. <\/p>"
           }
         },
         "eae1604e-fd60-4298-a478-0e6cb85acd78": {
@@ -106,7 +100,6 @@
         "rating",
         "price",
         "variant_picker",
-        "82c0550d-a181-4b01-a111-e008bca7169f",
         "quantity_selector",
         "buy_buttons",
         "description",

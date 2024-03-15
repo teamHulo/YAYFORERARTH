@@ -26,12 +26,6 @@
           "settings": {
           }
         },
-        "a4105133-1d28-44e1-aedf-0ccd95086bad": {
-          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -105,7 +99,6 @@
         "title",
         "rating",
         "price",
-        "a4105133-1d28-44e1-aedf-0ccd95086bad",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
@@ -291,6 +284,22 @@
         "title": "Reviews"
       }
     },
+    "1710520858bb5fd54d": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_KkDHWy": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_KkDHWy"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "17f41925-c45e-4d19-962f-11dc2f036744": {
       "type": "section-product-rewiews",
       "settings": {
@@ -447,6 +456,7 @@
     "a7142674-6154-4b30-825f-e2f21bf4a848",
     "acaaef8f-ac3b-4e39-891d-8b35ddce5a96",
     "78b77677-5e76-4d3f-be5f-7c3637ebc205",
+    "1710520858bb5fd54d",
     "17f41925-c45e-4d19-962f-11dc2f036744",
     "85b96d03-fc37-4cd0-bb73-ed0f6340035a",
     "6721cdcd-efd5-4a76-98ed-4919cf5b819e",

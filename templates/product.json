@@ -300,6 +300,22 @@
         "product": "{{ product }}"
       }
     },
+    "1710774634bb9e2386": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_rxBH7D": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_rxBH7D"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "1710521212b3c46557": {
       "type": "apps",
       "settings": {
@@ -449,6 +465,12 @@
       "settings": {
         "include_margins": true
       }
+    },
+    "1710774633140dadb4": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -460,12 +482,14 @@
     "78b77677-5e76-4d3f-be5f-7c3637ebc205",
     "1710520858bb5fd54d",
     "17f41925-c45e-4d19-962f-11dc2f036744",
+    "1710774634bb9e2386",
     "1710521212b3c46557",
     "85b96d03-fc37-4cd0-bb73-ed0f6340035a",
     "6721cdcd-efd5-4a76-98ed-4919cf5b819e",
     "767126dc-8114-4f15-b417-f144da31137c",
     "related-products",
     "53ff41e2-1f2c-4c56-ad62-b43948d82375",
-    "17105212120de00932"
+    "17105212120de00932",
+    "1710774633140dadb4"
   ]
 }

@@ -290,6 +290,22 @@
         "include_margins": true
       }
     },
+    "1710870179a76b20a7": {
+      "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_HAPCRU": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_HAPCRU"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
     "17f41925-c45e-4d19-962f-11dc2f036744": {
       "type": "section-product-rewiews",
       "settings": {
@@ -493,6 +509,7 @@
     "acaaef8f-ac3b-4e39-891d-8b35ddce5a96",
     "78b77677-5e76-4d3f-be5f-7c3637ebc205",
     "1710520858bb5fd54d",
+    "1710870179a76b20a7",
     "17f41925-c45e-4d19-962f-11dc2f036744",
     "1710774634bb9e2386",
     "171087010098ef9e44",

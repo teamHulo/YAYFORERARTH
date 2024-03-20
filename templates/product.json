@@ -326,16 +326,6 @@
     },
     "17109463056cf745e9": {
       "type": "apps",
-      "blocks": {
-        "klaviyo_reviews_all_reviews_dkULrc": {
-          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/all-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "klaviyo_reviews_all_reviews_dkULrc"
-      ],
       "settings": {
         "include_margins": true
       }

@@ -288,18 +288,18 @@
     },
     "171052140132e99801": {
       "type": "apps",
+      "blocks": {
+        "klaviyo_reviews_product_reviews_TazhRq": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "klaviyo_reviews_product_reviews_TazhRq"
+      ],
       "settings": {
         "include_margins": true
-      }
-    },
-    "17f41925-c45e-4d19-962f-11dc2f036744": {
-      "type": "section-product-rewiews",
-      "settings": {
-        "bg": "#fff9eb",
-        "padding_top": 12,
-        "padding_bottom": 60,
-        "text": "<p>Discover what customers are saying about our magic lip balm!<\/p>",
-        "product": "{{ product }}"
       }
     },
     "85b96d03-fc37-4cd0-bb73-ed0f6340035a": {
@@ -460,7 +460,6 @@
     "acaaef8f-ac3b-4e39-891d-8b35ddce5a96",
     "78b77677-5e76-4d3f-be5f-7c3637ebc205",
     "171052140132e99801",
-    "17f41925-c45e-4d19-962f-11dc2f036744",
     "85b96d03-fc37-4cd0-bb73-ed0f6340035a",
     "6721cdcd-efd5-4a76-98ed-4919cf5b819e",
     "767126dc-8114-4f15-b417-f144da31137c",

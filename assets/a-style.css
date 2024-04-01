@@ -3149,3 +3149,6 @@ form.product-item-custom-form .product-item-custom-form-variants{
     overflow: hidden;
     -webkit-box-orient: vertical;
 }
+.product__tax {
+  display:none;
+}

@@ -448,7 +448,7 @@
     "custom_liquid_cBiKde": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<div id=\"klaviyo-reviews-all\" data-id=\"all\"><\/div>",
+        "custom_liquid": "<div class=\"container\"> <div id=\"klaviyo-reviews-all\" data-id=\"all\"><\/div><\/div>",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

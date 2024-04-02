@@ -32,11 +32,6 @@
             "picker_type": "button"
           }
         },
-        "359f76aa-207c-4dd4-a291-5f700d7e37b6": {
-          "type": "shopify:\/\/apps\/appstle-subscriptions-app\/blocks\/appstle-subscription-product-page-widget\/fe257d39-6f88-4f35-ab08-bd437e3aa94e",
-          "settings": {
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -105,7 +100,6 @@
         "rating",
         "price",
         "variant_picker",
-        "359f76aa-207c-4dd4-a291-5f700d7e37b6",
         "quantity_selector",
         "buy_buttons",
         "description",
@@ -450,6 +444,15 @@
         "padding_top": 20,
         "padding_bottom": 60
       }
+    },
+    "custom_liquid_cBiKde": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"klaviyo-star-rating-widget\" data-id=\"{{product.id}}\" data-product-title=\"{{product.title}}\" data-product-type=\"{{product.type}}\"><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -464,6 +467,7 @@
     "6721cdcd-efd5-4a76-98ed-4919cf5b819e",
     "767126dc-8114-4f15-b417-f144da31137c",
     "related-products",
-    "1c2872a8-578e-4710-96c8-de0efde7e6b4"
+    "1c2872a8-578e-4710-96c8-de0efde7e6b4",
+    "custom_liquid_cBiKde"
   ]
 }

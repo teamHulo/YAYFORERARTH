@@ -444,6 +444,15 @@
         "padding_top": 20,
         "padding_bottom": 60
       }
+    },
+    "custom_liquid_Yq9jQx": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"> <div id=\"klaviyo-reviews-all\" data-id=\"all\"><\/div><\/div>",
+        "color_scheme": "",
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
@@ -458,6 +467,7 @@
     "6721cdcd-efd5-4a76-98ed-4919cf5b819e",
     "767126dc-8114-4f15-b417-f144da31137c",
     "related-products",
-    "6392b805-4082-4fb5-a4a3-0b26630a494a"
+    "6392b805-4082-4fb5-a4a3-0b26630a494a",
+    "custom_liquid_Yq9jQx"
   ]
 }

@@ -444,6 +444,12 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "17121389100eaa3e56": {
+      "type": "apps",
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -459,6 +465,7 @@
     "767126dc-8114-4f15-b417-f144da31137c",
     "related-products",
     "2f77038f-4cf6-4773-a392-62ec4cd81954",
-    "custom_liquid_y3qNeD"
+    "custom_liquid_y3qNeD",
+    "17121389100eaa3e56"
   ]
 }

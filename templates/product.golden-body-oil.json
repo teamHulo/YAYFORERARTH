@@ -449,6 +449,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"container\"> <div id=\"klaviyo-reviews-all\" data-id=\"{{product.id}}\"><\/div><\/div>",
+        "product": "golden-body-oil",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

@@ -3152,3 +3152,7 @@ form.product-item-custom-form .product-item-custom-form-variants{
 .product__tax {
   display:none;
 }
+
+.kl_reviews__review__response_content {
+  background: transparent !important;
+}

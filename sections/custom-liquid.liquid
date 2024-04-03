@@ -11,6 +11,9 @@
     }
   }
 {%- endstyle -%}
+
+{% assign product = section.settings.product %}
+
 <div class="color-{{ section.settings.color_scheme }} gradient">
   <div class="section-{{ section.id }}-padding">
     {{ section.settings.custom_liquid }}
@@ -28,6 +31,11 @@
       "id": "custom_liquid",
       "label": "t:sections.custom-liquid.settings.custom_liquid.label",
       "info": "t:sections.custom-liquid.settings.custom_liquid.info"
+    },
+    {
+      "type":"product",
+      "id":"product",
+      "label":"product"
     },
     {
       "type": "color_scheme",

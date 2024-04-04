@@ -447,6 +447,7 @@
     },
     "custom_liquid_cBiKde": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"container\"> <div id=\"klaviyo-reviews-all\" data-id=\"{{product.id}}\"><\/div><\/div>",
         "product": "golden-body-oil",

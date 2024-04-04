@@ -437,6 +437,7 @@
     },
     "custom_liquid_y3qNeD": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "<div class=\"container\"> <div id=\"klaviyo-reviews-all\" data-id=\"{{product.id}}\"><\/div><\/div>",
         "product": "1oz-sensitive-skin-face-lotion",

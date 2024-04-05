@@ -3,8 +3,8 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify:\/\/shop_images\/Thisone-2.jpg",
-        "title": "Hello <span>skincare<\/span>, meet <span>nature<\/span>. \u2028I think you two will get along.",
+        "img": "shopify:\/\/shop_images\/IMG_1792-2_2.jpg",
+        "title": "Our <span>Palestinian<\/span> olive oil collab has arrived. Hello  <span>OLIVE ODYSSEY<\/span>",
         "btn_name": "Shop Now",
         "url": "\/collections\/yayforearth-sensitive-skin-face-lotion"
       }
@@ -71,15 +71,14 @@
     },
     "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
       "type": "section-nature",
-      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
       "settings": {
         "bg": "#fff9eb",
-        "img_right": "shopify:\/\/shop_images\/Rectangle_10.png",
-        "img_mini": "shopify:\/\/shop_images\/Main3sydney.png",
-        "img_left": "shopify:\/\/shop_images\/Main2sydney.png",
+        "img_right": "shopify:\/\/shop_images\/jasmin-ne-cOI24q7MUbQ-unsplash_1.jpg",
+        "img_mini": "shopify:\/\/shop_images\/result.png",
+        "img_left": "shopify:\/\/shop_images\/unsplash_RuqOeMvPlzQ.jpg",
         "title": "IN CASE YOU CAN’T GET INTO NATURE, THIS IS FOR YOU",
         "color_title": "#fff9eb",
         "btn_name": "Nature Connect",
@@ -109,6 +108,7 @@
     },
     "section_double_image_UxeWxe": {
       "type": "section-double-image",
+      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
@@ -176,7 +176,7 @@
       ],
       "settings": {
         "product": "1oz-sensitive-skin-face-lotion",
-        "img": "shopify:\/\/shop_images\/HELLO3.jpg",
+        "img": "shopify:\/\/shop_images\/387A9771_2.jpg",
         "title": "Nature On Your Face",
         "subtitle": "Sensitive Skin Face Lotion",
         "subtitle-link": "shopify:\/\/products\/1oz-sensitive-skin-face-lotion",
@@ -255,7 +255,7 @@
         "774c1f3b-2a83-4eae-af84-b685f65d8a8c": {
           "type": "item",
           "settings": {
-            "img": "shopify:\/\/shop_images\/hi.png",
+            "img": "shopify:\/\/shop_images\/387A0196_3.jpg",
             "bg": "#4f5e3c",
             "color_text": "#fff9eb",
             "name": "Meet Stevie",

@@ -75,7 +75,7 @@
           "type": "tab",
           "settings": {
             "title": "Sourcing",
-            "text": "<p>Our olive oil for this collaborations is sourced from 7 Palestinian farmers, all located throughout Palestine. They have each been tending to their land for generations and harvesting olive oil from ancient olive trees. These trees are rain fed, hand nurtured, and chemical free. To read more about this collaboration, CLICK HERE FOR OUR BLOG. We also locally source our beeswax, use only sustainably sourced shea butter and pomegranate seed oil from small farms that prioritize the health of their land and their farmers. We will never compromise when it comes to sourcing our ingredients; period. To read more about our ethos and farmers, <a href=\"\/pages\/meet-the-farmers\" target=\"_blank\" title=\"Meet the farmers\">click here!<\/a><\/p>"
+            "text": "<p>Our olive oil for this collaborations is sourced from 7 Palestinian farmers, all located throughout Palestine. They have each been tending to their land for generations and harvesting olive oil from ancient olive trees. These trees are rain fed, hand nurtured, and chemical free. To read more about this collaboration, <a href=\"https:\/\/yayforearth.com\/blogs\/nature\/yfe-x-olive-odyssey\" target=\"_blank\" title=\"https:\/\/yayforearth.com\/blogs\/nature\/yfe-x-olive-odyssey\">CLICK HERE FOR OUR BLOG<\/a>. We also locally source our beeswax, use only sustainably sourced shea butter and pomegranate seed oil from small farms that prioritize the health of their land and their farmers. We will never compromise when it comes to sourcing our ingredients; period. To read more about our Palestinian olive oil farmers, click <a href=\"https:\/\/yayforearth.com\/blogs\/nature\/meet-the-farmers\" target=\"_blank\" title=\"https:\/\/yayforearth.com\/blogs\/nature\/meet-the-farmers\">HERE! <\/a><\/p>"
           }
         },
         "ecf4c397-1261-4ffa-ab55-0b118172a8e7": {
@@ -439,6 +439,7 @@
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "<div class=\"container\"> <div id=\"klaviyo-reviews-all\" data-id=\"{{product.id}}\"><\/div><\/div>",
+        "product": "",
         "color_scheme": "",
         "padding_top": 40,
         "padding_bottom": 52

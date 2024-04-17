@@ -304,10 +304,23 @@
           "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
           "settings": {
           }
+        },
+        "klaviyo_reviews_product_reviews_list_eNB4ca": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews-list\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+          }
+        },
+        "klaviyo_reviews_average_rating_tfrWiz": {
+          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {
+            "product": "{{product}}"
+          }
         }
       },
       "block_order": [
-        "klaviyo_reviews_product_reviews_HXRbGK"
+        "klaviyo_reviews_product_reviews_HXRbGK",
+        "klaviyo_reviews_product_reviews_list_eNB4ca",
+        "klaviyo_reviews_average_rating_tfrWiz"
       ],
       "settings": {
         "include_margins": true

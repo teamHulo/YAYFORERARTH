@@ -294,7 +294,7 @@
         "padding_top": 12,
         "padding_bottom": 60,
         "text": "<p>Discover what customers are saying about our magic lotion!<\/p>",
-        "product": "{{ product }}"
+        "product": ""
       }
     },
     "171336531886a7d857": {

@@ -71,6 +71,7 @@
     },
     "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
       "type": "section-nature",
+      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
@@ -108,14 +109,13 @@
     },
     "section_double_image_UxeWxe": {
       "type": "section-double-image",
-      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],
       "settings": {
         "bg": "#fff9eb",
-        "img_right": "shopify:\/\/shop_images\/GoldenBodyOil-YayforEarth05-791869.jpg",
-        "img_left": "shopify:\/\/shop_images\/GoldenBodyOil-YayforEarth06-393975.jpg",
+        "img_right": "shopify:\/\/shop_images\/42fe5535d5eba7aa216b3613758199e6_2.jpg",
+        "img_left": "shopify:\/\/shop_images\/387A9552_1.jpg",
         "title": "IN CASE YOU CAN'T GET INTO NATURE, THIS IS FOR YOU",
         "color_title": "#fff9eb",
         "btn_name": "Nature Connect",

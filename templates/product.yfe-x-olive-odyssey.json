@@ -27,7 +27,6 @@
         },
         "rating": {
           "type": "rating",
-          "disabled": true,
           "settings": {
           }
         },
@@ -289,7 +288,6 @@
     },
     "78b77677-5e76-4d3f-be5f-7c3637ebc205": {
       "type": "section-title",
-      "disabled": true,
       "settings": {
         "bg": "#fff9eb",
         "padding_top": 60,
@@ -303,7 +301,6 @@
       "blocks": {
         "klaviyo_reviews_product_reviews_VPFUi6": {
           "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "disabled": true,
           "settings": {
           }
         }

@@ -1,10 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify:\/\/shop_images\/IMG_1792-2_2.jpg",
-        "title": "Our <i>Palestinian<\/i> Olive Oil collaboration has arrived. Hello Olive Odyssey!",
+        "img": "shopify:\/\/shop_images\/L1110695.jpg",
+        "title": "Hello skincare, meet nature. I think you two will get along.",
         "btn_name": "Shop Now",
         "url": "https:\/\/yayforearth.com\/products\/yfe-x-olive-odyssey"
       }
@@ -114,8 +123,8 @@
       ],
       "settings": {
         "bg": "#fff9eb",
-        "img_right": "shopify:\/\/shop_images\/IMG_6318-2_43a48e63-e856-4860-aa94-3bd6527abbbb.jpg",
-        "img_left": "shopify:\/\/shop_images\/unsplash_RuqOeMvPlzQ.jpg",
+        "img_right": "shopify:\/\/shop_images\/L1110488_1.png",
+        "img_left": "shopify:\/\/shop_images\/387A9392_4.png",
         "title": "IN CASE YOU CAN'T GET INTO NATURE, THIS IS FOR YOU",
         "color_title": "#fff9eb",
         "btn_name": "Nature Connect",

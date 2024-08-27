@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.footer.name",
   "type": "footer",
@@ -20,7 +29,7 @@
         "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
         "newsletter_enable": true,
         "newsletter_heading": "NEWSLETTER",
-        "newsletter_subtitle": "Subscribe for store updates, nature news, and SECRET sales only subscribers know about!",
+        "newsletter_subtitle": "Subscribe for store updates, nature news, and a code for 10% off your first order!",
         "enable_follow_on_shop": false,
         "show_social": true,
         "enable_country_selector": false,

@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -11,10 +20,18 @@
             "text": "FREE SHIPPING ON DOMESTIC ORDERS OVER $150!!",
             "link": ""
           }
+        },
+        "announcement_zDn8MJ": {
+          "type": "announcement",
+          "settings": {
+            "text": "PLEASE EXPECT SLIGHTLY LONGER ORDER PROCESSING TIMES AS WE SETTLE INTO OUR NEW SET UP OVER THE NEXT COUPLE OF WEEKS! WE'RE SO APPRECIATIVE OF YOUR PATIENCE <3",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement_XFf9Kj"
+        "announcement_XFf9Kj",
+        "announcement_zDn8MJ"
       ],
       "settings": {
         "color_scheme": "accent-1",

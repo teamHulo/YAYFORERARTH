@@ -118,6 +118,7 @@
     },
     "section_double_image_UxeWxe": {
       "type": "section-double-image",
+      "disabled": true,
       "custom_css": [
         ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
       ],

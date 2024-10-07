@@ -38,7 +38,7 @@
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": true,
-        "change_slides_speed": 4,
+        "change_slides_speed": 6,
         "enable_country_selector": false,
         "enable_language_selector": false
       }
@@ -60,10 +60,35 @@
         "padding_top": 20,
         "padding_bottom": 20
       }
+    },
+    "announcement_bar_ckYLqb": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement_EBBEEn": {
+          "type": "announcement",
+          "settings": {
+            "text": "UPDATED PAGE COMING SOON AS WE TRANSITION INTO OUR CUTE LITTLE STUDIO!",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "announcement_EBBEEn"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "show_line_separator": true,
+        "show_social": false,
+        "auto_rotate": false,
+        "change_slides_speed": 5,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
     }
   },
   "order": [
     "announcement-bar",
-    "header"
+    "header",
+    "announcement_bar_ckYLqb"
   ]
 }

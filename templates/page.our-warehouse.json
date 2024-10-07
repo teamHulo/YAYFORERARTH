@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "main": {
@@ -16,8 +25,8 @@
           "settings": {
             "pt": 90,
             "bg": "#84b4ba",
-            "img": "shopify:\/\/shop_images\/Tezza-6451_2.jpg",
-            "title": "Our <em>Warehouse<\/em>",
+            "img": "shopify://shop_images/Tezza-6451_2.jpg",
+            "title": "Our Studio",
             "url": "",
             "btn_name": "Learn More"
           }
@@ -25,7 +34,7 @@
         "1ee25c99-3ba8-42e5-b04e-e1b2ab0e1dab": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Screen_Shot_2023-11-06_at_12.09_3.jpg"
+            "img": "shopify://shop_images/Screen_Shot_2023-11-06_at_12.09_3.jpg"
           }
         }
       },
@@ -33,6 +42,7 @@
         "30f1c517-3627-4819-84ec-00c645e2e1a8",
         "1ee25c99-3ba8-42e5-b04e-e1b2ab0e1dab"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "text": "",
@@ -41,14 +51,16 @@
     },
     "e4cade6d-ac09-4c66-b238-93b2e8c1aac0": {
       "type": "section-text",
+      "disabled": true,
       "settings": {
         "mt": 50,
         "show_border": true,
-        "text": "We believe BIG change starts when brands and corporations hold themselves accountable for their waste and impact"
+        "text": "We believe BIG change starts when brands not only hold themselves accountable for their production and impact, but can create a space where their systems actually benefit the planet, other species, and all people"
       }
     },
     "b539531e-eb99-4222-9e1b-23ea5d8b0f9e": {
       "type": "section-image-with-text",
+      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 900px) {.section-with-text__wrap {margin-left: 64px; margin-right: 64px; }}"
       ],
@@ -56,10 +68,10 @@
         "pt": 50,
         "pb": 0,
         "img_aligment": "row",
-        "img": "shopify:\/\/shop_images\/8dd5caa5d6396f95ce3d28aa12525728_4a913a15-41e1-4a33-97c2-fa9ee7bc17c3.jpg",
+        "img": "shopify://shop_images/8dd5caa5d6396f95ce3d28aa12525728_4a913a15-41e1-4a33-97c2-fa9ee7bc17c3.jpg",
         "max_height": 850,
         "title": "Yay for Earth started with Stevie making her magical product out of her Brooklyn, NY apartment kitchen",
-        "text": "<p>Yay for Earth started with Stevie making her magical product out of her Brooklyn, NY apartment kitchen and packing out each order in her living room with the help of Sophie and friends. In just a few years, the business has grown to the point where we are now operating an official Yay for Earth space with the most badazz team - including Stevie’s cousin Dillon!  <br\/><\/p><p>We believe change can start with an individual, but BIG change starts when brands and corporations hold themselves accountable for their waste and impact. We will never compromise on this ideal!<\/p>",
+        "text": "<p>Yay for Earth started with Stevie making her magical product out of her Brooklyn, NY apartment kitchen and packing out each order in her living room with the help of Sophie and friends. In just a few years, the business has grown to the point where we are now operating an official Yay for Earth space with the most badazz team - including Stevie’s cousin Dillon!  <br/></p><p>We believe change can start with an individual, but BIG change starts when brands and corporations hold themselves accountable for their waste and impact. We will never compromise on this ideal!</p>",
         "vertical_alignment": "center"
       }
     },
@@ -68,16 +80,18 @@
       "blocks": {
         "d2877997-8b35-4676-b710-de2a9d23566f": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Production",
-            "text": "<p>We don’t outsource! When we receive our ingredients from our farmers, their next destination is in your hands. In ode to low waste and to keep our babies as fresh as possible, we make all our products in small batches and craft them the same week as they are being ordered and\/or shipped out!<\/p>"
+            "text": "<p>We don’t outsource! Our ingredients  come directly from the farmer to our little studio where they are made in house! Their next destination is in your hands. In ode to low waste and to keep our babies as fresh as possible, we hand make and hand pour all of our products in very small batches.</p>"
           }
         },
         "2700a90c-2448-41b6-ac08-d3809aa8e776": {
           "type": "item",
+          "disabled": true,
           "settings": {
             "title": "Shipping",
-            "text": "<p>Our entire shipping space is low waste. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper.\u2028\u2028<\/p>"
+            "text": "<p>Our entire shipping space is low waste. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper.  </p>"
           }
         }
       },
@@ -96,25 +110,25 @@
         "b3cd6bed-bd6d-4154-bbdc-a15af4336d03": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/304221f54b9413eb39fa1646d57524fc.png"
+            "img": "shopify://shop_images/304221f54b9413eb39fa1646d57524fc.png"
           }
         },
         "2a2fe13f-bd94-4128-bdb5-b92974212f57": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/137258d6e954d37287d21f4ca9e6f8aa.png"
+            "img": "shopify://shop_images/137258d6e954d37287d21f4ca9e6f8aa.png"
           }
         },
         "8dc0eb48-9d14-48df-8108-e28dea06341d": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/c056547b40695a6eada8b1b2dae49fd6.png"
+            "img": "shopify://shop_images/c056547b40695a6eada8b1b2dae49fd6.png"
           }
         },
         "6fe2f180-133e-4aa2-bdf5-19c848486906": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/2603847aba47fba5e8721bab88648ecc.png"
+            "img": "shopify://shop_images/2603847aba47fba5e8721bab88648ecc.png"
           }
         }
       },
@@ -124,6 +138,7 @@
         "8dc0eb48-9d14-48df-8108-e28dea06341d",
         "6fe2f180-133e-4aa2-bdf5-19c848486906"
       ],
+      "disabled": true,
       "settings": {
         "max_width": 100,
         "column": 4
@@ -134,6 +149,7 @@
       "blocks": {
         "template--16314009321631__c6fc3d08-5f80-4478-8a6e-e706e4739c93-heading-1": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "From our very inception, our ethos is to never compromise",
             "heading_size": "h2"
@@ -141,8 +157,9 @@
         },
         "template--16314009321631__c6fc3d08-5f80-4478-8a6e-e706e4739c93-text-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "<p>At the heart of Yay for Earth beats a profound mission—a mission that takes us on a journey to reimagine the delicate dance between humanity and the natural world. In a world where the scales often tip towards taking from our natural resources, our commitment is to change the status quo. Within the realm of Yay For Earth, we breathe life into the concept of a circular economy. Here, we embrace the art of reusing and repurposing, which lightens the burdens imposed upon our natural resources. From our very inception, our ethos is to never compromise. We understand that achieving perfection is impossible, but we are dedicated in our efforts to help create a world where people and nature can coexist!<\/p>",
+            "text": "<p>At the heart of Yay for Earth beats a deep mission—a mission to reimagine the delicate dance between humanity and the natural world. To bring back slowness, presence and gratitude to the products we use everyday. Here, we embrace the art of reusing and repurposing - to implement circular  systems in a devastatingly linear economy. From our very inception, our ethos is to never compromise. We understand that achieving perfection is virtually impossible, especially in our flawed human system we live in - but we promise to always stay true to this mission </p>",
             "max_width": 750
           }
         }
@@ -165,8 +182,9 @@
     },
     "095d4c79-3b64-4656-a096-11733cc3afc6": {
       "type": "section-full-image",
+      "disabled": true,
       "settings": {
-        "img": "shopify:\/\/shop_images\/fc6cd9d6e3b3f4068e4a7b1e5db65d15.png",
+        "img": "shopify://shop_images/fc6cd9d6e3b3f4068e4a7b1e5db65d15.png",
         "padding_top": 20,
         "padding_bottom": 80
       }
@@ -179,9 +197,9 @@
           "settings": {
             "pt": 0,
             "bg": "#f0a713",
-            "img": "shopify:\/\/shop_images\/435415fd367cc9cd47048479d412d7a3_f74bb370-21c9-498f-a68e-ec49b4202171.jpg",
-            "title": "Our <em>Farmers<\/em>",
-            "url": "shopify:\/\/pages\/meet-the-farmers",
+            "img": "shopify://shop_images/435415fd367cc9cd47048479d412d7a3_f74bb370-21c9-498f-a68e-ec49b4202171.jpg",
+            "title": "Our <em>Farmers</em>",
+            "url": "shopify://pages/meet-the-farmers",
             "btn_name": "Learn More"
           }
         },
@@ -190,9 +208,9 @@
           "settings": {
             "pt": 0,
             "bg": "#c0d1be",
-            "img": "shopify:\/\/shop_images\/unsplash_o9JapjMqjfc.jpg",
+            "img": "shopify://shop_images/unsplash_o9JapjMqjfc.jpg",
             "title": "Meet the Team",
-            "url": "shopify:\/\/pages\/meet-the-team",
+            "url": "shopify://pages/meet-the-team",
             "btn_name": "Learn More"
           }
         }

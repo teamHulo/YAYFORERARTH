@@ -83,6 +83,14 @@
         "vertical_alignment": "center"
       }
     },
+    "section_text_gANr6a": {
+      "type": "section-text",
+      "settings": {
+        "mt": 50,
+        "show_border": true,
+        "text": "MEET OUR FARMERS"
+      }
+    },
     "0b79a277-694e-4b7e-87b6-2c1c714b8120": {
       "type": "section-image-with-text",
       "custom_css": [
@@ -284,6 +292,7 @@
     "15b68b60-cf2d-4f84-833b-c2d037c18b02",
     "115b9e4e-db33-4af1-b3a1-8b28c57665bc",
     "266236c7-c201-480a-9f81-f585602cd3bf",
+    "section_text_gANr6a",
     "0b79a277-694e-4b7e-87b6-2c1c714b8120",
     "297907bc-30ef-4a32-8a46-418559cf6d80",
     "section_image_with_text_kTFRkJ",

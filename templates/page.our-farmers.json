@@ -135,11 +135,38 @@
         "pt": 50,
         "pb": 0,
         "img_aligment": "row-reverse",
-        "img": "shopify://shop_images/Happy_times_with_the_new_shea_roaster_2.jpg",
+        "img": "shopify://shop_images/2018-10-27_07.07.15_2_1-2.jpg",
         "max_height": 700,
         "title": "And the women who provide our Shea Butter!",
-        "text": "<p><br/>We are BEYOND honored to be sourcing our shea butter from an amazing Impact initiative that supports women and communities in rural Ghana to make the highest quality sustainably harvested shea butter using ancient techniques that are passed down through generations. Shea butter is not just an ingredient here at Yay for Earth, but a huge labor of love and truly a sacred piece of the earth that deserves gratitude from all the way from the shea nut to the women that pick, process and craft the butter. <br/><br/> The initiative also helps them integrate modern practices and a new process to pioneer a closed loop operation ensuring that the waste from the shea butter process goes right back into the system and provides 100% fuel energy to process the shea butter. This alone can mitigate climate change, supports biodiversity and healthy ecosystems and provides local employment. <br/></p>",
+        "text": "<p>We are BEYOND honored to be sourcing our shea butter from an amazing Impact initiative that supports women and communities in rural Ghana to make the highest quality, sustainably harvested shea butter using ancient techniques that are passed down through generations. Shea butter is not just an ingredient here at Yay for Earth, but a huge labor of love and truly a sacred piece of the earth that deserves gratitude all the way from the shea nut to the women that pick, process and craft the butter. <br/><br/> The initiative also helps them integrate modern practices and have pioneered a closed loop operation ensuring that the waste from the shea butter process gets looped back in to the process to provide 100% fuel energy to make more shea butter. This alone can mitigate climate change, supports biodiversity and healthy ecosystems and provides local employment.<br/><br/> <br/></p>",
         "vertical_alignment": "flex-start"
+      }
+    },
+    "section_text2_pVMp63": {
+      "type": "section-text2",
+      "blocks": {
+        "item_Ewpi6p": {
+          "type": "item",
+          "settings": {
+            "title": "WASTE TO ENERGY PROJECT",
+            "text": "<p>Through the traditional shea butter process, cutting down living trees to make fuel is the standard. With our shea butter however, they utilize the waste water combined with the organic shea nut leftovers to create solar-dried, hand made fuel blocks which are collected and taken to be used back into the shea roasting and boiling. The women prefer this to the traditional firewood as the traditional method is smokey and doesn't burn as even. </p>"
+          }
+        },
+        "item_9qLxhm": {
+          "type": "item",
+          "settings": {
+            "title": "Beth’s Native Eco System",
+            "text": "<p>Beth’s bees pollinate beautiful native flowers and plants in her surrounding area  - which also results in the beautiful range of colors of wax! These pollinators ensures that the local eco system and surrounding vegetation flourish.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_Ewpi6p",
+        "item_9qLxhm"
+      ],
+      "settings": {
+        "mt": 50,
+        "show_border": true
       }
     },
     "761d5667-40fd-45da-a8cd-30d58e7e7792": {
@@ -257,6 +284,7 @@
     "0b79a277-694e-4b7e-87b6-2c1c714b8120",
     "297907bc-30ef-4a32-8a46-418559cf6d80",
     "section_image_with_text_kTFRkJ",
+    "section_text2_pVMp63",
     "761d5667-40fd-45da-a8cd-30d58e7e7792",
     "4ab42047-5765-4854-8575-7a05aeb23718",
     "d06a4004-c40b-4ba3-8dcc-f1e142f038e2"

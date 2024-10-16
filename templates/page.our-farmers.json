@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,8 +25,8 @@
           "settings": {
             "pt": 90,
             "bg": "#f0a713",
-            "img": "shopify:\/\/shop_images\/1f87615de44ab707b018e3756cc62172.jpg",
-            "title": "Our <em>Farmers<\/em>",
+            "img": "shopify://shop_images/1f87615de44ab707b018e3756cc62172.jpg",
+            "title": "Our <em>Farmers</em>",
             "url": "",
             "btn_name": "Learn More"
           }
@@ -25,7 +34,7 @@
         "297cf64b-4ebf-4d0a-8a8f-88d14013678e": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/Mask_group.jpg"
+            "img": "shopify://shop_images/Mask_group.jpg"
           }
         }
       },
@@ -53,7 +62,7 @@
         "@media screen and (min-width: 900px) {.full-image__wrap {margin-left: 64px; margin-right: 64px; }}"
       ],
       "settings": {
-        "img": "shopify:\/\/shop_images\/88de0784a43ff65709fc96fa21ea9bba.jpg",
+        "img": "shopify://shop_images/88de0784a43ff65709fc96fa21ea9bba.jpg",
         "padding_top": 20,
         "padding_bottom": 20
       }
@@ -67,10 +76,10 @@
         "pt": 50,
         "pb": 0,
         "img_aligment": "row",
-        "img": "shopify:\/\/shop_images\/heart.jpg",
+        "img": "shopify://shop_images/heart.jpg",
         "max_height": 700,
         "title": "The Heart of Our Ingredients",
-        "text": "<p>In the realm of skincare culture, it's astonishing how little reverence we show for the ingredients in our everyday products. There are lengthy lists of ingredients, each screaming in anonymity. This disconnect isn't limited to just skincare; it permeates our grocery aisles as well. How often do we pause to ask, \"Was this grown in healthy soil? What was the farmer's mood that day? Did we disrupt an entire ecosystem just to mass-produce a single crop for use as a mere filler in a cosmetic product?\"  If the products we create fail to contribute to the betterment of our planet and the livelihoods of our farmers, then we must ask ourselves: Why are we using them at all?<br\/><br\/>Every component we incorporate into our products isn't just essential; it's sacred. We believe that the alchemy of our magical products is, in part, attributed to the environments from which these ingredients are born! YES WE ARE THIS CHEESY & EMOTIONAL about our ingredients and farmers all the time.<br\/><br\/><\/p>",
+        "text": "<p>In the realm of skincare culture, it's astonishing how little reverence we show for the ingredients in our everyday products. There are lengthy lists of ingredients, each screaming in anonymity. This disconnect isn't limited to just skincare; it permeates our grocery aisles as well. How often do we pause to ask, \"Was this grown in healthy soil? What was the farmer's mood that day? Did we disrupt an entire ecosystem just to mass-produce a single crop for use as a mere filler in a cosmetic product?\"  If the products we create fail to contribute to the betterment of our planet and the livelihoods of our farmers, then we must ask ourselves: Why are we using them at all?<br/><br/>Every component we incorporate into our products isn't just essential; it's sacred. We believe that the alchemy of our magical products is, in part, attributed to the environments from which these ingredients are born! YES WE ARE THIS CHEESY & EMOTIONAL about our ingredients and farmers all the time.<br/><br/></p>",
         "vertical_alignment": "center"
       }
     },
@@ -83,10 +92,10 @@
         "pt": 50,
         "pb": 0,
         "img_aligment": "row-reverse",
-        "img": "shopify:\/\/shop_images\/beth.jpg",
+        "img": "shopify://shop_images/beth.jpg",
         "max_height": 700,
         "title": "Allow us to introduce you to Beth, our treasured beekeeper!",
-        "text": "<p>Beth and her hives reside a brief 30-minute drive from the home of our founder, Stevie! She hand-delivers her beeswax whenever we need to re-up. To us, Beth is more than a beekeeper; she's a true steward for her hives. When we came to visit, we realized how much care she takes, delicately tending to them, making sure no bee is harmed. She’s the living embodiment of our commitment to earth - a testament to the symbiotic relationship between nature and human.<br\/><br\/><\/p>",
+        "text": "<p>Beth and her hives reside a brief 30-minute drive from the home of our founder, Stevie! She hand-delivers her beeswax whenever we need to re-up. To us, Beth is more than a beekeeper; she's a true steward for her hives. When we came to visit, we realized how much care she takes, delicately tending to them, making sure no bee is harmed. She’s the living embodiment of our commitment to earth - a testament to the symbiotic relationship between nature and human.<br/><br/></p>",
         "vertical_alignment": "flex-start"
       }
     },
@@ -97,14 +106,14 @@
           "type": "item",
           "settings": {
             "title": "Sustainable Beeswax Harvesting",
-            "text": "<p>It begins with a careful check on the hive's well-being, ensuring the bees are healthy and thriving. When it is time to harvest, only the finest beeswax  is used for our products. This beeswax is called “capping wax” and it is the thin layer of beeswax that is placed over the honey by the bees.<\/p>"
+            "text": "<p>It begins with a careful check on the hive's well-being, ensuring the bees are healthy and thriving. When it is time to harvest, only the finest beeswax  is used for our products. This beeswax is called “capping wax” and it is the thin layer of beeswax that is placed over the honey by the bees.</p>"
           }
         },
         "0fab1916-1fc1-4328-8474-5cd9952143c3": {
           "type": "item",
           "settings": {
             "title": "Beth’s Native Eco System",
-            "text": "<p>Beth’s bees pollinate beautiful native flowers and plants in her surrounding area  - which also results in the beautiful range of colors of wax! These pollinators ensures that the local eco system and surrounding vegetation flourish.<\/p>"
+            "text": "<p>Beth’s bees pollinate beautiful native flowers and plants in her surrounding area  - which also results in the beautiful range of colors of wax! These pollinators ensures that the local eco system and surrounding vegetation flourish.</p>"
           }
         }
       },
@@ -120,6 +129,19 @@
         "show_border": true
       }
     },
+    "section_image_with_text_kTFRkJ": {
+      "type": "section-image-with-text",
+      "settings": {
+        "pt": 50,
+        "pb": 0,
+        "img_aligment": "row-reverse",
+        "img": "shopify://shop_images/Happy_times_with_the_new_shea_roaster_2.jpg",
+        "max_height": 700,
+        "title": "And the women who provide our Shea Butter!",
+        "text": "<p><br/>We are BEYOND honored to be sourcing our shea butter from an amazing Impact initiative that supports women and communities in rural Ghana to make the highest quality sustainably harvested shea butter using ancient techniques that are passed down through generations. Shea butter is not just an ingredient here at Yay for Earth, but a huge labor of love and truly a sacred piece of the earth that deserves gratitude from all the way from the shea nut to the women that pick, process and craft the butter. <br/><br/> The initiative also helps them integrate modern practices and a new process to pioneer a closed loop operation ensuring that the waste from the shea butter process goes right back into the system and provides 100% fuel energy to process the shea butter. This alone can mitigate climate change, supports biodiversity and healthy ecosystems and provides local employment. <br/></p>",
+        "vertical_alignment": "flex-start"
+      }
+    },
     "761d5667-40fd-45da-a8cd-30d58e7e7792": {
       "type": "rich-text",
       "blocks": {
@@ -133,7 +155,7 @@
         "template--16313993396383__761d5667-40fd-45da-a8cd-30d58e7e7792-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Our entire line is organic, we utilize regenerative where possible, and we will never source anything but the highest quality ingredients we can.  We also cannot wait to introduce you to more of the wonderful farmers we love and that are the backbone of Yay for Earth. As a small and steadily expanding business, we're now in a position to visit our dedicated farmers, and we can't wait to share their stories with you. Stay tuned for updates on this page. Also if you know of any regenerative farmers out there that are badazz at what they do, please thank them, but then also contact us - we would love to expand our list of regenerative farmers! \u2028<br\/> <br\/>While we acknowledge that we're not flawless, our commitment is to continuously strive for improvement and seek the most sustainable solutions. We invite you to join us in embracing this imperfect beauty of sustainability and transparency - knowing that every step towards a positive change is a step worth taking!<br\/>\u2028<\/p>",
+            "text": "<p>Our entire line is organic, we utilize regenerative where possible, and we will never source anything but the highest quality ingredients we can.  We also cannot wait to introduce you to more of the wonderful farmers we love and that are the backbone of Yay for Earth. As a small and steadily expanding business, we're now in a position to visit our dedicated farmers, and we can't wait to share their stories with you. Stay tuned for updates on this page. Also if you know of any regenerative farmers out there that are badazz at what they do, please thank them, but then also contact us - we would love to expand our list of regenerative farmers!  <br/> <br/>While we acknowledge that we're not flawless, our commitment is to continuously strive for improvement and seek the most sustainable solutions. We invite you to join us in embracing this imperfect beauty of sustainability and transparency - knowing that every step towards a positive change is a step worth taking!<br/> </p>",
             "max_width": 750
           }
         }
@@ -160,19 +182,19 @@
         "d52b934f-b8df-4f08-a1a3-c36ae0deb349": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/9f1aff0012ee2204f0c6b714e75af1e5.jpg"
+            "img": "shopify://shop_images/9f1aff0012ee2204f0c6b714e75af1e5.jpg"
           }
         },
         "4c28f3a0-2b2d-4429-931a-48399c0f40de": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/387A9137_1.jpg"
+            "img": "shopify://shop_images/387A9137_1.jpg"
           }
         },
         "b3171c85-8860-4ee6-ae15-75e13c24bb9a": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/7287e58aed3ba158fbac861bee6caa4a.jpg"
+            "img": "shopify://shop_images/7287e58aed3ba158fbac861bee6caa4a.jpg"
           }
         }
       },
@@ -197,9 +219,9 @@
           "settings": {
             "pt": 0,
             "bg": "#4f5e3c",
-            "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8_f0c9429f-dac8-43fe-b40a-6df6ccffcc7b.jpg",
-            "title": "Meet <em>Stevie<\/em>",
-            "url": "shopify:\/\/pages\/stevie-s-story",
+            "img": "shopify://shop_images/c60daed9e9d0e8ab5d75ad581b937ed8_f0c9429f-dac8-43fe-b40a-6df6ccffcc7b.jpg",
+            "title": "Meet <em>Stevie</em>",
+            "url": "shopify://pages/stevie-s-story",
             "btn_name": "Learn More"
           }
         },
@@ -208,9 +230,9 @@
           "settings": {
             "pt": 0,
             "bg": "#84b4ba",
-            "img": "shopify:\/\/shop_images\/Screen_Shot_2023-11-06_at_12.09_3.jpg",
-            "title": "Our <em>Warehouse<\/em>",
-            "url": "shopify:\/\/pages\/our-warehouse",
+            "img": "shopify://shop_images/Screen_Shot_2023-11-06_at_12.09_3.jpg",
+            "title": "Our <em>Warehouse</em>",
+            "url": "shopify://pages/our-warehouse",
             "btn_name": "Learn More"
           }
         }
@@ -234,6 +256,7 @@
     "266236c7-c201-480a-9f81-f585602cd3bf",
     "0b79a277-694e-4b7e-87b6-2c1c714b8120",
     "297907bc-30ef-4a32-8a46-418559cf6d80",
+    "section_image_with_text_kTFRkJ",
     "761d5667-40fd-45da-a8cd-30d58e7e7792",
     "4ab42047-5765-4854-8575-7a05aeb23718",
     "d06a4004-c40b-4ba3-8dcc-f1e142f038e2"

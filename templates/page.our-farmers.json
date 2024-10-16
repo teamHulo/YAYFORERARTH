@@ -131,6 +131,9 @@
     },
     "section_image_with_text_kTFRkJ": {
       "type": "section-image-with-text",
+      "custom_css": [
+        "@media screen and (min-width: 900px) {.section-with-text__wrap {margin-left: 64px; margin-right: 64px; }}"
+      ],
       "settings": {
         "pt": 50,
         "pb": 0,

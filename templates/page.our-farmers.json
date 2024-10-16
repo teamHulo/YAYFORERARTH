@@ -158,19 +158,11 @@
             "title": "SUPPORTING WOMEN & COMMUNITIES",
             "text": "<p>They are Community Certified Fair Trade, supporting local communities and women artisans.  This inherently enables them to proudly support their children, families and communities through this work. They also get paid significantly higher than the market value and work with the women and community to identify and support additional development efforts and priorities. Anytime you purchase a lotion, you directly support these amazing women, families an communities in Northern Ghana. </p>"
           }
-        },
-        "item_47kAJX": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "text": ""
-          }
         }
       },
       "block_order": [
         "item_Ewpi6p",
-        "item_9qLxhm",
-        "item_47kAJX"
+        "item_9qLxhm"
       ],
       "settings": {
         "mt": 50,

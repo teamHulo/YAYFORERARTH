@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "name": "t:sections.header.name",
   "type": "header",
@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_XFf9Kj": {
-          "type": "announcement",
-          "settings": {
-            "text": "FREE SHIPPING ON DOMESTIC ORDERS OVER $150!!",
-            "link": ""
-          }
-        },
         "announcement_zDn8MJ": {
           "type": "announcement",
           "settings": {
@@ -30,7 +23,6 @@
         }
       },
       "block_order": [
-        "announcement_XFf9Kj",
         "announcement_zDn8MJ"
       ],
       "settings": {
@@ -38,7 +30,7 @@
         "show_line_separator": true,
         "show_social": false,
         "auto_rotate": true,
-        "change_slides_speed": 6,
+        "change_slides_speed": 7,
         "enable_country_selector": false,
         "enable_language_selector": false
       }

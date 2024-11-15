@@ -20,10 +20,18 @@
             "text": "HOLIDAY SALE NOW! Use code: YAYHOLIDAY15 at check out for 15% of all items!",
             "link": ""
           }
+        },
+        "announcement_MpWbpr": {
+          "type": "announcement",
+          "settings": {
+            "text": "Please allow 5-7 business days before shipping as we pack out all your holiday orders!",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement_zDn8MJ"
+        "announcement_zDn8MJ",
+        "announcement_MpWbpr"
       ],
       "settings": {
         "color_scheme": "accent-1",

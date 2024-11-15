@@ -1,20 +1,20 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
         "img": "shopify://shop_images/THISSOPHIE.jpg",
-        "title": "YAY! <em> New labels</em><br> are here!",
-        "btn_name": "Shop Glow Up",
+        "title": "Holiday Sale!",
+        "btn_name": "Shop Sale",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
       }
     },
@@ -181,9 +181,7 @@
         "f9e95a03-e8bc-48ea-b30c-d41d01866c11",
         "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "product": "1oz-sensitive-skin-face-lotion",
         "img": "shopify://shop_images/387A9771_2.jpg",
@@ -321,8 +319,7 @@
         "06df0059-8e82-41f2-90c2-75ccd8868502",
         "4eb7915f-fbbe-46a2-ae36-c21c9f5fd055"
       ],
-      "settings": {
-      }
+      "settings": {}
     },
     "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a": {
       "type": "privacy-and-policy",

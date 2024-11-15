@@ -21,13 +21,6 @@
             "link": ""
           }
         },
-        "announcement_aVFJpM": {
-          "type": "announcement",
-          "settings": {
-            "text": "Welcome to our store",
-            "link": ""
-          }
-        },
         "announcement_MpWbpr": {
           "type": "announcement",
           "settings": {
@@ -38,7 +31,6 @@
       },
       "block_order": [
         "announcement_zDn8MJ",
-        "announcement_aVFJpM",
         "announcement_MpWbpr"
       ],
       "settings": {

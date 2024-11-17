@@ -17,7 +17,14 @@
         "announcement_zDn8MJ": {
           "type": "announcement",
           "settings": {
-            "text": "HOLIDAY SALE NOW! Use code: YAYHOLIDAY15 at check out for 15% of all items!",
+            "text": "Code: YAYHOLIDAY15 at check out for 15% of all items! Now through 12/15",
+            "link": ""
+          }
+        },
+        "announcement_4nUkUr": {
+          "type": "announcement",
+          "settings": {
+            "text": "Welcome to our store",
             "link": ""
           }
         },
@@ -31,6 +38,7 @@
       },
       "block_order": [
         "announcement_zDn8MJ",
+        "announcement_4nUkUr",
         "announcement_MpWbpr"
       ],
       "settings": {

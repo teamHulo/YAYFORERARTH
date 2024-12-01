@@ -124,6 +124,11 @@
                   $(this).addClass('active');
                 });
 
+                $('.my-product-card.yfe-x-olive-odyssey .product-item-custom-form-variants-item').click(function(){
+                  $('.my-product-card.yfe-x-olive-odyssey .product-item-custom-form-variants-item').removeClass('active');
+                  $(this).addClass('active');
+                });
+
         
 
 
@@ -340,6 +345,21 @@
           .lip-balm form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(4):hover{
             background: url('https://cdn.shopify.com/s/files/1/0363/1123/6740/files/Group_519_1.png?v=1701774731');
                  background-size: cover !important;
+         }
+
+         .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(1).active{
+            background: #C0CD42;
+         }
+         .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(2).active{
+            background: #215D6E;
+            color: #FFFFFF;
+         }
+         .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(3).active{
+            background: #9F81BC;
+         }
+         .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(4).active{
+            background: linear-gradient(90deg, rgb(159,129,188) 0%, rgb(159,129,188) 33%, rgb(33,93,110) 33%, rgb(33,93,110) 66%, rgb(192,205,66) 66%, rgb(192,205,66) 100%);
+           color: #FFFFFF;
          }
 
           .add-my-cart{

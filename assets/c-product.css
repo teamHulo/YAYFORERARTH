@@ -25,6 +25,7 @@
 }
 .product-form__input input[type=radio]:checked+label.nablus {
     background-color: #215D6E;
+    color: #FFFFFF;
 }
 .product-form__input input[type=radio]:checked+label.coratina {
     background-color: #9F81BC;
@@ -34,6 +35,7 @@
 }
 .product-yfe-x-olive-odyssey .product-form__input input[type=radio]:checked+label.trio {
     background: linear-gradient(90deg, rgb(159,129,188) 0%, rgb(159,129,188) 33%, rgb(33,93,110) 33%, rgb(33,93,110) 66%, rgb(192,205,66) 66%, rgb(192,205,66) 100%);
+    color: #FFFFFF;
 }
 .product-form__input input[type=radio] + label:hover {
     background-color: #E39903;
@@ -49,6 +51,7 @@
 }
 .product-form__input input[type=radio]+label.nablus:hover {
     background-color: #215D6E;
+    color: #FFFFFF;
 }
 .product-form__input input[type=radio]+label.coratina:hover {
     background-color: #9F81BC;
@@ -58,6 +61,7 @@
 }
 .product-yfe-x-olive-odyssey .product-form__input input[type=radio]+label.trio:hover {
     background: linear-gradient(90deg, rgb(159,129,188) 0%, rgb(159,129,188) 33%, rgb(33,93,110) 33%, rgb(33,93,110) 66%, rgb(192,205,66) 66%, rgb(192,205,66) 100%);
+    color: #FFFFFF;
 }
 
 .product__title h1 {

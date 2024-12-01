@@ -124,6 +124,10 @@
                   $(this).addClass('active');
                 });
 
+               $('.my-product-card.yfe-x-olive-odyssey').each(function() {
+                    $(this).find('.product-item-custom-form-variants-item:first').addClass('active');
+                });
+
                 $('.my-product-card.yfe-x-olive-odyssey .product-item-custom-form-variants-item').click(function(){
                   $('.my-product-card.yfe-x-olive-odyssey .product-item-custom-form-variants-item').removeClass('active');
                   $(this).addClass('active');
@@ -352,6 +356,8 @@
          }
          .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(2).active{
             background: #215D6E;
+         }
+         .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(2).active label{
             color: #FFFFFF;
          }
          .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(3).active{
@@ -359,6 +365,8 @@
          }
          .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(4).active{
             background: linear-gradient(90deg, rgb(159,129,188) 0%, rgb(159,129,188) 33%, rgb(33,93,110) 33%, rgb(33,93,110) 66%, rgb(192,205,66) 66%, rgb(192,205,66) 100%);
+         }
+         .yfe-x-olive-odyssey form.product-item-custom-form .product-item-custom-form-variants .product-item-custom-form-variants-item:nth-child(4).active label{
            color: #FFFFFF;
          }
 

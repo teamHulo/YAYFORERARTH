@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -16,8 +25,8 @@
           "settings": {
             "pt": 100,
             "bg": "#c1d1be",
-            "img": "shopify:\/\/shop_images\/monika-grabkowska-VQnAhxPNy1g-unsplash_2.jpg",
-            "title": "Our <em>Team<\/em>",
+            "img": "shopify://shop_images/monika-grabkowska-VQnAhxPNy1g-unsplash_2.jpg",
+            "title": "Our <em>Team</em>",
             "url": "",
             "btn_name": "Learn More"
           }
@@ -25,7 +34,7 @@
         "b3144281-b635-4731-9285-22638fda2073": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/unsplash_o9JapjMqjfc.jpg"
+            "img": "shopify://shop_images/unsplash_o9JapjMqjfc.jpg"
           }
         }
       },
@@ -41,9 +50,7 @@
     },
     "4f3b19a1-a6d7-4080-9448-9c02f6b44718": {
       "type": "section-text",
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "mt": 50,
         "show_border": true,
@@ -56,24 +63,24 @@
         "ac90945d-a417-4522-9052-5c6fb11c88d9": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/580914ecf484c1d05aa6481beea3facb_0a058569-f55c-4c79-a2f4-df88a5c81192.jpg",
+            "img": "shopify://shop_images/580914ecf484c1d05aa6481beea3facb_0a058569-f55c-4c79-a2f4-df88a5c81192.jpg",
             "job_title": "Founder",
             "name": "Stevie Van Horn",
-            "text": "<p>Stevie is our Founder and Creator for all things YFE!  She believes with every fiber of her little Mexican being that we can be stewards of our planet and that every single one of us is so special and unique! As someone who is obsessed with Nature and her own daily skincare, it is her mission to prove that it is possible to create a business that takes care of both our bodies and the Earth.<\/p>",
+            "text": "<p>Stevie is our Founder and Creator for all things YFE!  She believes with every fiber of her little Mexican being that we can be stewards of our planet and that every single one of us is so special and unique! As someone who is obsessed with Nature and her own daily skincare, it is her mission to prove that it is possible to create a business that takes care of both our bodies and the Earth.</p>",
             "favorite_product_title": "Stevie’s favorite product:",
             "product_name": "Hydrosol Spritzie & Sensitive Face Lotion",
             "product": "hydrosol-spritzie",
             "text_btn": "Learn More about Stevie’s Story",
-            "btn_url": "shopify:\/\/pages\/stevie-s-story"
+            "btn_url": "shopify://pages/stevie-s-story"
           }
         },
         "fa663954-71c9-4042-8731-e6caddd6626c": {
           "type": "card",
           "settings": {
-            "img": "shopify:\/\/shop_images\/9ae44e06859391c15719da26d1f4ea79.png",
+            "img": "shopify://shop_images/9ae44e06859391c15719da26d1f4ea79.png",
             "job_title": "Chief Operating Officer",
             "name": "Sophie Benfield",
-            "text": "<p>Sophie has been with Yay for Earth since almost the beginning! Her biggest passion in life is the natural world and finding ways to reconnect others with Nature. After briefly working a typical 9-5 at a large company, she found herself miserable and knew it was time for a change. Working with YFE has only deepened her love for the environment, and the belief that every dollar we spend is a vote towards a better today! <\/p>",
+            "text": "<p>Sophie has been with Yay for Earth since almost the beginning! Her biggest passion in life is the natural world and finding ways to reconnect others with Nature. After briefly working a typical 9-5 at a large company, she found herself miserable and knew it was time for a change. Working with YFE has only deepened her love for the environment, and the belief that every dollar we spend is a vote towards a better today! </p>",
             "favorite_product_title": "Sophie’s favorite product:",
             "product_name": "Golden Body Oil",
             "product": "golden-body-oil",
@@ -94,40 +101,6 @@
     },
     "d580f4b0-7513-4e3c-a146-c4faf7df88f0": {
       "type": "section-master",
-      "blocks": {
-        "98776791-7ee3-4828-b074-09db272712d6": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/58fa7a838c7556daf3ec95d8b2907eab.png",
-            "job_title": "Warehouse Manager",
-            "name": "Dillon Mullings",
-            "text": "<p>Dillon is Stevie’s cousin! He loves to be creative and see visual progress which is no surprise as he masters the Yay for Earth space and truly is the backbone of our warehouse. In his free time he loves working on cars, 1:10 scale drifting, and being in nature. When asked about his love of the earth : “What a magnificent situation to find yourself in. Having the opportunity to exist in this sliver of time and knowing all that came before us to even make it possible for us to be alive is amazing. This is why we must push and strive for a better tomorrow.” He believes YFE is a conduit of change for those who find our products and that we can be a true connector between nature and people.<\/p>",
-            "favorite_product_title": "Dillon’s favorite product:",
-            "product_name": "Sensitive Face Lotion",
-            "product": "1oz-sensitive-skin-face-lotion",
-            "text_btn": "",
-            "btn_url": ""
-          }
-        },
-        "83585675-f7d2-458c-b398-f98b2f36761a": {
-          "type": "card",
-          "settings": {
-            "img": "shopify:\/\/shop_images\/387A9465-3.jpg",
-            "job_title": "Warehouse Communications",
-            "name": "Sam Mullings",
-            "text": "<p>Sam is Stevie’s aunt! She was raised in Hanalei Bay, on the North Shore of Kauai which has given her a unique respect for nature and the beauty and resilience of the planet. Her mother raised 3 daughters to grow, care for, and surround themselves in plants and flowers. Sam loves to garden, walk, and camp and in her spare time loves to paint, write and draw. She has a masters degree in criminal justice, but currently exploring other avenues. She gives so much love to our team and believes that YFE can encourage and educate people on the importance of our environment and our daily actions.<\/p>",
-            "favorite_product_title": "Sam's favorite product:",
-            "product_name": "Golden Body Oil",
-            "product": "golden-body-oil",
-            "text_btn": "",
-            "btn_url": ""
-          }
-        }
-      },
-      "block_order": [
-        "98776791-7ee3-4828-b074-09db272712d6",
-        "83585675-f7d2-458c-b398-f98b2f36761a"
-      ],
       "settings": {
         "padding_top": 60,
         "padding_bottom": 60,
@@ -142,9 +115,9 @@
           "settings": {
             "pt": 0,
             "bg": "#4f5e3c",
-            "img": "shopify:\/\/shop_images\/c60daed9e9d0e8ab5d75ad581b937ed8_93f3ae3a-5ea3-4de3-aaad-5b8257311566.jpg",
-            "title": "Meet <em>Stevie<\/em>",
-            "url": "shopify:\/\/pages\/stevie-s-story",
+            "img": "shopify://shop_images/c60daed9e9d0e8ab5d75ad581b937ed8_93f3ae3a-5ea3-4de3-aaad-5b8257311566.jpg",
+            "title": "Meet <em>Stevie</em>",
+            "url": "shopify://pages/stevie-s-story",
             "btn_name": "Learn More"
           }
         },
@@ -153,9 +126,9 @@
           "settings": {
             "pt": 0,
             "bg": "#f0a713",
-            "img": "shopify:\/\/shop_images\/435415fd367cc9cd47048479d412d7a3_71db45fd-ffa8-4c43-91f7-79ab9d7a4c1b.jpg",
-            "title": "Our <em>Farmers<\/em>",
-            "url": "shopify:\/\/pages\/meet-the-farmers",
+            "img": "shopify://shop_images/435415fd367cc9cd47048479d412d7a3_71db45fd-ffa8-4c43-91f7-79ab9d7a4c1b.jpg",
+            "title": "Our <em>Farmers</em>",
+            "url": "shopify://pages/meet-the-farmers",
             "btn_name": "Learn More"
           }
         }

@@ -1,17 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
-    "logo": "shopify:\/\/shop_images\/YAY_FOR_EARTH_7a134846-e8a0-49e9-80c2-bf9f0ac73e77.png",
+    "logo": "shopify://shop_images/YAY_FOR_EARTH_7a134846-e8a0-49e9-80c2-bf9f0ac73e77.png",
     "logo_width": 270,
-    "favicon": "shopify:\/\/shop_images\/YFE-Sun-for-Favicon_light-cream.png",
+    "favicon": "shopify://shop_images/YFE-Sun-for-Favicon_light-cream.png",
     "shipping": "150",
     "type_header_font": "archivo_n7",
     "heading_scale": 110,
@@ -109,10 +109,10 @@
     "sale_badge_color_scheme": "accent-1",
     "sold_out_badge_color_scheme": "background-1",
     "brand_headline": "",
-    "brand_description": "<p><\/p>",
+    "brand_description": "<p></p>",
     "brand_image_width": 100,
-    "social_facebook_link": "facebook.com\/yaaaayforearth",
-    "social_instagram_link": "https:\/\/www.instagram.com\/yayforearth",
+    "social_facebook_link": "facebook.com/yaaaayforearth",
+    "social_instagram_link": "https://www.instagram.com/yayforearth",
     "social_youtube_link": "",
     "social_tiktok_link": "",
     "social_twitter_link": "",
@@ -129,7 +129,7 @@
     "show_cart_note": false,
     "cart_drawer_collection": "",
     "cart_color_scheme": "background-1",
-    "checkout_logo_image": "shopify:\/\/shop_images\/YFE_Logo_Smaller.png",
+    "checkout_logo_image": "shopify://shop_images/YFE_Logo_Smaller.png",
     "checkout_accent_color": "#4f5e3c",
     "checkout_button_color": "#4f5e3c",
     "sections": {
@@ -146,15 +146,17 @@
         }
       }
     },
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "855628211100114053": {
-        "type": "shopify:\/\/apps\/klaviyo-email-marketing-sms\/blocks\/klaviyo-onsite-embed\/2632fe16-c075-4321-a88b-50b567f42507",
+        "type": "shopify://apps/klaviyo-email-marketing-sms/blocks/klaviyo-onsite-embed/2632fe16-c075-4321-a88b-50b567f42507",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "11349500561483629931": {
+        "type": "shopify://apps/notify-me/blocks/app-embed/b399b727-6c85-44fc-9e21-63114bd72054",
+        "disabled": false,
+        "settings": {}
       }
     },
     "color_schemes": {
@@ -393,7 +395,7 @@
       "sale_badge_color_scheme": "accent-1",
       "sold_out_badge_color_scheme": "background-1",
       "brand_headline": "",
-      "brand_description": "<p><\/p>",
+      "brand_description": "<p></p>",
       "brand_image_width": 100,
       "social_twitter_link": "",
       "social_facebook_link": "",

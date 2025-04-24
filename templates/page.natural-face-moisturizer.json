@@ -31,7 +31,7 @@
         "text_a9Q6Nm": {
           "type": "text",
           "settings": {
-            "text": "<p>Our most beloved, magical lotion! Can be used day & night on the face for sensitive skin and all skin types. Nutrient dense and gentle relief for your face and body. A little goes a long way!</p>",
+            "text": "<p>Crafted for all skin types, this gentle formula delivers deep hydration with nutrient-rich, all organic ingredients. Perfect for daily use, our botanical blend provides sensitive skin relief morning and night. Experience the magic of truly clean skincare – a small amount delivers remarkable results for both face and body. Your skin will thank you for choosing nature's purest nourishment!</p>",
             "text_style": "body"
           }
         },
@@ -54,7 +54,7 @@
       "settings": {
         "image": "shopify://shop_images/NEW04-492786.jpg",
         "height": "adapt",
-        "desktop_image_width": "small",
+        "desktop_image_width": "medium",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",

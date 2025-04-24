@@ -12,7 +12,7 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify://shop_images/YFE_COVER.png",
+        "img": "shopify://shop_images/All_Natural_Moisturizer_-_Yay_for_Earth.png",
         "title": "Hello skincare,  meet nature. I think you two will get along.",
         "btn_name": "Shop HERE",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
@@ -46,7 +46,7 @@
         "button_Q3qWQn": {
           "type": "button",
           "settings": {
-            "button_label": "Shop Lotion",
+            "button_label": "Shop HERE",
             "button_link": "shopify://products/1oz-sensitive-skin-face-lotion",
             "button_style_secondary": false
           }

@@ -40,7 +40,7 @@
           "settings": {
             "button_label": "Shop Lotion",
             "button_link": "",
-            "button_style_secondary": false
+            "button_style_secondary": true
           }
         }
       },
@@ -49,11 +49,12 @@
         "text_a9Q6Nm",
         "button_Q3qWQn"
       ],
+      "custom_css": [],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
         "image": "shopify://shop_images/NEW04-492786.jpg",
         "height": "adapt",
-        "desktop_image_width": "medium",
+        "desktop_image_width": "small",
         "layout": "text_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
@@ -230,10 +231,7 @@
         "f9e95a03-e8bc-48ea-b30c-d41d01866c11",
         "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee"
       ],
-      "disabled": true,
-      "custom_css": [
-        "h1 {font-size: 20px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "product": "1oz-sensitive-skin-face-lotion",
         "img": "shopify://shop_images/037A5912_copy.jpg",

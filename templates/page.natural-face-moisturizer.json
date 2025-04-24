@@ -18,11 +18,57 @@
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
       }
     },
+    "image_with_text_cw6qEJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rJcbBA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural Face Moisturizer",
+            "heading_size": "h1"
+          }
+        },
+        "text_a9Q6Nm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our most beloved, magical lotion! Can be used day & night on the face for sensitive skin and all skin types. Nutrient dense and gentle relief for your face and body. A little goes a long way!</p>",
+            "text_style": "body"
+          }
+        },
+        "button_Q3qWQn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop Lotion",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rJcbBA",
+        "text_a9Q6Nm",
+        "button_Q3qWQn"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/NEW04-492786.jpg",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
+        "color_scheme": "background-1",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
       "type": "section-text",
-      "custom_css": [
-        "{margin-top: -50px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "mt": 0,
         "show_border": false,
@@ -138,48 +184,6 @@
         "color_border_btn": "rgba(0,0,0,0)"
       }
     },
-    "rich_text_amXEh7": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3HMWDF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Natural Face Moisturizer",
-            "heading_size": "h0"
-          }
-        },
-        "text_3QY6C8": {
-          "type": "text",
-          "settings": {
-            "text": "<p><em><strong>Made with all organic ingredients, including:</strong></em></p><p>Orgainc Olea Europaea Fruit Oil (<strong>Olive Oil</strong>) </p><p>Local Cera alba (<strong>Beeswax</strong>)</p><p>Organic Butyrospermum Parkii Butter (<strong>Shea</strong>)</p><p>Organic Punica Granatum Seed Oil (<strong>Pomegranate</strong>)</p>",
-            "max_width": 0
-          }
-        },
-        "text_GqTKUL": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "max_width": 0
-          }
-        }
-      },
-      "block_order": [
-        "heading_3HMWDF",
-        "text_3QY6C8",
-        "text_GqTKUL"
-      ],
-      "custom_css": [],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "e32f860a-b747-448a-bba0-831667bf10ed": {
       "type": "section-product",
       "blocks": {
@@ -226,7 +230,10 @@
         "f9e95a03-e8bc-48ea-b30c-d41d01866c11",
         "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee"
       ],
-      "custom_css": [],
+      "disabled": true,
+      "custom_css": [
+        "h1 {font-size: 20px;}"
+      ],
       "settings": {
         "product": "1oz-sensitive-skin-face-lotion",
         "img": "shopify://shop_images/037A5912_copy.jpg",
@@ -625,12 +632,12 @@
   },
   "order": [
     "e8c60c1d-f2f6-446c-95a2-23af9319916c",
+    "image_with_text_cw6qEJ",
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5",
     "aa3c5165-1075-4df1-8b32-c6231b177c8c",
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",
     "c631d7fa-d67e-4b23-a54a-06911afc6222",
     "section_double_image_UxeWxe",
-    "rich_text_amXEh7",
     "e32f860a-b747-448a-bba0-831667bf10ed",
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
     "35520c0f-8581-4a5b-bb00-59bb639ce120",

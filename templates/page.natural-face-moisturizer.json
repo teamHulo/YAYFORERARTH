@@ -18,6 +18,15 @@
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
       }
     },
+    "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
+      "type": "section-text",
+      "custom_css": [],
+      "settings": {
+        "mt": 0,
+        "show_border": false,
+        "text": "Behold! Not your typical skin care - applying our nutrient dense products will give your skin the glow it deserves, while sending your senses into the natural world. You’ve never used anything as magical."
+      }
+    },
     "image_with_text_cw6qEJ": {
       "type": "image-with-text",
       "blocks": {
@@ -67,15 +76,6 @@
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
-      "type": "section-text",
-      "custom_css": [],
-      "settings": {
-        "mt": 0,
-        "show_border": false,
-        "text": "Behold! Not your typical skin care - applying our nutrient dense products will give your skin the glow it deserves, while sending your senses into the natural world. You’ve never used anything as magical."
       }
     },
     "aa3c5165-1075-4df1-8b32-c6231b177c8c": {
@@ -632,8 +632,8 @@
   },
   "order": [
     "e8c60c1d-f2f6-446c-95a2-23af9319916c",
-    "image_with_text_cw6qEJ",
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5",
+    "image_with_text_cw6qEJ",
     "aa3c5165-1075-4df1-8b32-c6231b177c8c",
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",
     "c631d7fa-d67e-4b23-a54a-06911afc6222",

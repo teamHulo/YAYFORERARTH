@@ -18,44 +18,10 @@
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
       }
     },
-    "rich_text_amXEh7": {
-      "type": "rich-text",
-      "blocks": {
-        "heading_3HMWDF": {
-          "type": "heading",
-          "settings": {
-            "heading": "Natural Face Moisturizer",
-            "heading_size": "h0"
-          }
-        },
-        "text_GqTKUL": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
-            "max_width": 0
-          }
-        }
-      },
-      "block_order": [
-        "heading_3HMWDF",
-        "text_GqTKUL"
-      ],
-      "custom_css": [],
-      "name": "t:sections.rich-text.presets.name",
-      "settings": {
-        "desktop_content_position": "center",
-        "content_alignment": "center",
-        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
-        "full_width": true,
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
       "type": "section-text",
       "custom_css": [
-        "{margin-top:-50px}"
+        "{margin-top: -50px;}"
       ],
       "settings": {
         "mt": 0,
@@ -170,6 +136,48 @@
         "color_btn_text": "#fff9eb",
         "color_bg_btn": "#3b4e15",
         "color_border_btn": "rgba(0,0,0,0)"
+      }
+    },
+    "rich_text_amXEh7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3HMWDF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural Face Moisturizer",
+            "heading_size": "h0"
+          }
+        },
+        "text_3QY6C8": {
+          "type": "text",
+          "settings": {
+            "text": "<p><em><strong>Made with all organic ingredients, including:</strong></em></p><p>Orgainc Olea Europaea Fruit Oil (<strong>Olive Oil</strong>) </p><p>Local Cera alba (<strong>Beeswax</strong>)</p><p>Organic Butyrospermum Parkii Butter (<strong>Shea</strong>)</p><p>Organic Punica Granatum Seed Oil (<strong>Pomegranate</strong>)</p>",
+            "max_width": 0
+          }
+        },
+        "text_GqTKUL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "max_width": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_3HMWDF",
+        "text_3QY6C8",
+        "text_GqTKUL"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "e32f860a-b747-448a-bba0-831667bf10ed": {
@@ -617,12 +625,12 @@
   },
   "order": [
     "e8c60c1d-f2f6-446c-95a2-23af9319916c",
-    "rich_text_amXEh7",
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5",
     "aa3c5165-1075-4df1-8b32-c6231b177c8c",
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",
     "c631d7fa-d67e-4b23-a54a-06911afc6222",
     "section_double_image_UxeWxe",
+    "rich_text_amXEh7",
     "e32f860a-b747-448a-bba0-831667bf10ed",
     "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
     "35520c0f-8581-4a5b-bb00-59bb639ce120",

@@ -13,7 +13,7 @@
       "type": "section-banner",
       "settings": {
         "img": "shopify://shop_images/YFE_COVER.png",
-        "title": "Hello skincare,  meet nature.  I think you two will get along.",
+        "title": "Hello skincare,  meet nature. I think you two will get along.",
         "btn_name": "Shop HERE",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
       }
@@ -50,7 +50,7 @@
         "button_Q3qWQn"
       ],
       "custom_css": [
-        "{border-bottom: 1px solid black}"
+        "{border-bottom: 1px solid black;}"
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {

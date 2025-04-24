@@ -13,13 +13,50 @@
       "type": "section-banner",
       "settings": {
         "img": "shopify://shop_images/YFE_COVER.png",
-        "title": "Hello <em>skincare</em>,  meet <em>nature</em>. <br> I think you two will get along.",
+        "title": "Hello skincare,  meet nature.  I think you two will get along.",
         "btn_name": "Shop HERE",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
       }
     },
+    "rich_text_amXEh7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3HMWDF": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural Face Moisturizer",
+            "heading_size": "h0"
+          }
+        },
+        "text_GqTKUL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.</p>",
+            "max_width": 0
+          }
+        }
+      },
+      "block_order": [
+        "heading_3HMWDF",
+        "text_GqTKUL"
+      ],
+      "custom_css": [],
+      "name": "t:sections.rich-text.presets.name",
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
+        "full_width": true,
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
       "type": "section-text",
+      "custom_css": [
+        "{margin-top:-50px}"
+      ],
       "settings": {
         "mt": 0,
         "show_border": false,
@@ -580,6 +617,7 @@
   },
   "order": [
     "e8c60c1d-f2f6-446c-95a2-23af9319916c",
+    "rich_text_amXEh7",
     "edf1bbdb-7778-4973-a4d5-8785e3d3cca5",
     "aa3c5165-1075-4df1-8b32-c6231b177c8c",
     "7801fc23-f46d-4653-ab6b-33610fb49ff8",

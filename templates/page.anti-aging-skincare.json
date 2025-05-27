@@ -12,7 +12,7 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify://shop_images/All_Natural_Face_Moisturizer_-_Yay_for_Earth.png",
+        "img": "shopify://shop_images/Anti_Aging_Skincare_for_Sensitive_Skin_-_Yay_for_Earth.png",
         "title": "Hello skincare,  meet nature. I think you two will get along.",
         "btn_name": "Shop HERE",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
@@ -63,7 +63,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Organic_Moisturizer_for_Dry_Skin_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Anti_Aging_Skincare_Products_for_Sensitive_Skin_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -245,7 +245,7 @@
       "custom_css": [],
       "settings": {
         "product": "1oz-sensitive-skin-face-lotion",
-        "img": "shopify://shop_images/037A5912_copy.jpg",
+        "img": "shopify://shop_images/Anti_Aging_Products_for_Sensitive_Skin_-_Yay_for_Earth.png",
         "title": "Nature On Your Face",
         "subtitle": "Sensitive Skin Face Lotion",
         "subtitle-link": "shopify://products/1oz-sensitive-skin-face-lotion",

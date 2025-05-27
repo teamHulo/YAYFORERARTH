@@ -1,0 +1,659 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
+      "type": "section-banner",
+      "settings": {
+        "img": "shopify://shop_images/All_Natural_Face_Moisturizer_-_Yay_for_Earth.png",
+        "title": "Hello skincare,  meet nature. I think you two will get along.",
+        "btn_name": "Shop HERE",
+        "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
+      }
+    },
+    "image_with_text_cw6qEJ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_rJcbBA": {
+          "type": "heading",
+          "settings": {
+            "heading": "Natural Face Toner",
+            "heading_size": "h0"
+          }
+        },
+        "text_a9Q6Nm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Our lotion’s best friend! This calming natural toner is made by steam distilling plants, botanicals, and barks. A perfect pairing to the Sensitive Skin Lotion, spray this first to prime your skin to better absorb the lotions nutrients or apply anytime to tone, refresh, and soothe the skin. Bonus: it smells like you entered a rainy forest</p>",
+            "text_style": "body"
+          }
+        },
+        "caption_a9QinW": {
+          "type": "caption",
+          "settings": {
+            "caption": "Organic Matricaria chamomilla (Chamomile), organic Boswellia (Frankincense), organic Juniperus virginiana (Red Cedar), organic Pseudotsuga menziesii (Douglas fir)",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
+          }
+        },
+        "button_Q3qWQn": {
+          "type": "button",
+          "settings": {
+            "button_label": "Shop HERE",
+            "button_link": "shopify://products/hydrosol-spritzie",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rJcbBA",
+        "text_a9Q6Nm",
+        "caption_a9QinW",
+        "button_Q3qWQn"
+      ],
+      "custom_css": [
+        "{border-bottom: 1px solid black;}"
+      ],
+      "name": "t:sections.image-with-text.presets.name",
+      "settings": {
+        "image": "shopify://shop_images/Natural_Toner_for_Face_-_Yay_for_Earth.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "middle",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "section_color_scheme": "background-1",
+        "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
+        "image_behavior": "none",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "edf1bbdb-7778-4973-a4d5-8785e3d3cca5": {
+      "type": "section-text",
+      "custom_css": [],
+      "settings": {
+        "mt": 0,
+        "show_border": false,
+        "text": "Behold! Not your typical skin care - applying our nutrient dense products will give your skin the glow it deserves, while sending your senses into the natural world. You’ve never used anything as magical."
+      }
+    },
+    "aa3c5165-1075-4df1-8b32-c6231b177c8c": {
+      "type": "section-products",
+      "blocks": {
+        "c1ff8ba4-e12a-4e0a-bf63-871d624da08d": {
+          "type": "item",
+          "settings": {
+            "product": "1oz-sensitive-skin-face-lotion",
+            "img": "shopify://shop_images/Untitled_design_4_543f1d37-c448-49f3-9489-66647056bd40.png",
+            "shadow_max_width": 100,
+            "max_width_img": 100
+          }
+        },
+        "a033da55-35e8-493a-b8f2-8680ab810ba8": {
+          "type": "item",
+          "settings": {
+            "product": "hydrosol-spritzie",
+            "img": "shopify://shop_images/Hydrosol_1.png",
+            "shadow_max_width": 87,
+            "max_width_img": 100
+          }
+        },
+        "c2160c69-4192-49ab-99d9-1bb9dd070d6d": {
+          "type": "item",
+          "settings": {
+            "product": "golden-body-oil",
+            "img": "shopify://shop_images/Golden_Body_Oil_1.png",
+            "shadow_max_width": 100,
+            "max_width_img": 100
+          }
+        },
+        "6c8c97f2-1e96-4a5e-b041-28b6447bef29": {
+          "type": "item",
+          "settings": {
+            "product": "lip-balm",
+            "img": "shopify://shop_images/Lip_Balm_1.png",
+            "shadow_max_width": 100,
+            "max_width_img": 100
+          }
+        }
+      },
+      "block_order": [
+        "c1ff8ba4-e12a-4e0a-bf63-871d624da08d",
+        "a033da55-35e8-493a-b8f2-8680ab810ba8",
+        "c2160c69-4192-49ab-99d9-1bb9dd070d6d",
+        "6c8c97f2-1e96-4a5e-b041-28b6447bef29"
+      ],
+      "settings": {
+        "title": "Our Products",
+        "text": "<p>Created for sensitive skin but purely for everyone. Hand crafted. Small batch. Only organic and regenerative farmers we trust.  No fillers - just nutrients!</p>",
+        "add_to_cart_hover": false
+      }
+    },
+    "7801fc23-f46d-4653-ab6b-33610fb49ff8": {
+      "type": "section-nature",
+      "disabled": true,
+      "custom_css": [
+        ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "bg": "#fff9eb",
+        "img_right": "shopify://shop_images/42fe5535d5eba7aa216b3613758199e6_2.jpg",
+        "img_mini": "shopify://shop_images/result.png",
+        "img_left": "shopify://shop_images/387A9552_1.jpg",
+        "title": "IN CASE YOU CAN’T GET INTO NATURE, THIS IS FOR YOU",
+        "color_title": "#fff9eb",
+        "btn_name": "Nature Connect",
+        "url": "shopify://pages/nature-portal",
+        "color_btn_text": "#fff9eb",
+        "color_bg_btn": "#3b4e15",
+        "color_border_btn": "#fff9eb"
+      }
+    },
+    "c631d7fa-d67e-4b23-a54a-06911afc6222": {
+      "type": "section-single-image",
+      "disabled": true,
+      "custom_css": [
+        ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "bg": "#fff9eb",
+        "img_single": "shopify://shop_images/custom_resized_10bbe7bd-89ca-4420-bbfb-746a9f4469db.jpg",
+        "title": "IN CASE YOU CAN'T GET INTO NATURE, THIS IS FOR YOU",
+        "color_title": "#fff9eb",
+        "btn_name": "Nature Connect",
+        "url": "https://yayforearth.com/pages/nature-portal",
+        "color_btn_text": "#fff9eb",
+        "color_bg_btn": "#3b4e15",
+        "color_border_btn": "rgba(0,0,0,0)"
+      }
+    },
+    "section_double_image_UxeWxe": {
+      "type": "section-double-image",
+      "disabled": true,
+      "custom_css": [
+        ".title h2 {font-size: 28px; max-width: 490px; margin: 0 auto;}"
+      ],
+      "settings": {
+        "bg": "#fff9eb",
+        "img_right": "shopify://shop_images/387A9392_4.png",
+        "img_left": "shopify://shop_images/L1110488_1.png",
+        "title": "IN CASE YOU CAN'T GET INTO NATURE, THIS IS FOR YOU",
+        "color_title": "#fff9eb",
+        "btn_name": "Nature Connect",
+        "url": "https://yayforearth.com/pages/nature-portal",
+        "color_btn_text": "#fff9eb",
+        "color_bg_btn": "#3b4e15",
+        "color_border_btn": "rgba(0,0,0,0)"
+      }
+    },
+    "e32f860a-b747-448a-bba0-831667bf10ed": {
+      "type": "section-product",
+      "blocks": {
+        "bd92a99e-3915-4bf1-8523-ac58e801a516": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/YFE_Icons-20.png",
+            "icon_name": "Baby Safe"
+          }
+        },
+        "220676d4-5d62-46fa-a2e7-a3f18a611482": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/YFE_Icons-19.png",
+            "icon_name": "Won't Clog Pores"
+          }
+        },
+        "5938ff06-2d44-4174-bf56-f87a05ba1740": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/YFE_Icons-18.png",
+            "icon_name": "Organic & Regenerative farming"
+          }
+        },
+        "f9e95a03-e8bc-48ea-b30c-d41d01866c11": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/YFE_Icons-17.png",
+            "icon_name": "Pollinator Friendly"
+          }
+        },
+        "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/YFE_Icons-16.png",
+            "icon_name": "Sensitive Skin Safe"
+          }
+        }
+      },
+      "block_order": [
+        "bd92a99e-3915-4bf1-8523-ac58e801a516",
+        "220676d4-5d62-46fa-a2e7-a3f18a611482",
+        "5938ff06-2d44-4174-bf56-f87a05ba1740",
+        "f9e95a03-e8bc-48ea-b30c-d41d01866c11",
+        "a5c200ef-1513-4d3b-b9ca-1bdad23cc1ee"
+      ],
+      "custom_css": [],
+      "settings": {
+        "product": "1oz-sensitive-skin-face-lotion",
+        "img": "shopify://shop_images/037A5912_copy.jpg",
+        "title": "Nature On Your Face",
+        "subtitle": "Sensitive Skin Face Lotion",
+        "subtitle-link": "shopify://products/1oz-sensitive-skin-face-lotion",
+        "text": "<p>Our most beloved, magical lotion! Can be used day & night on the face for sensitive skin and all skin types. Nutrient dense and gentle relief for your face and body. A little goes a long way!</p>"
+      }
+    },
+    "2ac25ae4-39e5-4382-b30b-013201cf2ef2": {
+      "type": "section-marquee",
+      "blocks": {
+        "fd4cf29a-ed2a-4fd8-ac02-efdd90ff7313": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Glamour.png",
+            "max_width": 150
+          }
+        },
+        "162a3e25-d0b9-44a7-b697-e97a2ea15b67": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Cosmopolitan.png",
+            "max_width": 175
+          }
+        },
+        "79a96f1a-5ea9-4bc2-a0a6-3efe011cd75d": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Vanity_Fair.png",
+            "max_width": 150
+          }
+        },
+        "40ca7e4d-43db-4f7f-bcfb-2f858a21752a": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/GQ.png",
+            "max_width": 100
+          }
+        },
+        "dce3603b-ad49-43a5-b989-8308a85310f7": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Vogue.png",
+            "max_width": 125
+          }
+        },
+        "35ea5661-f034-4b4d-8505-3f9e5994aa8b": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Byrdie.png",
+            "max_width": 150
+          }
+        },
+        "4fe05bb9-a5fe-4fdb-a886-9f73934dbafd": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Good_Housekeeping.png",
+            "max_width": 175
+          }
+        }
+      },
+      "block_order": [
+        "fd4cf29a-ed2a-4fd8-ac02-efdd90ff7313",
+        "162a3e25-d0b9-44a7-b697-e97a2ea15b67",
+        "79a96f1a-5ea9-4bc2-a0a6-3efe011cd75d",
+        "40ca7e4d-43db-4f7f-bcfb-2f858a21752a",
+        "dce3603b-ad49-43a5-b989-8308a85310f7",
+        "35ea5661-f034-4b4d-8505-3f9e5994aa8b",
+        "4fe05bb9-a5fe-4fdb-a886-9f73934dbafd"
+      ],
+      "settings": {
+        "title": "As Seen In"
+      }
+    },
+    "35520c0f-8581-4a5b-bb00-59bb639ce120": {
+      "type": "section-sliders",
+      "blocks": {
+        "774c1f3b-2a83-4eae-af84-b685f65d8a8c": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/387A0196_3.jpg",
+            "bg": "#4f5e3c",
+            "color_text": "#fff9eb",
+            "name": "Meet Stevie",
+            "title": "Get to Know <br> Our <i>Founder</i>",
+            "text": "<p>Get a glimpse into the life of our founder, Stevie! Discover the story behind Yay for Earth - where passion for skincare and a love for our planet join forces!   </p><p>This is a story of how a Baggins had an adventure, and found himself doing and saying things altogether unexpected. Oh wait, thats J.R.R. Tolkien.  </p>",
+            "url": "shopify://pages/stevie-s-story",
+            "btn_name": "Learn More"
+          }
+        },
+        "55e8dbe3-26c5-4868-b219-6a4d29448cb3": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/387A9232-2_3.png",
+            "bg": "#f0a713",
+            "color_text": "#fff9eb",
+            "name": "Our World",
+            "title": "Get to Know <br>Our <span>Farmers</span>",
+            "text": "<p>We welcome you to become part of our Yay for Earth journey by getting to know one of the important parts of our business; the farmers!  Learn about our initiatives, get to know the individuals behind the healthy soils and bees, and the stories behind the ingredients that breathe life into the essential, magical products we curate!</p>",
+            "url": "shopify://pages/meet-the-farmers",
+            "btn_name": "Learn More"
+          }
+        },
+        "06df0059-8e82-41f2-90c2-75ccd8868502": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/Screen_Shot_2023-11-06_at_12.09_3.jpg",
+            "bg": "#84b4ba",
+            "color_text": "#fff9eb",
+            "name": "Our World",
+            "title": "Get to Know <br>Our <span>Warehouse</span>",
+            "text": "<p>Welcome to the epicenter of our operations and the heart of Yay for Earth. Our warehouse and sacred creation space is a special one. When we receive our ingredients from our farmers, their next destination is in your hands. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper. Click below to dive in!  </p>",
+            "url": "shopify://pages/our-warehouse",
+            "btn_name": "Learn More"
+          }
+        },
+        "4eb7915f-fbbe-46a2-ae36-c21c9f5fd055": {
+          "type": "item",
+          "settings": {
+            "img": "shopify://shop_images/unsplash_o9JapjMqjfc.jpg",
+            "bg": "#c1d1be",
+            "color_text": "#3b4e15",
+            "name": "OUR WORLD",
+            "title": "Get to Know <br>Our <em>Team</em>",
+            "text": "<p>We're a small team with a lot of love and passion for what we do! Stewards of the planet, lovers of nature, and a united belief that we can create products that are not only good for the body, but the planet as well. Learn more about us (and Lucy the floof) by clicking the button below!</p>",
+            "url": "shopify://pages/meet-the-team",
+            "btn_name": "Learn More"
+          }
+        }
+      },
+      "block_order": [
+        "774c1f3b-2a83-4eae-af84-b685f65d8a8c",
+        "55e8dbe3-26c5-4868-b219-6a4d29448cb3",
+        "06df0059-8e82-41f2-90c2-75ccd8868502",
+        "4eb7915f-fbbe-46a2-ae36-c21c9f5fd055"
+      ],
+      "settings": {}
+    },
+    "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a": {
+      "type": "privacy-and-policy",
+      "blocks": {
+        "fab93736-9d92-4c9e-8eeb-93f5d23a1811": {
+          "type": "item",
+          "settings": {
+            "title": "CONSENT",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam porttitor dapibus aliquet. Vivamus odio libero, mattis id tortor eu, auctor convallis risus. Nam varius quam id neque molestie auctor. In sagittis metus ac eros venenatis finibus. Nulla congue feugiat lacus, sit amet finibus neque sodales et. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras at est pretium, tempor ex non, posuere quam.</p>"
+          }
+        },
+        "0f0d421a-7674-4623-8b38-6bf98cb578df": {
+          "type": "item",
+          "settings": {
+            "title": "INFORMATION WE COLLECT",
+            "text": "<p>Fusce tempor leo nec orci dapibus, non elementum diam consequat. Nullam malesuada, mauris vel porttitor feugiat, lectus tellus viverra felis, at hendrerit neque turpis ut arcu. Vestibulum pellentesque consequat massa, volutpat pulvinar tortor suscipit a. Duis feugiat est ut quam euismod, nec egestas purus vulputate. Cras bibendum, mauris vitae dictum auctor, nunc enim iaculis erat, eget placerat urna neque at arcu. Aliquam id eros dolor. Nulla nec nibh at nibh eleifend ullamcorper nec sit amet diam. Aenean maximus turpis vestibulum interdum varius. Duis a euismod lorem, sed lobortis sapien.</p>"
+          }
+        },
+        "83f7e9a4-33cd-486e-b3b5-399046ac8b9e": {
+          "type": "item",
+          "settings": {
+            "title": "HOW WE USE YOUR INFORMATION",
+            "text": "<p>Mauris pulvinar tincidunt libero, nec lobortis orci lobortis et. Nulla libero eros, varius non consectetur non, suscipit vel diam. Donec dictum venenatis nunc vel blandit. Aliquam sed odio faucibus, ornare libero quis, ullamcorper enim. Nunc libero erat, eleifend eu lobortis vel, interdum et dui. Curabitur rhoncus tincidunt est, at tempor ex porttitor a. Vivamus faucibus enim nunc, sit amet aliquet justo mollis vel. Ut ut hendrerit urna. In tempor eros quis nunc tincidunt elementum. Sed magna massa, dictum vitae dolor ut, laoreet viverra eros. Etiam sit amet molestie velit. Maecenas gravida, libero in euismod interdum, quam dui placerat ante, sit amet molestie diam lorem vel orci.</p>"
+          }
+        },
+        "28e52d75-18f5-4bca-b71e-4d6238684c7d": {
+          "type": "item",
+          "settings": {
+            "title": "LOG FILES",
+            "text": "<p>Donec volutpat maximus erat eget aliquet. Curabitur eu ipsum at diam faucibus semper eu ut tellus. Nulla facilisi. Cras eget sodales leo, quis bibendum elit. In mattis vel ex a consectetur. Sed at mauris augue. Ut vulputate sodales risus, sed tempor libero venenatis nec. Maecenas id orci eu diam facilisis rutrum. Vivamus sapien justo, rhoncus eu sodales vel, condimentum sed erat. Nullam sollicitudin porttitor ipsum sit amet gravida. Ut consectetur fermentum feugiat. Mauris lacinia pretium tortor, eget pharetra nunc dictum ac. Fusce mollis eleifend massa vitae tincidunt. Aliquam bibendum lectus et quam ultrices, non sodales ante ultricies. Sed at varius urna. Fusce fringilla rutrum ante, vel tincidunt arcu imperdiet tempor.</p>"
+          }
+        },
+        "eda5fc0e-f9a0-43e6-a250-5c05d77f09fd": {
+          "type": "item",
+          "settings": {
+            "title": "ADVERTISING PARTNER PRIVACY POLICIES",
+            "text": "<p>Curabitur egestas justo enim, ac rutrum nunc ultrices ut. Duis quis congue nulla. Ut mollis eu arcu vel bibendum. Curabitur dictum mi nisi. Aliquam erat volutpat. Aenean accumsan non mi quis feugiat. Curabitur rutrum nisi in nibh egestas, ultricies iaculis libero venenatis. Curabitur malesuada, diam sed fringilla iaculis, arcu massa aliquet nisl, placerat cursus elit leo sit amet lectus. Mauris quis placerat nibh. Donec mollis purus tempor nulla sagittis, eu suscipit sem luctus. Praesent id urna at orci cursus suscipit et vel lacus. Ut id tincidunt metus. Phasellus gravida ligula eget odio commodo, eu viverra dui posuere.</p>"
+          }
+        },
+        "9a00015c-d44d-4e1b-bb2f-d56d98d044bc": {
+          "type": "item",
+          "settings": {
+            "title": "THIRD PARTY PRIVACY POLICIES",
+            "text": "<p>Aliquam mauris turpis, condimentum sit amet rhoncus sed, viverra eu odio. Donec eu velit vestibulum, viverra justo a, hendrerit erat. Nullam viverra leo nec odio rhoncus tincidunt. Mauris at nulla elit. Suspendisse a turpis mi. Proin purus augue, convallis nec suscipit pellentesque, ornare ut lectus. Nam sollicitudin maximus vestibulum. Proin tortor magna, suscipit a nisl sit amet, vestibulum congue urna. Integer varius felis convallis porttitor molestie. Maecenas id mi elit. Etiam malesuada justo id ante feugiat accumsan.</p>"
+          }
+        },
+        "d537187f-3253-4b0f-a027-2806a582932e": {
+          "type": "item",
+          "settings": {
+            "title": "CCPA PRIVACY RIGHTS",
+            "text": "<p>Aenean vulputate neque in euismod vehicula. Nullam suscipit dictum erat quis consequat. Phasellus et mauris tempor, commodo diam non, pharetra nisi. Pellentesque non lacus neque. Phasellus in semper velit. Nam lorem eros, posuere vitae ligula nec, pulvinar maximus lectus. Pellentesque velit magna, congue a erat sit amet, dictum egestas nulla. Quisque a justo quis justo sagittis vulputate vel quis ligula. Nam nulla ipsum, elementum eu tellus nec, elementum posuere dolor. Duis nisl neque, tristique eu elit faucibus, ultrices dapibus turpis.</p>"
+          }
+        },
+        "1bb4e238-4408-42ad-abe2-3a9050b152c7": {
+          "type": "item",
+          "settings": {
+            "title": "GDPR DATA PROTECTION RIGHTS",
+            "text": "<p>Nullam lacinia feugiat ligula ut faucibus. Aliquam ac ultricies est. Donec consequat enim id ligula lacinia suscipit. Vestibulum suscipit sapien sed purus tristique, ac tincidunt orci faucibus. Curabitur lobortis malesuada condimentum. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Cras nisl felis, cursus at eros in, malesuada rutrum purus. Vestibulum ipsum felis, pulvinar nec nulla in, facilisis iaculis purus. Nunc a dapibus ex. Phasellus nec erat quis ex dignissim vestibulum a hendrerit lectus. Mauris pellentesque, turpis ut tempor sollicitudin, enim mauris scelerisque nisl, eu ultrices dolor nulla vel tellus. Aenean scelerisque, velit vel vulputate posuere, est nunc lacinia sapien, convallis vulputate eros libero vitae ante. Etiam consectetur ac metus vel vulputate. Quisque bibendum nibh tellus, ut dapibus magna feugiat eu.</p>"
+          }
+        },
+        "712fc8ae-4fce-40c2-b664-665aa7ea8b53": {
+          "type": "item",
+          "settings": {
+            "title": "CHILDRENS INFORMATION",
+            "text": "<p>Fusce lacinia condimentum condimentum. Nam cursus venenatis orci, vitae sollicitudin eros gravida eget. Nullam non mauris turpis. Sed et augue sit amet leo ullamcorper maximus. Sed facilisis volutpat felis, eget viverra purus placerat ac. Praesent convallis rhoncus ipsum quis vehicula. Suspendisse bibendum a nulla sed lacinia. Cras vel lacinia justo. Aenean sed lectus et ipsum aliquam gravida. Suspendisse potenti. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Pellentesque faucibus, mauris nec sollicitudin bibendum, libero mauris porttitor ipsum, vitae faucibus libero nibh euismod orci.</p>"
+          }
+        },
+        "bf9a7ec0-0bfd-4d65-8786-25a11a3287b4": {
+          "type": "item",
+          "settings": {
+            "title": "MEDICAL DISCLAIMER",
+            "text": "<p>Duis velit neque, tempus vel eros at, porta finibus risus. Curabitur vel erat tempor, vestibulum turpis quis, faucibus elit. Morbi ligula augue, vehicula varius felis sed, tincidunt finibus ipsum. In ac sem gravida, consequat turpis at, blandit nibh. Nulla vitae ipsum tortor. Nulla quis orci nec turpis bibendum feugiat. Aenean eros nibh, gravida ut scelerisque vitae, luctus eget lectus. Sed eget fringilla nulla, sit amet gravida lorem. In dignissim dui eget ipsum interdum accumsan. Duis pharetra fringilla mauris nec luctus. Praesent quis cursus lorem.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "fab93736-9d92-4c9e-8eeb-93f5d23a1811",
+        "0f0d421a-7674-4623-8b38-6bf98cb578df",
+        "83f7e9a4-33cd-486e-b3b5-399046ac8b9e",
+        "28e52d75-18f5-4bca-b71e-4d6238684c7d",
+        "eda5fc0e-f9a0-43e6-a250-5c05d77f09fd",
+        "9a00015c-d44d-4e1b-bb2f-d56d98d044bc",
+        "d537187f-3253-4b0f-a027-2806a582932e",
+        "1bb4e238-4408-42ad-abe2-3a9050b152c7",
+        "712fc8ae-4fce-40c2-b664-665aa7ea8b53",
+        "bf9a7ec0-0bfd-4d65-8786-25a11a3287b4"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "Privacy Policy & Disclaimer",
+        "text": "<p>At YAYFOREARTH, accessible from www.yayforearth.com, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by YAYFOREARTH and how we use it.<br/><br/>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.<br/><br/>This Privacy Policy applies only to our online activities and is valid for visitors to our website with regards to the information that they shared and/or collect in YAYFOREARTH. This policy is not applicable to any information collected offline or via channels other than this website.</p>"
+      }
+    },
+    "d245aea8-3816-4025-930d-7a1681986e70": {
+      "type": "contact-form",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Mask_group_1_d128a032-87fc-4a1b-ab40-9907648acb42.png",
+        "heading": "Say Hello!",
+        "heading_size": "h1",
+        "text": "<p>We'd love to hear from you! Please choose from the options below so we can connect you with the right team member.</p>",
+        "color_scheme": "",
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "cab212c1-4f5c-4717-b7ae-3c79e9f68173": {
+      "type": "stores-form",
+      "disabled": true,
+      "settings": {
+        "text": "<p>Interested in carrying our products? Do you want to see our products sold in a store near you? Send us an email below and let us know where you’d like Yay for Earth</p>"
+      }
+    },
+    "9161f060-86f8-42ef-9136-704f28d84817": {
+      "type": "faq-section",
+      "blocks": {
+        "cdaf73ca-50c5-4e66-923d-0188a30224d7": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Are your products suitable for all skin types?",
+            "text": "<p>Yes! Of course there is no product out there that will work for everyone, but our products can help to regulate the skin’s oil production, calm inflammation, and heal the skin. The olive oil in our Sensitive Skin Face Lotion helps to balance PH for oily skin types, and hydrates dry skin. </p>"
+          }
+        },
+        "f48a0e79-5488-4f1b-b852-cd115d5f0d09": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "How do I cancel/modify my order?",
+            "text": "<p>Our warehouse has a quick turnaround time, so we are unable to offer order modifications or cancellations. </p>"
+          }
+        },
+        "682a9a93-91dd-4a2d-a7ee-36ebe3678a2c": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Are your products cruelty free/fair trade?",
+            "text": "<p>YES and YES!</p>"
+          }
+        },
+        "feadd6d9-d126-4348-8044-a29a79d94371": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "What’s the shelf life of your products?",
+            "text": "<p>1.5 - 2 years! Be sure to store all of our products in a cool, dark place to preserve their nutrients.</p>"
+          }
+        },
+        "2da62802-ebdf-4a34-bab4-d670e6c2af85": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Why is my lotion a different color from my last order/what’s at the bottom of the jar?",
+            "text": "<p>The slight variations in lotion texture, color and possible sediment at the bottom of the jar are thanks to Mother Nature herself! The beeswax color and texture can vary depending on what the bees have been pollinating. Any small bits of sediment at the bottom of the jar is leftover from the filtering process. Because our products are all natural, preservative free, and made in small batches, no single one is exactly the same, and we think that’s extremely special! </p>"
+          }
+        },
+        "f1517138-7656-48d2-aaba-7c6902b82dbe": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Can I use your products if I’m pregnant, breastfeeding, or on my baby?",
+            "text": "<p>Absolutely! All of our ingredients are listed on each product/on our website - nothing else! Many people have used our Sensitive Skin Face Lotion as a belly cream, nipple cream, diaper cream, you name it. Completely safe for everyone in the family. </p>"
+          }
+        },
+        "d1b96202-f92e-4a1b-a907-f77bf85678ed": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "Is there an adjustment period with your  face lotion?",
+            "text": "<p>Some people do go through a slight adjustment period as their skin gets used to an all natural product. We recommend cutting out all other skincare products other than a gentle cleanser, starting with just a little lotion once a day, and giving the skin time to adjust. Most people start to notice positive changes in their skin within the first two weeks.</p>"
+          }
+        },
+        "78117f6e-7c27-4699-a81b-04bc37c29c67": {
+          "type": "item",
+          "settings": {
+            "select-column": "left",
+            "title": "What should I do with my empty container?",
+            "text": "<p>We highly encourage customers to repurpose their jars once they’re empty! If you choose not to repurpose, our containers are all 100% recyclable. As of now, we don’t have the proper sanitization equipment to legally accept containers back to be sanitized and refilled. As we grow, we plan to make this an option in the future!</p>"
+          }
+        },
+        "9ff68f59-d8ab-4aca-9904-eb0c99788839": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Are your shipping materials plastic free?",
+            "text": "<p>Yes! We use post-consumer cardboard boxes, recycled materials whenever possible, and ship with 100% recyclable paper. </p>"
+          }
+        },
+        "e2a97ca4-d884-48ac-9644-d71f1f5ae792": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Do you ship to my country?",
+            "text": "<p>With the rare exception, we ship everywhere! If you’d like to buy our product locally, please reach out with any store suggestions for us to contact!</p>"
+          }
+        },
+        "4c291d88-a65f-4a13-8f45-66376dd515e0": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "Am I responsible for custom fees?",
+            "text": "<p>Yes. Custom/duty fees are the customer’s responsibility.</p>"
+          }
+        },
+        "4020ab51-f212-47be-ad88-98a1660523fa": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "What’s your return policy?",
+            "text": "<p>We aren’t able to accept returns due to sanitation reasons, but please feel free to email us with any order/product issues.</p>"
+          }
+        },
+        "1e9f1170-7c0f-44be-bd3c-a41c47d4aa5b": {
+          "type": "item",
+          "settings": {
+            "select-column": "right",
+            "title": "How long does shipping take/when will  my order ship?",
+            "text": "<p>Your order will ship within 2-3 business days. Shipping times vary depending on your location. If you need your order quickly, please choose the fastest shipping option at checkout. On average, domestic orders take 3-7 business days to be delivered, and international orders can take anywhere from 5 business days to a month to be delivered.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "cdaf73ca-50c5-4e66-923d-0188a30224d7",
+        "f48a0e79-5488-4f1b-b852-cd115d5f0d09",
+        "682a9a93-91dd-4a2d-a7ee-36ebe3678a2c",
+        "feadd6d9-d126-4348-8044-a29a79d94371",
+        "2da62802-ebdf-4a34-bab4-d670e6c2af85",
+        "f1517138-7656-48d2-aaba-7c6902b82dbe",
+        "d1b96202-f92e-4a1b-a907-f77bf85678ed",
+        "78117f6e-7c27-4699-a81b-04bc37c29c67",
+        "9ff68f59-d8ab-4aca-9904-eb0c99788839",
+        "e2a97ca4-d884-48ac-9644-d71f1f5ae792",
+        "4c291d88-a65f-4a13-8f45-66376dd515e0",
+        "4020ab51-f212-47be-ad88-98a1660523fa",
+        "1e9f1170-7c0f-44be-bd3c-a41c47d4aa5b"
+      ],
+      "disabled": true,
+      "settings": {
+        "title-left": "Products",
+        "title-right": "Shipping & Returns"
+      }
+    },
+    "a350eb7c-7c70-4310-a945-2d488f235a15": {
+      "type": "nature-main",
+      "disabled": true,
+      "settings": {
+        "newsletter_enable": true,
+        "newsletter_heading": "Subscribe to our emails",
+        "newsletter_subtitle": "Subscribe for store updates.",
+        "title": "Take a Deep Breath",
+        "image": "shopify://shop_images/Rectangle_191.png",
+        "link-left": "shopify://blogs/nature",
+        "label-left": "Our Blog",
+        "link-right": "#",
+        "label-right": "Nature Portal"
+      }
+    }
+  },
+  "order": [
+    "e8c60c1d-f2f6-446c-95a2-23af9319916c",
+    "image_with_text_cw6qEJ",
+    "edf1bbdb-7778-4973-a4d5-8785e3d3cca5",
+    "aa3c5165-1075-4df1-8b32-c6231b177c8c",
+    "7801fc23-f46d-4653-ab6b-33610fb49ff8",
+    "c631d7fa-d67e-4b23-a54a-06911afc6222",
+    "section_double_image_UxeWxe",
+    "e32f860a-b747-448a-bba0-831667bf10ed",
+    "2ac25ae4-39e5-4382-b30b-013201cf2ef2",
+    "35520c0f-8581-4a5b-bb00-59bb639ce120",
+    "d9ee6fe3-c002-4fa6-91bb-1f55ec90399a",
+    "d245aea8-3816-4025-930d-7a1681986e70",
+    "cab212c1-4f5c-4717-b7ae-3c79e9f68173",
+    "9161f060-86f8-42ef-9136-704f28d84817",
+    "a350eb7c-7c70-4310-a945-2d488f235a15"
+  ]
+}

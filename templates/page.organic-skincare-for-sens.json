@@ -24,7 +24,7 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Organic Moisturizer for Dry Skin",
+            "heading": "Organic Skincare for Sensitive Skin",
             "heading_size": "h0"
           }
         },
@@ -63,7 +63,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Organic_Moisturizer_for_Dry_Skin_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Organic_Skincare_for_Sensitive_Skin_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -245,7 +245,7 @@
       "custom_css": [],
       "settings": {
         "product": "1oz-sensitive-skin-face-lotion",
-        "img": "shopify://shop_images/037A5912_copy.jpg",
+        "img": "shopify://shop_images/Organic_Skincare_Products_for_Sensitive_Skin_-_Yay_for_Earth.png",
         "title": "Nature On Your Face",
         "subtitle": "Sensitive Skin Face Lotion",
         "subtitle-link": "shopify://products/1oz-sensitive-skin-face-lotion",

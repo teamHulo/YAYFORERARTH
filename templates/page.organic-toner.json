@@ -12,7 +12,7 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify://shop_images/Anti_Aging_Skincare_for_Sensitive_Skin_-_Yay_for_Earth.png",
+        "img": "shopify://shop_images/Organic_Toners_-_Yay_for_Earth.png",
         "title": "Hello skincare,  meet nature. I think you two will get along.",
         "btn_name": "Shop HERE",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
@@ -24,21 +24,21 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Anti Aging Skincare for Sensitive Skin",
+            "heading": "Organic Toner",
             "heading_size": "h0"
           }
         },
         "text_a9Q6Nm": {
           "type": "text",
           "settings": {
-            "text": "<p>Crafted for all skin types, this gentle formula delivers deep hydration with nutrient-rich, all organic ingredients. Perfect for daily use, our calming blend provides sensitive skin relief morning and night. Experience the magic of truly clean skincare – a small amount delivers remarkable results for both face and body. </p><p>Containing four simple ingredients designed to fight free radical damage, encourage cell reproduction, tone and heal skin, and increase collagen production.</p>",
+            "text": "<p>Our lotion’s best friend! This calming natural toner is made by steam distilling plants, botanicals, and barks. A perfect pairing to the Sensitive Skin Lotion, spray this first to prime your skin to better absorb the lotions nutrients or apply anytime to tone, refresh, and soothe the skin. Bonus: it smells like you entered a rainy forest.</p>",
             "text_style": "body"
           }
         },
         "caption_a9QinW": {
           "type": "caption",
           "settings": {
-            "caption": "Orgainc Olea Europaea Fruit Oil (Olive Oil) , Local Cera alba (Beeswax), Organic Butyrospermum Parkii Butter (Shea), Organic Punica Granatum Seed Oil (Pomegranate)",
+            "caption": "Organic Matricaria chamomilla (Chamomile), organic Boswellia (Frankincense), organic Juniperus virginiana (Red Cedar), organic Pseudotsuga menziesii (Douglas fir)",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -47,7 +47,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop HERE",
-            "button_link": "shopify://products/1oz-sensitive-skin-face-lotion",
+            "button_link": "shopify://products/hydrosol-spritzie",
             "button_style_secondary": false
           }
         }
@@ -63,7 +63,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Anti_Aging_Skincare_Products_for_Sensitive_Skin_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Organic_Toner_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",
@@ -245,7 +245,7 @@
       "custom_css": [],
       "settings": {
         "product": "1oz-sensitive-skin-face-lotion",
-        "img": "shopify://shop_images/Anti_Aging_Products_for_Sensitive_Skin_-_Yay_for_Earth.png",
+        "img": "shopify://shop_images/Best_Organic_Toner_-_Yay_for_Earth.png",
         "title": "Nature On Your Face",
         "subtitle": "Sensitive Skin Face Lotion",
         "subtitle-link": "shopify://products/1oz-sensitive-skin-face-lotion",

@@ -45,15 +45,6 @@
       ],
       "settings": {}
     },
-    "section_text_8m6k9J": {
-      "type": "section-text",
-      "name": "section text",
-      "settings": {
-        "mt": 0,
-        "show_border": true,
-        "text": "Our Products"
-      }
-    },
     "section_products_TkMzPH": {
       "type": "section-products",
       "blocks": {
@@ -98,7 +89,7 @@
       ],
       "name": "products list",
       "settings": {
-        "title": "",
+        "title": "Our Products",
         "text": "",
         "add_to_cart_hover": false
       }
@@ -106,7 +97,6 @@
   },
   "order": [
     "main",
-    "section_text_8m6k9J",
     "section_products_TkMzPH"
   ]
 }

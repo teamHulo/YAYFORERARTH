@@ -54,7 +54,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/All_Natural_Lip_Balm_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Organic_Lip_Balm_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

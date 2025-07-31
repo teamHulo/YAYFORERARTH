@@ -24,14 +24,14 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Face Toner for Eczema",
+            "heading": "Vegan Face Toner",
             "heading_size": "h0"
           }
         },
         "text_a9Q6Nm": {
           "type": "text",
           "settings": {
-            "text": "<p>Our lotion’s best friend! This calming natural toner for eczema is made by steam distilling plants, botanicals, and barks. A perfect pairing to the Sensitive Skin Lotion, spray this first to prime your skin to better absorb the lotion's nutrients or apply anytime to tone, refresh, and soothe the skin. Bonus: it smells like you entered a rainy forest.</p>",
+            "text": "<p>Our lotion’s best friend! This calming vegan face toner is made by steam distilling plants, botanicals, and barks. A perfect pairing to the Sensitive Skin Lotion, spray this first to prime your skin to better absorb the lotion's nutrients or apply anytime to tone, refresh, and soothe the skin. Bonus: it smells like you entered a rainy forest.</p>",
             "text_style": "body"
           }
         },
@@ -63,7 +63,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Face_Toner_for_Eczema_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Vegan_Face_Toner_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

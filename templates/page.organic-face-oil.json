@@ -24,21 +24,22 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Organic Moisturizer for Dry Skin",
+            "heading": "Organic Face Oil",
             "heading_size": "h0"
           }
         },
         "text_a9Q6Nm": {
           "type": "text",
           "settings": {
-            "text": "<p>Crafted for all skin types, this gentle formula delivers deep hydration with nutrient-rich, all organic ingredients. Perfect for daily use, our calming blend provides sensitive skin relief morning and night. Experience the magic of truly clean skincare – a small amount delivers remarkable results for both face and body. </p><p>Containing four simple ingredients designed to fight free radical damage, encourage cell reproduction, tone and heal skin, and increase collagen production.</p>",
+            "text": "<p>A vibrant, fast absorbing, fragrant oil that leaves the skin soft and glowing! This bottle of sunshine has properties to brighten, firm, soothe and replenish your skin.</p><p>Apply a few droppers full of oil to clean, dry skin for a moisturizing golden glow.</p>",
             "text_style": "body"
           }
         },
         "caption_a9QinW": {
           "type": "caption",
+          "disabled": true,
           "settings": {
-            "caption": "Orgainc Olea Europaea Fruit Oil (Olive Oil) , Local Cera alba (Beeswax), Organic Butyrospermum Parkii Butter (Shea), Organic Punica Granatum Seed Oil (Pomegranate)",
+            "caption": "Organic Helianthus Annuus Oil (Sunflower Seed), Organic Rosa Canina L. Oil (Rosehip Seed), Organic Prunus Amygdalus Dulcis oil (Sweet Almond), Organic Macadamia Ternifolia Oil (Macadamia Nut Seed), Organic Punica Granatum Oil (Pomegranate Seed), Organic Cananga Odorata Essential Oil (Ylang Ylang), Organic Santalum Austocaledonicum Essential Oil (Sandalwood)",
             "text_style": "caption-with-letter-spacing",
             "text_size": "medium"
           }
@@ -47,7 +48,7 @@
           "type": "button",
           "settings": {
             "button_label": "Shop HERE",
-            "button_link": "shopify://products/1oz-sensitive-skin-face-lotion",
+            "button_link": "shopify://products/golden-body-oil",
             "button_style_secondary": false
           }
         }
@@ -63,7 +64,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Organic_Moisturizer_for_Dry_Skin_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Organic_Face_Oil_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

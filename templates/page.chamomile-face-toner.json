@@ -12,7 +12,7 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify://shop_images/Organic_Toners_-_Yay_for_Earth.png",
+        "img": "shopify://shop_images/Chamomile_Face_Toner_-_Yay_for_Earth.png",
         "title": "Hello skincare,  meet nature. I think you two will get along.",
         "btn_name": "Shop HERE",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
@@ -24,14 +24,14 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Organic Toner",
+            "heading": "Chamomile Face Toner",
             "heading_size": "h0"
           }
         },
         "text_a9Q6Nm": {
           "type": "text",
           "settings": {
-            "text": "<p>Our lotion’s best friend! This calming natural toner is made by steam distilling plants, botanicals, and barks. A perfect pairing to the Sensitive Skin Lotion, spray this first to prime your skin to better absorb the lotions nutrients or apply anytime to tone, refresh, and soothe the skin. Bonus: it smells like you entered a rainy forest.</p>",
+            "text": "<p>Our lotion’s best friend! This calming natural toner is made by steam distilling plants and botanicals, including chamomile. A perfect pairing to the Sensitive Skin Lotion, spray this first to prime your skin to better absorb the lotion's nutrients or apply anytime to tone, refresh, and soothe the skin. Bonus: it smells like you entered a rainy forest.</p>",
             "text_style": "body"
           }
         },

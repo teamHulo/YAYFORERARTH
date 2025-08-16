@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -25,7 +25,7 @@
           "settings": {
             "pt": 90,
             "bg": "#84b4ba",
-            "img": "shopify://shop_images/Tezza-6451_2.jpg",
+            "img": "shopify://shop_images/IMG_9451.jpg",
             "title": "Our Studio",
             "url": "",
             "btn_name": "Learn More"
@@ -34,7 +34,7 @@
         "1ee25c99-3ba8-42e5-b04e-e1b2ab0e1dab": {
           "type": "image",
           "settings": {
-            "img": "shopify://shop_images/Screen_Shot_2023-11-06_at_12.09_3.jpg"
+            "img": "shopify://shop_images/IMG_9452.jpg"
           }
         }
       },
@@ -42,7 +42,6 @@
         "30f1c517-3627-4819-84ec-00c645e2e1a8",
         "1ee25c99-3ba8-42e5-b04e-e1b2ab0e1dab"
       ],
-      "disabled": true,
       "settings": {
         "title": "",
         "text": "",

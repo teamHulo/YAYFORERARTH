@@ -63,7 +63,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Natural_Face_Moisturizer_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Small_Batch_Skin_Care_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

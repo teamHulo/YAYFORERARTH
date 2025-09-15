@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -13,19 +22,17 @@
         },
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "klaviyo_reviews_average_rating_yYrrcr": {
-          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/average-rating\/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "type": "shopify://apps/klaviyo-reviews/blocks/average-rating/db20e365-d984-4ac4-9655-e1588d951ca9",
           "settings": {
             "product": "{{product}}"
           }
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -36,8 +43,7 @@
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -48,8 +54,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "share": {
           "type": "share",
@@ -62,35 +67,35 @@
           "type": "tab",
           "settings": {
             "title": "Use Guide",
-            "text": "<p>Apply a pea sized amount in the a.m. on face before sunscreen and apply in the p.m. after washing face. For best absorption and to boost effectiveness of our lotion, pair with <a href=\"\/products\/hydrosol-spritzie\" title=\"Hydrosol Spritzie\"><strong>Forest Hydrosol Spritzie.<\/strong><\/a><\/p><p>Due to its anti-inflammatory and other nutrient properties, customers have RAVED about our lotion being a household MUST. From alleviating rashes, healing tattoos, and bug bites - to babies bottoms and cracked paws for pets! Check out more in <strong>All the Magical Uses<\/strong> section below. <\/p>"
+            "text": "<p>Apply a pea sized amount in the a.m. on face before sunscreen and apply in the p.m. after washing face. For best absorption and to boost effectiveness of our lotion, pair with <a href=\"/products/hydrosol-spritzie\" title=\"Hydrosol Spritzie\"><strong>Forest Hydrosol Spritzie.</strong></a></p><p>Due to its anti-inflammatory and other nutrient properties, customers have RAVED about our lotion being a household MUST. From alleviating rashes, healing tattoos, and bug bites - to babies bottoms and cracked paws for pets! Check out more in <strong>All the Magical Uses</strong> section below. </p>"
           }
         },
         "eae1604e-fd60-4298-a478-0e6cb85acd78": {
           "type": "tab",
           "settings": {
             "title": "Ingredients",
-            "text": "<p>Orgainc Olea Europaea Fruit Oil (<strong>Olive Oil<\/strong>) , Local Cera alba (<strong>Beeswax<\/strong>), Organic Butyrospermum Parkii Butter (<strong>Shea<\/strong>), Organic Punica Granatum Seed Oil (<strong>Pomegranate<\/strong>)<strong> <\/strong><\/p>"
+            "text": "<p>Organic Olea Europaea Fruit Oil (<strong>Olive Oil</strong>) , Local Cera alba (<strong>Beeswax</strong>), Organic Butyrospermum Parkii Butter (<strong>Shea</strong>), Organic Punica Granatum Seed Oil (<strong>Pomegranate</strong>)<strong> </strong></p>"
           }
         },
         "42ce5b98-e943-4d2b-ab57-191f26170632": {
           "type": "tab",
           "settings": {
             "title": "Sourcing",
-            "text": "<p>Our lotion contains locally sourced beeswax from our beekeeper, Beth, organic and regeneratively grown and produced olive oil from our farmer in California, and sustainably sourced shea butter and pomegranate seed oil from small farms that prioritize the health of their land. We will never compromise when it comes to sourcing our ingredients; period. To read more about our ethos and farmers, <a href=\"\/pages\/meet-the-farmers\" target=\"_blank\" title=\"Meet the farmers\">click here!<\/a><\/p>"
+            "text": "<p>Our lotion contains locally sourced beeswax from our beekeeper, Beth, organic and regeneratively grown and produced olive oil from our farmer in California, and sustainably sourced shea butter and pomegranate seed oil from small farms that prioritize the health of their land. We will never compromise when it comes to sourcing our ingredients; period. To read more about our ethos and farmers, <a href=\"/pages/meet-the-farmers\" target=\"_blank\" title=\"Meet the farmers\">click here!</a></p>"
           }
         },
         "ecf4c397-1261-4ffa-ab55-0b118172a8e7": {
           "type": "icons",
           "settings": {
-            "img1": "shopify:\/\/shop_images\/BabySafe.png",
+            "img1": "shopify://shop_images/BabySafe.png",
             "title1": "Baby Safe",
-            "img2": "shopify:\/\/shop_images\/WontClogPores.png",
+            "img2": "shopify://shop_images/WontClogPores.png",
             "title2": "Won't Clog Pores",
-            "img3": "shopify:\/\/shop_images\/organic_regenerativeFarming.png",
+            "img3": "shopify://shop_images/organic_regenerativeFarming.png",
             "title3": "Organic & Regenerative Farming",
-            "img4": "shopify:\/\/shop_images\/PollinatorFriendly_5a733a1c-2a31-4d18-b3df-65a15dc8879e.png",
+            "img4": "shopify://shop_images/PollinatorFriendly_5a733a1c-2a31-4d18-b3df-65a15dc8879e.png",
             "title4": "Pollinator Friendly",
-            "img5": "shopify:\/\/shop_images\/SensitiveSkin.png",
+            "img5": "shopify://shop_images/SensitiveSkin.png",
             "title5": "Sensitive Skin Safe"
           }
         }
@@ -133,7 +138,7 @@
         "heading": "",
         "heading_size": "h2",
         "enable_video_looping": false,
-        "video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "video_url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
         "description": "",
         "full_width": false,
         "color_scheme": "scheme-a3bd6758-bc25-4763-833e-d2ad338d4dd6",
@@ -147,7 +152,7 @@
         "35ab2389-2f62-4c68-b791-f106ae0be7c1": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/OLIVE_OIL_INGREDIENT.jpg",
+            "img": "shopify://shop_images/OLIVE_OIL_INGREDIENT.jpg",
             "title": "Olive Oil",
             "text": "Squalene to fight free radical damage. Balances sebaceous glands for both oily and dry skin."
           }
@@ -155,7 +160,7 @@
         "2c99028b-2da0-4466-b8e9-f5f2512cccab": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/BEESWAX_INGREDIENT.jpg",
+            "img": "shopify://shop_images/BEESWAX_INGREDIENT.jpg",
             "title": "Beeswax",
             "text": "Anti-inflammatory, anti-bacterial, encourages cell reconstruction. Protective barrier between skin and the environment without clogging pores."
           }
@@ -163,7 +168,7 @@
         "3b3f9698-0661-4473-861c-5b1c04a27ac9": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/SHEA_BUTTER_INGREDIENT.jpg",
+            "img": "shopify://shop_images/SHEA_BUTTER_INGREDIENT.jpg",
             "title": "Shea Butter",
             "text": "High amount of fatty acids and vitamins to soften, tone and heal skin. Triple filtered to remove naturally occurring latex."
           }
@@ -171,7 +176,7 @@
         "e1efc7f2-8b29-4049-a277-cd952fd055e2": {
           "type": "image",
           "settings": {
-            "img": "shopify:\/\/shop_images\/POM_OIL_INGREDIENT.jpg",
+            "img": "shopify://shop_images/POM_OIL_INGREDIENT.jpg",
             "title": "Pomegranate Seed Oil",
             "text": "Punicic acid to increases collagen production. Oleic Acids, a wrinkle fighter. Linoleic Acid,  skin soother to calm acne prone skin and reduce breakouts!"
           }
@@ -209,49 +214,49 @@
         "434d2bd5-09c5-43ca-8929-2b0f89d8c0e2": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/RELIEVING.png",
+            "img": "shopify://shop_images/RELIEVING.png",
             "title": "Relieving",
-            "text": "<h3>Relieving for<\/h3><ul><li>Eczema<\/li><li>Bug Bites<\/li><li>Dermatitis<\/li><li>Acne<\/li><li>Itching<\/li><li>Skin Dryness<\/li><li>Rosacea<\/li><\/ul>"
+            "text": "<h3>Relieving for</h3><ul><li>Eczema</li><li>Bug Bites</li><li>Dermatitis</li><li>Acne</li><li>Itching</li><li>Skin Dryness</li><li>Rosacea</li></ul>"
           }
         },
         "3ba77231-9b00-46a0-a07a-f85177484979": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/HEALING.png",
+            "img": "shopify://shop_images/HEALING.png",
             "title": "Healing",
-            "text": "<h3>Healing for<\/h3><ul><li>Tattoos<\/li><li>Reduces fine lines<\/li><li>Sunburns<\/li><li>Chafing<\/li><li>Radiation burns from chemo <\/li><\/ul>"
+            "text": "<h3>Healing for</h3><ul><li>Tattoos</li><li>Reduces fine lines</li><li>Sunburns</li><li>Chafing</li><li>Radiation burns from chemo </li></ul>"
           }
         },
         "b73e5c4a-a43a-4936-9450-080017f318e4": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/a4e09694d08bead7cc84c583e9e6cfa4.jpg",
+            "img": "shopify://shop_images/a4e09694d08bead7cc84c583e9e6cfa4.jpg",
             "title": "Calming",
-            "text": "<h3>Calming for<\/h3><ul><li>Beard hydration & protection<\/li><li>Aftershave<\/li><li>Hair growth\u2028<\/li><li>\u2028Razor Burn<\/li><\/ul>"
+            "text": "<h3>Calming for</h3><ul><li>Beard hydration & protection</li><li>Aftershave</li><li>Hair growth </li><li> Razor Burn</li></ul>"
           }
         },
         "807ee9d1-ceeb-46b4-8077-598066eafaf9": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/NURTURING.jpg",
+            "img": "shopify://shop_images/NURTURING.jpg",
             "title": "Nurturing",
-            "text": "<h3>Nurturing for<\/h3><ul><li>Diaper rash<\/li><li>Cradle Cap<\/li><li>Breastfeeding nipple rawness<\/li><li>Common baby rashes <\/li><\/ul>"
+            "text": "<h3>Nurturing for</h3><ul><li>Diaper rash</li><li>Cradle Cap</li><li>Breastfeeding nipple rawness</li><li>Common baby rashes </li></ul>"
           }
         },
         "aa856c33-9d3b-411d-97d6-f2f65c9783ee": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/a1dd76363f0572758a58af0e858d88a4.jpg",
+            "img": "shopify://shop_images/a1dd76363f0572758a58af0e858d88a4.jpg",
             "title": "Repairing",
-            "text": "<h3>Repairing for<\/h3><ul><li>Paw pads<\/li><li>Pet hotspots<\/li><li>Dry nose & ears<\/li><li>Pet Scratches & Rashes<\/li><\/ul>"
+            "text": "<h3>Repairing for</h3><ul><li>Paw pads</li><li>Pet hotspots</li><li>Dry nose & ears</li><li>Pet Scratches & Rashes</li></ul>"
           }
         },
         "44d075e9-28ac-4675-a5a7-84f9edea8f7b": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/GLOWING.png",
+            "img": "shopify://shop_images/GLOWING.png",
             "title": "Glowing",
-            "text": "<h3>Glowing for<\/h3><ul><li>Cuticles<\/li><li>Hand & Foot Care<\/li><li>Make Up Remover\u2028\u2028<\/li><li>Natural Highlighter\u2028\u2028<\/li><li>Frizz, Flyaways, Split Ends<\/li><\/ul>"
+            "text": "<h3>Glowing for</h3><ul><li>Cuticles</li><li>Hand & Foot Care</li><li>Make Up Remover  </li><li>Natural Highlighter  </li><li>Frizz, Flyaways, Split Ends</li></ul>"
           }
         }
       },
@@ -270,7 +275,7 @@
         "bg": "#fff9eb",
         "padding_top": 0,
         "padding_bottom": 60,
-        "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses, have deemed it a multipurpose wonder, and a must-have in their home: <\/p>",
+        "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses, have deemed it a multipurpose wonder, and a must-have in their home: </p>",
         "pagination": false,
         "arrows": true,
         "per_page": 5,
@@ -292,9 +297,8 @@
       "type": "apps",
       "blocks": {
         "klaviyo_reviews_product_reviews_wHeC44": {
-          "type": "shopify:\/\/apps\/klaviyo-reviews\/blocks\/product-reviews\/db20e365-d984-4ac4-9655-e1588d951ca9",
-          "settings": {
-          }
+          "type": "shopify://apps/klaviyo-reviews/blocks/product-reviews/db20e365-d984-4ac4-9655-e1588d951ca9",
+          "settings": {}
         }
       },
       "block_order": [
@@ -323,7 +327,7 @@
         "padding_top": 60,
         "padding_bottom": 60,
         "label": "",
-        "title": "Yay for Earth <em>Glow<\/em>"
+        "title": "Yay for Earth <em>Glow</em>"
       }
     },
     "6721cdcd-efd5-4a76-98ed-4919cf5b819e": {
@@ -332,7 +336,7 @@
         "ec353819-4f3c-4cca-bba7-68c605abe839": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/62d8a001101158afe5a8a0e4c1be5f32.jpg",
+            "img": "shopify://shop_images/62d8a001101158afe5a8a0e4c1be5f32.jpg",
             "title": "",
             "text": ""
           }
@@ -340,7 +344,7 @@
         "f776d74b-d9bc-4a0c-8bbd-6121791d6038": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/c18ba66bfe4d978a9e3cb4594e59e884.jpg",
+            "img": "shopify://shop_images/c18ba66bfe4d978a9e3cb4594e59e884.jpg",
             "title": "",
             "text": ""
           }
@@ -348,7 +352,7 @@
         "dee73ba6-3a76-439b-8988-58d31e3924d3": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/ad71e40b9b9c4e0933c188b3e57808ec.jpg",
+            "img": "shopify://shop_images/ad71e40b9b9c4e0933c188b3e57808ec.jpg",
             "title": "",
             "text": ""
           }
@@ -356,7 +360,7 @@
         "4fa61e00-0051-48e9-b7bf-c5f6fb4d9d11": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/528ca622794e0d0673e4b0b31f43887b.jpg",
+            "img": "shopify://shop_images/528ca622794e0d0673e4b0b31f43887b.jpg",
             "title": "",
             "text": ""
           }
@@ -364,7 +368,7 @@
         "6ff92dc7-edf2-4cc4-a410-88647b894cae": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/926591e2f0535a95e7a12373ece8d206.jpg",
+            "img": "shopify://shop_images/926591e2f0535a95e7a12373ece8d206.jpg",
             "title": "",
             "text": ""
           }
@@ -372,7 +376,7 @@
         "22ddd2ad-969b-4e9f-81b1-92818205bd10": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/711b2d9a559a0848ce57ad9c0fc97bf6.jpg",
+            "img": "shopify://shop_images/711b2d9a559a0848ce57ad9c0fc97bf6.jpg",
             "title": "",
             "text": ""
           }
@@ -380,7 +384,7 @@
         "a6081ca6-b966-4967-9112-b67b0d31eb33": {
           "type": "slide",
           "settings": {
-            "img": "shopify:\/\/shop_images\/7b7c842265fd13ef3b594fb4233bdfcc.png",
+            "img": "shopify://shop_images/7b7c842265fd13ef3b594fb4233bdfcc.png",
             "title": "",
             "text": ""
           }
@@ -458,7 +462,7 @@
       "type": "custom-liquid",
       "disabled": true,
       "settings": {
-        "custom_liquid": "<div class=\"container\"> <div id=\"klaviyo-reviews-all\" data-id=\"{{product.id}}\"><\/div><\/div>",
+        "custom_liquid": "<div class=\"container\"> <div id=\"klaviyo-reviews-all\" data-id=\"{{product.id}}\"></div></div>",
         "product": "1oz-sensitive-skin-face-lotion",
         "color_scheme": "",
         "padding_top": 40,

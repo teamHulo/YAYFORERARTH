@@ -66,7 +66,7 @@
             "img": "shopify://shop_images/580914ecf484c1d05aa6481beea3facb_0a058569-f55c-4c79-a2f4-df88a5c81192.jpg",
             "job_title": "Founder",
             "name": "Stevie Van Horn",
-            "text": "<p>Stevie is our Founder and Creator for all things YFE!  She believes with every fiber of her little Mexican being that we can be stewards of our planet and that every single one of us is so special and unique! As someone who is obsessed with Nature and her own daily skincare, it is her mission to prove that it is possible to create a business that takes care of both our bodies and the Earth.</p>",
+            "text": "<p>Stevie is the founder, formulator and creator of all things at Yay for Earth — she is also wearing all the hats at the moment! Which means packer, customer service, shipper, and everything in between. Every jar begins in her hands and ends in yours! She blends her love of skin rituals with her devotion to nature, proving that a business can be rooted in reciprocity, not extraction. Through Yay for Earth, Stevie invites you to slow down and connect with the ingredients in each product - and remember that tending to yourself is also tending to the planet! </p>",
             "favorite_product_title": "Stevie’s favorite product:",
             "product_name": "Hydrosol Spritzie & Sensitive Face Lotion",
             "product": "hydrosol-spritzie",
@@ -76,6 +76,7 @@
         },
         "fa663954-71c9-4042-8731-e6caddd6626c": {
           "type": "card",
+          "disabled": true,
           "settings": {
             "img": "shopify://shop_images/9ae44e06859391c15719da26d1f4ea79.png",
             "job_title": "Chief Operating Officer",

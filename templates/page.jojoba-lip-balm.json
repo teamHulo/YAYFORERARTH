@@ -24,14 +24,14 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Organic Lip Balm",
+            "heading": "Jojoba Lip Balm",
             "heading_size": "h0"
           }
         },
         "text_a9Q6Nm": {
           "type": "text",
           "settings": {
-            "text": "<p>Nourishing and long lasting. Our lip balms are the perfect buttery best friend for your lips! Every ingredient is formulated together to hydrate, soften and rejuvenate the lips.</p>",
+            "text": "<p>Nourishing and long lasting. Made with jojoba, our lip balms are the perfect buttery best friend for your lips! Every ingredient is formulated together to hydrate, soften and rejuvenate the lips.</p>",
             "text_style": "body"
           }
         },
@@ -54,7 +54,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Organic_Lip_Balm_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Jojoba_Lip_Balm_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

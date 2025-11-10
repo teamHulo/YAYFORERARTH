@@ -53,7 +53,15 @@
       "settings": {
         "mt": 50,
         "show_border": true,
-        "text": "\"What I make begins in the earth and ends in your hands. It moves through soil, through sun, through the hands of our growers and then into my studio ready to craft with so much heart and intention. I truly believe your skin receives the warmth of that journey.\""
+        "text": "\"What I make begins in the earth and ends in your hands! It moves through the soil, through sun, through the hands of our growers and then into my studio ready to craft! I truly believe your skin receives the warmth of that journey and I hope you feel it too.\""
+      }
+    },
+    "section_text_BhC8Lk": {
+      "type": "section-text",
+      "settings": {
+        "mt": 50,
+        "show_border": true,
+        "text": ""
       }
     },
     "b539531e-eb99-4222-9e1b-23ea5d8b0f9e": {
@@ -97,6 +105,7 @@
         "d2877997-8b35-4676-b710-de2a9d23566f",
         "2700a90c-2448-41b6-ac08-d3809aa8e776"
       ],
+      "custom_css": [],
       "settings": {
         "mt": 50,
         "show_border": true
@@ -228,6 +237,7 @@
     "main",
     "ac6352d1-dc63-4f3d-9ad9-ffecbd8fc19f",
     "e4cade6d-ac09-4c66-b238-93b2e8c1aac0",
+    "section_text_BhC8Lk",
     "b539531e-eb99-4222-9e1b-23ea5d8b0f9e",
     "4a59b459-da9c-4b79-b77b-26593c042112",
     "ce8da34a-af6f-4e94-b06a-1a367e2c6ceb",

@@ -56,17 +56,8 @@
         "text": "\"What I make begins in the earth and ends in your hands! It moves through the soil, through sun, through the hands of our growers and then into my studio ready to craft! I truly believe your skin receives the warmth of that journey and I hope you feel it too.\""
       }
     },
-    "section_text_BhC8Lk": {
-      "type": "section-text",
-      "settings": {
-        "mt": 50,
-        "show_border": true,
-        "text": ""
-      }
-    },
     "b539531e-eb99-4222-9e1b-23ea5d8b0f9e": {
       "type": "section-image-with-text",
-      "disabled": true,
       "custom_css": [
         "@media screen and (min-width: 900px) {.section-with-text__wrap {margin-left: 64px; margin-right: 64px; }}"
       ],
@@ -77,7 +68,7 @@
         "img": "shopify://shop_images/8dd5caa5d6396f95ce3d28aa12525728_4a913a15-41e1-4a33-97c2-fa9ee7bc17c3.jpg",
         "max_height": 850,
         "title": "Yay for Earth started with Stevie making her magical product out of her Brooklyn, NY apartment kitchen",
-        "text": "<p>Yay for Earth started with Stevie making her magical product out of her Brooklyn, NY apartment kitchen and packing out each order in her living room with the help of Sophie and friends. In just a few years, the business has grown to the point where we are now operating an official Yay for Earth space with the most badazz team - including Stevie’s cousin Dillon!  <br/></p><p>We believe change can start with an individual, but BIG change starts when brands and corporations hold themselves accountable for their waste and impact. We will never compromise on this ideal!</p>",
+        "text": "<p>Yay for Earth began with crafting my first batches in my tiny Brooklyn apartment kitchen, packing each order from the living room with the help of Sophie and friends.<br/><br/> A few years later and some much needed growing phases and learning curves, things have come full circle - and now every product is still made by my hands, but now I am in a bright little garden studio surrounded by plants, sunlight, and nature! It is so lovely to have an official dedicated space for YFE and I am so excited to continue to grow with you all. </p>",
         "vertical_alignment": "center"
       }
     },
@@ -86,7 +77,6 @@
       "blocks": {
         "d2877997-8b35-4676-b710-de2a9d23566f": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Production",
             "text": "<p>We don’t outsource! Our ingredients  come directly from the farmer to our little studio where they are made in house! Their next destination is in your hands. In ode to low waste and to keep our babies as fresh as possible, we hand make and hand pour all of our products in very small batches.</p>"
@@ -94,7 +84,6 @@
         },
         "2700a90c-2448-41b6-ac08-d3809aa8e776": {
           "type": "item",
-          "disabled": true,
           "settings": {
             "title": "Shipping",
             "text": "<p>Our entire shipping space is low waste. We ship every order 100% plastic free, using fully recyclable cardboard boxes or reused boxes from shipments we receive, paper tape, and packing paper.  </p>"
@@ -145,7 +134,6 @@
         "8dc0eb48-9d14-48df-8108-e28dea06341d",
         "6fe2f180-133e-4aa2-bdf5-19c848486906"
       ],
-      "disabled": true,
       "settings": {
         "max_width": 100,
         "column": 4
@@ -237,7 +225,6 @@
     "main",
     "ac6352d1-dc63-4f3d-9ad9-ffecbd8fc19f",
     "e4cade6d-ac09-4c66-b238-93b2e8c1aac0",
-    "section_text_BhC8Lk",
     "b539531e-eb99-4222-9e1b-23ea5d8b0f9e",
     "4a59b459-da9c-4b79-b77b-26593c042112",
     "ce8da34a-af6f-4e94-b06a-1a367e2c6ceb",

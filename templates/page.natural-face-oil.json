@@ -12,7 +12,7 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify://shop_images/Organic_Face_Oil_-_Yay_for_Earth_c8c00200-b28e-465e-b4cb-75e91c8eafb0.png",
+        "img": "shopify://shop_images/Best_Natural_Face_Oil_-_Yay_for_Earth.png",
         "title": "Hello skincare,  meet nature. I think you two will get along.",
         "btn_name": "Shop HERE",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
@@ -24,14 +24,14 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Face Oil for Sensitive Skin",
+            "heading": "Natural Face Oil",
             "heading_size": "h0"
           }
         },
         "text_a9Q6Nm": {
           "type": "text",
           "settings": {
-            "text": "<p>A vibrant, fast absorbing, fragrant oil that leaves the skin soft and glowing! This bottle of sunshine has properties to brighten, firm, soothe and replenish your skin.</p><p>Apply a few droppers full of oil to clean, dry skin for a moisturizing golden glow.</p>",
+            "text": "<p>A vibrant, fast absorbing, fragrant natural oil that leaves the skin soft and glowing! This bottle of sunshine has properties to brighten, firm, soothe and replenish your skin.</p><p>Apply a few droppers full of oil to clean, dry skin for a moisturizing golden glow.</p>",
             "text_style": "body"
           }
         },
@@ -64,7 +64,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Face_Oil_for_Sensitive_Skin_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Natural_Face_Oil_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

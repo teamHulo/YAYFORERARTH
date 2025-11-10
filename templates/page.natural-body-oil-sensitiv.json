@@ -24,7 +24,7 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Face Oil for Sensitive Skin",
+            "heading": "Natural Body Oil for Sensitive Skin",
             "heading_size": "h0"
           }
         },
@@ -64,7 +64,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/Face_Oil_for_Sensitive_Skin_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Body_Oil_for_Sensitive_Skin_-_Yay_for_Earth.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

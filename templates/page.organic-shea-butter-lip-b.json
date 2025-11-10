@@ -12,7 +12,7 @@
     "e8c60c1d-f2f6-446c-95a2-23af9319916c": {
       "type": "section-banner",
       "settings": {
-        "img": "shopify://shop_images/Natural_Lip_Balm_-_Yay_for_Earth.png",
+        "img": "shopify://shop_images/Home_Page_Lip_Balm.png",
         "title": "Hello skincare,  meet nature. I think you two will get along.",
         "btn_name": "Shop HERE",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
@@ -24,7 +24,7 @@
         "heading_rJcbBA": {
           "type": "heading",
           "settings": {
-            "heading": "Natural Lip Balm",
+            "heading": "Organic Shea Butter Lip Balm",
             "heading_size": "h0"
           }
         },
@@ -54,7 +54,7 @@
       ],
       "name": "t:sections.image-with-text.presets.name",
       "settings": {
-        "image": "shopify://shop_images/All_Natural_Lip_Balm_-_Yay_for_Earth.png",
+        "image": "shopify://shop_images/Organic_Shea_Butter_Lip_Balm_-_Yay_for_Earth_c7bb46d7-b465-4a2e-8af0-36e88fc222da.png",
         "height": "adapt",
         "desktop_image_width": "medium",
         "layout": "text_first",

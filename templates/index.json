@@ -13,7 +13,7 @@
       "type": "section-banner",
       "settings": {
         "img": "shopify://shop_images/Component_1_2.jpg",
-        "title": "Our annual sale is here! <br> <span style=\"font-family: Arial, sans-serif;\">20%</span> off sitewide. Yay!",
+        "title": "Our <em>annual </em>sale is here!  <span style=\"font-family: Arial, sans-serif;\">20%</span> off sitewide. Yay!",
         "btn_name": "Shop now",
         "url": "https://yayforearth.com/collections/yayforearth-sensitive-skin-face-lotion"
       }

@@ -17,11 +17,18 @@
         "announcement_zDn8MJ": {
           "type": "announcement",
           "settings": {
-            "text": "FREE DOMESTIC SHIPPING OVER $150",
+            "text": "20% OFF SITEWIDE - Code automatically applied at checkout!",
             "link": ""
           }
         },
         "announcement_MpWbpr": {
+          "type": "announcement",
+          "settings": {
+            "text": "DOMESTIC FREE SHIPPING ON ALL HOLIDAY ORDERS OVER 300$",
+            "link": ""
+          }
+        },
+        "announcement_gbeVhg": {
           "type": "announcement",
           "settings": {
             "text": "Please allow 5-7 business days for shipping your orders",
@@ -31,7 +38,8 @@
       },
       "block_order": [
         "announcement_zDn8MJ",
-        "announcement_MpWbpr"
+        "announcement_MpWbpr",
+        "announcement_gbeVhg"
       ],
       "settings": {
         "color_scheme": "accent-1",

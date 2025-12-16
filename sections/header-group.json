@@ -17,14 +17,14 @@
         "announcement_zDn8MJ": {
           "type": "announcement",
           "settings": {
-            "text": "20% OFF SITEWIDE - Code automatically applied at checkout! Sale ends December 15th",
+            "text": "",
             "link": ""
           }
         },
         "announcement_MpWbpr": {
           "type": "announcement",
           "settings": {
-            "text": "DOMESTIC FREE SHIPPING ON ALL HOLIDAY ORDERS OVER 300$",
+            "text": "DOMESTIC FREE SHIPPING ON ALL ORDERS OVER $150",
             "link": ""
           }
         },

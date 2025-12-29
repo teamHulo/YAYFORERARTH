@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_nUhftj": {
+          "type": "announcement",
+          "settings": {
+            "text": "INTERNATIONAL ORDERS: ✓ All duties & taxes included - No surprise fees at delivery",
+            "link": ""
+          }
+        },
         "announcement_MpWbpr": {
           "type": "announcement",
           "settings": {
@@ -30,6 +37,7 @@
         }
       },
       "block_order": [
+        "announcement_nUhftj",
         "announcement_MpWbpr",
         "announcement_gbeVhg"
       ],

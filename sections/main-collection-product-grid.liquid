@@ -40,6 +40,7 @@
               <div class="select">
                 {%- assign sort_by = collection.sort_by | default: collection.default_sort_by -%}
                 {%- if sort_by == blank -%}{%- assign sort_by = 'best-selling' -%}{%- endif -%}
+                
                 <select
                   name="sort_by"
                   class="facet-filters__sort select__select caption-large"

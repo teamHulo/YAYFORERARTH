@@ -14,13 +14,6 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
-        "announcement_X3P3Yj": {
-          "type": "announcement",
-          "settings": {
-            "text": "20% OFF EVERYTHING STARTS NOW! IT'S  YFE'S 8th ANNIVERSARY & STEVIE'S BIRTHDAY YAY! Enjoy Friday - Sunday April 5th",
-            "link": ""
-          }
-        },
         "announcement_nUhftj": {
           "type": "announcement",
           "settings": {
@@ -44,7 +37,6 @@
         }
       },
       "block_order": [
-        "announcement_X3P3Yj",
         "announcement_nUhftj",
         "announcement_MpWbpr",
         "announcement_gbeVhg"

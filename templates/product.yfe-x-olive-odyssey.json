@@ -222,7 +222,7 @@
           "settings": {
             "img": "shopify://shop_images/RELIEVING.png",
             "title": "Relieving",
-            "text": "<h3>Relieving for</h3><ul><li>Eczema</li><li>Bug Bites</li><li>Dermatitis</li><li>Acne</li><li>Itching</li><li>Skin Dryness</li><li>Rosacea</li></ul>"
+            "text": "<h3>Relieving for</h3><ul><li>Dry, tight skin</li><li>Rough or flaky patches</li><li>Wind-chapped cheeks</li><li>Dry elbows and heels</li><li>Skin that feels uncomfortable after cleansing</li></ul>"
           }
         },
         "3ba77231-9b00-46a0-a07a-f85177484979": {
@@ -230,7 +230,7 @@
           "settings": {
             "img": "shopify://shop_images/HEALING.png",
             "title": "Healing",
-            "text": "<h3>Healing for</h3><ul><li>Tattoos</li><li>Reduces fine lines</li><li>Sunburns</li><li>Chafing</li><li>Radiation burns from chemo </li></ul>"
+            "text": "<h3>Healing moisture for</h3><ul><li>Freshly tattooed skin's dryness (once the artist's aftercare period is done)</li><li>Post-sun dryness</li><li>Chafe-prone areas</li><li>The look of fine lines</li><li>Skin that needs extra nourishment</li></ul>"
           }
         },
         "b73e5c4a-a43a-4936-9450-080017f318e4": {
@@ -238,7 +238,7 @@
           "settings": {
             "img": "shopify://shop_images/a4e09694d08bead7cc84c583e9e6cfa4.jpg",
             "title": "Calming",
-            "text": "<h3>Calming for</h3><ul><li>Beard hydration & protection</li><li>Aftershave</li><li>Hair growth </li><li> Razor Burn</li></ul>"
+            "text": "<h3>Calming for</h3><ul><li>Beard hydration and softness</li><li>Aftershave moisture</li><li>Dry scalp and hairline</li><li>Freshly shaved skin</li></ul>"
           }
         },
         "807ee9d1-ceeb-46b4-8077-598066eafaf9": {
@@ -246,7 +246,7 @@
           "settings": {
             "img": "shopify://shop_images/NURTURING.jpg",
             "title": "Nurturing",
-            "text": "<h3>Nurturing for</h3><ul><li>Diaper rash</li><li>Cradle Cap</li><li>Breastfeeding nipple rawness</li><li>Common baby rashes </li></ul>"
+            "text": "<h3>Nurturing for</h3><ul><li>Little ones' delicate skin</li><li>Dry patches on babies and toddlers</li><li>Breastfeeding moms' dry, tender skin</li><li>Gentle everyday family moisture</li></ul>"
           }
         },
         "aa856c33-9d3b-411d-97d6-f2f65c9783ee": {
@@ -254,7 +254,7 @@
           "settings": {
             "img": "shopify://shop_images/a1dd76363f0572758a58af0e858d88a4.jpg",
             "title": "Repairing",
-            "text": "<h3>Repairing for</h3><ul><li>Paw pads</li><li>Pet hotspots</li><li>Dry nose & ears</li><li>Pet Scratches & Rashes</li></ul>"
+            "text": "<h3>Repairing moisture for</h3><ul><li>Dry, cracked paw pads</li><li>Dry noses and ears</li><li>Pets' rough, dry spots</li></ul>"
           }
         },
         "44d075e9-28ac-4675-a5a7-84f9edea8f7b": {
@@ -262,7 +262,7 @@
           "settings": {
             "img": "shopify://shop_images/GLOWING.png",
             "title": "Glowing",
-            "text": "<h3>Glowing for</h3><ul><li>Cuticles</li><li>Hand & Foot Care</li><li>Make Up Remover  </li><li>Natural Highlighter  </li><li>Frizz, Flyaways, Split Ends</li></ul>"
+            "text": "<h3>Glowing for</h3><ul><li>Cuticles</li><li>Hand and foot care</li><li>Makeup remover</li><li>Natural highlighter</li><li>Frizz, flyaways, and dry ends</li></ul>"
           }
         }
       },
@@ -281,7 +281,7 @@
         "bg": "#fff9eb",
         "padding_top": 0,
         "padding_bottom": 60,
-        "text": "<p>Our lotion is not just for the face! Our customers swear by its myriad of uses, have deemed it a multipurpose wonder, and a must-have in their home: </p>",
+        "text": "<h2>Our customers’ favorite ways to use it</h2><p>Simple, nutrient-rich ingredients our customers have made a household must-have, from dry hands and cuticles to post-shave skin and dry paw pads.</p>",
         "pagination": false,
         "arrows": true,
         "per_page": 5,

@@ -38,6 +38,13 @@
           "type": "price",
           "settings": {}
         },
+        "text_8azgFA": {
+          "type": "text",
+          "settings": {
+            "text": "<em>Choose the Lip Balm</em>",
+            "text_style": "body"
+          }
+        },
         "variant_picker": {
           "type": "variant_picker",
           "settings": {
@@ -114,6 +121,7 @@
         "rating",
         "klaviyo_reviews_average_rating_D4BbVz",
         "price",
+        "text_8azgFA",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",

@@ -38,10 +38,17 @@
           "type": "price",
           "settings": {}
         },
+        "text_An9L8x": {
+          "type": "text",
+          "settings": {
+            "text": "A head-to-toe face and body ritual, wrapped plastic-free in kraft paper and twine.",
+            "text_style": "body"
+          }
+        },
         "text_8azgFA": {
           "type": "text",
           "settings": {
-            "text": "<em>Choose the Lip Balm</em>",
+            "text": "Choose your lip balm",
             "text_style": "body"
           }
         },
@@ -121,6 +128,7 @@
         "rating",
         "klaviyo_reviews_average_rating_D4BbVz",
         "price",
+        "text_An9L8x",
         "text_8azgFA",
         "variant_picker",
         "quantity_selector",

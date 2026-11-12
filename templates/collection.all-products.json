@@ -30,6 +30,7 @@
       "block_order": [
         "featured_collection_efKpzJ"
       ],
+      "disabled": true,
       "name": "t:sections.collection-list.presets.name",
       "settings": {
         "title": "Holiday Gift Sets",
@@ -40,8 +41,43 @@
         "show_view_all": false,
         "columns_mobile": "1",
         "swipe_on_mobile": false,
-        "padding_top": 16,
-        "padding_bottom": 16
+        "padding_top": 0,
+        "padding_bottom": 0
+      }
+    },
+    "multicolumn_NRyARY": {
+      "type": "multicolumn",
+      "blocks": {
+        "column_wrFpjL": {
+          "type": "column",
+          "settings": {
+            "image": "shopify://shop_images/holiday-gift-photo-with-a-red-bow-on-the-lotion-jar-lid_62eeaf7f-b9ad-4cae-ab19-f634e2bd087e.png",
+            "title": "Holiday Gift Sets",
+            "text": "",
+            "link_label": "Shop Holiday Gift Sets",
+            "link": "shopify://collections/holiday-gift-sets"
+          }
+        }
+      },
+      "block_order": [
+        "column_wrFpjL"
+      ],
+      "name": "t:sections.multicolumn.presets.name",
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "half",
+        "image_ratio": "adapt",
+        "columns_desktop": 1,
+        "column_alignment": "center",
+        "background_style": "primary",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "product-grid": {
@@ -68,6 +104,7 @@
   "order": [
     "banner",
     "collection_list_drWUUA",
+    "multicolumn_NRyARY",
     "product-grid"
   ]
 }

@@ -17,6 +17,33 @@
         "color_scheme": "background-1"
       }
     },
+    "collection_list_drWUUA": {
+      "type": "collection-list",
+      "blocks": {
+        "featured_collection_efKpzJ": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "holiday-gift-sets"
+          }
+        }
+      },
+      "block_order": [
+        "featured_collection_efKpzJ"
+      ],
+      "name": "t:sections.collection-list.presets.name",
+      "settings": {
+        "title": "Holiday Gift Sets",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 16,
+        "padding_bottom": 16
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
@@ -40,6 +67,7 @@
   },
   "order": [
     "banner",
+    "collection_list_drWUUA",
     "product-grid"
   ]
 }

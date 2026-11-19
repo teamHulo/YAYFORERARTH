@@ -14,6 +14,13 @@
     "announcement-bar": {
       "type": "announcement-bar",
       "blocks": {
+        "announcement_3jAbHm": {
+          "type": "announcement",
+          "settings": {
+            "text": "HOLIDAY SALE IS HERE! 20% off everything now until December 15th",
+            "link": ""
+          }
+        },
         "announcement_MpWbpr": {
           "type": "announcement",
           "settings": {
@@ -30,6 +37,7 @@
         }
       },
       "block_order": [
+        "announcement_3jAbHm",
         "announcement_MpWbpr",
         "announcement_gbeVhg"
       ],

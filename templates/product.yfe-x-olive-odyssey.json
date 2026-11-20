@@ -57,6 +57,13 @@
             "show_gift_card_recipient": false
           }
         },
+        "text_6CcpCn": {
+          "type": "text",
+          "settings": {
+            "text": "20% off automatically at checkout. No code needed.",
+            "text_style": "body"
+          }
+        },
         "description": {
           "type": "description",
           "settings": {}
@@ -114,6 +121,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "text_6CcpCn",
         "description",
         "share",
         "16fb9bf1-1c41-489d-bf96-b03d57526477",
